@@ -1,0 +1,1 @@
+Processes for Systems Thinking © 2023 by [Jan Frank](https://www.linkedin.com/in/janfrank/) is licensed under [Attribution-NoDerivs 4.0 International](https://creativecommons.org/licenses/by-nd/4.0/)
