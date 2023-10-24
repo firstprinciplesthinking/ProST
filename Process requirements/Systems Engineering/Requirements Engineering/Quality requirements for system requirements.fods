@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:creation-date>2023-10-06T07:44:06.951000000</meta:creation-date><meta:generator>LibreOffice/7.5.5.2$Windows_X86_64 LibreOffice_project/ca8fe7424262805f223b9a2334bc7181abbcbf5e</meta:generator><dc:date>2023-10-23T13:46:10.961000000</dc:date><meta:editing-duration>P1DT8H32M6S</meta:editing-duration><meta:editing-cycles>232</meta:editing-cycles><meta:print-date>2023-10-21T12:39:13.985000000</meta:print-date><dc:description>Part of Processes for Systems Thinking hosted on https://github.com/less-bs/ProST
+ <office:meta><meta:creation-date>2023-10-06T07:44:06.951000000</meta:creation-date><meta:generator>LibreOffice/7.5.5.2$Windows_X86_64 LibreOffice_project/ca8fe7424262805f223b9a2334bc7181abbcbf5e</meta:generator><dc:date>2023-10-24T10:45:10.305000000</dc:date><meta:editing-duration>P1DT9H27M43S</meta:editing-duration><meta:editing-cycles>237</meta:editing-cycles><meta:print-date>2023-10-21T12:39:13.985000000</meta:print-date><dc:description>Part of Processes for Systems Thinking hosted on https://github.com/less-bs/ProST
 
 Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attribution-NoDerivs 4.0 International</dc:description><dc:title>Requirements specification for system requirements</dc:title><meta:document-statistic meta:table-count="4" meta:cell-count="1238" meta:object-count="2"/></office:meta>
  <office:settings>
@@ -47,13 +47,13 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
        <config:config-item config:name="ConnectorUseSnapRect" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="Requirements stakeholder requirements_2">
-       <config:config-item config:name="CursorPositionX" config:type="int">5</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">9</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">9</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">3</config:config-item>
        <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
-       <config:config-item config:name="PositionLeft" config:type="int">4</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
-       <config:config-item config:name="PositionBottom" config:type="int">7</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
        <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -80,7 +80,7 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
       </config:config-item-map-entry>
      </config:config-item-map-named>
      <config:config-item config:name="ActiveTable" config:type="string">Requirements stakeholder requirements_2</config:config-item>
-     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1213</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">2495</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
      <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -171,7 +171,7 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
      <config:config-item config:name="CodeName" config:type="string">Requirements stakeholder requirements_2_2</config:config-item>
     </config:config-item-map-entry>
     <config:config-item-map-entry config:name="Requirements stakeholder requirements (Visualization)">
-     <config:config-item config:name="CodeName" config:type="string">Requirements stakeholder requirements</config:config-item>
+     <config:config-item config:name="CodeName" config:type="string">Requirements stakeholder requirements (Visualization)</config:config-item>
     </config:config-item-map-entry>
    </config:config-item-map-named>
   </config:config-item-set>
@@ -201,18 +201,18 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
   <number:number-style style:name="N0">
    <number:number number:min-integer-digits="1"/>
   </number:number-style>
-  <number:currency-style style:name="N114P0" style:volatile="true">
+  <number:currency-style style:name="N115P0" style:volatile="true">
    <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
    <number:text> </number:text>
    <number:currency-symbol number:language="de" number:country="DE">€</number:currency-symbol>
   </number:currency-style>
-  <number:currency-style style:name="N114">
+  <number:currency-style style:name="N115">
    <style:text-properties fo:color="#ff0000"/>
    <number:text>-</number:text>
    <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
    <number:text> </number:text>
    <number:currency-symbol number:language="de" number:country="DE">€</number:currency-symbol>
-   <style:map style:condition="value()&gt;=0" style:apply-style-name="N114P0"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N115P0"/>
   </number:currency-style>
   <style:style style:name="Default" style:family="table-cell"/>
   <style:style style:name="Heading" style:family="table-cell" style:parent-style-name="Default">
@@ -360,9 +360,12 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
    <style:table-row-properties style:row-height="1.236cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ro10" style:family="table-row">
-   <style:table-row-properties style:row-height="2.027cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+   <style:table-row-properties style:row-height="0.841cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ro11" style:family="table-row">
+   <style:table-row-properties style:row-height="2.027cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro12" style:family="table-row">
    <style:table-row-properties style:row-height="2.499cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ta1" style:family="table" style:master-page-name="Default">
@@ -550,7 +553,7 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
      <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2023-10-23">00.00.0000</text:date>, <text:time style:data-style-name="N2" text:time-value="00:59:19.701000000">00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2023-10-24">00.00.0000</text:date>, <text:time style:data-style-name="N2" text:time-value="09:49:32.495000000">00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -1137,14 +1140,14 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
       <text:p>Analyzed</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Atomic</text:p>
+      <text:p>Singular</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <office:annotation draw:style-name="gr1" draw:text-style-name="P2" svg:width="2.899cm" svg:height="6.916cm" svg:x="42.357cm" svg:y="0.451cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="0.462cm">
        <dc:date>2023-10-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">Atomic is distinct from self-contained, independence, and understandable. It refers to the requirement being not further decomposable. It supports making the requirements specification quantifiable for various estimations. It does not </text:span></text:p>
       </office:annotation>
-      <text:p>The requirement should be atomic, in order to support precise accounting of requirements and estimations of development activities.</text:p>
+      <text:p>The requirement should be singular, in order to support precise accounting &amp; identification of expectations.</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="6" office:value-type="string" calcext:value-type="string">
       <text:p>yes</text:p>
@@ -2243,7 +2246,7 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="16358"/>
     </table:table-row>
-    <table:table-row table:style-name="ro9">
+    <table:table-row table:style-name="ro10">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>SoS.Proc.ReqEng.SthReq_2</text:p>
      </table:table-cell>
@@ -2266,7 +2269,7 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="16358"/>
     </table:table-row>
-    <table:table-row table:style-name="ro9">
+    <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>SoS.Proc.ReqEng.SthReq_3</text:p>
      </table:table-cell>
@@ -2282,7 +2285,7 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
       <text:p>Detailed</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <office:annotation draw:style-name="gr3" draw:text-style-name="P2" svg:width="2.899cm" svg:height="9.286cm" svg:x="47.641cm" svg:y="1.57cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.365cm">
+      <office:annotation draw:style-name="gr3" draw:text-style-name="P2" svg:width="2.899cm" svg:height="9.286cm" svg:x="47.641cm" svg:y="1.174cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.365cm">
        <dc:date>2023-10-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">Detailed is distinct from complete. A appropriately detailed requirement supports the planning of development activities through a breakdown according to its level in the hierarchy of activities. A high level activity is not too detailed to hinder comprehension and and a low level activity is detailed enough to be executable. </text:span></text:p>
       </office:annotation><text:p><text:span text:style-name="T2">The requirement shall</text:span> be detailed enough, in order to enable effective development activities.</text:p>
@@ -2340,7 +2343,7 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
       <text:p>Consistent</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <office:annotation draw:style-name="gr4" draw:text-style-name="P2" svg:width="2.899cm" svg:height="3.361cm" svg:x="47.641cm" svg:y="2.661cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+      <office:annotation draw:style-name="gr4" draw:text-style-name="P2" svg:width="2.899cm" svg:height="3.361cm" svg:x="47.641cm" svg:y="1.481cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2023-10-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">Another aspect of consistency is between the requirements, no requirement should contradict another requirement.</text:span></text:p>
       </office:annotation><text:p><text:span text:style-name="T2">The requirement shall</text:span> be consistent with all other requirements, to avoid competing development activities and/or system disruption.</text:p>
@@ -2364,7 +2367,7 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
       <text:p>Specific</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <office:annotation draw:style-name="gr5" draw:text-style-name="P2" svg:width="2.899cm" svg:height="4.941cm" svg:x="47.641cm" svg:y="4.293cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+      <office:annotation draw:style-name="gr5" draw:text-style-name="P2" svg:width="2.899cm" svg:height="4.941cm" svg:x="47.641cm" svg:y="3.113cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2023-10-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">No requirement should be included in the requirements specification that is not actually intended or defined expectations outside of the scope of the system.</text:span></text:p>
       </office:annotation>
@@ -2372,7 +2375,7 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="16358"/>
     </table:table-row>
-    <table:table-row table:style-name="ro9">
+    <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>SoS.Proc.ReqEng.SthReq_8</text:p>
      </table:table-cell>
@@ -2388,7 +2391,7 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
       <text:p>Feasible</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <office:annotation draw:style-name="gr6" draw:text-style-name="P2" svg:width="2.899cm" svg:height="2.571cm" svg:x="47.641cm" svg:y="5.924cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+      <office:annotation draw:style-name="gr6" draw:text-style-name="P2" svg:width="2.899cm" svg:height="2.571cm" svg:x="47.641cm" svg:y="4.744cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2023-10-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">Only feasible requirements ensure that development can be concluded successfully.</text:span></text:p>
       </office:annotation>
@@ -2416,7 +2419,7 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="16358"/>
     </table:table-row>
-    <table:table-row table:style-name="ro10">
+    <table:table-row table:style-name="ro11">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>SoS.Proc.ReqEng.SthReq_10</text:p>
      </table:table-cell>
@@ -2433,14 +2436,14 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
       <text:p>Unambiguous</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <office:annotation draw:style-name="gr7" draw:text-style-name="P2" svg:width="2.899cm" svg:height="5.731cm" svg:x="47.641cm" svg:y="8.397cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+      <office:annotation draw:style-name="gr7" draw:text-style-name="P2" svg:width="2.899cm" svg:height="5.731cm" svg:x="47.641cm" svg:y="6.432cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2023-10-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">Unambiguous refers not to the agreed requirements or common language between stakeholder and development team, instead it refers to the requirement only having one interpretation.</text:span></text:p>
       </office:annotation><text:p><text:span text:style-name="T2">The requirement shall</text:span> be unambiguous, to prevent differing interpretations between stakeholder and development team.</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="16358"/>
     </table:table-row>
-    <table:table-row table:style-name="ro10">
+    <table:table-row table:style-name="ro11">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>SoS.Proc.ReqEng.SthReq_11</text:p>
      </table:table-cell>
@@ -2457,14 +2460,14 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
       <text:p>Comprehensible</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <office:annotation draw:style-name="gr8" draw:text-style-name="P2" svg:width="2.899cm" svg:height="4.151cm" svg:x="47.641cm" svg:y="10.424cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+      <office:annotation draw:style-name="gr8" draw:text-style-name="P2" svg:width="2.899cm" svg:height="4.151cm" svg:x="47.641cm" svg:y="8.459cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2023-10-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">A comprehensive requirements uses a common language and terminology between stakeholder and development team</text:span></text:p>
       </office:annotation><text:p><text:span text:style-name="T2">The requirement should</text:span> be comprehensible, to support a common understanding of the requirement between stakeholder and development team.</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="16358"/>
     </table:table-row>
-    <table:table-row table:style-name="ro6">
+    <table:table-row table:style-name="ro5">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>SoS.Proc.ReqEng.SthReq_12</text:p>
      </table:table-cell>
@@ -2481,7 +2484,7 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
       <text:p>Testable</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <office:annotation draw:style-name="gr9" draw:text-style-name="P2" svg:width="2.899cm" svg:height="1.799cm" svg:x="47.641cm" svg:y="12.451cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
+      <office:annotation draw:style-name="gr9" draw:text-style-name="P2" svg:width="2.899cm" svg:height="1.799cm" svg:x="47.641cm" svg:y="10.486cm" draw:caption-point-x="-0.61cm" draw:caption-point-y="1.51cm">
        <dc:date>2023-10-21T00:00:00</dc:date>
        <text:p text:style-name="P1"><text:span text:style-name="T1">Validation/Verification?</text:span></text:p>
       </office:annotation><text:p><text:span text:style-name="T2">The requirement shall</text:span> be testable, to support validation and verification activities.</text:p>
@@ -2508,7 +2511,7 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="16358"/>
     </table:table-row>
-    <table:table-row table:style-name="ro9">
+    <table:table-row table:style-name="ro10">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>SoS.Proc.ReqEng.SthReq_14</text:p>
      </table:table-cell>
@@ -2568,7 +2571,7 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="16358"/>
     </table:table-row>
-    <table:table-row table:style-name="ro9">
+    <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>SoS.Proc.ReqEng.SthReq_17</text:p>
      </table:table-cell>
@@ -2726,11 +2729,11 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
         <office:body>
          <office:chart>
           <chart:chart svg:width="16cm" svg:height="9cm" xlink:href=".." xlink:type="simple" chart:class="chart:bar" chart:style-name="ch1">
-           <chart:title svg:x="2.48cm" svg:y="0.316cm" chart:style-name="ch2">
+           <chart:title svg:x="0cm" svg:y="0cm" chart:style-name="ch2">
             <text:p>Amount of negative evaluations per quality requirement</text:p>
            </chart:title>
-           <chart:plot-area chart:style-name="ch3" table:cell-range-address="&apos;Requirements stakeholder requirements (Visualization)&apos;.B1:&apos;Requirements stakeholder requirements (Visualization)&apos;.T1 &apos;Requirements stakeholder requirements (Visualization)&apos;.B21:&apos;Requirements stakeholder requirements (Visualization)&apos;.T21" chart:data-source-has-labels="row" svg:x="1.331cm" svg:y="1.275cm" svg:width="14.349cm" svg:height="6.564cm" dr3d:vrp="(17634.6218373783 10271.4823817647 24594.8639082739)" dr3d:vpn="(0.416199821709347 0.173649045905254 0.892537795986984)" dr3d:vup="(-0.0733876362771618 0.984807599917971 -0.157379306090273)" dr3d:projection="parallel" dr3d:distance="4.2cm" dr3d:focal-length="8cm" dr3d:shadow-slant="0" dr3d:shade-mode="gouraud" dr3d:ambient-color="#999999" dr3d:lighting-mode="true">
-            <chart:coordinate-region svg:x="2.096cm" svg:y="1.335cm" svg:width="13.439cm" svg:height="4.231cm"/>
+           <chart:plot-area chart:style-name="ch3" table:cell-range-address="&apos;Requirements stakeholder requirements (Visualization)&apos;.B1:&apos;Requirements stakeholder requirements (Visualization)&apos;.T1 &apos;Requirements stakeholder requirements (Visualization)&apos;.B21:&apos;Requirements stakeholder requirements (Visualization)&apos;.T21" chart:data-source-has-labels="row" svg:x="0cm" svg:y="0cm" svg:width="0cm" svg:height="0cm" dr3d:vrp="(17634.6218373783 10271.4823817647 24594.8639082739)" dr3d:vpn="(0.416199821709347 0.173649045905254 0.892537795986984)" dr3d:vup="(-0.0733876362771618 0.984807599917971 -0.157379306090273)" dr3d:projection="parallel" dr3d:distance="4.2cm" dr3d:focal-length="8cm" dr3d:shadow-slant="0" dr3d:shade-mode="gouraud" dr3d:ambient-color="#999999" dr3d:lighting-mode="true">
+            <chart:coordinate-region svg:x="0cm" svg:y="0cm" svg:width="0cm" svg:height="0cm"/>
             <dr3d:light dr3d:diffuse-color="#808080" dr3d:direction="(0 0 1)" dr3d:enabled="false" dr3d:specular="true"/>
             <dr3d:light dr3d:diffuse-color="#808080" dr3d:direction="(0 0 1)" dr3d:enabled="true" dr3d:specular="false"/>
             <dr3d:light dr3d:diffuse-color="#808080" dr3d:direction="(0 0 1)" dr3d:enabled="false" dr3d:specular="false"/>
@@ -2741,13 +2744,13 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
             <dr3d:light dr3d:diffuse-color="#808080" dr3d:direction="(0 0 1)" dr3d:enabled="false" dr3d:specular="false"/>
             <chart:axis chart:dimension="x" chart:name="primary-x" chart:style-name="ch4" chartooo:axis-type="auto">
              <chartooo:date-scale/>
-             <chart:title svg:x="6.953cm" svg:y="8.019cm" chart:style-name="ch5">
+             <chart:title svg:x="0cm" svg:y="0cm" chart:style-name="ch5">
               <text:p>Quality requirements</text:p>
              </chart:title>
              <chart:categories table:cell-range-address="&apos;Requirements stakeholder requirements (Visualization)&apos;.B1:&apos;Requirements stakeholder requirements (Visualization)&apos;.T1"/>
             </chart:axis>
             <chart:axis chart:dimension="y" chart:name="primary-y" chart:style-name="ch6">
-             <chart:title svg:x="0.451cm" svg:y="6.876cm" chart:style-name="ch7">
+             <chart:title svg:x="0cm" svg:y="0cm" chart:style-name="ch7">
               <text:p>Amount of negative evaluations</text:p>
              </chart:title>
              <chart:grid chart:style-name="ch8" chart:class="major"/>
@@ -2911,7 +2914,7 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
         ACEAAAACABsAAAACAAIAAAAAAAAAJyMAAAEAAAAAAH8+AAACAACVAAEABAAAAAAAAACWAAEA
         AgAAAAkAiwABAAIAAAADAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACADYAAAABAAYA
         QB8AACgjAAAAAAAAKCMAAAAAAAAAAAAAgD4AAAAAAACAPgAAKCMAAEAfAAAoIwAAAACMAAEA
-        AAAAAHgAAQDVuwMAQk3u2gQAAAAAADYAAAAoAAAA7gEAAKEAAAABABgAAAAAAEylAwAAAAAA
+        AAAAAHgAAQDVuwMAQk2CpQMAAAAAADYAAAAoAAAA7gEAAKEAAAABABgAAAAAAEylAwAAAAAA
         AAAAAAAAAAAAAAAAOzs7AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -7905,20 +7908,20 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
         <office:body>
          <office:chart>
           <chart:chart svg:width="12.164cm" svg:height="14.833cm" xlink:href=".." xlink:type="simple" chart:class="chart:bar" chart:style-name="ch1">
-           <chart:title svg:x="2.347cm" svg:y="0.432cm" chart:style-name="ch2">
+           <chart:title svg:x="0cm" svg:y="0cm" chart:style-name="ch2">
             <text:p>Quality rating of quality requirements</text:p>
            </chart:title>
-           <chart:plot-area chart:style-name="ch3" table:cell-range-address="&apos;Requirements stakeholder requirements (Visualization)&apos;.A2:&apos;Requirements stakeholder requirements (Visualization)&apos;.A20 &apos;Requirements stakeholder requirements (Visualization)&apos;.U1:&apos;Requirements stakeholder requirements (Visualization)&apos;.U20" chart:data-source-has-labels="both" svg:x="1.254cm" svg:y="1.507cm" svg:width="10.667cm" svg:height="12.049cm">
-            <chart:coordinate-region svg:x="3.966cm" svg:y="1.507cm" svg:width="7.226cm" svg:height="11.402cm"/>
+           <chart:plot-area chart:style-name="ch3" table:cell-range-address="&apos;Requirements stakeholder requirements (Visualization)&apos;.A2:&apos;Requirements stakeholder requirements (Visualization)&apos;.A20 &apos;Requirements stakeholder requirements (Visualization)&apos;.U1:&apos;Requirements stakeholder requirements (Visualization)&apos;.U20" chart:data-source-has-labels="both" svg:x="0cm" svg:y="0cm" svg:width="0cm" svg:height="0cm">
+            <chart:coordinate-region svg:x="0cm" svg:y="0cm" svg:width="0cm" svg:height="0cm"/>
             <chart:axis chart:dimension="x" chart:name="primary-x" chart:style-name="ch4" chartooo:axis-type="auto">
              <chartooo:date-scale/>
-             <chart:title svg:x="0.451cm" svg:y="8.541cm" chart:style-name="ch5">
+             <chart:title svg:x="0cm" svg:y="0cm" chart:style-name="ch5">
               <text:p>Quality rating</text:p>
              </chart:title>
              <chart:categories table:cell-range-address="&apos;Requirements stakeholder requirements (Visualization)&apos;.A2:&apos;Requirements stakeholder requirements (Visualization)&apos;.A20"/>
             </chart:axis>
             <chart:axis chart:dimension="y" chart:name="primary-y" chart:style-name="ch6">
-             <chart:title svg:x="5.035cm" svg:y="13.852cm" chart:style-name="ch7">
+             <chart:title svg:x="0cm" svg:y="0cm" chart:style-name="ch7">
               <text:p>Quality requirements</text:p>
              </chart:title>
              <chart:grid chart:style-name="ch8" chart:class="major"/>
@@ -8867,7 +8870,7 @@ Processes for Systems Thinking © 2023 by Jan Frank is licensed under Attributio
     <table:table-column table:style-name="co14" table:number-columns-repeated="17" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co15" table:number-columns-repeated="2" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co5" table:default-cell-style-name="ce22"/>
-    <table:table-row table:style-name="ro11">
+    <table:table-row table:style-name="ro12">
      <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string">
       <text:p>Quality requirement evaluated by quality requirement</text:p>
      </table:table-cell>
