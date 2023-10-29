@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+  <uml:Model xmi:id="_KSCFsHQ1Ee6lW_W_zHdLeg" name="Requirements_QARequirements">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_KYcPsHQ1Ee6lW_W_zHdLeg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_KY3GcHQ1Ee6lW_W_zHdLeg">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_0tpt4HSaEe6lW_W_zHdLeg" name="system of systems">
+      <packagedElement xmi:type="uml:Package" xmi:id="_4X1goHSaEe6lW_W_zHdLeg" name="system">
+        <packagedElement xmi:type="uml:Activity" xmi:id="_ARrxwHSbEe6lW_W_zHdLeg" name="Stakeholder"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_6-5pgHSaEe6lW_W_zHdLeg" name="process">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Mx72oHQ1Ee6lW_W_zHdLeg" name="systemsthinking">
+          <packagedElement xmi:type="uml:Package" xmi:id="_QRUuoHQ1Ee6lW_W_zHdLeg" name="systemsengineering">
+            <packagedElement xmi:type="uml:Package" xmi:id="_SHMEEHQ1Ee6lW_W_zHdLeg" name="requirementsengineering">
+              <packagedElement xmi:type="uml:Activity" xmi:id="_R-7jIHQ5Ee6lW_W_zHdLeg" name="Requirements Engineer"/>
+              <packagedElement xmi:type="uml:Package" xmi:id="_XZhHEHQ6Ee6lW_W_zHdLeg" name="workproductrequirements">
+                <packagedElement xmi:type="uml:Package" xmi:id="_-hnQYHScEe6lW_W_zHdLeg" name="requirement">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_v0WQgHQ1Ee6lW_W_zHdLeg" name="Atomic">
+                    <ownedComment xmi:type="uml:Comment" xmi:id="_sHJ8sHSbEe6lW_W_zHdLeg">
+                      <body>Alternatives:&#xD;
+- Singular is too ambiguous, has multiple interpretations&#xD;
+- Self-contained is about no outside references&#xD;
+- Independent same as self-contained&#xD;
+- Decomposed would be a property of a requirements specification</body>
+                    </ownedComment>
+                    <ownedComment xmi:type="uml:Comment" xmi:id="_z96dkHSbEe6lW_W_zHdLeg">
+                      <body>Connections:&#xD;
+- Requirements count may be used to report implementation progress&#xD;
+- Requirements count may be used to estimate implementation efforts&#xD;
+- Requirements are improved through feedback&#xD;
+- Requirements are used to validate the system&#xD;
+</body>
+                    </ownedComment>
+                    <ownedComment xmi:type="uml:Comment" xmi:id="_1GOwgHSbEe6lW_W_zHdLeg">
+                      <body>Impact:&#xD;
+- Non-atomic requirements still make a complete requirements specification possible, but make implementation planning and implementation status reporting unreliable.</body>
+                    </ownedComment>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_FibUQHQ7Ee6lW_W_zHdLeg" name="Consistent"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_B85YAHQ7Ee6lW_W_zHdLeg" name="Detailed"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_-BMXcHQ6Ee6lW_W_zHdLeg" name="Independent"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_vklugHQ7Ee6lW_W_zHdLeg" name="Specific"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_-KwGoHQ7Ee6lW_W_zHdLeg" name="Feasible"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_ILaTQHQ8Ee6lW_W_zHdLeg" name="Prioritized"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_NMiDwHQ8Ee6lW_W_zHdLeg" name="Unambiguous"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_Q-G38HQ8Ee6lW_W_zHdLeg" name="Comprehensible"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_Vj9BsHQ8Ee6lW_W_zHdLeg" name="Testable"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_ZGt90HQ8Ee6lW_W_zHdLeg" name="Unique"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_czX1wHQ8Ee6lW_W_zHdLeg" name="Identifiable"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_0o9K0HQ8Ee6lW_W_zHdLeg" name="Traceable"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_51ResHQ8Ee6lW_W_zHdLeg" name="Mapped"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_c0YTAHSXEe6lW_W_zHdLeg" name="Conforming"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_dXws4HSXEe6lW_W_zHdLeg" name="Derived"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_d8Fh8HSXEe6lW_W_zHdLeg" name="Analyzed"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_em1vIHSXEe6lW_W_zHdLeg" name="Reviewed"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_3ZLAUHSXEe6lW_W_zHdLeg" name="Agreed"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_5QHT0HSXEe6lW_W_zHdLeg" name="Tangible"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Package" xmi:id="_BC4TQHSdEe6lW_W_zHdLeg" name="specification"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_F1JIYHSdEe6lW_W_zHdLeg" name="activityrequirements">
+                <packagedElement xmi:type="uml:Package" xmi:id="_Mp-5QHSdEe6lW_W_zHdLeg" name="analysis"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_KrnvIHSdEe6lW_W_zHdLeg" name="rolerequirements">
+                <packagedElement xmi:type="uml:Package" xmi:id="_OymLkHSdEe6lW_W_zHdLeg" name="engineer"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_HzDcAHScEe6lW_W_zHdLeg" name="management">
+            <packagedElement xmi:type="uml:Activity" xmi:id="_Lw38cHScEe6lW_W_zHdLeg" name="Project Manager"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_KVebQHQ1Ee6lW_W_zHdLeg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KVjTwHQ1Ee6lW_W_zHdLeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_KYTs0HQ1Ee6lW_W_zHdLeg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KYTs0XQ1Ee6lW_W_zHdLeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_KYXXMHQ1Ee6lW_W_zHdLeg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KYX-QHQ1Ee6lW_W_zHdLeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_KYYlUHQ1Ee6lW_W_zHdLeg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KYYlUXQ1Ee6lW_W_zHdLeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_KYZMYHQ1Ee6lW_W_zHdLeg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KYZMYXQ1Ee6lW_W_zHdLeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_KYZzcHQ1Ee6lW_W_zHdLeg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KYZzcXQ1Ee6lW_W_zHdLeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_KYZzcnQ1Ee6lW_W_zHdLeg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KYZzc3Q1Ee6lW_W_zHdLeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_KYaagHQ1Ee6lW_W_zHdLeg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KYaagXQ1Ee6lW_W_zHdLeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_KYaagnQ1Ee6lW_W_zHdLeg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KYaag3Q1Ee6lW_W_zHdLeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_KYbBkHQ1Ee6lW_W_zHdLeg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KYbBkXQ1Ee6lW_W_zHdLeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_v0ezYHQ1Ee6lW_W_zHdLeg" base_NamedElement="_v0WQgHQ1Ee6lW_W_zHdLeg" id="Req_QAReq_1" text="The requirement should describes only a single need, in order to support precise accounting of requirements &amp; identification of needs." base_Class="_v0WQgHQ1Ee6lW_W_zHdLeg"/>
+  <ModelElements:Stakeholder xmi:id="_R--mcHQ5Ee6lW_W_zHdLeg" base_Classifier="_R-7jIHQ5Ee6lW_W_zHdLeg"/>
+  <Requirements:Requirement xmi:id="_-BPawHQ6Ee6lW_W_zHdLeg" base_NamedElement="_-BMXcHQ6Ee6lW_W_zHdLeg" id="Req_QAReq_2" text="The requirement should be  independent meaning it is describe without reference to other requirements, in order to prevent inconsistencies between requirements and enhance understanding of the requirement." base_Class="_-BMXcHQ6Ee6lW_W_zHdLeg"/>
+  <Requirements:Requirement xmi:id="_B870QHQ7Ee6lW_W_zHdLeg" base_NamedElement="_B85YAHQ7Ee6lW_W_zHdLeg" id="Req_QAReq_3" text="The requirement shall be detailed enough, in order to enable effective development activities." base_Class="_B85YAHQ7Ee6lW_W_zHdLeg"/>
+  <Requirements:Requirement xmi:id="_Fie-oHQ7Ee6lW_W_zHdLeg" base_NamedElement="_FibUQHQ7Ee6lW_W_zHdLeg" id="Req_QAReq_4" text="The requirement shall be consistent with all other requirements, to avoid competing development activities and/or system disruption." base_Class="_FibUQHQ7Ee6lW_W_zHdLeg"/>
+  <Requirements:Requirement xmi:id="_vknjsHQ7Ee6lW_W_zHdLeg" base_NamedElement="_vklugHQ7Ee6lW_W_zHdLeg" id="Req_QAReq_5" text="The requirement shall be specific to only the system, to avoid unfeasible development efforts." base_Class="_vklugHQ7Ee6lW_W_zHdLeg"/>
+  <Requirements:Requirement xmi:id="_-Kx70HQ7Ee6lW_W_zHdLeg" base_NamedElement="_-KwGoHQ7Ee6lW_W_zHdLeg" id="Req_QAReq_6" text="The requirement shall be feasible with the available resources and constraints, to ensure sustainable and effective development." base_Class="_-KwGoHQ7Ee6lW_W_zHdLeg"/>
+  <Requirements:Requirement xmi:id="_ILcIcHQ8Ee6lW_W_zHdLeg" base_NamedElement="_ILaTQHQ8Ee6lW_W_zHdLeg" id="Req_QAReq_7" text="The requirement should be prioritized according to their importance, to support the expected order of releases and limit dependency risks." base_Class="_ILaTQHQ8Ee6lW_W_zHdLeg"/>
+  <Requirements:Requirement xmi:id="_NMj48HQ8Ee6lW_W_zHdLeg" base_NamedElement="_NMiDwHQ8Ee6lW_W_zHdLeg" id="Req_QAReq_8" text="The requirement shall be unambiguous, to prevent differing interpretations between stakeholder and development team." base_Class="_NMiDwHQ8Ee6lW_W_zHdLeg"/>
+  <Requirements:Requirement xmi:id="_Q-ItIHQ8Ee6lW_W_zHdLeg" base_NamedElement="_Q-G38HQ8Ee6lW_W_zHdLeg" id="Req_QAReq_9" text="The requirement should be comprehensible, to support a common understanding of the requirement between stakeholder and development team." base_Class="_Q-G38HQ8Ee6lW_W_zHdLeg"/>
+  <Requirements:Requirement xmi:id="_Vj-24HQ8Ee6lW_W_zHdLeg" base_NamedElement="_Vj9BsHQ8Ee6lW_W_zHdLeg" id="Req_QAReq_10" text="The requirement shall be testable, to support validation and verification activities." base_Class="_Vj9BsHQ8Ee6lW_W_zHdLeg"/>
+  <Requirements:Requirement xmi:id="_ZGvzAHQ8Ee6lW_W_zHdLeg" base_NamedElement="_ZGt90HQ8Ee6lW_W_zHdLeg" id="Req_QAReq_11" text="The requirement should be unique, to avoid duplicate planning of development efforts and inconsistencies between requirements." base_Class="_ZGt90HQ8Ee6lW_W_zHdLeg"/>
+  <Requirements:Requirement xmi:id="_czZq8HQ8Ee6lW_W_zHdLeg" base_NamedElement="_czX1wHQ8Ee6lW_W_zHdLeg" id="Req_QAReq_12" text="The requirement shall be identifiable, to support traceability and improve clear communication." base_Class="_czX1wHQ8Ee6lW_W_zHdLeg"/>
+  <Requirements:Requirement xmi:id="_0o_nEHQ8Ee6lW_W_zHdLeg" base_NamedElement="_0o9K0HQ8Ee6lW_W_zHdLeg" id="Req_QAReq_13" text="The requirement should be traceable to its origin, to support change management and stakeholder acceptance." base_Class="_0o9K0HQ8Ee6lW_W_zHdLeg"/>
+  <Requirements:Requirement xmi:id="_51TT4HQ8Ee6lW_W_zHdLeg" base_NamedElement="_51ResHQ8Ee6lW_W_zHdLeg" id="Req_QAReq_14" text="The requirement should be mapped to elements in the system, to support planning of development and effective use of resources." base_Class="_51ResHQ8Ee6lW_W_zHdLeg"/>
+  <Requirements:Requirement xmi:id="_c0avQHSXEe6lW_W_zHdLeg" base_NamedElement="_c0YTAHSXEe6lW_W_zHdLeg" id="Req_QAReq_15" text="The requirement may be conforming with defined formats to support understanding between stakeholder and development team." base_Class="_c0YTAHSXEe6lW_W_zHdLeg"/>
+  <Requirements:Requirement xmi:id="_dXyiEHSXEe6lW_W_zHdLeg" base_NamedElement="_dXws4HSXEe6lW_W_zHdLeg" id="Req_QAReq_16" text="The requirement shall be derived from stakeholder input, to avoid extraneous development efforts." base_Class="_dXws4HSXEe6lW_W_zHdLeg"/>
+  <Requirements:Requirement xmi:id="_d8H-MHSXEe6lW_W_zHdLeg" base_NamedElement="_d8Fh8HSXEe6lW_W_zHdLeg" id="Req_QAReq_17" text="The requirement should be analyzed by the development team, to understand its impact on the system and development." base_Class="_d8Fh8HSXEe6lW_W_zHdLeg"/>
+  <Requirements:Requirement xmi:id="_em3kUHSXEe6lW_W_zHdLeg" base_NamedElement="_em1vIHSXEe6lW_W_zHdLeg" id="Req_QAReq_18" text="The requirement should be reviewed by the stakeholder and the development team, to ensure informed agreement." base_Class="_em1vIHSXEe6lW_W_zHdLeg"/>
+  <Requirements:Requirement xmi:id="_3ZM1gHSXEe6lW_W_zHdLeg" base_NamedElement="_3ZLAUHSXEe6lW_W_zHdLeg" id="Req_QAReq_19" text="The requirement shall be agreed upon by the stakeholder and the development team, to ensure accountability and support the establishment of baselines." base_Class="_3ZLAUHSXEe6lW_W_zHdLeg"/>
+  <Requirements:Requirement xmi:id="_5QJJAHSXEe6lW_W_zHdLeg" base_NamedElement="_5QHT0HSXEe6lW_W_zHdLeg" id="Req_QAReq_20" text="The requirement should be tangible" base_Class="_5QHT0HSXEe6lW_W_zHdLeg"/>
+  <ModelElements:Stakeholder xmi:id="_ARtm8HSbEe6lW_W_zHdLeg" base_Classifier="_ARrxwHSbEe6lW_W_zHdLeg"/>
+  <ModelElements:Stakeholder xmi:id="_Lw5xoHScEe6lW_W_zHdLeg" base_Classifier="_Lw38cHScEe6lW_W_zHdLeg"/>
+</xmi:XMI>

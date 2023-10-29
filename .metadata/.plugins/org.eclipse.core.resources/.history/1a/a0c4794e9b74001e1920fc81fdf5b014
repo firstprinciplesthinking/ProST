@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Xo2-cHSZEe6lW_W_zHdLeg" type="PapyrusUMLClassDiagram" name="NewSysML1.6RequirementDiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_bbydgHSZEe6lW_W_zHdLeg" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_bbydgnSZEe6lW_W_zHdLeg" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_bbydg3SZEe6lW_W_zHdLeg" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_bbydhHSZEe6lW_W_zHdLeg" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_bbydhXSZEe6lW_W_zHdLeg" type="Class_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_bbydhnSZEe6lW_W_zHdLeg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_bbydh3SZEe6lW_W_zHdLeg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_bbydiHSZEe6lW_W_zHdLeg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bbydiXSZEe6lW_W_zHdLeg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_bbydinSZEe6lW_W_zHdLeg" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_bbydi3SZEe6lW_W_zHdLeg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_bbydjHSZEe6lW_W_zHdLeg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_bbydjXSZEe6lW_W_zHdLeg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bbydjnSZEe6lW_W_zHdLeg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_bbydj3SZEe6lW_W_zHdLeg" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_bbydkHSZEe6lW_W_zHdLeg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_bbydkXSZEe6lW_W_zHdLeg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_bbydknSZEe6lW_W_zHdLeg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bbydk3SZEe6lW_W_zHdLeg"/>
+    </children>
+    <element xmi:type="uml:Class" href="Requirements_QARequirements.uml#_v0WQgHQ1Ee6lW_W_zHdLeg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bbydgXSZEe6lW_W_zHdLeg" x="200" y="160" width="264" height="141"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_bb2u83SZEe6lW_W_zHdLeg" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_bb2u9HSZEe6lW_W_zHdLeg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_bb2u9nSZEe6lW_W_zHdLeg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="Requirements_QARequirements.uml#_v0WQgHQ1Ee6lW_W_zHdLeg"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bb2u9XSZEe6lW_W_zHdLeg" x="200"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_Xo2-cXSZEe6lW_W_zHdLeg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_Xo2-cnSZEe6lW_W_zHdLeg"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_Xo2-c3SZEe6lW_W_zHdLeg" diagramKindId="org.eclipse.papyrus.sysml16.diagram.requirement">
+    <owner xmi:type="uml:Class" href="Requirements_QARequirements.uml#_v0WQgHQ1Ee6lW_W_zHdLeg"/>
+  </styles>
+  <element xmi:type="uml:Class" href="Requirements_QARequirements.uml#_v0WQgHQ1Ee6lW_W_zHdLeg"/>
+  <edges xmi:type="notation:Connector" xmi:id="_bb2u93SZEe6lW_W_zHdLeg" type="StereotypeCommentLink" source="_bbydgHSZEe6lW_W_zHdLeg" target="_bb2u83SZEe6lW_W_zHdLeg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_bb2u-HSZEe6lW_W_zHdLeg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_bb2u_HSZEe6lW_W_zHdLeg" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="Requirements_QARequirements.uml#_v0WQgHQ1Ee6lW_W_zHdLeg"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bb2u-XSZEe6lW_W_zHdLeg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bb2u-nSZEe6lW_W_zHdLeg"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bb2u-3SZEe6lW_W_zHdLeg"/>
+  </edges>
+</notation:Diagram>

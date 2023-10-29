@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_tZc4sHVkEe6lW_W_zHdLeg" type="PapyrusUMLProfileDiagram" name="NewProfileDiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_zscgwHVkEe6lW_W_zHdLeg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zscgwnVkEe6lW_W_zHdLeg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_zscgw3VkEe6lW_W_zHdLeg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_zscgxHVkEe6lW_W_zHdLeg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zscgxXVkEe6lW_W_zHdLeg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zscgxnVkEe6lW_W_zHdLeg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zscgx3VkEe6lW_W_zHdLeg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_zscgyHVkEe6lW_W_zHdLeg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_zscgyXVkEe6lW_W_zHdLeg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zsdH0HVkEe6lW_W_zHdLeg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zsdH0XVkEe6lW_W_zHdLeg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zsdH0nVkEe6lW_W_zHdLeg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="ProST_SysML_Profiles.profile.uml#_wd_AsHVkEe6lW_W_zHdLeg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zscgwXVkEe6lW_W_zHdLeg" x="640" y="480"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_7ZlLkHVkEe6lW_W_zHdLeg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_7ZlLknVkEe6lW_W_zHdLeg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_7ZlLk3VkEe6lW_W_zHdLeg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7ZlLlHVkEe6lW_W_zHdLeg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7ZlLlXVkEe6lW_W_zHdLeg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7ZlLlnVkEe6lW_W_zHdLeg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7ZlLl3VkEe6lW_W_zHdLeg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_7ZlLmHVkEe6lW_W_zHdLeg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7ZlLmXVkEe6lW_W_zHdLeg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7ZlLmnVkEe6lW_W_zHdLeg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7ZlLm3VkEe6lW_W_zHdLeg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7ZlLnHVkEe6lW_W_zHdLeg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="ProST_SysML_Profiles.profile.uml#_6AnNgHVkEe6lW_W_zHdLeg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7ZlLkXVkEe6lW_W_zHdLeg" x="400" y="480"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_tZc4sXVkEe6lW_W_zHdLeg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_tZc4snVkEe6lW_W_zHdLeg"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_tZc4s3VkEe6lW_W_zHdLeg" diagramKindId="org.eclipse.papyrus.uml.diagram.profile">
+    <owner xmi:type="uml:Profile" href="ProST_SysML_Profiles.profile.uml#_tueWcHS0Ee6lW_W_zHdLeg"/>
+  </styles>
+  <element xmi:type="uml:Profile" href="ProST_SysML_Profiles.profile.uml#_tueWcHS0Ee6lW_W_zHdLeg"/>
+</notation:Diagram>
