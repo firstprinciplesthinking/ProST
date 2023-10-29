@@ -9,9 +9,21 @@ This opens three questions:
 - What is my environment?
 - What are my systems? -> Artifacts, Processes, People
 
+### Types of systems
+
 ### Mission alignment
+How to we organize our efforts to best achieve our mission?
+- Agile methodologies
+- Waterfall development
+
 ### Design Thinking
+How do we make sure we have the right design?
+- Problem space
+- Solution space
+
 ### Systems Engineering
+How do we model the system?
+- V-Model
 
 ```mermaid
 graph TD;
