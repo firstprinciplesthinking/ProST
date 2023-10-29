@@ -98,4 +98,28 @@
 		<item value="org.eclipse.xsd.mapping:2.15.0.v20230211-1150"/>
 		<item value="org.eclipse.xsd:2.21.0.v20230315-1321"/>
 	</list>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\janfr\Documents\ProST\SysML_Profiles"/>
+			<item value="C:\Users\janfr\Documents\ProST\Process_Requirements\Systems_Thinking\Systems_Engineering\Requirements_Engineering\Requirements_QARequirements"/>
+			<item value="C:\Users\janfr\Documents\ProST\Process requirements\Systems Thinking\Systems Engineering\Requirements Engineering\Requirements_QARequirements"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\janfr\Documents\ProST\SysML_Profiles"/>
+		</list>
+	</section>
 </section>
