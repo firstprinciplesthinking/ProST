@@ -9,6 +9,7 @@
 //org.eclipse.ui.commands/state/org.eclipse.papyrus.infra.nattable.mergeColumns/org.eclipse.ui.commands.toggleState=false
 //org.eclipse.ui.commands/state/org.eclipse.papyrus.infra.nattable.mergeRows/org.eclipse.ui.commands.toggleState=false
 //org.eclipse.ui.commands/state/org.eclipse.papyrus.infra.nattable.mergeSelectedColumns/org.eclipse.ui.commands.toggleState=false
+//org.eclipse.ui.commands/state/org.eclipse.papyrus.infra.nattable.mergeSelectedRows/org.eclipse.ui.commands.toggleState=false
 //org.eclipse.ui.commands/state/org.eclipse.papyrus.infra.nattable.row.display.index/org.eclipse.ui.commands.toggleState=false
 //org.eclipse.ui.commands/state/org.eclipse.papyrus.infra.nattable.row.index.style/org.eclipse.ui.commands.radioState=NUMERIC
 //org.eclipse.ui.commands/state/org.eclipse.papyrus.infra.nattable.row.label.display.icon/org.eclipse.ui.commands.toggleState=true
