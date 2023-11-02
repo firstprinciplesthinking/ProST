@@ -8,9 +8,11 @@
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_0tpt4HSaEe6lW_W_zHdLeg" name="systemsthinking">
-      <packagedElement xmi:type="uml:Package" xmi:id="_MJMrEHf4Ee6kc8YwwNRSfw" name="analysis">
+      <packagedElement xmi:type="uml:Package" xmi:id="_MJMrEHf4Ee6kc8YwwNRSfw" name="stakeholderanalysis">
         <packagedElement xmi:type="uml:Class" xmi:id="_k_EQIHdCEe6bK76pEkQaYA" name="Complete mission within constraints">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_JamogHiVEe6kc8YwwNRSfw" name="Complete mission within scope"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_JamogHiVEe6kc8YwwNRSfw" name="Complete mission within scope">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_EG8DsHmLEe6kc8YwwNRSfw" name="Define mission scope"/>
+          </nestedClassifier>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_JthkgHiVEe6kc8YwwNRSfw" name="Complete mission within quality"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_J9lZwHiVEe6kc8YwwNRSfw" name="Complete mission within resources">
             <nestedClassifier xmi:type="uml:Class" xmi:id="_iCWbgHivEe6kc8YwwNRSfw" name="Estimate required resources">
@@ -36,14 +38,14 @@
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_UhvBEHitEe6kc8YwwNRSfw" name="Satisfy19" client="_KmM48HiVEe6kc8YwwNRSfw" supplier="_k_EQIHdCEe6bK76pEkQaYA"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_uYwFwHjWEe6kc8YwwNRSfw" name="Satisfy20" client="_iCWbgHivEe6kc8YwwNRSfw" supplier="_J9lZwHiVEe6kc8YwwNRSfw"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_0cZagHjnEe6kc8YwwNRSfw" name="design">
+      <packagedElement xmi:type="uml:Package" xmi:id="_0cZagHjnEe6kc8YwwNRSfw" name="systemdesign">
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_BM14EHjxEe6kc8YwwNRSfw" name="Satisfy11" client="_v0WQgHQ1Ee6lW_W_zHdLeg" supplier="_4ouz4HjuEe6kc8YwwNRSfw"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_BqVFUHjxEe6kc8YwwNRSfw" name="Satisfy12" client="_v0WQgHQ1Ee6lW_W_zHdLeg" supplier="_zqaN0HjwEe6kc8YwwNRSfw"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_4nC1AHjyEe6kc8YwwNRSfw" name="Mission planning">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_TWKEUHjlEe6kc8YwwNRSfw" name="Work package"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_udAC4HjyEe6kc8YwwNRSfw" name="Stakeholder analysis">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_xbPVoHjyEe6kc8YwwNRSfw" name="Stakeholder needs">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_xbPVoHjyEe6kc8YwwNRSfw" name="Stakeholder">
             <nestedClassifier xmi:type="uml:Class" xmi:id="_RGKXoHjlEe6kc8YwwNRSfw" name="Stakeholder Need">
               <nestedClassifier xmi:type="uml:Class" xmi:id="_IV6PcHSyEe6lW_W_zHdLeg" name="Rationale"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_KXGEEHSyEe6lW_W_zHdLeg" name="Owned"/>
@@ -52,9 +54,9 @@
           </nestedClassifier>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_eZmQsHjyEe6kc8YwwNRSfw" name="System design">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_ncRyIHjyEe6kc8YwwNRSfw" name="System requirements">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_TWJdQHjlEe6kc8YwwNRSfw" name="System element">
             <nestedClassifier xmi:type="uml:Class" xmi:id="_B3lNQHjoEe6kc8YwwNRSfw" name="System requirement">
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_v0WQgHQ1Ee6lW_W_zHdLeg" name="Atomic">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_v0WQgHQ1Ee6lW_W_zHdLeg" name="Atomic requirement">
                 <ownedComment xmi:type="uml:Comment" xmi:id="_sHJ8sHSbEe6lW_W_zHdLeg">
                   <body>Alternatives:&#xD;
 - Singular is too ambiguous, has multiple interpretations&#xD;
@@ -63,7 +65,7 @@
 - Decomposed would be a property of a requirements specification</body>
                 </ownedComment>
               </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_-BMXcHQ6Ee6lW_W_zHdLeg" name="Independent"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_-BMXcHQ6Ee6lW_W_zHdLeg" name="Independent requirement"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_B85YAHQ7Ee6lW_W_zHdLeg" name="Detailed"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_yhSN4HcUEe6bK76pEkQaYA" name="Consistent"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_3SXXQHcUEe6bK76pEkQaYA" name="Specific"/>
@@ -84,13 +86,8 @@
               <nestedClassifier xmi:type="uml:Class" xmi:id="_5QHT0HSXEe6lW_W_zHdLeg" name="Tangible"/>
               <nestedClassifier xmi:type="uml:Class" xmi:id="_AKROQHSzEe6lW_W_zHdLeg" name="Typed"/>
             </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_qeAsEHlmEe6kc8YwwNRSfw" name="System interaction"/>
           </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_ql_8IHjyEe6kc8YwwNRSfw" name="System architecture">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_TWJdQHjlEe6kc8YwwNRSfw" name="System component">
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_RGKXonjlEe6kc8YwwNRSfw" name="System unit"/>
-            </nestedClassifier>
-          </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_RGKXoXjlEe6kc8YwwNRSfw" name="Design Element"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_kpaB4HjyEe6kc8YwwNRSfw" name="System implementation"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_EgtxsHjzEe6kc8YwwNRSfw" name="System test">
@@ -204,7 +201,7 @@
   <Requirements:Requirement xmi:id="_yN5NQHcTEe6bK76pEkQaYA" base_NamedElement="_B85YAHQ7Ee6lW_W_zHdLeg" id="Req_QAReq_3" text="The requirement shall be detailed enough, in order to enable effective development activities." base_Class="_B85YAHQ7Ee6lW_W_zHdLeg"/>
   <Requirements:Requirement xmi:id="_yhYUgHcUEe6bK76pEkQaYA" base_NamedElement="_yhSN4HcUEe6bK76pEkQaYA" id="Req_QAReq_4" text="The requirement shall be consistent with all other requirements, to avoid competing development activities and/or system disruption." base_Class="_yhSN4HcUEe6bK76pEkQaYA"/>
   <Requirements:Requirement xmi:id="_3SZzgHcUEe6bK76pEkQaYA" base_NamedElement="_3SXXQHcUEe6bK76pEkQaYA" id="Req_QAReq_5" text="The requirement shall be specific to only the system, to avoid unfeasible development efforts." base_Class="_3SXXQHcUEe6bK76pEkQaYA"/>
-  <Requirements:Requirement xmi:id="_k_GsYHdCEe6bK76pEkQaYA" base_NamedElement="_k_EQIHdCEe6bK76pEkQaYA" text="I want to complete the mission within the given contraints in order to ensure the organizations success." base_Class="_k_EQIHdCEe6bK76pEkQaYA"/>
+  <Requirements:Requirement xmi:id="_k_GsYHdCEe6bK76pEkQaYA" base_NamedElement="_k_EQIHdCEe6bK76pEkQaYA" text="I want to achieve the objectives within the given contraints in order to ensure the organizations success." base_Class="_k_EQIHdCEe6bK76pEkQaYA"/>
   <ModelElements:Stakeholder xmi:id="_92GY4Hf3Ee6kc8YwwNRSfw" base_Classifier="_92ASQHf3Ee6kc8YwwNRSfw"/>
   <Requirements:Verify xmi:id="_O7luoHgCEe6kc8YwwNRSfw" base_DirectedRelationship="_O7j5cHgCEe6kc8YwwNRSfw" base_Abstraction="_O7j5cHgCEe6kc8YwwNRSfw"/>
   <Requirements:Requirement xmi:id="_bJU20HgCEe6kc8YwwNRSfw" base_NamedElement="_bJTBoHgCEe6kc8YwwNRSfw" text="I want to estimate the time needed for development in order to predict if the mission is able stay within the given timeline." base_Class="_bJTBoHgCEe6kc8YwwNRSfw"/>
@@ -230,18 +227,16 @@
   <Blocks:Block xmi:id="_YXnEoHjoEe6kc8YwwNRSfw" base_Class="_TWKEUXjlEe6kc8YwwNRSfw"/>
   <Blocks:Block xmi:id="_ZE2lIHjoEe6kc8YwwNRSfw" base_Class="_TWKEUHjlEe6kc8YwwNRSfw"/>
   <Blocks:Block xmi:id="_Z7D0YHjoEe6kc8YwwNRSfw" base_Class="_TWJdQHjlEe6kc8YwwNRSfw"/>
-  <Blocks:Block xmi:id="_blFtQHjoEe6kc8YwwNRSfw" base_Class="_RGKXonjlEe6kc8YwwNRSfw"/>
-  <Blocks:Block xmi:id="_cWMaEHjoEe6kc8YwwNRSfw" base_Class="_RGKXoXjlEe6kc8YwwNRSfw"/>
   <Requirements:Requirement xmi:id="_4owpEHjuEe6kc8YwwNRSfw" base_NamedElement="_4ouz4HjuEe6kc8YwwNRSfw" text="I want to quantify the system requirements, in order to be able to estimate the resources needed for their implementation." base_Class="_4ouz4HjuEe6kc8YwwNRSfw"/>
   <Requirements:Requirement xmi:id="_zqbb8HjwEe6kc8YwwNRSfw" base_NamedElement="_zqaN0HjwEe6kc8YwwNRSfw" text="I want to quantify the system requirements, in order to be able to estimate the time needed for their implementation." base_Class="_zqaN0HjwEe6kc8YwwNRSfw"/>
   <Requirements:Satisfy xmi:id="_BM3tQHjxEe6kc8YwwNRSfw" base_DirectedRelationship="_BM14EHjxEe6kc8YwwNRSfw" base_Abstraction="_BM14EHjxEe6kc8YwwNRSfw"/>
   <Requirements:Satisfy xmi:id="_BqWTcHjxEe6kc8YwwNRSfw" base_DirectedRelationship="_BqVFUHjxEe6kc8YwwNRSfw" base_Abstraction="_BqVFUHjxEe6kc8YwwNRSfw"/>
   <Blocks:Block xmi:id="_eZoF4HjyEe6kc8YwwNRSfw" base_Class="_eZmQsHjyEe6kc8YwwNRSfw"/>
   <Blocks:Block xmi:id="_kpb3EHjyEe6kc8YwwNRSfw" base_Class="_kpaB4HjyEe6kc8YwwNRSfw"/>
-  <Blocks:Block xmi:id="_ncTnUHjyEe6kc8YwwNRSfw" base_Class="_ncRyIHjyEe6kc8YwwNRSfw"/>
-  <Blocks:Block xmi:id="_qmBxUHjyEe6kc8YwwNRSfw" base_Class="_ql_8IHjyEe6kc8YwwNRSfw"/>
   <Blocks:Block xmi:id="_udCfIHjyEe6kc8YwwNRSfw" base_Class="_udAC4HjyEe6kc8YwwNRSfw"/>
   <Blocks:Block xmi:id="_xbQjwHjyEe6kc8YwwNRSfw" base_Class="_xbPVoHjyEe6kc8YwwNRSfw"/>
   <Blocks:Block xmi:id="_4nEqMHjyEe6kc8YwwNRSfw" base_Class="_4nC1AHjyEe6kc8YwwNRSfw"/>
   <Blocks:Block xmi:id="_EgwN8HjzEe6kc8YwwNRSfw" base_Class="_EgtxsHjzEe6kc8YwwNRSfw"/>
+  <Blocks:Block xmi:id="_qeEWcHlmEe6kc8YwwNRSfw" base_Class="_qeAsEHlmEe6kc8YwwNRSfw"/>
+  <Requirements:Requirement xmi:id="_EG_HAHmLEe6kc8YwwNRSfw" base_NamedElement="_EG8DsHmLEe6kc8YwwNRSfw" text="I want to define the scope of the mission in order to stay within the scope ranges." base_Class="_EG8DsHmLEe6kc8YwwNRSfw"/>
 </xmi:XMI>
