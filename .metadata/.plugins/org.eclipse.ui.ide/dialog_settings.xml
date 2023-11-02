@@ -105,6 +105,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\janfr\Documents\ProST\SysML_Model"/>
 			<item value="C:\Users\janfr\Documents\ProST\SysML_Profiles"/>
 			<item value="C:\Users\janfr\Documents\ProST\Process_Requirements\Systems_Thinking\Systems_Engineering\Requirements_Engineering\Requirements_QARequirements"/>
 			<item value="C:\Users\janfr\Documents\ProST\Process requirements\Systems Thinking\Systems Engineering\Requirements Engineering\Requirements_QARequirements"/>
