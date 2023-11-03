@@ -1,9 +1,12 @@
 # ProST: Processes for Systems Thinking
 
 ProST is a open-source, collaborative, modeled process standard for systems thinking.
-Systems thinking entails processes for systems engineering, design thinking, and mission alignment.
-## Systems thinking
 Systems thinking is to think of everything as a system, part of a system, made up of systems.
+In the context of this standard, the system is the process itself, as part of a system of systems called development.
+It establishes process sub-systems, each rooted in an actual documented development need.
+These sub-processes integrate systems engineering, design thinking and management methods based on their purposes.
+This process system is modelled in order to achieve 
+
 This opens three questions:
 - What kind of system am I? -> Simple, Complicated, Complex, Chaotic
 - What is my environment?
