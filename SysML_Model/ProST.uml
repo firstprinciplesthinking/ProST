@@ -9,137 +9,178 @@
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_0tpt4HSaEe6lW_W_zHdLeg" name="systemsthinking">
       <packagedElement xmi:type="uml:Package" xmi:id="_MJMrEHf4Ee6kc8YwwNRSfw" name="stakeholderanalysis">
-        <packagedElement xmi:type="uml:Class" xmi:id="_k_EQIHdCEe6bK76pEkQaYA" name="Complete mission within constraints">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_JamogHiVEe6kc8YwwNRSfw" name="Complete mission within scope">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_EG8DsHmLEe6kc8YwwNRSfw" name="Define mission scope"/>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_lMf5sHvYEe69aLSa4ipdUg" name="International Requirements Engineering Board">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_cOIloHvaEe69aLSa4ipdUg" name="3.8 Quality Criteria for Work Products and Requirements">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_mpmw4HvYEe69aLSa4ipdUg" name="True"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_NAxOIHvbEe69aLSa4ipdUg" name="Agreed"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_LJU2QHvZEe69aLSa4ipdUg" name="Necessary"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_LMpQAHvZEe69aLSa4ipdUg" name="Unambiguous"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_LQFlkHvZEe69aLSa4ipdUg" name="Nothing missing"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_LTmMkHvZEe69aLSa4ipdUg" name="Understandable"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_LXdY4HvZEe69aLSa4ipdUg" name="Verifiable"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_zglN4HvZEe69aLSa4ipdUg" name="No contradiction"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_zn7MAHvZEe69aLSa4ipdUg" name="Documented once"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_E5NhQHwUEe69aLSa4ipdUg" name="No overlap"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_ztXssHvZEe69aLSa4ipdUg" name="All known requirements"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_i28gUHwUEe69aLSa4ipdUg" name="All related requirements"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_z_uA8HvZEe69aLSa4ipdUg" name="Modify without degration"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_0IQR4HvZEe69aLSa4ipdUg" name="Traceable to origin"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_9vqPMHwUEe69aLSa4ipdUg" name="Traceable to implementation"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_9zeYMHwUEe69aLSa4ipdUg" name="Traceable to dependency"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_0LImwHvZEe69aLSa4ipdUg" name="Conform"/>
           </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_JthkgHiVEe6kc8YwwNRSfw" name="Complete mission within quality"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_J9lZwHiVEe6kc8YwwNRSfw" name="Complete mission within resources">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_iCWbgHivEe6kc8YwwNRSfw" name="Estimate required resources">
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_4ouz4HjuEe6kc8YwwNRSfw" name="Quantify system requirements"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_IA6nIHwWEe69aLSa4ipdUg" name="International Institute for Business Analysis">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_R7LQ0HwWEe69aLSa4ipdUg" name="7.2.4.1 Characteristics of Requirements and Designs Quality">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_leYxwHwWEe69aLSa4ipdUg" name="Self-contained"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_3UmlYHwWEe69aLSa4ipdUg" name="Understood independently"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_l-Tn8HwWEe69aLSa4ipdUg" name="Complete to work">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_TMcO8HwXEe69aLSa4ipdUg" name="Different completeness level"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_RMB2YHwXEe69aLSa4ipdUg" name="Detailed for work"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_mCoHQHwWEe69aLSa4ipdUg" name="Aligned with needs"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_r6grMHwXEe69aLSa4ipdUg" name="Not conflicting"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_mGLKgHwWEe69aLSa4ipdUg" name="No extraenous content"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_0P2lgHwXEe69aLSa4ipdUg" name="No unnecessary content"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_mJBDIHwWEe69aLSa4ipdUg" name="Feasible within constraints"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_CyHVEHwYEe69aLSa4ipdUg" name="Considered feasible for investigation"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_mL1toHwWEe69aLSa4ipdUg" name="Clearly stated"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_mOZ5cHwWEe69aLSa4ipdUg" name="Able to fulfil">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_aKInQH1_Ee69aLSa4ipdUg" name="Acceptable fulfilment level"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_mRZjEHwWEe69aLSa4ipdUg" name="Prioritized"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_mUeFMHwWEe69aLSa4ipdUg" name="Understandable"/>
+          </nestedClassifier>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_smRi0HwIEe69aLSa4ipdUg" name="Processes for Systems Thinking">
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_92ASQHf3Ee6kc8YwwNRSfw" name="Supplier"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_k_EQIHdCEe6bK76pEkQaYA" name="Complete mission within constraints">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_JamogHiVEe6kc8YwwNRSfw" name="Complete mission within scope">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_EG8DsHmLEe6kc8YwwNRSfw" name="Define mission scope"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_JthkgHiVEe6kc8YwwNRSfw" name="Complete mission within quality"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_J9lZwHiVEe6kc8YwwNRSfw" name="Complete mission within resources">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_iCWbgHivEe6kc8YwwNRSfw" name="Estimate required resources">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_4ouz4HjuEe6kc8YwwNRSfw" name="Quantify system requirements"/>
+              </nestedClassifier>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_KOoGcHiVEe6kc8YwwNRSfw" name="Complete mission within time">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_bJTBoHgCEe6kc8YwwNRSfw" name="Estimate required time">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_zqaN0HjwEe6kc8YwwNRSfw" name="Quantify system requirements"/>
+              </nestedClassifier>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_KmM48HiVEe6kc8YwwNRSfw" name="Complete mission within benefit"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_K41hEHiVEe6kc8YwwNRSfw" name="Complete mission within risk"/>
+          </nestedClassifier>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_ZshdMHsZEe69aLSa4ipdUg" name="Automotive Spice">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_43L60HwIEe69aLSa4ipdUg" name="SUP.8 Configuration Management">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_LO4ZoHryEe69aLSa4ipdUg" name="Process purpose">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_YpjH0HsaEe69aLSa4ipdUg" name="Establish work product integrity"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_e40tgHsaEe69aLSa4ipdUg" name="Maintain work product integrity"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_e7u3kHsaEe69aLSa4ipdUg" name="Make work products available"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_ke1JAHr0Ee69aLSa4ipdUg" name="Outcome 1">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_jzOSIHryEe69aLSa4ipdUg" name="Develop configuration management strategy"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_uXosEHryEe69aLSa4ipdUg" name="Outcome 2">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_qj5fQHrzEe69aLSa4ipdUg" name="Identify configuration items"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_s29uEHrzEe69aLSa4ipdUg" name="Define configuration items"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_tmH6IHrzEe69aLSa4ipdUg" name="Baseline configuration items"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_9qvCsHryEe69aLSa4ipdUg" name="Outcome 3">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_843O8Hr0Ee69aLSa4ipdUg" name="Control modifications"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_9g9wwHr0Ee69aLSa4ipdUg" name="Control releases"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_-U72QHryEe69aLSa4ipdUg" name="Outcome 4">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_PsXxQHr1Ee69aLSa4ipdUg" name="Make modifications available"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_QNN0gHr1Ee69aLSa4ipdUg" name="Make releases available"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_eoBRMHr1Ee69aLSa4ipdUg" name="Outcome 5">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_rAW1IHscEe69aLSa4ipdUg" name="Record configuration item status"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_4e4PwHscEe69aLSa4ipdUg" name="Record modification status"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_0_0u8HscEe69aLSa4ipdUg" name="Report configuration item status"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_6tYusHscEe69aLSa4ipdUg" name="Report modification status"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_rJitsHsZEe69aLSa4ipdUg" name="Outcome 6">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_OyCIwHsdEe69aLSa4ipdUg" name="Ensure baseline completeness"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_O3pokHsdEe69aLSa4ipdUg" name="Ensure baseline consistency"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_rNNswHsZEe69aLSa4ipdUg" name="Outcome 7">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_2XFnYHsdEe69aLSa4ipdUg" name="Control storage"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_jJph8Hr4Ee69aLSa4ipdUg" name="Base practice 1">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_tw4KEHseEe69aLSa4ipdUg" name="Develop configuration management strategy">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_xJXv4HseEe69aLSa4ipdUg" name="Strategy includes responsibilities"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_AgkjYHsfEe69aLSa4ipdUg" name="Strategy includes tools"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_LiagMHsfEe69aLSa4ipdUg" name="Strategy includes repositories"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_AkCuIHsfEe69aLSa4ipdUg" name="Strategy includes criteria"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_AmqkUHsfEe69aLSa4ipdUg" name="Strategy includes naming conventions"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_Aoo6QHsfEe69aLSa4ipdUg" name="Strategy includes access rights"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_AqvzEHsfEe69aLSa4ipdUg" name="Strategy includes baseline criteria"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_AtbToHsfEe69aLSa4ipdUg" name="Include merge strategy"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_1YXDYHsfEe69aLSa4ipdUg" name="Include branch strategy"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_AwOwAHsfEe69aLSa4ipdUg" name="Include revision history approach"/>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_xMdgIHseEe69aLSa4ipdUg" name="Support variant handling"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_xOXkoHseEe69aLSa4ipdUg" name="Specify branching cases"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_auyuUHsgEe69aLSa4ipdUg" name="Specify branching authorization"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_iOyVAHsgEe69aLSa4ipdUg" name="Specify merging approach"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_kBVQsHsgEe69aLSa4ipdUg" name="Specify verification activities"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_jY--cHr4Ee69aLSa4ipdUg" name="Base practice 2">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="__2q4sHtIEe69aLSa4ipdUg" name="Identify configuration items"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_Dmag4HtJEe69aLSa4ipdUg" name="Identify configuration items"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_Dp22cHtJEe69aLSa4ipdUg" name="Document configuration items"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_Dv3-4HtJEe69aLSa4ipdUg" name="Apply configuration control"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_jo-iQHr4Ee69aLSa4ipdUg" name="Base practice 3">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_T9SzQHtKEe69aLSa4ipdUg" name="Establish configuration management system"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_T_ZsEHtKEe69aLSa4ipdUg" name="Establish configuration management system"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_iru-QHr1Ee69aLSa4ipdUg" name="Base practice 4">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_rH4rMHr1Ee69aLSa4ipdUg" name="Establish branch management"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_d3Ht0Hr3Ee69aLSa4ipdUg" name="Base practice 5">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_igGrIHr3Ee69aLSa4ipdUg" name="Control modifications"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_oVme4Hr3Ee69aLSa4ipdUg" name="Control releases"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_oZTTIHr3Ee69aLSa4ipdUg" name="Establish control mechanisms">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_ogNMYHr3Ee69aLSa4ipdUg" name="Control modifications"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_A2NG4Hr4Ee69aLSa4ipdUg" name="Control releases"/>
+              </nestedClassifier>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_AxR1gHr2Ee69aLSa4ipdUg" name="Base practice 6">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_Iq0koHr2Ee69aLSa4ipdUg" name="Internal baselines"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_KAuAkHr2Ee69aLSa4ipdUg" name="External baselines"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_KEGrwHr2Ee69aLSa4ipdUg" name="Refer baseline issues"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_kAm_IHr4Ee69aLSa4ipdUg" name="Base practice 7">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_wQLjQHsMEe69aLSa4ipdUg" name="Report configuration status"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_wTBb4HsMEe69aLSa4ipdUg" name="Record configuration item status"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_wU0LoHsMEe69aLSa4ipdUg" name="Report configuration item status"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_dXq8QHr4Ee69aLSa4ipdUg" name="Base practice 8">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_00yG8Hr4Ee69aLSa4ipdUg" name="Verify information"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_0-ZV8Hr4Ee69aLSa4ipdUg" name="Verify complete configuration items' information"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_2C3DoHr4Ee69aLSa4ipdUg" name="Verify complete baselines' information"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_MFfNUHr5Ee69aLSa4ipdUg" name="Ensure baseline consistency"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_2G-uoHr4Ee69aLSa4ipdUg" name="Implement baseline audits"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_kx2ZYHr5Ee69aLSa4ipdUg" name="Implement configuration management audits"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_k07YAHr4Ee69aLSa4ipdUg" name="Base practice 9">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_pJkCsHsIEe69aLSa4ipdUg" name="Manage configuration item storage"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_j_1IwHsIEe69aLSa4ipdUg" name="Manage baseline storage"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_kEaGwHsIEe69aLSa4ipdUg" name="Ensure configuration item integrity"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_kGWAcHsIEe69aLSa4ipdUg" name="Ensure baseline integrity"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_kICpkHsIEe69aLSa4ipdUg" name="Ensure configuration item availability"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_kJ8HAHsIEe69aLSa4ipdUg" name="Ensure baseline availability"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_kLQVoHsIEe69aLSa4ipdUg" name="Extend storage beyond lifetime"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_rQr_4HsLEe69aLSa4ipdUg" name="Extend archiving beyond lifetime"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_0rdtsHsKEe69aLSa4ipdUg" name="Include affected configuration items"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_NMudAHsLEe69aLSa4ipdUg" name="Ensure contractual availability"/>
             </nestedClassifier>
           </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_KOoGcHiVEe6kc8YwwNRSfw" name="Complete mission within time">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_bJTBoHgCEe6kc8YwwNRSfw" name="Estimate required time">
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_zqaN0HjwEe6kc8YwwNRSfw" name="Quantify system requirements"/>
-            </nestedClassifier>
-          </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_KmM48HiVEe6kc8YwwNRSfw" name="Complete mission within benefit"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_K41hEHiVEe6kc8YwwNRSfw" name="Complete mission within risk"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Activity" xmi:id="_92ASQHf3Ee6kc8YwwNRSfw" name="Supplier"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_O7j5cHgCEe6kc8YwwNRSfw" name="Verify16" client="_k_EQIHdCEe6bK76pEkQaYA" supplier="_92ASQHf3Ee6kc8YwwNRSfw"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_J-bMoHioEe6kc8YwwNRSfw" name="Satisfy19" client="_bJTBoHgCEe6kc8YwwNRSfw" supplier="_KOoGcHiVEe6kc8YwwNRSfw"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Rq-2YHitEe6kc8YwwNRSfw" name="Satisfy14" client="_KOoGcHiVEe6kc8YwwNRSfw" supplier="_k_EQIHdCEe6bK76pEkQaYA"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_SIkxUHitEe6kc8YwwNRSfw" name="Satisfy15" client="_J9lZwHiVEe6kc8YwwNRSfw" supplier="_k_EQIHdCEe6bK76pEkQaYA"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_SishgHitEe6kc8YwwNRSfw" name="Satisfy16" client="_JamogHiVEe6kc8YwwNRSfw" supplier="_k_EQIHdCEe6bK76pEkQaYA"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_TN6owHitEe6kc8YwwNRSfw" name="Satisfy17" client="_JthkgHiVEe6kc8YwwNRSfw" supplier="_k_EQIHdCEe6bK76pEkQaYA"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_TqM8IHitEe6kc8YwwNRSfw" name="Satisfy18" client="_K41hEHiVEe6kc8YwwNRSfw" supplier="_k_EQIHdCEe6bK76pEkQaYA"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_UhvBEHitEe6kc8YwwNRSfw" name="Satisfy19" client="_KmM48HiVEe6kc8YwwNRSfw" supplier="_k_EQIHdCEe6bK76pEkQaYA"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_uYwFwHjWEe6kc8YwwNRSfw" name="Satisfy20" client="_iCWbgHivEe6kc8YwwNRSfw" supplier="_J9lZwHiVEe6kc8YwwNRSfw"/>
-        <packagedElement xmi:type="uml:Package" xmi:id="_2hJmUHrxEe69aLSa4ipdUg" name="automotivespice">
-          <packagedElement xmi:type="uml:Package" xmi:id="_5XM0UHsbEe69aLSa4ipdUg" name="processreferencemodel">
-            <packagedElement xmi:type="uml:Activity" xmi:id="_ZshdMHsZEe69aLSa4ipdUg" name="SUP.8 Configuration Management">
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_LO4ZoHryEe69aLSa4ipdUg" name="Process purpose">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_YpjH0HsaEe69aLSa4ipdUg" name="Establish work product integrity"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_e40tgHsaEe69aLSa4ipdUg" name="Maintain work product integrity"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_e7u3kHsaEe69aLSa4ipdUg" name="Make work products available"/>
-              </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_ke1JAHr0Ee69aLSa4ipdUg" name="Outcome 1">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_jzOSIHryEe69aLSa4ipdUg" name="Develop configuration management strategy"/>
-              </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_uXosEHryEe69aLSa4ipdUg" name="Outcome 2">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_qj5fQHrzEe69aLSa4ipdUg" name="Identify configuration items"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_s29uEHrzEe69aLSa4ipdUg" name="Define configuration items"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_tmH6IHrzEe69aLSa4ipdUg" name="Baseline configuration items"/>
-              </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_9qvCsHryEe69aLSa4ipdUg" name="Outcome 3">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_843O8Hr0Ee69aLSa4ipdUg" name="Control modifications"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_9g9wwHr0Ee69aLSa4ipdUg" name="Control releases"/>
-              </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_-U72QHryEe69aLSa4ipdUg" name="Outcome 4">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_PsXxQHr1Ee69aLSa4ipdUg" name="Make modifications available"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_QNN0gHr1Ee69aLSa4ipdUg" name="Make releases available"/>
-              </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_eoBRMHr1Ee69aLSa4ipdUg" name="Outcome 5">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_rAW1IHscEe69aLSa4ipdUg" name="Record configuration item status"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_4e4PwHscEe69aLSa4ipdUg" name="Record modification status"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_0_0u8HscEe69aLSa4ipdUg" name="Report configuration item status"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_6tYusHscEe69aLSa4ipdUg" name="Report modification status"/>
-              </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_rJitsHsZEe69aLSa4ipdUg" name="Outcome 6">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_OyCIwHsdEe69aLSa4ipdUg" name="Ensure baseline completeness"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_O3pokHsdEe69aLSa4ipdUg" name="Ensure baseline consistency"/>
-              </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_rNNswHsZEe69aLSa4ipdUg" name="Outcome 7">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_2XFnYHsdEe69aLSa4ipdUg" name="Control storage"/>
-              </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_jJph8Hr4Ee69aLSa4ipdUg" name="Base practice 1">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_tw4KEHseEe69aLSa4ipdUg" name="Develop configuration management strategy">
-                  <nestedClassifier xmi:type="uml:Class" xmi:id="_xJXv4HseEe69aLSa4ipdUg" name="Strategy includes responsibilities"/>
-                  <nestedClassifier xmi:type="uml:Class" xmi:id="_AgkjYHsfEe69aLSa4ipdUg" name="Strategy includes tools"/>
-                  <nestedClassifier xmi:type="uml:Class" xmi:id="_LiagMHsfEe69aLSa4ipdUg" name="Strategy includes repositories"/>
-                  <nestedClassifier xmi:type="uml:Class" xmi:id="_AkCuIHsfEe69aLSa4ipdUg" name="Strategy includes criteria"/>
-                  <nestedClassifier xmi:type="uml:Class" xmi:id="_AmqkUHsfEe69aLSa4ipdUg" name="Strategy includes naming conventions"/>
-                  <nestedClassifier xmi:type="uml:Class" xmi:id="_Aoo6QHsfEe69aLSa4ipdUg" name="Strategy includes access rights"/>
-                  <nestedClassifier xmi:type="uml:Class" xmi:id="_AqvzEHsfEe69aLSa4ipdUg" name="Strategy includes baseline criteria"/>
-                  <nestedClassifier xmi:type="uml:Class" xmi:id="_AtbToHsfEe69aLSa4ipdUg" name="Include merge strategy"/>
-                  <nestedClassifier xmi:type="uml:Class" xmi:id="_1YXDYHsfEe69aLSa4ipdUg" name="Include branch strategy"/>
-                  <nestedClassifier xmi:type="uml:Class" xmi:id="_AwOwAHsfEe69aLSa4ipdUg" name="Include revision history approach"/>
-                </nestedClassifier>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_xMdgIHseEe69aLSa4ipdUg" name="Support variant handling"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_xOXkoHseEe69aLSa4ipdUg" name="Specify branching cases"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_auyuUHsgEe69aLSa4ipdUg" name="Specify branching authorization"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_iOyVAHsgEe69aLSa4ipdUg" name="Specify merging approach"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_kBVQsHsgEe69aLSa4ipdUg" name="Specify verification activities"/>
-              </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_jY--cHr4Ee69aLSa4ipdUg" name="Base practice 2"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_jo-iQHr4Ee69aLSa4ipdUg" name="Base practice 3"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_iru-QHr1Ee69aLSa4ipdUg" name="Base practice 4">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_rH4rMHr1Ee69aLSa4ipdUg" name="Establish branch management"/>
-              </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_d3Ht0Hr3Ee69aLSa4ipdUg" name="Base practice 5">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_igGrIHr3Ee69aLSa4ipdUg" name="Control modifications"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_oVme4Hr3Ee69aLSa4ipdUg" name="Control releases"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_oZTTIHr3Ee69aLSa4ipdUg" name="Establish control mechanisms">
-                  <nestedClassifier xmi:type="uml:Class" xmi:id="_ogNMYHr3Ee69aLSa4ipdUg" name="Control modifications"/>
-                  <nestedClassifier xmi:type="uml:Class" xmi:id="_A2NG4Hr4Ee69aLSa4ipdUg" name="Control releases"/>
-                </nestedClassifier>
-              </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_AxR1gHr2Ee69aLSa4ipdUg" name="Base practice 6">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_Iq0koHr2Ee69aLSa4ipdUg" name="Internal baselines"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_KAuAkHr2Ee69aLSa4ipdUg" name="External baselines"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_KEGrwHr2Ee69aLSa4ipdUg" name="Refer baseline issues"/>
-              </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_kAm_IHr4Ee69aLSa4ipdUg" name="Base practice 7">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_wQLjQHsMEe69aLSa4ipdUg" name="Report configuration status"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_wTBb4HsMEe69aLSa4ipdUg" name="Record configuration item status"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_wU0LoHsMEe69aLSa4ipdUg" name="Report configuration item status"/>
-              </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_dXq8QHr4Ee69aLSa4ipdUg" name="Base practice 8">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_00yG8Hr4Ee69aLSa4ipdUg" name="Verify information"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_0-ZV8Hr4Ee69aLSa4ipdUg" name="Verify complete configuration items' information"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_2C3DoHr4Ee69aLSa4ipdUg" name="Verify complete baselines' information"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_MFfNUHr5Ee69aLSa4ipdUg" name="Ensure baseline consistency"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_2G-uoHr4Ee69aLSa4ipdUg" name="Implement baseline audits"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_kx2ZYHr5Ee69aLSa4ipdUg" name="Implement  configuration management audits"/>
-              </nestedClassifier>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_k07YAHr4Ee69aLSa4ipdUg" name="Base practice 9">
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_pJkCsHsIEe69aLSa4ipdUg" name="Manage configuration item storage"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_j_1IwHsIEe69aLSa4ipdUg" name="Manage baseline storage"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_kEaGwHsIEe69aLSa4ipdUg" name="Ensure configuration item integrity"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_kGWAcHsIEe69aLSa4ipdUg" name="Ensure baseline integrity"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_kICpkHsIEe69aLSa4ipdUg" name="Ensure configuration item availability"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_kJ8HAHsIEe69aLSa4ipdUg" name="Ensure baseline availability"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_kLQVoHsIEe69aLSa4ipdUg" name="Extend storage beyond lifetime"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_rQr_4HsLEe69aLSa4ipdUg" name="Extend archiving beyond lifetime"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_0rdtsHsKEe69aLSa4ipdUg" name="Include affected configuration items"/>
-                <nestedClassifier xmi:type="uml:Class" xmi:id="_NMudAHsLEe69aLSa4ipdUg" name="Ensure contractual availability"/>
-              </nestedClassifier>
-            </packagedElement>
-          </packagedElement>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Package" xmi:id="_-jyAAHrxEe69aLSa4ipdUg" name="ireb"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_0cZagHjnEe6kc8YwwNRSfw" name="systemdesign">
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_BM14EHjxEe6kc8YwwNRSfw" name="Satisfy11" client="_v0WQgHQ1Ee6lW_W_zHdLeg" supplier="_4ouz4HjuEe6kc8YwwNRSfw"/>
@@ -306,7 +347,6 @@
   <Requirements:Requirement xmi:id="_3SZzgHcUEe6bK76pEkQaYA" base_NamedElement="_3SXXQHcUEe6bK76pEkQaYA" id="Req_QAReq_5" text="The requirement shall be specific to only the system, to avoid unfeasible development efforts." base_Class="_3SXXQHcUEe6bK76pEkQaYA"/>
   <Requirements:Requirement xmi:id="_k_GsYHdCEe6bK76pEkQaYA" base_NamedElement="_k_EQIHdCEe6bK76pEkQaYA" text="I want to achieve the objectives within the given contraints in order to ensure the organizations success." base_Class="_k_EQIHdCEe6bK76pEkQaYA"/>
   <ModelElements:Stakeholder xmi:id="_92GY4Hf3Ee6kc8YwwNRSfw" base_Classifier="_92ASQHf3Ee6kc8YwwNRSfw"/>
-  <Requirements:Verify xmi:id="_O7luoHgCEe6kc8YwwNRSfw" base_DirectedRelationship="_O7j5cHgCEe6kc8YwwNRSfw" base_Abstraction="_O7j5cHgCEe6kc8YwwNRSfw"/>
   <Requirements:Requirement xmi:id="_bJU20HgCEe6kc8YwwNRSfw" base_NamedElement="_bJTBoHgCEe6kc8YwwNRSfw" text="I want to estimate the time needed for development in order to predict if the mission is able stay within the given timeline." base_Class="_bJTBoHgCEe6kc8YwwNRSfw"/>
   <Requirements:Requirement xmi:id="_JapEwHiVEe6kc8YwwNRSfw" base_NamedElement="_JamogHiVEe6kc8YwwNRSfw" text="I want to complete the mission within the scope ranges in order to stay within the given contraints." base_Class="_JamogHiVEe6kc8YwwNRSfw"/>
   <Requirements:Requirement xmi:id="_JtjZsHiVEe6kc8YwwNRSfw" base_NamedElement="_JthkgHiVEe6kc8YwwNRSfw" text="I want to complete the mission within the quality ranges in order to stay within the given contraints." base_Class="_JthkgHiVEe6kc8YwwNRSfw"/>
@@ -314,15 +354,7 @@
   <Requirements:Requirement xmi:id="_KOp7oHiVEe6kc8YwwNRSfw" base_NamedElement="_KOoGcHiVEe6kc8YwwNRSfw" text="I want to complete the mission within the given timeline in order to stay within the given contraints." base_Class="_KOoGcHiVEe6kc8YwwNRSfw"/>
   <Requirements:Requirement xmi:id="_KmOuIHiVEe6kc8YwwNRSfw" base_NamedElement="_KmM48HiVEe6kc8YwwNRSfw" text="I want to complete the mission within the benefit ranges in order to stay within the given contraints." base_Class="_KmM48HiVEe6kc8YwwNRSfw"/>
   <Requirements:Requirement xmi:id="_K43WQHiVEe6kc8YwwNRSfw" base_NamedElement="_K41hEHiVEe6kc8YwwNRSfw" text="I want to complete the mission within the acceptable risks in order to stay within the given contraints." base_Class="_K41hEHiVEe6kc8YwwNRSfw"/>
-  <Requirements:Satisfy xmi:id="_J-dB0HioEe6kc8YwwNRSfw" base_DirectedRelationship="_J-bMoHioEe6kc8YwwNRSfw" base_Abstraction="_J-bMoHioEe6kc8YwwNRSfw"/>
-  <Requirements:Satisfy xmi:id="_RrAEgHitEe6kc8YwwNRSfw" base_DirectedRelationship="_Rq-2YHitEe6kc8YwwNRSfw" base_Abstraction="_Rq-2YHitEe6kc8YwwNRSfw"/>
-  <Requirements:Satisfy xmi:id="_SIl_cHitEe6kc8YwwNRSfw" base_DirectedRelationship="_SIkxUHitEe6kc8YwwNRSfw" base_Abstraction="_SIkxUHitEe6kc8YwwNRSfw"/>
-  <Requirements:Satisfy xmi:id="_SiuWsHitEe6kc8YwwNRSfw" base_DirectedRelationship="_SishgHitEe6kc8YwwNRSfw" base_Abstraction="_SishgHitEe6kc8YwwNRSfw"/>
-  <Requirements:Satisfy xmi:id="_TN8d8HitEe6kc8YwwNRSfw" base_DirectedRelationship="_TN6owHitEe6kc8YwwNRSfw" base_Abstraction="_TN6owHitEe6kc8YwwNRSfw"/>
-  <Requirements:Satisfy xmi:id="_TqOxUHitEe6kc8YwwNRSfw" base_DirectedRelationship="_TqM8IHitEe6kc8YwwNRSfw" base_Abstraction="_TqM8IHitEe6kc8YwwNRSfw"/>
-  <Requirements:Satisfy xmi:id="_UhwPMHitEe6kc8YwwNRSfw" base_DirectedRelationship="_UhvBEHitEe6kc8YwwNRSfw" base_Abstraction="_UhvBEHitEe6kc8YwwNRSfw"/>
   <Requirements:Requirement xmi:id="_iCY3wHivEe6kc8YwwNRSfw" base_NamedElement="_iCWbgHivEe6kc8YwwNRSfw" text="I want to estimate the resources needed for development in order to predict if the mission is able to stay within the available resources." base_Class="_iCWbgHivEe6kc8YwwNRSfw"/>
-  <Requirements:Satisfy xmi:id="_uYx68HjWEe6kc8YwwNRSfw" base_DirectedRelationship="_uYwFwHjWEe6kc8YwwNRSfw" base_Abstraction="_uYwFwHjWEe6kc8YwwNRSfw"/>
   <Blocks:Block xmi:id="_B3npgHjoEe6kc8YwwNRSfw" base_Class="_B3lNQHjoEe6kc8YwwNRSfw"/>
   <Blocks:Block xmi:id="_VokEcHjoEe6kc8YwwNRSfw" base_Class="_RGKXoHjlEe6kc8YwwNRSfw"/>
   <Blocks:Block xmi:id="_WfwyMHjoEe6kc8YwwNRSfw" base_Class="_TWKrYXjlEe6kc8YwwNRSfw"/>
@@ -357,15 +389,15 @@
   <Requirements:Requirement xmi:id="_QNPpsHr1Ee69aLSa4ipdUg" base_NamedElement="_QNN0gHr1Ee69aLSa4ipdUg" id="ASPICE_SUP8_OUTCOME4_2" text="The configuration management process shall make releases available to affected parties." base_Class="_QNN0gHr1Ee69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_eoDGYHr1Ee69aLSa4ipdUg" base_NamedElement="_eoBRMHr1Ee69aLSa4ipdUg" id="ASPICE_SUP8_OUTCOME5" text="&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Process outcome 5>" base_Class="_eoBRMHr1Ee69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_irwzcHr1Ee69aLSa4ipdUg" base_NamedElement="_iru-QHr1Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP4" text="&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Base practice 4>" base_Class="_iru-QHr1Ee69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_rH6gYHr1Ee69aLSa4ipdUg" base_NamedElement="_rH4rMHr1Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP4_1" text="I want to establish branch management according to the configuration management strategy for parallel developments that use the same base." base_Class="_rH4rMHr1Ee69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_rH6gYHr1Ee69aLSa4ipdUg" base_NamedElement="_rH4rMHr1Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP4_1" text="The configuration management process shall establish branch management according to the configuration management strategy for parallel developments that use the same base." base_Class="_rH4rMHr1Ee69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_AxTqsHr2Ee69aLSa4ipdUg" base_NamedElement="_AxR1gHr2Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP6" text="&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Base practice 6>" base_Class="_AxR1gHr2Ee69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_Iq1ywHr2Ee69aLSa4ipdUg" base_NamedElement="_Iq0koHr2Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP6_1" text="The process shall establish baselines for internal purposes according to the configuration management strategy." base_Class="_Iq0koHr2Ee69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_KAunoHr2Ee69aLSa4ipdUg" base_NamedElement="_KAuAkHr2Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP6_2" text="The process shall establish baselines for external delivery according to the configuration management strategy." base_Class="_KAuAkHr2Ee69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_KEGrwXr2Ee69aLSa4ipdUg" base_NamedElement="_KEGrwHr2Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP6_3" text="The process shall refer to the product release process SPL.2 for baseline issues." base_Class="_KEGrwHr2Ee69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_Iq1ywHr2Ee69aLSa4ipdUg" base_NamedElement="_Iq0koHr2Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP6_1" text="The configuration management process shall establish baselines for internal purposes according to the configuration management strategy." base_Class="_Iq0koHr2Ee69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_KAunoHr2Ee69aLSa4ipdUg" base_NamedElement="_KAuAkHr2Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP6_2" text="The configuration management process shall establish baselines for external delivery according to the configuration management strategy." base_Class="_KAuAkHr2Ee69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_KEGrwXr2Ee69aLSa4ipdUg" base_NamedElement="_KEGrwHr2Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP6_3" text="The configuration management process shall refer to the product release process SPL.2 for baseline issues." base_Class="_KEGrwHr2Ee69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_d3JjAHr3Ee69aLSa4ipdUg" base_NamedElement="_d3Ht0Hr3Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP5" text="&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Base practice 5>" base_Class="_d3Ht0Hr3Ee69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_igHSMHr3Ee69aLSa4ipdUg" base_NamedElement="_igGrIHr3Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP5_1" text="I want to control modifications." base_Class="_igGrIHr3Ee69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_oVnF8Hr3Ee69aLSa4ipdUg" base_NamedElement="_oVme4Hr3Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP5_2" text="I want to control releases." base_Class="_oVme4Hr3Ee69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_oZT6MHr3Ee69aLSa4ipdUg" base_NamedElement="_oZTTIHr3Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP5_3" text="I want to establish mechanisms for the control of the configurations items according to the configuration management strategy." base_Class="_oZTTIHr3Ee69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_igHSMHr3Ee69aLSa4ipdUg" base_NamedElement="_igGrIHr3Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP5_1" text="The configuration management process shall control modifications." base_Class="_igGrIHr3Ee69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_oVnF8Hr3Ee69aLSa4ipdUg" base_NamedElement="_oVme4Hr3Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP5_2" text="The configuration management process shall control releases." base_Class="_oVme4Hr3Ee69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_oZT6MHr3Ee69aLSa4ipdUg" base_NamedElement="_oZTTIHr3Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP5_3" text="The configuration management process shall establish mechanisms for the control of the configurations items according to the configuration management strategy." base_Class="_oZTTIHr3Ee69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_ogNzcHr3Ee69aLSa4ipdUg" base_NamedElement="_ogNMYHr3Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP5_3_1" text="I want to control modifications using these mechanisms." base_Class="_ogNMYHr3Ee69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_A2OVAHr4Ee69aLSa4ipdUg" base_NamedElement="_A2NG4Hr4Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP5_3_2" text="I want to control releases using these mechanisms." base_Class="_A2NG4Hr4Ee69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_dXrjUHr4Ee69aLSa4ipdUg" base_NamedElement="_dXq8QHr4Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP8" text="&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Base practice 8>" base_Class="_dXq8QHr4Ee69aLSa4ipdUg"/>
@@ -374,25 +406,25 @@
   <Requirements:Requirement xmi:id="_jo_JUHr4Ee69aLSa4ipdUg" base_NamedElement="_jo-iQHr4Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP3" text="&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Base practice 3>" base_Class="_jo-iQHr4Ee69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_kAm_IXr4Ee69aLSa4ipdUg" base_NamedElement="_kAm_IHr4Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP7" text="&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Base practice 7>" base_Class="_kAm_IHr4Ee69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_k07YAXr4Ee69aLSa4ipdUg" base_NamedElement="_k07YAHr4Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP9" text="&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Base practice 9>" base_Class="_k07YAHr4Ee69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_00yuAHr4Ee69aLSa4ipdUg" base_NamedElement="_00yG8Hr4Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP8_1" text="I want to verify the information about configured items." base_Class="_00yG8Hr4Ee69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_0-Z9AHr4Ee69aLSa4ipdUg" base_NamedElement="_0-ZV8Hr4Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP8_2" text="I want to verify that the information about configured items is complete." base_Class="_0-ZV8Hr4Ee69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_2C3DoXr4Ee69aLSa4ipdUg" base_NamedElement="_2C3DoHr4Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP8_3" text="I want to verify that the information about configured items' baselines is complete." base_Class="_2C3DoHr4Ee69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_2G-uoXr4Ee69aLSa4ipdUg" base_NamedElement="_2G-uoHr4Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP8" text="I want to implement this as typical baseline audits." base_Class="_2G-uoHr4Ee69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_MFfNUXr5Ee69aLSa4ipdUg" base_NamedElement="_MFfNUHr5Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP8" text="I want to ensure the consistency of baselines." base_Class="_MFfNUHr5Ee69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_kx2ZYXr5Ee69aLSa4ipdUg" base_NamedElement="_kx2ZYHr5Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP8" text="I want to implement this as typical configuration management audits." base_Class="_kx2ZYHr5Ee69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_j_1v0HsIEe69aLSa4ipdUg" base_NamedElement="_j_1IwHsIEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_2" text="I want to manage the storage of baselines." base_Class="_j_1IwHsIEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_kEaGwXsIEe69aLSa4ipdUg" base_NamedElement="_kEaGwHsIEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_3" text="I want to ensure the integrity of configuration items through appropriate scheduling and resourcing of storage, archiving (long term storage) and backup of the used CM systems.equirements." base_Class="_kEaGwHsIEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_kGWngHsIEe69aLSa4ipdUg" base_NamedElement="_kGWAcHsIEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_4" text="I want to ensure the integrity of baselines through appropriate scheduling and resourcing of storage, archiving (long term storage) and backup of the used CM systems.equirements." base_Class="_kGWAcHsIEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_kICpkXsIEe69aLSa4ipdUg" base_NamedElement="_kICpkHsIEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_5" text="I want to ensure the availability of configuration items through appropriate scheduling and resourcing of storage, archiving (long term storage) and backup of the used CM systems.equirements." base_Class="_kICpkHsIEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_kJ8uEHsIEe69aLSa4ipdUg" base_NamedElement="_kJ8HAHsIEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_6" text="I want to ensure the availability of baselines through appropriate scheduling and resourcing of storage, archiving (long term storage) and backup of the used CM systems.equirements." base_Class="_kJ8HAHsIEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_kLQVoXsIEe69aLSa4ipdUg" base_NamedElement="_kLQVoHsIEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_7" text="I want to extend storage beyond guaranteed lifetime of available storage media." base_Class="_kLQVoHsIEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_pJkCsXsIEe69aLSa4ipdUg" base_NamedElement="_pJkCsHsIEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_1" text="I want to manage the storage of configuration items." base_Class="_pJkCsHsIEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_0reUwHsKEe69aLSa4ipdUg" base_NamedElement="_0rdtsHsKEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_9" text="I want to include relevant, affected configuration items as referenced in note 2 and note 3." base_Class="_0rdtsHsKEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_NMvEEHsLEe69aLSa4ipdUg" base_NamedElement="_NMudAHsLEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_10" text="I want to ensure availability as specified by contract requirements." base_Class="_NMudAHsLEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_rQsm8HsLEe69aLSa4ipdUg" base_NamedElement="_rQr_4HsLEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_8" text="I want to extend archiving beyond guaranteed lifetime of available storage media." base_Class="_rQr_4HsLEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_wQLjQXsMEe69aLSa4ipdUg" base_NamedElement="_wQLjQHsMEe69aLSa4ipdUg" id="ASPICE_SUP8_BP7_1" text="The process shall report configuration status." base_Class="_wQLjQHsMEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_wTCC8HsMEe69aLSa4ipdUg" base_NamedElement="_wTBb4HsMEe69aLSa4ipdUg" id="ASPICE_SUP8_BP7_2" text="The process shall record status of configuration items to support project management and other relevant processes." base_Class="_wTBb4HsMEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_wU0ysHsMEe69aLSa4ipdUg" base_NamedElement="_wU0LoHsMEe69aLSa4ipdUg" id="ASPICE_SUP8_BP7_3" text="The process shall report status of configuration items to support project management and other relevant processes." base_Class="_wU0LoHsMEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_00yuAHr4Ee69aLSa4ipdUg" base_NamedElement="_00yG8Hr4Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP8_1" text="The configuration management process shall verify the information about configured items." base_Class="_00yG8Hr4Ee69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_0-Z9AHr4Ee69aLSa4ipdUg" base_NamedElement="_0-ZV8Hr4Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP8_2" text="The configuration management process shall verify that the information about configured items is complete." base_Class="_0-ZV8Hr4Ee69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_2C3DoXr4Ee69aLSa4ipdUg" base_NamedElement="_2C3DoHr4Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP8_3" text="The configuration management process shall verify that the information about configured items' baselines is complete." base_Class="_2C3DoHr4Ee69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_2G-uoXr4Ee69aLSa4ipdUg" base_NamedElement="_2G-uoHr4Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP8" text="The configuration management process should implement this as baseline audits." base_Class="_2G-uoHr4Ee69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_MFfNUXr5Ee69aLSa4ipdUg" base_NamedElement="_MFfNUHr5Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP8" text="The configuration management process shall ensure the consistency of baselines." base_Class="_MFfNUHr5Ee69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_kx2ZYXr5Ee69aLSa4ipdUg" base_NamedElement="_kx2ZYHr5Ee69aLSa4ipdUg" id="ASPICE_SUP8_BP8" text="The configuration management process should implement this as configuration management audits." base_Class="_kx2ZYHr5Ee69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_j_1v0HsIEe69aLSa4ipdUg" base_NamedElement="_j_1IwHsIEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_2" text="The configuration management process shall manage the storage of baselines." base_Class="_j_1IwHsIEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_kEaGwXsIEe69aLSa4ipdUg" base_NamedElement="_kEaGwHsIEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_3" text="The configuration management process shall ensure the integrity of configuration items through appropriate scheduling and resourcing of storage, archiving (long term storage) and backup of the used CM systems.equirements." base_Class="_kEaGwHsIEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_kGWngHsIEe69aLSa4ipdUg" base_NamedElement="_kGWAcHsIEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_4" text="The configuration management process shall ensure the integrity of baselines through appropriate scheduling and resourcing of storage, archiving (long term storage) and backup of the used CM systems.equirements." base_Class="_kGWAcHsIEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_kICpkXsIEe69aLSa4ipdUg" base_NamedElement="_kICpkHsIEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_5" text="The configuration management process shall ensure the availability of configuration items through appropriate scheduling and resourcing of storage, archiving (long term storage) and backup of the used CM systems.equirements." base_Class="_kICpkHsIEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_kJ8uEHsIEe69aLSa4ipdUg" base_NamedElement="_kJ8HAHsIEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_6" text="The configuration management process shall ensure the availability of baselines through appropriate scheduling and resourcing of storage, archiving (long term storage) and backup of the used CM systems.equirements." base_Class="_kJ8HAHsIEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_kLQVoXsIEe69aLSa4ipdUg" base_NamedElement="_kLQVoHsIEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_7" text="The configuration management process shall extend storage beyond guaranteed lifetime of available storage media." base_Class="_kLQVoHsIEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_pJkCsXsIEe69aLSa4ipdUg" base_NamedElement="_pJkCsHsIEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_1" text="The configuration management process shall manage the storage of configuration items." base_Class="_pJkCsHsIEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_0reUwHsKEe69aLSa4ipdUg" base_NamedElement="_0rdtsHsKEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_9" text="The configuration management process shall include relevant, affected configuration items as referenced in note 2 and note 3." base_Class="_0rdtsHsKEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_NMvEEHsLEe69aLSa4ipdUg" base_NamedElement="_NMudAHsLEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_10" text="The configuration management process shall ensure availability as specified by contract requirements." base_Class="_NMudAHsLEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_rQsm8HsLEe69aLSa4ipdUg" base_NamedElement="_rQr_4HsLEe69aLSa4ipdUg" id="ASPICE_SUP8_BP9_8" text="The configuration management process shall extend archiving beyond guaranteed lifetime of available storage media." base_Class="_rQr_4HsLEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_wQLjQXsMEe69aLSa4ipdUg" base_NamedElement="_wQLjQHsMEe69aLSa4ipdUg" id="ASPICE_SUP8_BP7_1" text="The configuration management process shall report configuration status." base_Class="_wQLjQHsMEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_wTCC8HsMEe69aLSa4ipdUg" base_NamedElement="_wTBb4HsMEe69aLSa4ipdUg" id="ASPICE_SUP8_BP7_2" text="The configuration management process shall record status of configuration items to support project management and other relevant processes." base_Class="_wTBb4HsMEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_wU0ysHsMEe69aLSa4ipdUg" base_NamedElement="_wU0LoHsMEe69aLSa4ipdUg" id="ASPICE_SUP8_BP7_3" text="The configuration management process shall report status of configuration items to support project management and other relevant processes." base_Class="_wU0LoHsMEe69aLSa4ipdUg"/>
   <ModelElements:Stakeholder xmi:id="_ZsirUHsZEe69aLSa4ipdUg" base_Classifier="_ZshdMHsZEe69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_rJjUwHsZEe69aLSa4ipdUg" base_NamedElement="_rJitsHsZEe69aLSa4ipdUg" id="ASPICE_SUP8_OUTCOME6" text="&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Process outcome 6>" base_Class="_rJitsHsZEe69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_rNNswXsZEe69aLSa4ipdUg" base_NamedElement="_rNNswHsZEe69aLSa4ipdUg" id="ASPICE_SUP8_OUTCOME7" text="&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Process outcome 7>" base_Class="_rNNswHsZEe69aLSa4ipdUg"/>
@@ -406,20 +438,65 @@
   <Requirements:Requirement xmi:id="_OyCv0HsdEe69aLSa4ipdUg" base_NamedElement="_OyCIwHsdEe69aLSa4ipdUg" id="ASPICE_SUP8_OUTCOME6_1" text="The configuration management process shall ensure the completeness of the baselines." base_Class="_OyCIwHsdEe69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_O3pokXsdEe69aLSa4ipdUg" base_NamedElement="_O3pokHsdEe69aLSa4ipdUg" id="ASPICE_SUP8_OUTCOME6_2" text="The configuration management process shall ensure the consistency of the baselines." base_Class="_O3pokHsdEe69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_2XGOcHsdEe69aLSa4ipdUg" base_NamedElement="_2XFnYHsdEe69aLSa4ipdUg" id="ASPICE_SUP8_OUTCOME7_1" text="The configuration management process shall control the storage of the configuration items." base_Class="_2XFnYHsdEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_tw4xIHseEe69aLSa4ipdUg" base_NamedElement="_tw4KEHseEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1" text="The configuration management process shall develop a configuration management strategy." base_Class="_tw4KEHseEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_xJYW8HseEe69aLSa4ipdUg" base_NamedElement="_xJXv4HseEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1" text="The configuration management strategy shall include responsibilities." base_Class="_xJXv4HseEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_xMdgIXseEe69aLSa4ipdUg" base_NamedElement="_xMdgIHseEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1" text="The configuration management strategy should typically supports the handling of product/software variants which may be caused by different sets of application parameters or by other causes." base_Class="_xMdgIHseEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_xOXkoXseEe69aLSa4ipdUg" base_NamedElement="_xOXkoHseEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1" text="The branch management strategy should specify in which cases branching is permissible." base_Class="_xOXkoHseEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_AglKcHsfEe69aLSa4ipdUg" base_NamedElement="_AgkjYHsfEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1" text="The configuration management strategy shall include tools." base_Class="_AgkjYHsfEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_AkCuIXsfEe69aLSa4ipdUg" base_NamedElement="_AkCuIHsfEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1" text="The configuration management strategy shall include criteria for configuration items." base_Class="_AkCuIHsfEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_AmrLYHsfEe69aLSa4ipdUg" base_NamedElement="_AmqkUHsfEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1" text="The configuration management strategy shall include naming conventions." base_Class="_AmqkUHsfEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_Aoo6QXsfEe69aLSa4ipdUg" base_NamedElement="_Aoo6QHsfEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1" text="The configuration management strategy shall include access rights." base_Class="_Aoo6QHsfEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_AqvzEXsfEe69aLSa4ipdUg" base_NamedElement="_AqvzEHsfEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1" text="The configuration management strategy shall include criteria for baselines;" base_Class="_AqvzEHsfEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_Atb6sHsfEe69aLSa4ipdUg" base_NamedElement="_AtbToHsfEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1" text="The configuration management strategy shall include a merge strategy." base_Class="_AtbToHsfEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_AwPXEHsfEe69aLSa4ipdUg" base_NamedElement="_AwOwAHsfEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1" text="The configuration management strategy shall include the revision history approach for configuration items." base_Class="_AwOwAHsfEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_LiagMXsfEe69aLSa4ipdUg" base_NamedElement="_LiagMHsfEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1" text="The configuration management strategy shall include repositories." base_Class="_LiagMHsfEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_1YXDYXsfEe69aLSa4ipdUg" base_NamedElement="_1YXDYHsfEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1" text="The configuration management strategy shall include a branch strategy." base_Class="_1YXDYHsfEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_auzVYHsgEe69aLSa4ipdUg" base_NamedElement="_auyuUHsgEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1" text="The branch management strategy should specify whether authorization is required." base_Class="_auyuUHsgEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_iOy8EHsgEe69aLSa4ipdUg" base_NamedElement="_iOyVAHsgEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1" text="The branch management strategy should specify how branches are merged." base_Class="_iOyVAHsgEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_kBVQsXsgEe69aLSa4ipdUg" base_NamedElement="_kBVQsHsgEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1" text="The branch management strategy should specify which activities are required to verify that all changes have been consistently integrated without damage to other changes or to the original software." base_Class="_kBVQsHsgEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_tw4xIHseEe69aLSa4ipdUg" base_NamedElement="_tw4KEHseEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1_1" text="The configuration management process shall develop a configuration management strategy." base_Class="_tw4KEHseEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_xJYW8HseEe69aLSa4ipdUg" base_NamedElement="_xJXv4HseEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1_1_1" text="The configuration management strategy shall include responsibilities." base_Class="_xJXv4HseEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_xMdgIXseEe69aLSa4ipdUg" base_NamedElement="_xMdgIHseEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1_2" text="The configuration management strategy should typically supports the handling of product/software variants which may be caused by different sets of application parameters or by other causes." base_Class="_xMdgIHseEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_xOXkoXseEe69aLSa4ipdUg" base_NamedElement="_xOXkoHseEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1_3" text="The branch management strategy should specify in which cases branching is permissible." base_Class="_xOXkoHseEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_AglKcHsfEe69aLSa4ipdUg" base_NamedElement="_AgkjYHsfEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1_1_2" text="The configuration management strategy shall include tools." base_Class="_AgkjYHsfEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_AkCuIXsfEe69aLSa4ipdUg" base_NamedElement="_AkCuIHsfEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1_1_4" text="The configuration management strategy shall include criteria for configuration items." base_Class="_AkCuIHsfEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_AmrLYHsfEe69aLSa4ipdUg" base_NamedElement="_AmqkUHsfEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1_1_5" text="The configuration management strategy shall include naming conventions." base_Class="_AmqkUHsfEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_Aoo6QXsfEe69aLSa4ipdUg" base_NamedElement="_Aoo6QHsfEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1_1_6" text="The configuration management strategy shall include access rights." base_Class="_Aoo6QHsfEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_AqvzEXsfEe69aLSa4ipdUg" base_NamedElement="_AqvzEHsfEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1_1_7" text="The configuration management strategy shall include criteria for baselines;" base_Class="_AqvzEHsfEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_Atb6sHsfEe69aLSa4ipdUg" base_NamedElement="_AtbToHsfEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1_1_8" text="The configuration management strategy shall include a merge strategy." base_Class="_AtbToHsfEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_AwPXEHsfEe69aLSa4ipdUg" base_NamedElement="_AwOwAHsfEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1_1_10" text="The configuration management strategy shall include the revision history approach for configuration items." base_Class="_AwOwAHsfEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_LiagMXsfEe69aLSa4ipdUg" base_NamedElement="_LiagMHsfEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1_1_3" text="The configuration management strategy shall include repositories." base_Class="_LiagMHsfEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_1YXDYXsfEe69aLSa4ipdUg" base_NamedElement="_1YXDYHsfEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1_1_9" text="The configuration management strategy shall include a branch strategy." base_Class="_1YXDYHsfEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_auzVYHsgEe69aLSa4ipdUg" base_NamedElement="_auyuUHsgEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1_4" text="The branch management strategy should specify whether authorization is required." base_Class="_auyuUHsgEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_iOy8EHsgEe69aLSa4ipdUg" base_NamedElement="_iOyVAHsgEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1_5" text="The branch management strategy should specify how branches are merged." base_Class="_iOyVAHsgEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_kBVQsXsgEe69aLSa4ipdUg" base_NamedElement="_kBVQsHsgEe69aLSa4ipdUg" id="ASPICE_SUP8_BP1_6" text="The branch management strategy should specify which activities are required to verify that all changes have been consistently integrated without damage to other changes or to the original software." base_Class="_kBVQsHsgEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="__2rfwHtIEe69aLSa4ipdUg" base_NamedElement="__2q4sHtIEe69aLSa4ipdUg" id="ASPICE_SUP8_BP2_1" text="The configuration management process shall identify configuration items." base_Class="__2q4sHtIEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_Dmag4XtJEe69aLSa4ipdUg" base_NamedElement="_Dmag4HtJEe69aLSa4ipdUg" id="ASPICE_SUP8_BP2_2" text="The configuration management process shall identify configuration items according to the configuration management strategy." base_Class="_Dmag4HtJEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_Dp22cXtJEe69aLSa4ipdUg" base_NamedElement="_Dp22cHtJEe69aLSa4ipdUg" id="ASPICE_SUP8_BP2_3" text="The configuration management process shall document configuration items according to the configuration management strategy." base_Class="_Dp22cHtJEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_Dv3-4XtJEe69aLSa4ipdUg" base_NamedElement="_Dv3-4HtJEe69aLSa4ipdUg" id="ASPICE_SUP8_BP2_4" text="The configuration management process should apply configuration control for the products that are delivered to the customer, designated internal work products, acquired products, tools and other configuration items that are used in creating and describing these work products." base_Class="_Dv3-4HtJEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_T9TaUHtKEe69aLSa4ipdUg" base_NamedElement="_T9SzQHtKEe69aLSa4ipdUg" id="ASPICE_SUP8_BP3_1" text="The configuration management process shall establish a configuration management system." base_Class="_T9SzQHtKEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_T_aTIHtKEe69aLSa4ipdUg" base_NamedElement="_T_ZsEHtKEe69aLSa4ipdUg" id="ASPICE_SUP8_BP3_2" text="The configuration management process shall establish a configuration management system according to the configuration management strategy." base_Class="_T_ZsEHtKEe69aLSa4ipdUg"/>
+  <ModelElements:Stakeholder xmi:id="_lMmAUHvYEe69aLSa4ipdUg" base_Classifier="_lMf5sHvYEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_mppNIHvYEe69aLSa4ipdUg" base_NamedElement="_mpmw4HvYEe69aLSa4ipdUg" text="A requirement shall describe true stakeholder needs." base_Class="_mpmw4HvYEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_LJU2QXvZEe69aLSa4ipdUg" base_NamedElement="_LJU2QHvZEe69aLSa4ipdUg" text="A requirement should contribute to the achievement of at least one stakeholder goal or need." base_Class="_LJU2QHvZEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_LMp3EHvZEe69aLSa4ipdUg" base_NamedElement="_LMpQAHvZEe69aLSa4ipdUg" text="A requirement should be interpretable the same way by everybody involved." base_Class="_LMpQAHvZEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_LQFlkXvZEe69aLSa4ipdUg" base_NamedElement="_LQFlkHvZEe69aLSa4ipdUg" text="A requirement should miss no parts that are necessary for understanding." base_Class="_LQFlkHvZEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_LTmMkXvZEe69aLSa4ipdUg" base_NamedElement="_LTmMkHvZEe69aLSa4ipdUg" text="A requirement shall be fully understandable by the target audience." base_Class="_LTmMkHvZEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_LXdY4XvZEe69aLSa4ipdUg" base_NamedElement="_LXdY4HvZEe69aLSa4ipdUg" text="A requirement shall be indisputably checkable for its fulfillment by an implemented system, so that stakeholders or customers can decide whether or not a requirement is fulfilled by the implemented system." base_Class="_LXdY4HvZEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_zglN4XvZEe69aLSa4ipdUg" base_NamedElement="_zglN4HvZEe69aLSa4ipdUg" text="A requirement should not contradict another requirement." base_Class="_zglN4HvZEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_zn7MAXvZEe69aLSa4ipdUg" base_NamedElement="_zn7MAHvZEe69aLSa4ipdUg" text="A requirement should be documented only once." base_Class="_zn7MAHvZEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_ztXssXvZEe69aLSa4ipdUg" base_NamedElement="_ztXssHvZEe69aLSa4ipdUg" text="A requirements specification should contain all relevant requirements (functionalrequirements, quality requirements, and constraints) that are known at this point in time." base_Class="_ztXssHvZEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_z_uoAHvZEe69aLSa4ipdUg" base_NamedElement="_z_uA8HvZEe69aLSa4ipdUg" text="A requirements specification should be set up in such a way that it can be modified without degrading its quality." base_Class="_z_uA8HvZEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_0IQR4XvZEe69aLSa4ipdUg" base_NamedElement="_0IQR4HvZEe69aLSa4ipdUg" text="A requirement should be traceable back to their origins." base_Class="_0IQR4HvZEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_0LImwXvZEe69aLSa4ipdUg" base_NamedElement="_0LImwHvZEe69aLSa4ipdUg" text="If there are mandatory structuring or formatting instructions, a requirement should conform to them." base_Class="_0LImwHvZEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_cOKa0HvaEe69aLSa4ipdUg" base_NamedElement="_cOIloHvaEe69aLSa4ipdUg" text="&lt;See Handbook for the CPRE Foundation Level according to the IREB Standard v.1.10 / 3.8 Quality Criteria for Work Products and Requirements>" base_Class="_cOIloHvaEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_NAxOIXvbEe69aLSa4ipdUg" base_NamedElement="_NAxOIHvbEe69aLSa4ipdUg" text="A requirement shall describe agreed stakeholder needs." base_Class="_NAxOIHvbEe69aLSa4ipdUg"/>
+  <ModelElements:Stakeholder xmi:id="_smSw8HwIEe69aLSa4ipdUg" base_Classifier="_smRi0HwIEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_43NwAHwIEe69aLSa4ipdUg" base_NamedElement="_43L60HwIEe69aLSa4ipdUg" base_Class="_43L60HwIEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_E5NhQXwUEe69aLSa4ipdUg" base_NamedElement="_E5NhQHwUEe69aLSa4ipdUg" text="A requirement should not overlap with another requirement." base_Class="_E5NhQHwUEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_i28gUXwUEe69aLSa4ipdUg" base_NamedElement="_i28gUHwUEe69aLSa4ipdUg" text="A requirements specification should contain all relevant requirements (functionalrequirements, quality requirements, and constraints) that are that are related to this specification." base_Class="_i28gUHwUEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_9vqPMXwUEe69aLSa4ipdUg" base_NamedElement="_9vqPMHwUEe69aLSa4ipdUg" text="A requirement should be traceable forward to their implementation (in design, code, and test)." base_Class="_9vqPMHwUEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_9zeYMXwUEe69aLSa4ipdUg" base_NamedElement="_9zeYMHwUEe69aLSa4ipdUg" text="A requirement should be traceable to other requirements they depend on." base_Class="_9zeYMHwUEe69aLSa4ipdUg"/>
+  <ModelElements:Stakeholder xmi:id="_IA71QHwWEe69aLSa4ipdUg" base_Classifier="_IA6nIHwWEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_R7Me8HwWEe69aLSa4ipdUg" base_NamedElement="_R7LQ0HwWEe69aLSa4ipdUg" text="&lt;See Handbook for the CPRE Foundation Level according to the IREB Standard v.1.10 / 3.8 Quality Criteria for Work Products and Requirements>" base_Class="_R7LQ0HwWEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_leam8HwWEe69aLSa4ipdUg" base_NamedElement="_leYxwHwWEe69aLSa4ipdUg" text="A requirement should be self-contained." base_Class="_leYxwHwWEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_l-UPAHwWEe69aLSa4ipdUg" base_NamedElement="_l-Tn8HwWEe69aLSa4ipdUg" text="A requirement should be complete enough to guide further work." base_Class="_l-Tn8HwWEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_mCoHQXwWEe69aLSa4ipdUg" base_NamedElement="_mCoHQHwWEe69aLSa4ipdUg" text="A requirement should be aligned with the identified needs of the stakeholders." base_Class="_mCoHQHwWEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_mGLKgXwWEe69aLSa4ipdUg" base_NamedElement="_mGLKgHwWEe69aLSa4ipdUg" text="A requirement should contains no extraneous content." base_Class="_mGLKgHwWEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_mJBDIXwWEe69aLSa4ipdUg" base_NamedElement="_mJBDIHwWEe69aLSa4ipdUg" text="A requirement should be reasonably feasible and possible within the agreed-upon risk, schedule, and budget." base_Class="_mJBDIHwWEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_mL1toXwWEe69aLSa4ipdUg" base_NamedElement="_mL1toHwWEe69aLSa4ipdUg" text="A requirement should be clearly stated in such a way to make it clear whether a solution does or does not meet the associated need." base_Class="_mL1toHwWEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_mOZ5cXwWEe69aLSa4ipdUg" base_NamedElement="_mOZ5cHwWEe69aLSa4ipdUg" text="A requirement should be able to verify that the requirement or design has been fulfilled.&#xD;&#xA;&#xD;&#xA;" base_Class="_mOZ5cHwWEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_mRZjEXwWEe69aLSa4ipdUg" base_NamedElement="_mRZjEHwWEe69aLSa4ipdUg" text="A requirement should be ranked, grouped, or negotiated in terms of importance and value against all other requirements." base_Class="_mRZjEHwWEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_mUesQHwWEe69aLSa4ipdUg" base_NamedElement="_mUeFMHwWEe69aLSa4ipdUg" text="A requirement should be represented using common terminology of the audience." base_Class="_mUeFMHwWEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_3UmlYXwWEe69aLSa4ipdUg" base_NamedElement="_3UmlYHwWEe69aLSa4ipdUg" text="A requirement should be capable of being understood independently of other requirements or designs." base_Class="_3UmlYHwWEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_RMB2YXwXEe69aLSa4ipdUg" base_NamedElement="_RMB2YHwXEe69aLSa4ipdUg" text="A requirement should be at the appropriate level of detail for work to continue." base_Class="_RMB2YHwXEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_TMc2AHwXEe69aLSa4ipdUg" base_NamedElement="_TMcO8HwXEe69aLSa4ipdUg" text="The level of completeness required shall differ based on perspective or methodology, as well as the point in the life cycle where the requirement is being examined or represented." base_Class="_TMcO8HwXEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_r6hSQHwXEe69aLSa4ipdUg" base_NamedElement="_r6grMHwXEe69aLSa4ipdUg" text="A requirement should not conflict with other requirements." base_Class="_r6grMHwXEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_0P3MkHwXEe69aLSa4ipdUg" base_NamedElement="_0P2lgHwXEe69aLSa4ipdUg" text="A requirement should contains no unnecessary content." base_Class="_0P2lgHwXEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_CyH8IHwYEe69aLSa4ipdUg" base_NamedElement="_CyHVEHwYEe69aLSa4ipdUg" text="A requirement should be considered feasible enough to investigate further through experiments or prototypes." base_Class="_CyHVEHwYEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_aKTmYH1_Ee69aLSa4ipdUg" base_NamedElement="_aKInQH1_Ee69aLSa4ipdUg" text="Acceptable levels of verifying fulfillment depend on the level of abstraction of the requirement or design." base_Class="_aKInQH1_Ee69aLSa4ipdUg"/>
 </xmi:XMI>
