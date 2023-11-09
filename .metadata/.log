@@ -2807,3 +2807,1885 @@ java.lang.IllegalArgumentException: The class 'Classifier' is not a valid classi
 
 !ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 15:21:33.227
 !MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.infra.core.sasheditor 4 2 2023-11-08 17:56:42.405
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.papyrus.infra.core.sasheditor".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jface.viewers.ISelectionProvider.removeSelectionChangedListener(org.eclipse.jface.viewers.ISelectionChangedListener)" because "this.selectionProvider" is null
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.eclipsecopy.MultiPageEditorSite.dispose(MultiPageEditorSite.java:341)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.EditorPart$4.run(EditorPart.java:470)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.EditorPart.disposeEditorPart(EditorPart.java:463)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.EditorPart$2.widgetDisposed(EditorPart.java:123)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:814)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:925)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:821)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:428)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.SashWindowsContainer.dispose(SashWindowsContainer.java:310)
+	at org.eclipse.papyrus.infra.core.sasheditor.editor.AbstractMultiPageSashEditor.deactivate(AbstractMultiPageSashEditor.java:214)
+	at org.eclipse.papyrus.infra.ui.editor.CoreMultiDiagramEditor.deactivate(CoreMultiDiagramEditor.java:971)
+	at org.eclipse.papyrus.editor.PapyrusMultiDiagramEditor.deactivate(PapyrusMultiDiagramEditor.java:62)
+	at org.eclipse.papyrus.infra.ui.editor.CoreMultiDiagramEditor.doReload(CoreMultiDiagramEditor.java:1037)
+	at org.eclipse.papyrus.infra.ui.editor.CoreMultiDiagramEditor$DeferredReload.reloadEditor(CoreMultiDiagramEditor.java:1314)
+	at org.eclipse.papyrus.infra.ui.editor.CoreMultiDiagramEditor$DeferredReload.reload(CoreMultiDiagramEditor.java:1288)
+	at org.eclipse.papyrus.infra.ui.editor.CoreMultiDiagramEditor$4.reloadEditor(CoreMultiDiagramEditor.java:916)
+	at org.eclipse.papyrus.infra.ui.services.ResourceUpdateService$4.runInUIThread(ResourceUpdateService.java:161)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 4 0 2023-11-08 17:56:42.649
+!MESSAGE Unexpected Error
+!STACK 0
+org.eclipse.papyrus.infra.core.extension.NotFoundException: No ActionBarContributor registered under id 'org.eclipse.papyrus.uml.diagram.common.part.UMLDiagramActionBarContributor'.
+	at org.eclipse.papyrus.infra.ui.multidiagram.actionbarcontributor.ActionBarContributorRegistry.getActionBarContributor(ActionBarContributorRegistry.java:82)
+	at org.eclipse.papyrus.infra.gmfdiag.common.GmfEditorFactory$GMFEditorModel.getActionBarContributor(GmfEditorFactory.java:184)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.EditorPart.createEditorActionBarContributor(EditorPart.java:375)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.EditorPart.createSite(EditorPart.java:363)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.EditorPart.createEditorPartControl(EditorPart.java:256)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.EditorPart.createPartControl(EditorPart.java:163)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.TabFolderPart.createChildPart(TabFolderPart.java:1059)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.TabFolderPart.createTabItem(TabFolderPart.java:980)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.TabFolderPart.synchronize2(TabFolderPart.java:904)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.RootPart.synchronize2(RootPart.java:141)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.SashWindowsContainer.refreshTabsInternal(SashWindowsContainer.java:760)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.SashWindowsContainer.refreshTabs(SashWindowsContainer.java:713)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.SashWindowsContainer.createPartControl(SashWindowsContainer.java:249)
+	at org.eclipse.papyrus.infra.core.sasheditor.editor.AbstractMultiPageSashEditor.activate(AbstractMultiPageSashEditor.java:180)
+	at org.eclipse.papyrus.infra.ui.editor.CoreMultiDiagramEditor.activate(CoreMultiDiagramEditor.java:796)
+	at org.eclipse.papyrus.editor.PapyrusMultiDiagramEditor.activate(PapyrusMultiDiagramEditor.java:44)
+	at org.eclipse.papyrus.infra.ui.editor.CoreMultiDiagramEditor.doReload(CoreMultiDiagramEditor.java:1041)
+	at org.eclipse.papyrus.infra.ui.editor.CoreMultiDiagramEditor$DeferredReload.reloadEditor(CoreMultiDiagramEditor.java:1314)
+	at org.eclipse.papyrus.infra.ui.editor.CoreMultiDiagramEditor$DeferredReload.reload(CoreMultiDiagramEditor.java:1288)
+	at org.eclipse.papyrus.infra.ui.editor.CoreMultiDiagramEditor$4.reloadEditor(CoreMultiDiagramEditor.java:916)
+	at org.eclipse.papyrus.infra.ui.services.ResourceUpdateService$4.runInUIThread(ResourceUpdateService.java:161)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 4 0 2023-11-08 17:56:42.716
+!MESSAGE Unexpected Error
+!STACK 0
+org.eclipse.papyrus.infra.core.extension.NotFoundException: No ActionBarContributor registered under id 'org.eclipse.papyrus.uml.diagram.common.part.UMLDiagramActionBarContributor'.
+	at org.eclipse.papyrus.infra.ui.multidiagram.actionbarcontributor.ActionBarContributorRegistry.getActionBarContributor(ActionBarContributorRegistry.java:82)
+	at org.eclipse.papyrus.infra.gmfdiag.common.GmfEditorFactory$GMFEditorModel.getActionBarContributor(GmfEditorFactory.java:184)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.EditorPart.createEditorActionBarContributor(EditorPart.java:375)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.EditorPart.createSite(EditorPart.java:363)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.EditorPart.createEditorPartControl(EditorPart.java:256)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.EditorPart.createPartControl(EditorPart.java:163)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.TabFolderPart.createChildPart(TabFolderPart.java:1059)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.TabFolderPart.createTabItem(TabFolderPart.java:980)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.TabFolderPart.synchronize2(TabFolderPart.java:904)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.RootPart.synchronize2(RootPart.java:141)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.SashWindowsContainer.refreshTabsInternal(SashWindowsContainer.java:760)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.SashWindowsContainer.refreshTabs(SashWindowsContainer.java:713)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.SashWindowsContainer.createPartControl(SashWindowsContainer.java:249)
+	at org.eclipse.papyrus.infra.core.sasheditor.editor.AbstractMultiPageSashEditor.activate(AbstractMultiPageSashEditor.java:180)
+	at org.eclipse.papyrus.infra.ui.editor.CoreMultiDiagramEditor.activate(CoreMultiDiagramEditor.java:796)
+	at org.eclipse.papyrus.editor.PapyrusMultiDiagramEditor.activate(PapyrusMultiDiagramEditor.java:44)
+	at org.eclipse.papyrus.infra.ui.editor.CoreMultiDiagramEditor.doReload(CoreMultiDiagramEditor.java:1041)
+	at org.eclipse.papyrus.infra.ui.editor.CoreMultiDiagramEditor$DeferredReload.reloadEditor(CoreMultiDiagramEditor.java:1314)
+	at org.eclipse.papyrus.infra.ui.editor.CoreMultiDiagramEditor$DeferredReload.reload(CoreMultiDiagramEditor.java:1288)
+	at org.eclipse.papyrus.infra.ui.editor.CoreMultiDiagramEditor$4.reloadEditor(CoreMultiDiagramEditor.java:916)
+	at org.eclipse.papyrus.infra.ui.services.ResourceUpdateService$4.runInUIThread(ResourceUpdateService.java:161)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.papyrus.infra.core.sasheditor 4 2 2023-11-08 17:56:49.062
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.papyrus.infra.core.sasheditor".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jface.viewers.ISelectionProvider.removeSelectionChangedListener(org.eclipse.jface.viewers.ISelectionChangedListener)" because "this.selectionProvider" is null
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.eclipsecopy.MultiPageEditorSite.dispose(MultiPageEditorSite.java:341)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.EditorPart$4.run(EditorPart.java:470)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.EditorPart.disposeEditorPart(EditorPart.java:463)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.EditorPart$2.widgetDisposed(EditorPart.java:123)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:814)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:925)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:821)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:428)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.SashWindowsContainer.dispose(SashWindowsContainer.java:310)
+	at org.eclipse.papyrus.infra.core.sasheditor.internal.SashWindowsContainer$1.widgetDisposed(SashWindowsContainer.java:157)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1071)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:814)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:925)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:821)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:428)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.disposeWidget(SWTPartRenderer.java:183)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.disposeWidget(ContributedPartRenderer.java:286)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:938)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:861)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:845)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeTopicToBeRendered(PartRenderingEngine.java:185)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:314)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1404)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1334)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1177)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1970)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:337)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.papyrus.infra.core 4 0 2023-11-08 17:56:49.218
+!MESSAGE Unexpected Error
+!STACK 0
+org.eclipse.papyrus.infra.core.services.ServiceMultiException: Multiple exceptions
+----- exceptions : ----------
+ServiceDescriptor [key=org.eclipse.papyrus.infra.ui.multidiagram.actionbarcontributor.ActionBarContributorRegistry, serviceClassname=org.eclipse.papyrus.infra.ui.multidiagram.actionbarcontributor.ActionBarContributorRegistry, serviceStartKind=STARTUP, priority=1] : Cannot invoke "java.util.Map.values()" because "this.editorContextDescriptors" is null
+----------------------------- 
+
+	at org.eclipse.papyrus.infra.core.services.ServicesRegistry.disposeRegistry(ServicesRegistry.java:906)
+	at org.eclipse.papyrus.infra.ui.editor.CoreMultiDiagramEditor.deactivate(CoreMultiDiagramEditor.java:976)
+	at org.eclipse.papyrus.editor.PapyrusMultiDiagramEditor.deactivate(PapyrusMultiDiagramEditor.java:62)
+	at org.eclipse.papyrus.infra.core.sasheditor.editor.AbstractMultiPageSashEditor.dispose(AbstractMultiPageSashEditor.java:227)
+	at org.eclipse.papyrus.infra.ui.editor.CoreMultiDiagramEditor.dispose(CoreMultiDiagramEditor.java:893)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.invalidate(CompatibilityPart.java:264)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.destroy(CompatibilityPart.java:421)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:987)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:952)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.uninject(InjectorImpl.java:193)
+	at org.eclipse.e4.core.internal.di.Requestor.uninject(Requestor.java:177)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:89)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:103)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.removeListenersTo(EclipseContext.java:487)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.uninject(ContextInjectionFactory.java:184)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:947)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:861)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:845)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeTopicToBeRendered(PartRenderingEngine.java:185)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:314)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1404)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1334)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1177)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1970)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:337)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.Map.values()" because "this.editorContextDescriptors" is null
+	at org.eclipse.papyrus.infra.ui.multidiagram.actionbarcontributor.ActionBarContributorRegistry.disposeService(ActionBarContributorRegistry.java:177)
+	at org.eclipse.papyrus.infra.core.services.internal.ServiceEntry.disposeService(ServiceEntry.java:175)
+	at org.eclipse.papyrus.infra.core.services.internal.StartStartupEntry.disposeService(StartStartupEntry.java:93)
+	at org.eclipse.papyrus.infra.core.services.ServicesRegistry.disposeServices(ServicesRegistry.java:1046)
+	at org.eclipse.papyrus.infra.core.services.ServicesRegistry.disposeRegistry(ServicesRegistry.java:907)
+	... 74 more
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-11-08 17:59:06.928
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-11-08 17:59:06.928
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 17:59:06.928
+!MESSAGE Software being installed: Sirius - Capella bundle for Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.sirius.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 17:59:06.928
+!MESSAGE Missing requirement: Gendoc SVG 0.7.0.201802021823 (org.eclipse.gendoc.documents.image.svg 0.7.0.201802021823) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 17:59:06.928
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 17:59:06.928
+!MESSAGE From: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 17:59:06.928
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.0.201802021823,0.7.0.201802021823]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 17:59:06.928
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 17:59:06.928
+!MESSAGE From: Sirius - Capella bundle for Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.sirius.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 17:59:06.928
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.feature.feature.group 0.0.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-11-08 17:59:06.940
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-11-08 17:59:06.940
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 17:59:06.940
+!MESSAGE Software being installed: Sirius - Capella bundle for Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.sirius.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 17:59:06.940
+!MESSAGE Missing requirement: Gendoc SVG 0.7.0.201802021823 (org.eclipse.gendoc.documents.image.svg 0.7.0.201802021823) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 17:59:06.940
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 17:59:06.940
+!MESSAGE From: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 17:59:06.940
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.0.201802021823,0.7.0.201802021823]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 17:59:06.940
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 17:59:06.940
+!MESSAGE From: Sirius - Capella bundle for Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.sirius.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 17:59:06.940
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.feature.feature.group 0.0.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-11-08 18:03:23.798
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-11-08 18:03:23.798
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:03:23.798
+!MESSAGE Software being installed: Sirius - Capella bundle for Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.sirius.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:03:23.798
+!MESSAGE Missing requirement: Gendoc SVG 0.7.0.201802021823 (org.eclipse.gendoc.documents.image.svg 0.7.0.201802021823) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 18:03:23.798
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:03:23.798
+!MESSAGE From: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:03:23.798
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.0.201802021823,0.7.0.201802021823]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 18:03:23.798
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:03:23.798
+!MESSAGE From: Sirius - Capella bundle for Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.sirius.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:03:23.798
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.feature.feature.group 0.0.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-11-08 18:03:23.799
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-11-08 18:03:23.799
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:03:23.799
+!MESSAGE Software being installed: Sirius - Capella bundle for Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.sirius.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:03:23.799
+!MESSAGE Missing requirement: Gendoc SVG 0.7.0.201802021823 (org.eclipse.gendoc.documents.image.svg 0.7.0.201802021823) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 18:03:23.799
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:03:23.799
+!MESSAGE From: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:03:23.799
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.0.201802021823,0.7.0.201802021823]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 18:03:23.799
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:03:23.799
+!MESSAGE From: Sirius - Capella bundle for Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.sirius.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:03:23.799
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.feature.feature.group 0.0.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-11-08 18:16:29.608
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-11-08 18:16:29.608
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:16:29.608
+!MESSAGE Software being installed: Papyrus bundle for Gendoc 0.6.0.201610100503 (org.eclipse.gendoc.papyrus.feature.feature.group 0.6.0.201610100503)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:16:29.608
+!MESSAGE Missing requirement: Gendoc SVG 0.6.0.201610100503 (org.eclipse.gendoc.documents.image.svg 0.6.0.201610100503) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:16:29.608
+!MESSAGE Missing requirement: Gendoc SVG 0.7.0.201802021823 (org.eclipse.gendoc.documents.image.svg 0.7.0.201802021823) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 18:16:29.608
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:16:29.608
+!MESSAGE From: Gendoc 0.6.0.201610100503 (org.eclipse.gendoc.feature.feature.group 0.6.0.201610100503)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:16:29.608
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.6.0.201610100503,0.6.0.201610100503]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 18:16:29.608
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:16:29.608
+!MESSAGE From: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:16:29.608
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.0.201802021823,0.7.0.201802021823]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 18:16:29.608
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:16:29.608
+!MESSAGE From: Papyrus bundle for Gendoc 0.6.0.201610100503 (org.eclipse.gendoc.papyrus.feature.feature.group 0.6.0.201610100503)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:16:29.608
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.feature.feature.group 0.0.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-11-08 18:16:29.612
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-11-08 18:16:29.612
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:16:29.612
+!MESSAGE Software being installed: Papyrus bundle for Gendoc 0.6.0.201610100503 (org.eclipse.gendoc.papyrus.feature.feature.group 0.6.0.201610100503)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:16:29.612
+!MESSAGE Missing requirement: Gendoc SVG 0.6.0.201610100503 (org.eclipse.gendoc.documents.image.svg 0.6.0.201610100503) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:16:29.612
+!MESSAGE Missing requirement: Gendoc SVG 0.7.0.201802021823 (org.eclipse.gendoc.documents.image.svg 0.7.0.201802021823) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 18:16:29.612
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:16:29.612
+!MESSAGE From: Gendoc 0.6.0.201610100503 (org.eclipse.gendoc.feature.feature.group 0.6.0.201610100503)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:16:29.612
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.6.0.201610100503,0.6.0.201610100503]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 18:16:29.612
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:16:29.612
+!MESSAGE From: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:16:29.612
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.0.201802021823,0.7.0.201802021823]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 18:16:29.612
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:16:29.612
+!MESSAGE From: Papyrus bundle for Gendoc 0.6.0.201610100503 (org.eclipse.gendoc.papyrus.feature.feature.group 0.6.0.201610100503)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:16:29.612
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.feature.feature.group 0.0.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-11-08 18:19:56.919
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-11-08 18:19:56.919
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:19:56.919
+!MESSAGE Software being installed: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:19:56.919
+!MESSAGE Missing requirement: Gendoc SVG 0.7.0.201802021823 (org.eclipse.gendoc.documents.image.svg 0.7.0.201802021823) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 18:19:56.919
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:19:56.919
+!MESSAGE From: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:19:56.919
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.0.201802021823,0.7.0.201802021823]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-11-08 18:19:56.927
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-11-08 18:19:56.928
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:19:56.928
+!MESSAGE Software being installed: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:19:56.928
+!MESSAGE Missing requirement: Gendoc SVG 0.7.0.201802021823 (org.eclipse.gendoc.documents.image.svg 0.7.0.201802021823) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 18:19:56.928
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:19:56.928
+!MESSAGE From: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:19:56.928
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.0.201802021823,0.7.0.201802021823]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-11-08 18:26:43.380
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-11-08 18:26:43.380
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:26:43.380
+!MESSAGE Software being installed: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:26:43.380
+!MESSAGE Missing requirement: Gendoc SVG 0.7.0.201802021823 (org.eclipse.gendoc.documents.image.svg 0.7.0.201802021823) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 18:26:43.380
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:26:43.380
+!MESSAGE From: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:26:43.380
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.0.201802021823,0.7.0.201802021823]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-11-08 18:26:43.382
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-11-08 18:26:43.382
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:26:43.382
+!MESSAGE Software being installed: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:26:43.382
+!MESSAGE Missing requirement: Gendoc SVG 0.7.0.201802021823 (org.eclipse.gendoc.documents.image.svg 0.7.0.201802021823) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 18:26:43.382
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:26:43.382
+!MESSAGE From: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:26:43.382
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.0.201802021823,0.7.0.201802021823]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-11-08 18:39:28.312
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-11-08 18:39:28.312
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:39:28.312
+!MESSAGE Software being installed: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:39:28.312
+!MESSAGE Missing requirement: Gendoc SVG 0.7.0.201802021823 (org.eclipse.gendoc.documents.image.svg 0.7.0.201802021823) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 18:39:28.312
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:39:28.312
+!MESSAGE From: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:39:28.312
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.0.201802021823,0.7.0.201802021823]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-11-08 18:39:28.313
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-11-08 18:39:28.313
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:39:28.313
+!MESSAGE Software being installed: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:39:28.313
+!MESSAGE Missing requirement: Gendoc SVG 0.7.0.201802021823 (org.eclipse.gendoc.documents.image.svg 0.7.0.201802021823) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 18:39:28.313
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:39:28.313
+!MESSAGE From: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:39:28.313
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.0.201802021823,0.7.0.201802021823]
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2023-11-08 18:42:38.571
+!MESSAGE Unable to read repository at https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-modeling-tools.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-modeling-tools.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:129)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.loadMetadataRepository(ProvisioningUI.java:498)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getMetadataRepository(MetadataRepositoryElement.java:138)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.fetchChildren(MetadataRepositoryElement.java:84)
+	at org.eclipse.equinox.internal.p2.ui.model.RemoteQueriedElement.fetchDeferredChildren(RemoteQueriedElement.java:38)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-modeling-tools is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	... 11 more
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1002 2023-11-08 18:42:38.572
+!MESSAGE Unable to read repository at https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-modeling-tools.
+!STACK 0
+java.io.IOException: https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-modeling-tools is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.loadMetadataRepository(ProvisioningUI.java:498)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getMetadataRepository(MetadataRepositoryElement.java:138)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.fetchChildren(MetadataRepositoryElement.java:84)
+	at org.eclipse.equinox.internal.p2.ui.model.RemoteQueriedElement.fetchDeferredChildren(RemoteQueriedElement.java:38)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2023-11-08 18:42:41.714
+!MESSAGE Unable to read repository at https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-modeling-tools.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-modeling-tools.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:129)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.loadMetadataRepository(ProvisioningUI.java:498)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getMetadataRepository(MetadataRepositoryElement.java:138)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getRepository(MetadataRepositoryElement.java:127)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getQueryable(MetadataRepositoryElement.java:120)
+	at org.eclipse.equinox.internal.p2.ui.QueryProvider.getQueryDescriptor(QueryProvider.java:92)
+	at org.eclipse.equinox.internal.p2.ui.model.QueriedElement.fetchChildren(QueriedElement.java:104)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.fetchChildren(MetadataRepositoryElement.java:86)
+	at org.eclipse.equinox.internal.p2.ui.model.RemoteQueriedElement.fetchDeferredChildren(RemoteQueriedElement.java:38)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-modeling-tools is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	... 15 more
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1002 2023-11-08 18:42:41.714
+!MESSAGE Unable to read repository at https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-modeling-tools.
+!STACK 0
+java.io.IOException: https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-modeling-tools is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.loadMetadataRepository(ProvisioningUI.java:498)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getMetadataRepository(MetadataRepositoryElement.java:138)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getRepository(MetadataRepositoryElement.java:127)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getQueryable(MetadataRepositoryElement.java:120)
+	at org.eclipse.equinox.internal.p2.ui.QueryProvider.getQueryDescriptor(QueryProvider.java:92)
+	at org.eclipse.equinox.internal.p2.ui.model.QueriedElement.fetchChildren(QueriedElement.java:104)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.fetchChildren(MetadataRepositoryElement.java:86)
+	at org.eclipse.equinox.internal.p2.ui.model.RemoteQueriedElement.fetchDeferredChildren(RemoteQueriedElement.java:38)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-11-08 18:44:20.916
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-11-08 18:44:20.916
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:44:20.916
+!MESSAGE Software being installed: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:44:20.916
+!MESSAGE Missing requirement: Gendoc SVG 0.7.0.201802021823 (org.eclipse.gendoc.documents.image.svg 0.7.0.201802021823) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 18:44:20.916
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:44:20.917
+!MESSAGE From: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:44:20.917
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.0.201802021823,0.7.0.201802021823]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-11-08 18:44:20.928
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-11-08 18:44:20.928
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:44:20.928
+!MESSAGE Software being installed: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:44:20.928
+!MESSAGE Missing requirement: Gendoc SVG 0.7.0.201802021823 (org.eclipse.gendoc.documents.image.svg 0.7.0.201802021823) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 18:44:20.928
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:44:20.928
+!MESSAGE From: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 18:44:20.928
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.0.201802021823,0.7.0.201802021823]
+
+!ENTRY org.eclipse.emf.transaction 4 45 2023-11-08 19:07:11.395
+!MESSAGE Uncaught exception during post-commit listener notifications
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.emf.transaction.impl.InternalTransactionalEditingDomain.startTransaction(boolean, java.util.Map)" because "internalDomain" is null
+	at org.eclipse.papyrus.infra.emf.gmf.util.GMFUnsafe.runUnprotected(GMFUnsafe.java:66)
+	at org.eclipse.papyrus.infra.emf.gmf.util.GMFUnsafe.write(GMFUnsafe.java:61)
+	at org.eclipse.papyrus.infra.emf.gmf.util.GMFUnsafe.write(GMFUnsafe.java:93)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.AbstractTreeAxisManagerForEventList.manageRemoveSemanticElement(AbstractTreeAxisManagerForEventList.java:1026)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.AbstractTreeAxisManagerForEventList.manageRemoveNotification(AbstractTreeAxisManagerForEventList.java:997)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.AbstractAxisManagerForEventList.manageEvent(AbstractAxisManagerForEventList.java:76)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.CompositeAxisManagerForEventList.propagateEvent(CompositeAxisManagerForEventList.java:908)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.CompositeAxisManagerForEventList.manageRemoveNotification(CompositeAxisManagerForEventList.java:878)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.AbstractAxisManagerForEventList.manageEvent(AbstractAxisManagerForEventList.java:76)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.CompositeTreeAxisManagerForEventList.manageEvent(CompositeTreeAxisManagerForEventList.java:82)
+	at org.eclipse.papyrus.infra.nattable.listener.UpdateTableContentListener.resourceSetChanged(UpdateTableContentListener.java:181)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$1.run(TransactionalEditingDomainImpl.java:776)
+	at org.eclipse.papyrus.infra.emf.readonly.PapyrusROTransactionalEditingDomain.runExclusive(PapyrusROTransactionalEditingDomain.java:273)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.postcommit(TransactionalEditingDomainImpl.java:766)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.deactivate(TransactionalEditingDomainImpl.java:538)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.close(TransactionImpl.java:707)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.commit(TransactionImpl.java:469)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:150)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.papyrus.infra.emf.gmf.command.CheckedOperationHistory.doExecute(CheckedOperationHistory.java:208)
+	at org.eclipse.papyrus.infra.emf.gmf.command.CheckedOperationHistory.execute(CheckedOperationHistory.java:197)
+	at org.eclipse.papyrus.infra.emf.gmf.command.NotifyingWorkspaceCommandStack.doExecute(NotifyingWorkspaceCommandStack.java:266)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:160)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:214)
+	at org.eclipse.papyrus.infra.emf.gmf.command.NestingNotifyingWorkspaceCommandStack.execute(NestingNotifyingWorkspaceCommandStack.java:132)
+	at org.eclipse.papyrus.infra.ui.command.AbstractCommandHandler.execute(AbstractCommandHandler.java:156)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor90.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:309)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:243)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.emf.transaction 4 45 2023-11-08 19:13:16.593
+!MESSAGE Uncaught exception during post-commit listener notifications
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.emf.transaction.impl.InternalTransactionalEditingDomain.startTransaction(boolean, java.util.Map)" because "internalDomain" is null
+	at org.eclipse.papyrus.infra.emf.gmf.util.GMFUnsafe.runUnprotected(GMFUnsafe.java:66)
+	at org.eclipse.papyrus.infra.emf.gmf.util.GMFUnsafe.write(GMFUnsafe.java:61)
+	at org.eclipse.papyrus.infra.emf.gmf.util.GMFUnsafe.write(GMFUnsafe.java:93)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.AbstractTreeAxisManagerForEventList.manageRemoveSemanticElement(AbstractTreeAxisManagerForEventList.java:1026)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.AbstractTreeAxisManagerForEventList.manageRemoveNotification(AbstractTreeAxisManagerForEventList.java:997)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.AbstractAxisManagerForEventList.manageEvent(AbstractAxisManagerForEventList.java:76)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.CompositeAxisManagerForEventList.propagateEvent(CompositeAxisManagerForEventList.java:908)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.CompositeAxisManagerForEventList.manageRemoveNotification(CompositeAxisManagerForEventList.java:878)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.AbstractAxisManagerForEventList.manageEvent(AbstractAxisManagerForEventList.java:76)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.CompositeTreeAxisManagerForEventList.manageEvent(CompositeTreeAxisManagerForEventList.java:82)
+	at org.eclipse.papyrus.infra.nattable.listener.UpdateTableContentListener.resourceSetChanged(UpdateTableContentListener.java:181)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$1.run(TransactionalEditingDomainImpl.java:776)
+	at org.eclipse.papyrus.infra.emf.readonly.PapyrusROTransactionalEditingDomain.runExclusive(PapyrusROTransactionalEditingDomain.java:273)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.postcommit(TransactionalEditingDomainImpl.java:766)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.deactivate(TransactionalEditingDomainImpl.java:538)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.close(TransactionImpl.java:707)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.commit(TransactionImpl.java:469)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:150)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.papyrus.infra.emf.gmf.command.CheckedOperationHistory.doExecute(CheckedOperationHistory.java:208)
+	at org.eclipse.papyrus.infra.emf.gmf.command.CheckedOperationHistory.execute(CheckedOperationHistory.java:197)
+	at org.eclipse.papyrus.infra.emf.gmf.command.NotifyingWorkspaceCommandStack.doExecute(NotifyingWorkspaceCommandStack.java:266)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:160)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:214)
+	at org.eclipse.papyrus.infra.emf.gmf.command.NestingNotifyingWorkspaceCommandStack.execute(NestingNotifyingWorkspaceCommandStack.java:132)
+	at org.eclipse.papyrus.infra.ui.command.AbstractCommandHandler.execute(AbstractCommandHandler.java:156)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor90.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:309)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:243)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.emf.transaction 4 45 2023-11-08 19:25:14.110
+!MESSAGE Uncaught exception during post-commit listener notifications
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.emf.transaction.impl.InternalTransactionalEditingDomain.startTransaction(boolean, java.util.Map)" because "internalDomain" is null
+	at org.eclipse.papyrus.infra.emf.gmf.util.GMFUnsafe.runUnprotected(GMFUnsafe.java:66)
+	at org.eclipse.papyrus.infra.emf.gmf.util.GMFUnsafe.write(GMFUnsafe.java:61)
+	at org.eclipse.papyrus.infra.emf.gmf.util.GMFUnsafe.write(GMFUnsafe.java:93)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.AbstractTreeAxisManagerForEventList.manageRemoveSemanticElement(AbstractTreeAxisManagerForEventList.java:1026)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.AbstractTreeAxisManagerForEventList.manageRemoveNotification(AbstractTreeAxisManagerForEventList.java:997)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.AbstractAxisManagerForEventList.manageEvent(AbstractAxisManagerForEventList.java:76)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.CompositeAxisManagerForEventList.propagateEvent(CompositeAxisManagerForEventList.java:908)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.CompositeAxisManagerForEventList.manageRemoveNotification(CompositeAxisManagerForEventList.java:878)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.AbstractAxisManagerForEventList.manageEvent(AbstractAxisManagerForEventList.java:76)
+	at org.eclipse.papyrus.infra.nattable.manager.axis.CompositeTreeAxisManagerForEventList.manageEvent(CompositeTreeAxisManagerForEventList.java:82)
+	at org.eclipse.papyrus.infra.nattable.listener.UpdateTableContentListener.resourceSetChanged(UpdateTableContentListener.java:181)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl$1.run(TransactionalEditingDomainImpl.java:776)
+	at org.eclipse.papyrus.infra.emf.readonly.PapyrusROTransactionalEditingDomain.runExclusive(PapyrusROTransactionalEditingDomain.java:273)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.postcommit(TransactionalEditingDomainImpl.java:766)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.deactivate(TransactionalEditingDomainImpl.java:538)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.close(TransactionImpl.java:707)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.commit(TransactionImpl.java:469)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:150)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.papyrus.infra.emf.gmf.command.CheckedOperationHistory.doExecute(CheckedOperationHistory.java:208)
+	at org.eclipse.papyrus.infra.emf.gmf.command.CheckedOperationHistory.execute(CheckedOperationHistory.java:197)
+	at org.eclipse.papyrus.infra.emf.gmf.command.NotifyingWorkspaceCommandStack.doExecute(NotifyingWorkspaceCommandStack.java:266)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:160)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:214)
+	at org.eclipse.papyrus.infra.emf.gmf.command.NestingNotifyingWorkspaceCommandStack.execute(NestingNotifyingWorkspaceCommandStack.java:132)
+	at org.eclipse.papyrus.infra.ui.command.AbstractCommandHandler.execute(AbstractCommandHandler.java:156)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor90.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:309)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:243)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:01.615
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/ProST/systemsthinking/systemdesign/RequirementAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:04.002
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:04.070
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/RequirementAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.156
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.158
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.162
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.165
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.171
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.173
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:04.442
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:04.460
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/RequirementAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.507
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.509
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.511
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.513
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.515
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.517
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:04.628
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:04.636
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/RequirementAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.677
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.679
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.682
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.683
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.686
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.687
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:04.786
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:04.793
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/NeedAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.846
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.848
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.850
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.851
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.853
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.855
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.857
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.859
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.861
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:04.863
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:04.996
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:05.009
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/NeedAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.067
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.069
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.071
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.073
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.075
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.076
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.078
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.079
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.081
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.082
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:05.182
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:05.192
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/NeedAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.242
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.245
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.247
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.248
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.251
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.252
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.254
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.256
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.257
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:32:05.259
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:05.394
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:05.402
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/ProST/systemsthinking/systemdesign/NewSysML1.6RequirementDiagram.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:05.621
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:05.632
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/Activities/Activities.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:06.402
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:06.426
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/Blocks/Blocks.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:07.257
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:07.285
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/Allocations/Allocations.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:07.527
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:07.539
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/ConstraintBlocks/ConstraintBlocks.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:07.706
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:07.719
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/DeprecatedElements/DeprecatedElements.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:08.000
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:08.012
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/ModelElements/ModelElements.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:08.432
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:08.457
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/PortsAndFlows/PortsAndFlows.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:09.104
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:09.128
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/Requirements/Requirements.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:09.591
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:09.611
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/Libraries/LibrariesDiagram.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:09.833
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:09.845
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/ValueTypes/PrimitiveValueTypesDiagram.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:10.319
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:10.336
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/Libraries/UnitAndQuantityKind/UnitAndQuantityKindDiagram.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:10.638
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:10.657
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/Libraries/ControlValues/ControlValuesDiagram.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:10.782
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:10.796
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/Libraries/Requirements/RequirementsVerdictKindDiagram.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:32:10.892
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:18.342
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/ProST/systemsthinking/systemdesign/RequirementAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:18.371
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:18.378
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/RequirementAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.404
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.404
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.405
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.406
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.406
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.407
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:18.429
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:18.437
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/RequirementAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.462
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.463
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.464
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.464
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.465
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.465
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:18.480
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:18.485
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/RequirementAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.511
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.512
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.513
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.514
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.514
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.515
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:18.550
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:18.555
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/NeedAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.580
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.581
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.581
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.582
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.583
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.583
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.584
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.584
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.585
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.586
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:18.605
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:18.612
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/NeedAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.637
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.638
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.639
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.639
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.640
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.640
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.641
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.641
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.642
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.643
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:18.682
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:18.688
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/NeedAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.712
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.712
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.713
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.714
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.714
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.715
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.716
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.716
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.717
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:39:18.717
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:18.754
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:18.760
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/ProST/systemsthinking/systemdesign/NewSysML1.6RequirementDiagram.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:18.850
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:18.856
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/Activities/Activities.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:19.122
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:19.134
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/Blocks/Blocks.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:19.589
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:19.606
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/Allocations/Allocations.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:19.716
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:19.724
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/ConstraintBlocks/ConstraintBlocks.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:19.831
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:19.837
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/DeprecatedElements/DeprecatedElements.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:19.955
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:19.961
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/ModelElements/ModelElements.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:20.273
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:20.298
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/PortsAndFlows/PortsAndFlows.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:20.725
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:20.741
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/Requirements/Requirements.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:21.069
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:21.083
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/Libraries/LibrariesDiagram.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:21.180
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:21.187
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/ValueTypes/PrimitiveValueTypesDiagram.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:21.418
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:21.429
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/Libraries/UnitAndQuantityKind/UnitAndQuantityKindDiagram.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:21.519
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:21.527
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/Libraries/ControlValues/ControlValuesDiagram.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:21.602
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:21.609
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/Libraries/Requirements/RequirementsVerdictKindDiagram.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:39:21.645
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:05.894
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/ProST/systemsthinking/systemdesign/RequirementAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:05.919
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:05.924
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/RequirementAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:05.950
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:05.950
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:05.951
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:05.952
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:05.953
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:05.953
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:05.978
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:05.985
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/RequirementAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.008
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.009
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.010
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.010
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.011
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.011
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:06.027
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:06.032
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/RequirementAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.062
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.063
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.063
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.064
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.064
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.065
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:06.105
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:06.111
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/NeedAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.137
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.138
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.138
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.139
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.140
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.140
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.141
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.141
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.142
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.142
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:06.161
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:06.168
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/NeedAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.191
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.191
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.192
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.193
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.194
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.195
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.195
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.196
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.196
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.197
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:06.235
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:06.240
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/NeedAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.265
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.265
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.266
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.267
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.267
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.268
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.268
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.269
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.269
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.diagram.common 4 0 2023-11-08 20:48:06.270
+!MESSAGE No semantic element was found during activation of the mask managed label edit policy
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:06.285
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:06.291
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/ProST/systemsthinking/systemdesign/NewSysML1.6RequirementDiagram.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:06.395
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:06.401
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/ProST/systemsthinking/stakeholderanalysis/NeedsAnalysis.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:06.424
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:06.435
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/Activities/Activities.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:06.676
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:06.688
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/Blocks/Blocks.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:07.131
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:07.147
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/Allocations/Allocations.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:07.244
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:07.251
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/ConstraintBlocks/ConstraintBlocks.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:07.349
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:07.355
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/DeprecatedElements/DeprecatedElements.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:07.466
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:07.474
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/ModelElements/ModelElements.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:07.745
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:07.758
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/PortsAndFlows/PortsAndFlows.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:08.193
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:08.212
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/SysML/Requirements/Requirements.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:08.526
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:08.539
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/Libraries/LibrariesDiagram.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:08.621
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:08.632
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/ValueTypes/PrimitiveValueTypesDiagram.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:08.863
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:08.874
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/Libraries/UnitAndQuantityKind/UnitAndQuantityKindDiagram.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:08.963
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:08.971
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/Libraries/ControlValues/ControlValuesDiagram.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:09.043
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:09.051
+!MESSAGE Generate image to:C:/Users/janfr/Documents/ProST/SysML_Model/ProST/Libraries/Requirements/RequirementsVerdictKindDiagram.SVG
+
+!ENTRY org.eclipse.papyrus.uml.export 1 0 2023-11-08 20:48:09.109
+!MESSAGE Start transformation from Graphics to image descriptor
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2023-11-09 09:37:14.026
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-modeling-tools.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:129)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-modeling-tools is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	... 10 more
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1002 2023-11-09 09:37:14.026
+!MESSAGE Unable to read repository at https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-modeling-tools.
+!STACK 0
+java.io.IOException: https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-modeling-tools is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-11-09 09:37:52.156
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-11-09 09:37:52.156
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:37:52.156
+!MESSAGE Software being installed: Sirius - Capella bundle for Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.sirius.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:37:52.156
+!MESSAGE Missing requirement: Gendoc SVG 0.6.0.201610100503 (org.eclipse.gendoc.documents.image.svg 0.6.0.201610100503) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:37:52.156
+!MESSAGE Missing requirement: Gendoc SVG 0.7.0.201802021823 (org.eclipse.gendoc.documents.image.svg 0.7.0.201802021823) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-09 09:37:52.156
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:37:52.156
+!MESSAGE From: Gendoc 0.6.0.201610100503 (org.eclipse.gendoc.feature.feature.group 0.6.0.201610100503)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:37:52.156
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.6.0.201610100503,0.6.0.201610100503]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-09 09:37:52.156
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:37:52.156
+!MESSAGE From: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:37:52.156
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.0.201802021823,0.7.0.201802021823]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-09 09:37:52.156
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:37:52.156
+!MESSAGE From: Sirius - Capella bundle for Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.sirius.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:37:52.156
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.feature.feature.group 0.0.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-11-09 09:37:52.166
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-11-09 09:37:52.166
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:37:52.166
+!MESSAGE Software being installed: Sirius - Capella bundle for Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.sirius.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:37:52.166
+!MESSAGE Missing requirement: Gendoc SVG 0.6.0.201610100503 (org.eclipse.gendoc.documents.image.svg 0.6.0.201610100503) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:37:52.166
+!MESSAGE Missing requirement: Gendoc SVG 0.7.0.201802021823 (org.eclipse.gendoc.documents.image.svg 0.7.0.201802021823) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-09 09:37:52.166
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:37:52.166
+!MESSAGE From: Gendoc 0.6.0.201610100503 (org.eclipse.gendoc.feature.feature.group 0.6.0.201610100503)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:37:52.166
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.6.0.201610100503,0.6.0.201610100503]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-09 09:37:52.166
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:37:52.166
+!MESSAGE From: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:37:52.166
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.0.201802021823,0.7.0.201802021823]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-09 09:37:52.166
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:37:52.166
+!MESSAGE From: Sirius - Capella bundle for Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.sirius.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:37:52.166
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.feature.feature.group 0.0.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-11-09 09:38:39.674
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-11-09 09:38:39.674
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.674
+!MESSAGE Software being installed: Papyrus bundle for Gendoc 0.7.2.202311090548 (org.eclipse.gendoc.papyrus.feature.feature.group 0.7.2.202311090548)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.674
+!MESSAGE Missing requirement: Gendoc SVG 0.6.0.201610100503 (org.eclipse.gendoc.documents.image.svg 0.6.0.201610100503) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.674
+!MESSAGE Missing requirement: Gendoc SVG 0.7.0.201802021823 (org.eclipse.gendoc.documents.image.svg 0.7.0.201802021823) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.674
+!MESSAGE Missing requirement: Gendoc SVG 0.7.2.202311090548 (org.eclipse.gendoc.documents.image.svg 0.7.2.202311090548) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-09 09:38:39.674
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.674
+!MESSAGE From: Gendoc 0.6.0.201610100503 (org.eclipse.gendoc.feature.feature.group 0.6.0.201610100503)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.674
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.6.0.201610100503,0.6.0.201610100503]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-09 09:38:39.674
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.674
+!MESSAGE From: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.674
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.0.201802021823,0.7.0.201802021823]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-09 09:38:39.674
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.674
+!MESSAGE From: Gendoc 0.7.2.202311090548 (org.eclipse.gendoc.feature.feature.group 0.7.2.202311090548)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.674
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.2.202311090548,0.7.2.202311090548]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-09 09:38:39.674
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.674
+!MESSAGE From: Papyrus bundle for Gendoc 0.7.2.202311090548 (org.eclipse.gendoc.papyrus.feature.feature.group 0.7.2.202311090548)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.674
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.feature.feature.group 0.0.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-11-09 09:38:39.680
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-11-09 09:38:39.680
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.680
+!MESSAGE Software being installed: Papyrus bundle for Gendoc 0.7.2.202311090548 (org.eclipse.gendoc.papyrus.feature.feature.group 0.7.2.202311090548)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.680
+!MESSAGE Missing requirement: Gendoc SVG 0.6.0.201610100503 (org.eclipse.gendoc.documents.image.svg 0.6.0.201610100503) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.680
+!MESSAGE Missing requirement: Gendoc SVG 0.7.0.201802021823 (org.eclipse.gendoc.documents.image.svg 0.7.0.201802021823) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.680
+!MESSAGE Missing requirement: Gendoc SVG 0.7.2.202311090548 (org.eclipse.gendoc.documents.image.svg 0.7.2.202311090548) requires 'osgi.bundle; org.apache.batik.dom [1.6.0,1.7.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-09 09:38:39.680
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.680
+!MESSAGE From: Gendoc 0.6.0.201610100503 (org.eclipse.gendoc.feature.feature.group 0.6.0.201610100503)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.680
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.6.0.201610100503,0.6.0.201610100503]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-09 09:38:39.680
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.680
+!MESSAGE From: Gendoc 0.7.0.201802021823 (org.eclipse.gendoc.feature.feature.group 0.7.0.201802021823)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.680
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.0.201802021823,0.7.0.201802021823]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-09 09:38:39.680
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.680
+!MESSAGE From: Gendoc 0.7.2.202311090548 (org.eclipse.gendoc.feature.feature.group 0.7.2.202311090548)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.680
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.documents.image.svg [0.7.2.202311090548,0.7.2.202311090548]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-09 09:38:39.680
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.680
+!MESSAGE From: Papyrus bundle for Gendoc 0.7.2.202311090548 (org.eclipse.gendoc.papyrus.feature.feature.group 0.7.2.202311090548)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-09 09:38:39.680
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.gendoc.feature.feature.group 0.0.0

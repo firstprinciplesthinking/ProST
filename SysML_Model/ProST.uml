@@ -11,7 +11,15 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_MJMrEHf4Ee6kc8YwwNRSfw" name="stakeholderanalysis">
         <packagedElement xmi:type="uml:Activity" xmi:id="_lMf5sHvYEe69aLSa4ipdUg" name="International Requirements Engineering Board">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_cOIloHvaEe69aLSa4ipdUg" name="3.8 Quality Criteria for Work Products and Requirements">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_mpmw4HvYEe69aLSa4ipdUg" name="True"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_mpmw4HvYEe69aLSa4ipdUg" name="True">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_dU9gcH5vEe65tLp0Dv84gQ" annotatedElement="_mpmw4HvYEe69aLSa4ipdUg _74fwsH5uEe65tLp0Dv84gQ">
+                <body>There is no objective &quot;true&quot; evaluation for a requirement or need. A truth must be accepted by all parties. Therefore a requirement/need must be reviewed and accepted by all parties in order to be &quot;true&quot;.</body>
+              </ownedComment>
+              <ownedComment xmi:type="uml:Comment" xmi:id="_UYuOgH7NEe65tLp0Dv84gQ">
+                <body>There is no differentiation between a stakeholder need and a system requirement. A stakeholder&#xD;
+</body>
+              </ownedComment>
+            </nestedClassifier>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_NAxOIHvbEe69aLSa4ipdUg" name="Agreed"/>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_LJU2QHvZEe69aLSa4ipdUg" name="Necessary"/>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_LMpQAHvZEe69aLSa4ipdUg" name="Unambiguous"/>
@@ -72,6 +80,8 @@
             <nestedClassifier xmi:type="uml:Class" xmi:id="_KmM48HiVEe6kc8YwwNRSfw" name="Complete mission within benefit"/>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_K41hEHiVEe6kc8YwwNRSfw" name="Complete mission within risk"/>
           </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_74fwsH5uEe65tLp0Dv84gQ" name="Reviewed"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_vn9qMH7REe65tLp0Dv84gQ" name="Agreed"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Activity" xmi:id="_ZshdMHsZEe69aLSa4ipdUg" name="Automotive Spice">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_43L60HwIEe69aLSa4ipdUg" name="SUP.8 Configuration Management">
@@ -473,7 +483,6 @@
   <Requirements:Requirement xmi:id="_z_uoAHvZEe69aLSa4ipdUg" base_NamedElement="_z_uA8HvZEe69aLSa4ipdUg" text="A requirements specification should be set up in such a way that it can be modified without degrading its quality." base_Class="_z_uA8HvZEe69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_0IQR4XvZEe69aLSa4ipdUg" base_NamedElement="_0IQR4HvZEe69aLSa4ipdUg" text="A requirement should be traceable back to their origins." base_Class="_0IQR4HvZEe69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_0LImwXvZEe69aLSa4ipdUg" base_NamedElement="_0LImwHvZEe69aLSa4ipdUg" text="If there are mandatory structuring or formatting instructions, a requirement should conform to them." base_Class="_0LImwHvZEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_cOKa0HvaEe69aLSa4ipdUg" base_NamedElement="_cOIloHvaEe69aLSa4ipdUg" text="&lt;See Handbook for the CPRE Foundation Level according to the IREB Standard v.1.10 / 3.8 Quality Criteria for Work Products and Requirements>" base_Class="_cOIloHvaEe69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_NAxOIXvbEe69aLSa4ipdUg" base_NamedElement="_NAxOIHvbEe69aLSa4ipdUg" text="A requirement shall describe agreed stakeholder needs." base_Class="_NAxOIHvbEe69aLSa4ipdUg"/>
   <ModelElements:Stakeholder xmi:id="_smSw8HwIEe69aLSa4ipdUg" base_Classifier="_smRi0HwIEe69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_43NwAHwIEe69aLSa4ipdUg" base_NamedElement="_43L60HwIEe69aLSa4ipdUg" base_Class="_43L60HwIEe69aLSa4ipdUg"/>
@@ -499,4 +508,11 @@
   <Requirements:Requirement xmi:id="_0P3MkHwXEe69aLSa4ipdUg" base_NamedElement="_0P2lgHwXEe69aLSa4ipdUg" text="A requirement should contains no unnecessary content." base_Class="_0P2lgHwXEe69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_CyH8IHwYEe69aLSa4ipdUg" base_NamedElement="_CyHVEHwYEe69aLSa4ipdUg" text="A requirement should be considered feasible enough to investigate further through experiments or prototypes." base_Class="_CyHVEHwYEe69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_aKTmYH1_Ee69aLSa4ipdUg" base_NamedElement="_aKInQH1_Ee69aLSa4ipdUg" text="Acceptable levels of verifying fulfillment depend on the level of abstraction of the requirement or design." base_Class="_aKInQH1_Ee69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_gee3IH5kEe65tLp0Dv84gQ" base_NamedElement="_lMf5sHvYEe69aLSa4ipdUg" base_Class="_lMf5sHvYEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_iprjYH5kEe65tLp0Dv84gQ" base_NamedElement="_IA6nIHwWEe69aLSa4ipdUg" base_Class="_IA6nIHwWEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_j7LngH5kEe65tLp0Dv84gQ" base_NamedElement="_smRi0HwIEe69aLSa4ipdUg" base_Class="_smRi0HwIEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_kwVt4H5kEe65tLp0Dv84gQ" base_NamedElement="_ZshdMHsZEe69aLSa4ipdUg" base_Class="_ZshdMHsZEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_cOKa0HvaEe69aLSa4ipdUg" base_NamedElement="_cOIloHvaEe69aLSa4ipdUg" text="&lt;See Handbook for the CPRE Foundation Level according to the IREB Standard v.1.10 / 3.8 Quality Criteria for Work Products and Requirements>" base_Class="_cOIloHvaEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_74iM8H5uEe65tLp0Dv84gQ" base_NamedElement="_74fwsH5uEe65tLp0Dv84gQ" text="A stakeholder need shall be reviewed by the stakeholder and the supplier in order to receive feedback or acceptance." base_Class="_74fwsH5uEe65tLp0Dv84gQ"/>
+  <Requirements:Requirement xmi:id="_vn-RQH7REe65tLp0Dv84gQ" base_NamedElement="_vn9qMH7REe65tLp0Dv84gQ" text="A stakeholder need shall be reviewed by the stakeholder and the supplier in order to receive feedback or acceptance." base_Class="_vn9qMH7REe65tLp0Dv84gQ"/>
 </xmi:XMI>
