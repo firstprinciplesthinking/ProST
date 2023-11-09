@@ -23,6 +23,12 @@
     </xsl:template>
 
     <!-- Template for UML Model -->
+    <xsl:template match="root">
+        <h2>Root</h2>
+        <!-- Apply templates to child elements like Blocks, etc. -->
+    </xsl:template>
+
+    <!-- Template for UML Model -->
     <xsl:template match="uml:Model">
         <h2>Model: <xsl:value-of select="@name"/></h2>
         <!-- Apply templates to child elements like Blocks, etc. -->
