@@ -23,25 +23,30 @@
     </xsl:template>
 
     <!-- Template for UML Model -->
-    <xsl:template match="root">
-        <h2>Root</h2>
-        <!-- Apply templates to child elements like Blocks, etc. -->
-    </xsl:template>
-
-    <!-- Template for UML Model -->
     <xsl:template match="uml:Model">
         <h2>Model: <xsl:value-of select="@name"/></h2>
-        <!-- Apply templates to child elements like Blocks, etc. -->
-        <xsl:apply-templates select=".//uml:Class"/>
+        <!-- Apply templates to all first children of the model element -->
+        <xsl:apply-templates select="nestedClassifier|packagedElement"/>
     </xsl:template>
 
-    <!-- Template for SysML Blocks -->
-    <xsl:template match="uml:Class[sysml:Block]">
-        <h3>Block: <xsl:value-of select="@name"/></h3>
-        <p>
-            <strong>Block Description:</strong>
-            <xsl:value-of select="uml:ownedComment/body"/>
-        </p>
+    <!-- Template for building a element including it sub elements -->
+    <xsl:template match="nestedClassifier|packagedElement">
+		<xsl:variable name="id" select="@xmi:id" />
+		<ul>
+			<li>
+			Element: <xsl:value-of select="@name"/>
+			UML ID: <xsl:value-of select="@xmi:id"/><br/>
+			UML Type: <xsl:value-of select="@xmi:type"/><br/>
+			<xsl:for-each select="//*[@base_NamedElement=$id]">
+				SysML ID: <xsl:value-of select="@xmi:id"/><br/>
+				SysML Text: <xsl:value-of select="@text"/><br/>
+				SysML Type: <xsl:value-of select ="name(.)"/>
+			</xsl:for-each>
+			</li>
+		</ul>
+		
+		<xsl:apply-templates select="nestedClassifier|packagedElement"/>
+		
         <!-- You can add more detail about parts, properties, etc. -->
     </xsl:template>
 
