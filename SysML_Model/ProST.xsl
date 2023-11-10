@@ -12,10 +12,11 @@
     <xsl:template match="/xmi:XMI">
         <html>
             <head>
-                <title>SysML Model</title>
+                <title>SysML HTML5 Viewer</title>
+				<link rel="stylesheet" type="text/css" href="ProST.css" />
             </head>
             <body>
-                <h1>SysML Model Elements</h1>
+                <h1>SysML HTML5 Viewer</h1>
                 <!-- Apply templates to all contained elements -->
                 <xsl:apply-templates select="//uml:Model"/>
             </body>
@@ -27,28 +28,52 @@
         <h2>Model: <xsl:value-of select="@name"/></h2>
 		
         <!-- Apply templates to all first children of the model element -->
-		<ul>
-        <xsl:apply-templates select="nestedClassifier|packagedElement"/>
+		<ul class="tree">
+			<xsl:apply-templates select="nestedClassifier|packagedElement"/>
 		</ul>
     </xsl:template>
 
     <!-- Template for building a element including it sub elements -->
     <xsl:template match="nestedClassifier|packagedElement">
 		<xsl:variable name="id" select="@xmi:id" />
-		<li>
-			Element: <xsl:value-of select="@name"/><br/>
-			UML ID: <xsl:value-of select="@xmi:id"/><br/>
-			UML Type: <xsl:value-of select="@xmi:type"/><br/>
-			<xsl:for-each select="//*[@base_NamedElement=$id]">
-				SysML ID: <xsl:value-of select="@xmi:id"/><br/>
-				SysML Text: <xsl:value-of select="@text"/><br/>
-				SysML Type: <xsl:value-of select ="name(.)"/>
-			</xsl:for-each>
+		<li class="tree">
+			<details>
+				<summary><xsl:value-of select="@name"/></summary>
+				<table>
+					<tr>
+						<td>Type</td>
+						<td><xsl:value-of select="@xmi:type"/></td>
+					</tr>
+					<tr>
+						<td>ID</td>
+						<td><xsl:value-of select="@xmi:id"/></td>
+					</tr>
+					<tr>
+						<td>Name</td>
+						<td><xsl:value-of select="@name"/></td>
+					</tr>
+					<xsl:for-each select="//*[@base_NamedElement=$id]">
+						<xsl:if test="name(.) = 'Requirements:Requirement'">
+						<tr>
+							<td>Requirement</td>
+							<td><xsl:value-of select="@text"/></td>
+						</tr>
+						</xsl:if>
+						
+						<xsl:if test="name(.) = 'ProST:StakeholderNeed'">
+						<tr>
+							<td>Stakeholder Need</td>
+							<td><xsl:value-of select="@text"/></td>
+						</tr>
+						</xsl:if>
+					</xsl:for-each>
+				</table>
 			<xsl:if test="*">
-				<ul>
-				<xsl:apply-templates select="nestedClassifier|packagedElement"/>
+				<ul class="tree">
+					<xsl:apply-templates select="nestedClassifier|packagedElement"/>
 				</ul>
 			</xsl:if>
+			</details>
 		</li>
     </xsl:template>
 </xsl:stylesheet>

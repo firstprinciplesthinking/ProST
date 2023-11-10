@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:ProST="http:///schemas/ProST/_RGQQIH_pEe69CZWd2JV9KA/17" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http:///schemas/ProST/_RGQQIH_pEe69CZWd2JV9KA/17 ../SysML_Profiles/ProST.profile.uml#_RGQQIX_pEe69CZWd2JV9KA http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
   <uml:Model xmi:id="_KSCFsHQ1Ee6lW_W_zHdLeg" name="ProST">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_KYcPsHQ1Ee6lW_W_zHdLeg">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -11,13 +11,12 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_MJMrEHf4Ee6kc8YwwNRSfw" name="stakeholderanalysis">
         <packagedElement xmi:type="uml:Activity" xmi:id="_lMf5sHvYEe69aLSa4ipdUg" name="International Requirements Engineering Board">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_cOIloHvaEe69aLSa4ipdUg" name="3.8 Quality Criteria for Work Products and Requirements">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_UYuOgH7NEe65tLp0Dv84gQ" annotatedElement="_mpmw4HvYEe69aLSa4ipdUg">
+              <body>There is no differentiation between a stakeholder need and a system requirement. A stakeholder need describes the expectations of the stakeholder towards the system. A systems requirement describes expected behaviours/properties of elements within the system.</body>
+            </ownedComment>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_mpmw4HvYEe69aLSa4ipdUg" name="True">
               <ownedComment xmi:type="uml:Comment" xmi:id="_dU9gcH5vEe65tLp0Dv84gQ" annotatedElement="_mpmw4HvYEe69aLSa4ipdUg _74fwsH5uEe65tLp0Dv84gQ">
                 <body>There is no objective &quot;true&quot; evaluation for a requirement or need. A truth must be accepted by all parties. Therefore a requirement/need must be reviewed and accepted by all parties in order to be &quot;true&quot;.</body>
-              </ownedComment>
-              <ownedComment xmi:type="uml:Comment" xmi:id="_UYuOgH7NEe65tLp0Dv84gQ">
-                <body>There is no differentiation between a stakeholder need and a system requirement. A stakeholder&#xD;
-</body>
               </ownedComment>
             </nestedClassifier>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_NAxOIHvbEe69aLSa4ipdUg" name="Agreed"/>
@@ -36,6 +35,7 @@
             <nestedClassifier xmi:type="uml:Class" xmi:id="_9vqPMHwUEe69aLSa4ipdUg" name="Traceable to implementation"/>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_9zeYMHwUEe69aLSa4ipdUg" name="Traceable to dependency"/>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_0LImwHvZEe69aLSa4ipdUg" name="Conform"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_yZwuoH_dEe65tLp0Dv84gQ" name="Requirement19"/>
           </nestedClassifier>
         </packagedElement>
         <packagedElement xmi:type="uml:Activity" xmi:id="_IA6nIHwWEe69aLSa4ipdUg" name="International Institute for Business Analysis">
@@ -82,6 +82,7 @@
           </nestedClassifier>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_74fwsH5uEe65tLp0Dv84gQ" name="Reviewed"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_vn9qMH7REe65tLp0Dv84gQ" name="Agreed"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_KXlhIH8XEe65tLp0Dv84gQ" name="Solution neutral"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Activity" xmi:id="_ZshdMHsZEe69aLSa4ipdUg" name="Automotive Spice">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_43L60HwIEe69aLSa4ipdUg" name="SUP.8 Configuration Management">
@@ -191,6 +192,9 @@
             </nestedClassifier>
           </nestedClassifier>
         </packagedElement>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_Vl2nAH8wEe65tLp0Dv84gQ" name="Cynefin Framework"/>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_ZYhAUH8wEe65tLp0Dv84gQ" name="PDCA"/>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_0g3RMH8xEe65tLp0Dv84gQ" name="OODA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_0cZagHjnEe6kc8YwwNRSfw" name="systemdesign">
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_BM14EHjxEe6kc8YwwNRSfw" name="Satisfy11" client="_v0WQgHQ1Ee6lW_W_zHdLeg" supplier="_4ouz4HjuEe6kc8YwwNRSfw"/>
@@ -311,24 +315,17 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vz7NwHS5Ee6lW_W_zHdLeg">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vz7NwXS5Ee6lW_W_zHdLeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="../ProST_SysML_Profiles/ProST_SysML_Profiles.profile.uml#_rSYSAXS1Ee6lW_W_zHdLeg"/>
-      </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="../ProST_SysML_Profiles/ProST_SysML_Profiles.profile.uml#_tueWcHS0Ee6lW_W_zHdLeg"/>
-    </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WLUbwHZBEe61neuoVUJVVg">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GvbBkHZZEe6bK76pEkQaYA" source="PapyrusVersion">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GvbBkXZZEe6bK76pEkQaYA" key="Version" value="0.0.3"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GvbBknZZEe6bK76pEkQaYA" key="Comment" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GvbBk3ZZEe6bK76pEkQaYA" key="Copyright" value="Processes for Systems Thinking © 2023 by [Jan Frank](https://www.linkedin.com/in/janfrank/) is licensed under [Attribution-NoDerivs 4.0 International](https://creativecommons.org/licenses/by-nd/4.0/)"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GvbBlHZZEe6bK76pEkQaYA" key="Date" value="2023-10-29"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GvbBlXZZEe6bK76pEkQaYA" key="Author" value="Jan Frank"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WLjsUHZBEe61neuoVUJVVg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="../SysML_Profiles/ProST_SysML_Profiles.profile.uml#_FcEjUHZZEe6bK76pEkQaYA"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_6F7PgH8hEe65tLp0Dv84gQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6F7PgX8hEe65tLp0Dv84gQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../SysML_Profiles/ProST_SysML_Profiles.profile.uml#_STRocX_fEe65tLp0Dv84gQ"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="../SysML_Profiles/ProST_SysML_Profiles.profile.uml#_tueWcHS0Ee6lW_W_zHdLeg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_YmH7AH_pEe69CZWd2JV9KA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YmJJIH_pEe69CZWd2JV9KA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../SysML_Profiles/ProST.profile.uml#_RGQQIX_pEe69CZWd2JV9KA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../SysML_Profiles/ProST.profile.uml#_tueWcHS0Ee6lW_W_zHdLeg"/>
     </profileApplication>
   </uml:Model>
   <Requirements:Requirement xmi:id="_-BPawHQ6Ee6lW_W_zHdLeg" base_NamedElement="_-BMXcHQ6Ee6lW_W_zHdLeg" id="Req_QAReq_2" text="The requirement should be  independent meaning it is describe without reference to other requirements, in order to prevent inconsistencies between requirements and enhance understanding of the requirement." base_Class="_-BMXcHQ6Ee6lW_W_zHdLeg"/>
@@ -515,4 +512,9 @@
   <Requirements:Requirement xmi:id="_cOKa0HvaEe69aLSa4ipdUg" base_NamedElement="_cOIloHvaEe69aLSa4ipdUg" text="&lt;See Handbook for the CPRE Foundation Level according to the IREB Standard v.1.10 / 3.8 Quality Criteria for Work Products and Requirements>" base_Class="_cOIloHvaEe69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_74iM8H5uEe65tLp0Dv84gQ" base_NamedElement="_74fwsH5uEe65tLp0Dv84gQ" text="A stakeholder need shall be reviewed by the stakeholder and the supplier in order to receive feedback or acceptance." base_Class="_74fwsH5uEe65tLp0Dv84gQ"/>
   <Requirements:Requirement xmi:id="_vn-RQH7REe65tLp0Dv84gQ" base_NamedElement="_vn9qMH7REe65tLp0Dv84gQ" text="A stakeholder need shall be reviewed by the stakeholder and the supplier in order to receive feedback or acceptance." base_Class="_vn9qMH7REe65tLp0Dv84gQ"/>
+  <Requirements:Requirement xmi:id="_KXn9YH8XEe65tLp0Dv84gQ" base_NamedElement="_KXlhIH8XEe65tLp0Dv84gQ" text="A stakeholder need should not make " base_Class="_KXlhIH8XEe65tLp0Dv84gQ"/>
+  <ModelElements:Stakeholder xmi:id="_Vl64cH8wEe65tLp0Dv84gQ" base_Classifier="_Vl2nAH8wEe65tLp0Dv84gQ"/>
+  <ModelElements:Stakeholder xmi:id="_ZYkDoH8wEe65tLp0Dv84gQ" base_Classifier="_ZYhAUH8wEe65tLp0Dv84gQ"/>
+  <ModelElements:Stakeholder xmi:id="_0g67kH8xEe65tLp0Dv84gQ" base_Classifier="_0g3RMH8xEe65tLp0Dv84gQ"/>
+  <ProST:StakeholderNeed xmi:id="_nZJDYH_pEe6CbI1n67goBA" base_NamedElement="_yZwuoH_dEe65tLp0Dv84gQ" text="asdasdasdasd" base_Class="_yZwuoH_dEe65tLp0Dv84gQ"/>
 </xmi:XMI>
