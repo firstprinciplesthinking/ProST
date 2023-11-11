@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_tueWcHS0Ee6lW_W_zHdLeg" name="ProST" metaclassReference="_N_GtgH8vEe65tLp0Dv84gQ">
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_tueWcHS0Ee6lW_W_zHdLeg" name="ProST" metaclassReference="_N_GtgH8vEe65tLp0Dv84gQ _tKC68H_9Ee6kpOUlFIEmGQ _tKEwIH_9Ee6kpOUlFIEmGQ">
   <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rSYSAHS1Ee6lW_W_zHdLeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-b8IcHZYEe6bK76pEkQaYA" source="PapyrusVersion">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-b8IcXZYEe6bK76pEkQaYA" key="Version" value="0.0.0"/>
@@ -8,6 +8,135 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-b8IdHZYEe6bK76pEkQaYA" key="Date" value=""/>
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-b8IdXZYEe6bK76pEkQaYA" key="Author" value="&lt;undefined>"/>
     </eAnnotations>
+    <contents xmi:type="ecore:EPackage" xmi:id="_yedvAYAKEe6kpOUlFIEmGQ" name="ProST" nsURI="http:///schemas/ProST/_yedvAIAKEe6kpOUlFIEmGQ/22" nsPrefix="ProST">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yedvFYAKEe6kpOUlFIEmGQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yedvFoAKEe6kpOUlFIEmGQ" key="Version" value="0.0.23"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yedvF4AKEe6kpOUlFIEmGQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yedvGIAKEe6kpOUlFIEmGQ" key="Copyright" value="Processes for Systems Thinking © 2023 by [Jan Frank](https://www.linkedin.com/in/janfrank/) is licensed under [Attribution-NoDerivs 4.0 International](https://creativecommons.org/licenses/by-nd/4.0/)"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yedvGYAKEe6kpOUlFIEmGQ" key="Date" value="2023-11-10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yedvGoAKEe6kpOUlFIEmGQ" key="Author" value="Jan Frank"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_yedvAoAKEe6kpOUlFIEmGQ" name="ManagedElement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yedvA4AKEe6kpOUlFIEmGQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_GKf4wH_fEe65tLp0Dv84gQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_yedvBIAKEe6kpOUlFIEmGQ" name="status" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_yedvBoAKEe6kpOUlFIEmGQ" name="base_NamedElement" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_yedvCIAKEe6kpOUlFIEmGQ" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_yedvCoAKEe6kpOUlFIEmGQ" name="StakeholderNeed" eSuperTypes="_yedvAoAKEe6kpOUlFIEmGQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yedvC4AKEe6kpOUlFIEmGQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_OsGGYH_fEe65tLp0Dv84gQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_yedvDYAKEe6kpOUlFIEmGQ" name="SystemRequirement" eSuperTypes="_yedvAoAKEe6kpOUlFIEmGQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yedvDoAKEe6kpOUlFIEmGQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QIL40H_-Ee6kpOUlFIEmGQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_yedvEIAKEe6kpOUlFIEmGQ" name="StakeholderInput" eSuperTypes="_yedvAoAKEe6kpOUlFIEmGQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yedvEYAKEe6kpOUlFIEmGQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_uYIy0IAKEe6kpOUlFIEmGQ"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_TAdtgH_-Ee6kpOUlFIEmGQ" name="ProST" nsURI="http:///schemas/ProST/_TAdGcH_-Ee6kpOUlFIEmGQ/21" nsPrefix="ProST">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TAdtkX_-Ee6kpOUlFIEmGQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TAdtkn_-Ee6kpOUlFIEmGQ" key="Version" value="0.0.22"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TAdtk3_-Ee6kpOUlFIEmGQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TAdtlH_-Ee6kpOUlFIEmGQ" key="Copyright" value="Processes for Systems Thinking © 2023 by [Jan Frank](https://www.linkedin.com/in/janfrank/) is licensed under [Attribution-NoDerivs 4.0 International](https://creativecommons.org/licenses/by-nd/4.0/)"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TAdtlX_-Ee6kpOUlFIEmGQ" key="Date" value="2023-11-10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TAdtln_-Ee6kpOUlFIEmGQ" key="Author" value="Jan Frank"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_TAdtgX_-Ee6kpOUlFIEmGQ" name="ManagedElement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TAdtgn_-Ee6kpOUlFIEmGQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_GKf4wH_fEe65tLp0Dv84gQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_TAdtg3_-Ee6kpOUlFIEmGQ" name="status" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_TAdthX_-Ee6kpOUlFIEmGQ" name="base_NamedElement" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_TAdth3_-Ee6kpOUlFIEmGQ" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_TAdtiX_-Ee6kpOUlFIEmGQ" name="StakeholderNeed" eSuperTypes="_TAdtgX_-Ee6kpOUlFIEmGQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TAdtin_-Ee6kpOUlFIEmGQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_OsGGYH_fEe65tLp0Dv84gQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_TAdtjH_-Ee6kpOUlFIEmGQ" name="SystemRequirement" eSuperTypes="_TAdtgX_-Ee6kpOUlFIEmGQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TAdtjX_-Ee6kpOUlFIEmGQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QIL40H_-Ee6kpOUlFIEmGQ"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_O_UMQX_-Ee6kpOUlFIEmGQ" name="ProST" nsURI="http:///schemas/ProST/_O_UMQH_-Ee6kpOUlFIEmGQ/20" nsPrefix="ProST">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O_UMT3_-Ee6kpOUlFIEmGQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O_UMUH_-Ee6kpOUlFIEmGQ" key="Version" value="0.0.21"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O_UMUX_-Ee6kpOUlFIEmGQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O_UMUn_-Ee6kpOUlFIEmGQ" key="Copyright" value="Processes for Systems Thinking © 2023 by [Jan Frank](https://www.linkedin.com/in/janfrank/) is licensed under [Attribution-NoDerivs 4.0 International](https://creativecommons.org/licenses/by-nd/4.0/)"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O_UMU3_-Ee6kpOUlFIEmGQ" key="Date" value="2023-11-10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O_UMVH_-Ee6kpOUlFIEmGQ" key="Author" value="Jan Frank"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_O_UMQn_-Ee6kpOUlFIEmGQ" name="ManagedElement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O_UMQ3_-Ee6kpOUlFIEmGQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_GKf4wH_fEe65tLp0Dv84gQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_O_UMRH_-Ee6kpOUlFIEmGQ" name="status" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_O_UMRn_-Ee6kpOUlFIEmGQ" name="base_NamedElement" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_O_UMSH_-Ee6kpOUlFIEmGQ" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_O_UMSn_-Ee6kpOUlFIEmGQ" name="StakeholderNeed" eSuperTypes="_O_UMQn_-Ee6kpOUlFIEmGQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O_UMS3_-Ee6kpOUlFIEmGQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_OsGGYH_fEe65tLp0Dv84gQ"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_5eOCUX_9Ee6kpOUlFIEmGQ" name="ProST" nsURI="http:///schemas/ProST/_5eOCUH_9Ee6kpOUlFIEmGQ/19" nsPrefix="ProST">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5eOCX3_9Ee6kpOUlFIEmGQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5eOCYH_9Ee6kpOUlFIEmGQ" key="Version" value="0.0.20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5eOCYX_9Ee6kpOUlFIEmGQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5eOCYn_9Ee6kpOUlFIEmGQ" key="Copyright" value="Processes for Systems Thinking © 2023 by [Jan Frank](https://www.linkedin.com/in/janfrank/) is licensed under [Attribution-NoDerivs 4.0 International](https://creativecommons.org/licenses/by-nd/4.0/)"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5eOCY3_9Ee6kpOUlFIEmGQ" key="Date" value="2023-11-10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5eOCZH_9Ee6kpOUlFIEmGQ" key="Author" value="Jan Frank"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_5eOCUn_9Ee6kpOUlFIEmGQ" name="ManagedElement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5eOCU3_9Ee6kpOUlFIEmGQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_GKf4wH_fEe65tLp0Dv84gQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_5eOCVH_9Ee6kpOUlFIEmGQ" name="status" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_5eOCVn_9Ee6kpOUlFIEmGQ" name="base_NamedElement" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_5eOCWH_9Ee6kpOUlFIEmGQ" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_5eOCWn_9Ee6kpOUlFIEmGQ" name="StakeholderNeed" eSuperTypes="_5eOCUn_9Ee6kpOUlFIEmGQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5eOCW3_9Ee6kpOUlFIEmGQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_OsGGYH_fEe65tLp0Dv84gQ"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_1NqMEH_9Ee6kpOUlFIEmGQ" name="ProST" nsURI="http:///schemas/ProST/_1No98H_9Ee6kpOUlFIEmGQ/18" nsPrefix="ProST">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1NqzIX_9Ee6kpOUlFIEmGQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1NqzIn_9Ee6kpOUlFIEmGQ" key="Version" value="0.0.19"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1NqzI3_9Ee6kpOUlFIEmGQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1NqzJH_9Ee6kpOUlFIEmGQ" key="Copyright" value="Processes for Systems Thinking © 2023 by [Jan Frank](https://www.linkedin.com/in/janfrank/) is licensed under [Attribution-NoDerivs 4.0 International](https://creativecommons.org/licenses/by-nd/4.0/)"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1NqzJX_9Ee6kpOUlFIEmGQ" key="Date" value="2023-11-10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1NqzJn_9Ee6kpOUlFIEmGQ" key="Author" value="Jan Frank"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_1NqMEX_9Ee6kpOUlFIEmGQ" name="ManagedElement">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1NqMEn_9Ee6kpOUlFIEmGQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_GKf4wH_fEe65tLp0Dv84gQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_1NqME3_9Ee6kpOUlFIEmGQ" name="status" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_1NqMFX_9Ee6kpOUlFIEmGQ" name="base_NamedElement" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_1NqMF3_9Ee6kpOUlFIEmGQ" name="StakeholderNeed" eSuperTypes="_1NqMEX_9Ee6kpOUlFIEmGQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1NqMGH_9Ee6kpOUlFIEmGQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_OsGGYH_fEe65tLp0Dv84gQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_1NqMGX_9Ee6kpOUlFIEmGQ" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
     <contents xmi:type="ecore:EPackage" xmi:id="_RGQQIX_pEe69CZWd2JV9KA" name="ProST" nsURI="http:///schemas/ProST/_RGQQIH_pEe69CZWd2JV9KA/17" nsPrefix="ProST">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RGQQIn_pEe69CZWd2JV9KA" source="http://www.eclipse.org/uml2/4.1.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
@@ -407,6 +536,12 @@
   <elementImport xmi:type="uml:ElementImport" xmi:id="_N_GtgH8vEe65tLp0Dv84gQ" alias="Artifact">
     <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Artifact"/>
   </elementImport>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_tKC68H_9Ee6kpOUlFIEmGQ" alias="NamedElement">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#NamedElement"/>
+  </elementImport>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_tKEwIH_9Ee6kpOUlFIEmGQ" alias="Class">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_twFgAHS0Ee6lW_W_zHdLeg">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
@@ -444,11 +579,27 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_NFhxMH_fEe65tLp0Dv84gQ" name="status">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_y5HWkn_9Ee6kpOUlFIEmGQ" name="base_NamedElement" association="_y5HWkH_9Ee6kpOUlFIEmGQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#NamedElement"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y5HWk3_9Ee6kpOUlFIEmGQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3eBFIH_9Ee6kpOUlFIEmGQ" name="base_Class" association="_yidxIH_9Ee6kpOUlFIEmGQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Stereotype" xmi:id="_OsGGYH_fEe65tLp0Dv84gQ" name="StakeholderNeed">
-    <generalization xmi:type="uml:Generalization" xmi:id="_QNfAoH_fEe65tLp0Dv84gQ">
-      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements.stereotype_packagedElement_Requirement"/>
-    </generalization>
     <generalization xmi:type="uml:Generalization" xmi:id="_RpEN0H_fEe65tLp0Dv84gQ" general="_GKf4wH_fEe65tLp0Dv84gQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_yidxIH_9Ee6kpOUlFIEmGQ" name="E_ManagedElement_Class19" memberEnd="_yieYMH_9Ee6kpOUlFIEmGQ _3eBFIH_9Ee6kpOUlFIEmGQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_yieYMH_9Ee6kpOUlFIEmGQ" name="extension_ManagedElement" type="_GKf4wH_fEe65tLp0Dv84gQ" aggregation="composite" association="_yidxIH_9Ee6kpOUlFIEmGQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_y5HWkH_9Ee6kpOUlFIEmGQ" name="E_ManagedElement_NamedElement19" memberEnd="_y5HWkX_9Ee6kpOUlFIEmGQ _y5HWkn_9Ee6kpOUlFIEmGQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_y5HWkX_9Ee6kpOUlFIEmGQ" name="extension_ManagedElement" type="_GKf4wH_fEe65tLp0Dv84gQ" aggregation="composite" association="_y5HWkH_9Ee6kpOUlFIEmGQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_QIL40H_-Ee6kpOUlFIEmGQ" name="SystemRequirement">
+    <generalization xmi:type="uml:Generalization" xmi:id="_SM-bEH_-Ee6kpOUlFIEmGQ" general="_GKf4wH_fEe65tLp0Dv84gQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_uYIy0IAKEe6kpOUlFIEmGQ" name="StakeholderInput">
+    <generalization xmi:type="uml:Generalization" xmi:id="_xvJx8IAKEe6kpOUlFIEmGQ" general="_GKf4wH_fEe65tLp0Dv84gQ"/>
   </packagedElement>
 </uml:Profile>

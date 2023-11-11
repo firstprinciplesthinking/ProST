@@ -29,30 +29,18 @@
 		
         <!-- Apply templates to all first children of the model element -->
 		<ul class="tree">
-			<xsl:apply-templates select="nestedClassifier|packagedElement"/>
+			<xsl:apply-templates select="nestedClassifier|packagedElement|ownedComment"/>
 		</ul>
     </xsl:template>
 
     <!-- Template for building a element including it sub elements -->
-    <xsl:template match="nestedClassifier|packagedElement">
+    <xsl:template match="nestedClassifier|packagedElement|ownedComment">
 		<xsl:variable name="id" select="@xmi:id" />
 		<li class="tree">
-			<details>
+			<details id="{$id}">
 				<summary><xsl:value-of select="@name"/></summary>
 				<table>
-					<tr>
-						<td>Type</td>
-						<td><xsl:value-of select="@xmi:type"/></td>
-					</tr>
-					<tr>
-						<td>ID</td>
-						<td><xsl:value-of select="@xmi:id"/></td>
-					</tr>
-					<tr>
-						<td>Name</td>
-						<td><xsl:value-of select="@name"/></td>
-					</tr>
-					<xsl:for-each select="//*[@base_NamedElement=$id]">
+					<xsl:for-each select="//*[@base_NamedElement=$id]|//*[@base_Classifier=$id]">
 						<xsl:if test="name(.) = 'Requirements:Requirement'">
 						<tr>
 							<td>Requirement</td>
@@ -60,19 +48,33 @@
 						</tr>
 						</xsl:if>
 						
+						<xsl:if test="name(.) = 'ModelElements:Stakeholder'">
+						<tr>
+							<td>Stakeholder</td>
+							<td></td>
+						</tr>
+						</xsl:if>
+						
+						<xsl:if test="name(.) = 'ProST:StakeholderInput'">
+						<tr>
+							<td>Stakeholder Input</td>
+							<td><xsl:value-of select="@status"/></td>
+						</tr>
+						</xsl:if>
+						
 						<xsl:if test="name(.) = 'ProST:StakeholderNeed'">
 						<tr>
 							<td>Stakeholder Need</td>
-							<td><xsl:value-of select="@text"/></td>
+							<td><xsl:value-of select="@status"/></td>
 						</tr>
 						</xsl:if>
 					</xsl:for-each>
 				</table>
-			<xsl:if test="*">
-				<ul class="tree">
-					<xsl:apply-templates select="nestedClassifier|packagedElement"/>
-				</ul>
-			</xsl:if>
+				<xsl:if test="*">
+					<ul class="tree">
+						<xsl:apply-templates select="nestedClassifier|packagedElement|ownedComment"/>
+					</ul>
+				</xsl:if>
 			</details>
 		</li>
     </xsl:template>

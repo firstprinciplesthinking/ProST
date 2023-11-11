@@ -1,9 +1,9 @@
-#Fri Nov 10 16:26:19 CET 2023
+#Fri Nov 10 20:25:26 CET 2023
 rulergrid.rulerunit=2
 print.margin.left=0.5
 viewport.x=0
 rulergrid.gridlinestyle=6
-viewport.y=-146
+viewport.y=-380
 zoom=1.0
 print.useMillim=true
 print.usePortrait=true

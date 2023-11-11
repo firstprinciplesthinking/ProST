@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:ProST="http:///schemas/ProST/_RGQQIH_pEe69CZWd2JV9KA/17" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http:///schemas/ProST/_RGQQIH_pEe69CZWd2JV9KA/17 ../SysML_Profiles/ProST.profile.uml#_RGQQIX_pEe69CZWd2JV9KA http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:ProST="http:///schemas/ProST/_yedvAIAKEe6kpOUlFIEmGQ/22" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http:///schemas/ProST/_yedvAIAKEe6kpOUlFIEmGQ/22 ../SysML_Profiles/ProST.profile.uml#_yedvAYAKEe6kpOUlFIEmGQ http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
   <uml:Model xmi:id="_KSCFsHQ1Ee6lW_W_zHdLeg" name="ProST">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_KYcPsHQ1Ee6lW_W_zHdLeg">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -35,7 +35,6 @@
             <nestedClassifier xmi:type="uml:Class" xmi:id="_9vqPMHwUEe69aLSa4ipdUg" name="Traceable to implementation"/>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_9zeYMHwUEe69aLSa4ipdUg" name="Traceable to dependency"/>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_0LImwHvZEe69aLSa4ipdUg" name="Conform"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_yZwuoH_dEe65tLp0Dv84gQ" name="Requirement19"/>
           </nestedClassifier>
         </packagedElement>
         <packagedElement xmi:type="uml:Activity" xmi:id="_IA6nIHwWEe69aLSa4ipdUg" name="International Institute for Business Analysis">
@@ -253,7 +252,15 @@
           <nestedClassifier xmi:type="uml:Class" xmi:id="_TWKEUXjlEe6kc8YwwNRSfw" name="Verification test"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_TWKrYXjlEe6kc8YwwNRSfw" name="Acceptance test"/>
         </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Z-pBkH_zEe6kpOUlFIEmGQ" name="System element">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_LwGmoH_wEe6kpOUlFIEmGQ" name="Managed">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_d_wGkH_zEe6kpOUlFIEmGQ" name="Open"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_SDRpUH_6Ee6kpOUlFIEmGQ" name="Draft"/>
+          </nestedClassifier>
+        </packagedElement>
       </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_GI-BMH__Ee6kpOUlFIEmGQ" name="systemimplementation"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Ic_5UH__Ee6kpOUlFIEmGQ" name="systemtest"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_KVebQHQ1Ee6lW_W_zHdLeg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KVjTwHQ1Ee6lW_W_zHdLeg" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -315,15 +322,9 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_6F7PgH8hEe65tLp0Dv84gQ">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6F7PgX8hEe65tLp0Dv84gQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="../SysML_Profiles/ProST_SysML_Profiles.profile.uml#_STRocX_fEe65tLp0Dv84gQ"/>
-      </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="../SysML_Profiles/ProST_SysML_Profiles.profile.uml#_tueWcHS0Ee6lW_W_zHdLeg"/>
-    </profileApplication>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_YmH7AH_pEe69CZWd2JV9KA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YmJJIH_pEe69CZWd2JV9KA" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="../SysML_Profiles/ProST.profile.uml#_RGQQIX_pEe69CZWd2JV9KA"/>
+        <references xmi:type="ecore:EPackage" href="../SysML_Profiles/ProST.profile.uml#_yedvAYAKEe6kpOUlFIEmGQ"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="../SysML_Profiles/ProST.profile.uml#_tueWcHS0Ee6lW_W_zHdLeg"/>
     </profileApplication>
@@ -505,10 +506,6 @@
   <Requirements:Requirement xmi:id="_0P3MkHwXEe69aLSa4ipdUg" base_NamedElement="_0P2lgHwXEe69aLSa4ipdUg" text="A requirement should contains no unnecessary content." base_Class="_0P2lgHwXEe69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_CyH8IHwYEe69aLSa4ipdUg" base_NamedElement="_CyHVEHwYEe69aLSa4ipdUg" text="A requirement should be considered feasible enough to investigate further through experiments or prototypes." base_Class="_CyHVEHwYEe69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_aKTmYH1_Ee69aLSa4ipdUg" base_NamedElement="_aKInQH1_Ee69aLSa4ipdUg" text="Acceptable levels of verifying fulfillment depend on the level of abstraction of the requirement or design." base_Class="_aKInQH1_Ee69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_gee3IH5kEe65tLp0Dv84gQ" base_NamedElement="_lMf5sHvYEe69aLSa4ipdUg" base_Class="_lMf5sHvYEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_iprjYH5kEe65tLp0Dv84gQ" base_NamedElement="_IA6nIHwWEe69aLSa4ipdUg" base_Class="_IA6nIHwWEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_j7LngH5kEe65tLp0Dv84gQ" base_NamedElement="_smRi0HwIEe69aLSa4ipdUg" base_Class="_smRi0HwIEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_kwVt4H5kEe65tLp0Dv84gQ" base_NamedElement="_ZshdMHsZEe69aLSa4ipdUg" base_Class="_ZshdMHsZEe69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_cOKa0HvaEe69aLSa4ipdUg" base_NamedElement="_cOIloHvaEe69aLSa4ipdUg" text="&lt;See Handbook for the CPRE Foundation Level according to the IREB Standard v.1.10 / 3.8 Quality Criteria for Work Products and Requirements>" base_Class="_cOIloHvaEe69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_74iM8H5uEe65tLp0Dv84gQ" base_NamedElement="_74fwsH5uEe65tLp0Dv84gQ" text="A stakeholder need shall be reviewed by the stakeholder and the supplier in order to receive feedback or acceptance." base_Class="_74fwsH5uEe65tLp0Dv84gQ"/>
   <Requirements:Requirement xmi:id="_vn-RQH7REe65tLp0Dv84gQ" base_NamedElement="_vn9qMH7REe65tLp0Dv84gQ" text="A stakeholder need shall be reviewed by the stakeholder and the supplier in order to receive feedback or acceptance." base_Class="_vn9qMH7REe65tLp0Dv84gQ"/>
@@ -516,5 +513,28 @@
   <ModelElements:Stakeholder xmi:id="_Vl64cH8wEe65tLp0Dv84gQ" base_Classifier="_Vl2nAH8wEe65tLp0Dv84gQ"/>
   <ModelElements:Stakeholder xmi:id="_ZYkDoH8wEe65tLp0Dv84gQ" base_Classifier="_ZYhAUH8wEe65tLp0Dv84gQ"/>
   <ModelElements:Stakeholder xmi:id="_0g67kH8xEe65tLp0Dv84gQ" base_Classifier="_0g3RMH8xEe65tLp0Dv84gQ"/>
-  <ProST:StakeholderNeed xmi:id="_nZJDYH_pEe6CbI1n67goBA" base_NamedElement="_yZwuoH_dEe65tLp0Dv84gQ" text="asdasdasdasd" base_Class="_yZwuoH_dEe65tLp0Dv84gQ"/>
+  <Requirements:Requirement xmi:id="_LwPwkH_wEe6kpOUlFIEmGQ" base_NamedElement="_LwGmoH_wEe6kpOUlFIEmGQ" text="A system element shall have a status within the element lifecycle in order to ??? account for maturity???" base_Class="_LwGmoH_wEe6kpOUlFIEmGQ"/>
+  <Blocks:Block xmi:id="_Z-sE4H_zEe6kpOUlFIEmGQ" base_Class="_Z-pBkH_zEe6kpOUlFIEmGQ"/>
+  <Requirements:Requirement xmi:id="_d_yi0H_zEe6kpOUlFIEmGQ" base_NamedElement="_d_wGkH_zEe6kpOUlFIEmGQ" text="The element lifecycle shall contain an Open status, in order to indicate that no work has been done yet." base_Class="_d_wGkH_zEe6kpOUlFIEmGQ"/>
+  <Requirements:Requirement xmi:id="_SDSQYH_6Ee6kpOUlFIEmGQ" base_NamedElement="_SDRpUH_6Ee6kpOUlFIEmGQ" text="The element lifecycle may contain a Draft status, in order to indicate the system element is not " base_Class="_SDRpUH_6Ee6kpOUlFIEmGQ"/>
+  <ProST:StakeholderNeed xmi:id="_ZrJc0H_-Ee6kpOUlFIEmGQ" status="Open" base_NamedElement="_mpmw4HvYEe69aLSa4ipdUg" base_Class="_mpmw4HvYEe69aLSa4ipdUg"/>
+  <ProST:StakeholderNeed xmi:id="_e1jsMH_-Ee6kpOUlFIEmGQ" status="Open" base_NamedElement="_NAxOIHvbEe69aLSa4ipdUg" base_Class="_NAxOIHvbEe69aLSa4ipdUg"/>
+  <ProST:StakeholderNeed xmi:id="_fzMZIH_-Ee6kpOUlFIEmGQ" status="Open" base_NamedElement="_LJU2QHvZEe69aLSa4ipdUg" base_Class="_LJU2QHvZEe69aLSa4ipdUg"/>
+  <ProST:StakeholderNeed xmi:id="_g_VcIH_-Ee6kpOUlFIEmGQ" status="Open" base_NamedElement="_LMpQAHvZEe69aLSa4ipdUg" base_Class="_LMpQAHvZEe69aLSa4ipdUg"/>
+  <ProST:StakeholderNeed xmi:id="_iX3VUH_-Ee6kpOUlFIEmGQ" status="Open" base_NamedElement="_LQFlkHvZEe69aLSa4ipdUg" base_Class="_LQFlkHvZEe69aLSa4ipdUg"/>
+  <ProST:StakeholderNeed xmi:id="_jTOxYH_-Ee6kpOUlFIEmGQ" status="Open" base_NamedElement="_LTmMkHvZEe69aLSa4ipdUg" base_Class="_LTmMkHvZEe69aLSa4ipdUg"/>
+  <ProST:StakeholderNeed xmi:id="_kO-n8H_-Ee6kpOUlFIEmGQ" status="Open" base_NamedElement="_LXdY4HvZEe69aLSa4ipdUg" base_Class="_LXdY4HvZEe69aLSa4ipdUg"/>
+  <ProST:StakeholderNeed xmi:id="_lF0JUH_-Ee6kpOUlFIEmGQ" status="Open" base_NamedElement="_zglN4HvZEe69aLSa4ipdUg" base_Class="_zglN4HvZEe69aLSa4ipdUg"/>
+  <ProST:StakeholderNeed xmi:id="_l-008H_-Ee6kpOUlFIEmGQ" status="Open" base_NamedElement="_zn7MAHvZEe69aLSa4ipdUg" base_Class="_zn7MAHvZEe69aLSa4ipdUg"/>
+  <ProST:StakeholderNeed xmi:id="_mxNUIH_-Ee6kpOUlFIEmGQ" status="Open" base_NamedElement="_E5NhQHwUEe69aLSa4ipdUg" base_Class="_E5NhQHwUEe69aLSa4ipdUg"/>
+  <ProST:StakeholderNeed xmi:id="_nff9gH_-Ee6kpOUlFIEmGQ" status="Open" base_NamedElement="_ztXssHvZEe69aLSa4ipdUg" base_Class="_ztXssHvZEe69aLSa4ipdUg"/>
+  <ProST:StakeholderNeed xmi:id="_oSuxQH_-Ee6kpOUlFIEmGQ" status="Open" base_NamedElement="_i28gUHwUEe69aLSa4ipdUg" base_Class="_i28gUHwUEe69aLSa4ipdUg"/>
+  <ProST:StakeholderNeed xmi:id="_pFNXEH_-Ee6kpOUlFIEmGQ" status="Open" base_NamedElement="_z_uA8HvZEe69aLSa4ipdUg" base_Class="_z_uA8HvZEe69aLSa4ipdUg"/>
+  <ProST:StakeholderNeed xmi:id="_p1j18H_-Ee6kpOUlFIEmGQ" status="Open" base_NamedElement="_0IQR4HvZEe69aLSa4ipdUg" base_Class="_0IQR4HvZEe69aLSa4ipdUg"/>
+  <ProST:StakeholderNeed xmi:id="_qkTLQH_-Ee6kpOUlFIEmGQ" status="Open" base_NamedElement="_9vqPMHwUEe69aLSa4ipdUg" base_Class="_9vqPMHwUEe69aLSa4ipdUg"/>
+  <ProST:StakeholderNeed xmi:id="_rafzcH_-Ee6kpOUlFIEmGQ" status="Open" base_NamedElement="_9zeYMHwUEe69aLSa4ipdUg" base_Class="_9zeYMHwUEe69aLSa4ipdUg"/>
+  <ProST:StakeholderNeed xmi:id="_sNjoEH_-Ee6kpOUlFIEmGQ" status="Open" base_NamedElement="_0LImwHvZEe69aLSa4ipdUg" base_Class="_0LImwHvZEe69aLSa4ipdUg"/>
+  <ProST:StakeholderInput xmi:id="_7lY3QIAKEe6kpOUlFIEmGQ" base_NamedElement="_R7LQ0HwWEe69aLSa4ipdUg" base_Class="_R7LQ0HwWEe69aLSa4ipdUg"/>
+  <ProST:StakeholderInput xmi:id="_9NsR0IAKEe6kpOUlFIEmGQ" base_NamedElement="_43L60HwIEe69aLSa4ipdUg" base_Class="_43L60HwIEe69aLSa4ipdUg"/>
+  <ProST:StakeholderInput xmi:id="_WgQiQIALEe6kpOUlFIEmGQ" base_NamedElement="_cOIloHvaEe69aLSa4ipdUg" base_Class="_cOIloHvaEe69aLSa4ipdUg"/>
 </xmi:XMI>
