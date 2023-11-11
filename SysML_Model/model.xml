@@ -1,0 +1,2319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model>
+  <id>_KSCFsHQ1Ee6lW_W_zHdLeg</id>
+  <name>ProST</name>
+  <element>
+    <id>_0tpt4HSaEe6lW_W_zHdLeg</id>
+    <name>systemsthinking</name>
+    <profiles/>
+    <subelements>
+      <element>
+        <id>_MJMrEHf4Ee6kc8YwwNRSfw</id>
+        <name>stakeholderanalysis</name>
+        <profiles/>
+        <subelements>
+          <element>
+            <id>_lMf5sHvYEe69aLSa4ipdUg</id>
+            <name>International Requirements Engineering Board</name>
+            <profiles>
+              <profile>
+                <id>_lMmAUHvYEe69aLSa4ipdUg</id>
+                <name>Stakeholder</name>
+              </profile>
+            </profiles>
+            <subelements>
+              <element>
+                <id>_cOIloHvaEe69aLSa4ipdUg</id>
+                <name>3.8 Quality Criteria for Work Products and Requirements</name>
+                <profiles>
+                  <profile>
+                    <id>_cOKa0HvaEe69aLSa4ipdUg</id>
+                    <name>Requirement</name>
+                    <text>&lt;See Handbook for the CPRE Foundation Level according to the IREB Standard v.1.10 / 3.8 Quality Criteria for Work Products and Requirements&gt;</text>
+                  </profile>
+                  <profile>
+                    <id>_WgQiQIALEe6kpOUlFIEmGQ</id>
+                    <name>Stakeholder Input</name>
+                  </profile>
+                </profiles>
+                <subelements>
+                  <element>
+                    <id>_UYuOgH7NEe65tLp0Dv84gQ</id>
+                    <name/>
+                    <profiles/>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_mpmw4HvYEe69aLSa4ipdUg</id>
+                    <name>True</name>
+                    <profiles>
+                      <profile>
+                        <id>_mppNIHvYEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement shall describe true stakeholder needs.</text>
+                      </profile>
+                      <profile>
+                        <id>_ZrJc0H_-Ee6kpOUlFIEmGQ</id>
+                        <name>Stakeholder Need</name>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_dU9gcH5vEe65tLp0Dv84gQ</id>
+                        <name/>
+                        <profiles/>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_NAxOIHvbEe69aLSa4ipdUg</id>
+                    <name>Agreed</name>
+                    <profiles>
+                      <profile>
+                        <id>_NAxOIXvbEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement shall describe agreed stakeholder needs.</text>
+                      </profile>
+                      <profile>
+                        <id>_e1jsMH_-Ee6kpOUlFIEmGQ</id>
+                        <name>Stakeholder Need</name>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_LJU2QHvZEe69aLSa4ipdUg</id>
+                    <name>Necessary</name>
+                    <profiles>
+                      <profile>
+                        <id>_LJU2QXvZEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should contribute to the achievement of at least one stakeholder goal or need.</text>
+                      </profile>
+                      <profile>
+                        <id>_fzMZIH_-Ee6kpOUlFIEmGQ</id>
+                        <name>Stakeholder Need</name>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_LMpQAHvZEe69aLSa4ipdUg</id>
+                    <name>Unambiguous</name>
+                    <profiles>
+                      <profile>
+                        <id>_LMp3EHvZEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should be interpretable the same way by everybody involved.</text>
+                      </profile>
+                      <profile>
+                        <id>_g_VcIH_-Ee6kpOUlFIEmGQ</id>
+                        <name>Stakeholder Need</name>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_LQFlkHvZEe69aLSa4ipdUg</id>
+                    <name>Nothing missing</name>
+                    <profiles>
+                      <profile>
+                        <id>_LQFlkXvZEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should miss no parts that are necessary for understanding.</text>
+                      </profile>
+                      <profile>
+                        <id>_iX3VUH_-Ee6kpOUlFIEmGQ</id>
+                        <name>Stakeholder Need</name>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_LTmMkHvZEe69aLSa4ipdUg</id>
+                    <name>Understandable</name>
+                    <profiles>
+                      <profile>
+                        <id>_LTmMkXvZEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement shall be fully understandable by the target audience.</text>
+                      </profile>
+                      <profile>
+                        <id>_jTOxYH_-Ee6kpOUlFIEmGQ</id>
+                        <name>Stakeholder Need</name>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_LXdY4HvZEe69aLSa4ipdUg</id>
+                    <name>Verifiable</name>
+                    <profiles>
+                      <profile>
+                        <id>_LXdY4XvZEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement shall be indisputably checkable for its fulfillment by an implemented system, so that stakeholders or customers can decide whether or not a requirement is fulfilled by the implemented system.</text>
+                      </profile>
+                      <profile>
+                        <id>_kO-n8H_-Ee6kpOUlFIEmGQ</id>
+                        <name>Stakeholder Need</name>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_zglN4HvZEe69aLSa4ipdUg</id>
+                    <name>No contradiction</name>
+                    <profiles>
+                      <profile>
+                        <id>_zglN4XvZEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should not contradict another requirement.</text>
+                      </profile>
+                      <profile>
+                        <id>_lF0JUH_-Ee6kpOUlFIEmGQ</id>
+                        <name>Stakeholder Need</name>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_zn7MAHvZEe69aLSa4ipdUg</id>
+                    <name>Documented once</name>
+                    <profiles>
+                      <profile>
+                        <id>_zn7MAXvZEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should be documented only once.</text>
+                      </profile>
+                      <profile>
+                        <id>_l-008H_-Ee6kpOUlFIEmGQ</id>
+                        <name>Stakeholder Need</name>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_E5NhQHwUEe69aLSa4ipdUg</id>
+                    <name>No overlap</name>
+                    <profiles>
+                      <profile>
+                        <id>_E5NhQXwUEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should not overlap with another requirement.</text>
+                      </profile>
+                      <profile>
+                        <id>_mxNUIH_-Ee6kpOUlFIEmGQ</id>
+                        <name>Stakeholder Need</name>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_ztXssHvZEe69aLSa4ipdUg</id>
+                    <name>All known requirements</name>
+                    <profiles>
+                      <profile>
+                        <id>_ztXssXvZEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirements specification should contain all relevant requirements (functionalrequirements, quality requirements, and constraints) that are known at this point in time.</text>
+                      </profile>
+                      <profile>
+                        <id>_nff9gH_-Ee6kpOUlFIEmGQ</id>
+                        <name>Stakeholder Need</name>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_i28gUHwUEe69aLSa4ipdUg</id>
+                    <name>All related requirements</name>
+                    <profiles>
+                      <profile>
+                        <id>_i28gUXwUEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirements specification should contain all relevant requirements (functionalrequirements, quality requirements, and constraints) that are that are related to this specification.</text>
+                      </profile>
+                      <profile>
+                        <id>_oSuxQH_-Ee6kpOUlFIEmGQ</id>
+                        <name>Stakeholder Need</name>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_z_uA8HvZEe69aLSa4ipdUg</id>
+                    <name>Modify without degration</name>
+                    <profiles>
+                      <profile>
+                        <id>_z_uoAHvZEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirements specification should be set up in such a way that it can be modified without degrading its quality.</text>
+                      </profile>
+                      <profile>
+                        <id>_pFNXEH_-Ee6kpOUlFIEmGQ</id>
+                        <name>Stakeholder Need</name>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_0IQR4HvZEe69aLSa4ipdUg</id>
+                    <name>Traceable to origin</name>
+                    <profiles>
+                      <profile>
+                        <id>_0IQR4XvZEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should be traceable back to their origins.</text>
+                      </profile>
+                      <profile>
+                        <id>_p1j18H_-Ee6kpOUlFIEmGQ</id>
+                        <name>Stakeholder Need</name>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_9vqPMHwUEe69aLSa4ipdUg</id>
+                    <name>Traceable to implementation</name>
+                    <profiles>
+                      <profile>
+                        <id>_9vqPMXwUEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should be traceable forward to their implementation (in design, code, and test).</text>
+                      </profile>
+                      <profile>
+                        <id>_qkTLQH_-Ee6kpOUlFIEmGQ</id>
+                        <name>Stakeholder Need</name>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_9zeYMHwUEe69aLSa4ipdUg</id>
+                    <name>Traceable to dependency</name>
+                    <profiles>
+                      <profile>
+                        <id>_9zeYMXwUEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should be traceable to other requirements they depend on.</text>
+                      </profile>
+                      <profile>
+                        <id>_rafzcH_-Ee6kpOUlFIEmGQ</id>
+                        <name>Stakeholder Need</name>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_0LImwHvZEe69aLSa4ipdUg</id>
+                    <name>Conform</name>
+                    <profiles>
+                      <profile>
+                        <id>_0LImwXvZEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>If there are mandatory structuring or formatting instructions, a requirement should conform to them.</text>
+                      </profile>
+                      <profile>
+                        <id>_sNjoEH_-Ee6kpOUlFIEmGQ</id>
+                        <name>Stakeholder Need</name>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                </subelements>
+              </element>
+            </subelements>
+          </element>
+          <element>
+            <id>_IA6nIHwWEe69aLSa4ipdUg</id>
+            <name>International Institute for Business Analysis</name>
+            <profiles>
+              <profile>
+                <id>_IA71QHwWEe69aLSa4ipdUg</id>
+                <name>Stakeholder</name>
+              </profile>
+            </profiles>
+            <subelements>
+              <element>
+                <id>_R7LQ0HwWEe69aLSa4ipdUg</id>
+                <name>7.2.4.1 Characteristics of Requirements and Designs Quality</name>
+                <profiles>
+                  <profile>
+                    <id>_R7Me8HwWEe69aLSa4ipdUg</id>
+                    <name>Requirement</name>
+                    <text>&lt;See Handbook for the CPRE Foundation Level according to the IREB Standard v.1.10 / 3.8 Quality Criteria for Work Products and Requirements&gt;</text>
+                  </profile>
+                  <profile>
+                    <id>_7lY3QIAKEe6kpOUlFIEmGQ</id>
+                    <name>Stakeholder Input</name>
+                  </profile>
+                </profiles>
+                <subelements>
+                  <element>
+                    <id>_leYxwHwWEe69aLSa4ipdUg</id>
+                    <name>Self-contained</name>
+                    <profiles>
+                      <profile>
+                        <id>_leam8HwWEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should be self-contained.</text>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_3UmlYHwWEe69aLSa4ipdUg</id>
+                    <name>Understood independently</name>
+                    <profiles>
+                      <profile>
+                        <id>_3UmlYXwWEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should be capable of being understood independently of other requirements or designs.</text>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_l-Tn8HwWEe69aLSa4ipdUg</id>
+                    <name>Complete to work</name>
+                    <profiles>
+                      <profile>
+                        <id>_l-UPAHwWEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should be complete enough to guide further work.</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_TMcO8HwXEe69aLSa4ipdUg</id>
+                        <name>Different completeness level</name>
+                        <profiles>
+                          <profile>
+                            <id>_TMc2AHwXEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The level of completeness required shall differ based on perspective or methodology, as well as the point in the life cycle where the requirement is being examined or represented.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_RMB2YHwXEe69aLSa4ipdUg</id>
+                    <name>Detailed for work</name>
+                    <profiles>
+                      <profile>
+                        <id>_RMB2YXwXEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should be at the appropriate level of detail for work to continue.</text>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_mCoHQHwWEe69aLSa4ipdUg</id>
+                    <name>Aligned with needs</name>
+                    <profiles>
+                      <profile>
+                        <id>_mCoHQXwWEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should be aligned with the identified needs of the stakeholders.</text>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_r6grMHwXEe69aLSa4ipdUg</id>
+                    <name>Not conflicting</name>
+                    <profiles>
+                      <profile>
+                        <id>_r6hSQHwXEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should not conflict with other requirements.</text>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_mGLKgHwWEe69aLSa4ipdUg</id>
+                    <name>No extraenous content</name>
+                    <profiles>
+                      <profile>
+                        <id>_mGLKgXwWEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should contains no extraneous content.</text>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_0P2lgHwXEe69aLSa4ipdUg</id>
+                    <name>No unnecessary content</name>
+                    <profiles>
+                      <profile>
+                        <id>_0P3MkHwXEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should contains no unnecessary content.</text>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_mJBDIHwWEe69aLSa4ipdUg</id>
+                    <name>Feasible within constraints</name>
+                    <profiles>
+                      <profile>
+                        <id>_mJBDIXwWEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should be reasonably feasible and possible within the agreed-upon risk, schedule, and budget.</text>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_CyHVEHwYEe69aLSa4ipdUg</id>
+                    <name>Considered feasible for investigation</name>
+                    <profiles>
+                      <profile>
+                        <id>_CyH8IHwYEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should be considered feasible enough to investigate further through experiments or prototypes.</text>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_mL1toHwWEe69aLSa4ipdUg</id>
+                    <name>Clearly stated</name>
+                    <profiles>
+                      <profile>
+                        <id>_mL1toXwWEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should be clearly stated in such a way to make it clear whether a solution does or does not meet the associated need.</text>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_mOZ5cHwWEe69aLSa4ipdUg</id>
+                    <name>Able to fulfil</name>
+                    <profiles>
+                      <profile>
+                        <id>_mOZ5cXwWEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should be able to verify that the requirement or design has been fulfilled.&#13;
+&#13;
+</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_aKInQH1_Ee69aLSa4ipdUg</id>
+                        <name>Acceptable fulfilment level</name>
+                        <profiles>
+                          <profile>
+                            <id>_aKTmYH1_Ee69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>Acceptable levels of verifying fulfillment depend on the level of abstraction of the requirement or design.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_mRZjEHwWEe69aLSa4ipdUg</id>
+                    <name>Prioritized</name>
+                    <profiles>
+                      <profile>
+                        <id>_mRZjEXwWEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should be ranked, grouped, or negotiated in terms of importance and value against all other requirements.</text>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_mUeFMHwWEe69aLSa4ipdUg</id>
+                    <name>Understandable</name>
+                    <profiles>
+                      <profile>
+                        <id>_mUesQHwWEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>A requirement should be represented using common terminology of the audience.</text>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                </subelements>
+              </element>
+            </subelements>
+          </element>
+          <element>
+            <id>_smRi0HwIEe69aLSa4ipdUg</id>
+            <name>Processes for Systems Thinking</name>
+            <profiles>
+              <profile>
+                <id>_smSw8HwIEe69aLSa4ipdUg</id>
+                <name>Stakeholder</name>
+              </profile>
+            </profiles>
+            <subelements>
+              <element>
+                <id>_k_EQIHdCEe6bK76pEkQaYA</id>
+                <name>Complete mission within constraints</name>
+                <profiles>
+                  <profile>
+                    <id>_k_GsYHdCEe6bK76pEkQaYA</id>
+                    <name>Requirement</name>
+                    <text>I want to achieve the objectives within the given contraints in order to ensure the organizations success.</text>
+                  </profile>
+                </profiles>
+                <subelements>
+                  <element>
+                    <id>_JamogHiVEe6kc8YwwNRSfw</id>
+                    <name>Complete mission within scope</name>
+                    <profiles>
+                      <profile>
+                        <id>_JapEwHiVEe6kc8YwwNRSfw</id>
+                        <name>Requirement</name>
+                        <text>I want to complete the mission within the scope ranges in order to stay within the given contraints.</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_EG8DsHmLEe6kc8YwwNRSfw</id>
+                        <name>Define mission scope</name>
+                        <profiles>
+                          <profile>
+                            <id>_EG_HAHmLEe6kc8YwwNRSfw</id>
+                            <name>Requirement</name>
+                            <text>I want to define the scope of the mission in order to stay within the scope ranges.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_JthkgHiVEe6kc8YwwNRSfw</id>
+                    <name>Complete mission within quality</name>
+                    <profiles>
+                      <profile>
+                        <id>_JtjZsHiVEe6kc8YwwNRSfw</id>
+                        <name>Requirement</name>
+                        <text>I want to complete the mission within the quality ranges in order to stay within the given contraints.</text>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_J9lZwHiVEe6kc8YwwNRSfw</id>
+                    <name>Complete mission within resources</name>
+                    <profiles>
+                      <profile>
+                        <id>_J9nO8HiVEe6kc8YwwNRSfw</id>
+                        <name>Requirement</name>
+                        <text>I want to complete the mission within the available resources in order to stay within the given contraints.</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_iCWbgHivEe6kc8YwwNRSfw</id>
+                        <name>Estimate required resources</name>
+                        <profiles>
+                          <profile>
+                            <id>_iCY3wHivEe6kc8YwwNRSfw</id>
+                            <name>Requirement</name>
+                            <text>I want to estimate the resources needed for development in order to predict if the mission is able to stay within the available resources.</text>
+                          </profile>
+                        </profiles>
+                        <subelements>
+                          <element>
+                            <id>_4ouz4HjuEe6kc8YwwNRSfw</id>
+                            <name>Quantify system requirements</name>
+                            <profiles>
+                              <profile>
+                                <id>_4owpEHjuEe6kc8YwwNRSfw</id>
+                                <name>Requirement</name>
+                                <text>I want to quantify the system requirements, in order to be able to estimate the resources needed for their implementation.</text>
+                              </profile>
+                            </profiles>
+                            <subelements/>
+                          </element>
+                        </subelements>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_KOoGcHiVEe6kc8YwwNRSfw</id>
+                    <name>Complete mission within time</name>
+                    <profiles>
+                      <profile>
+                        <id>_KOp7oHiVEe6kc8YwwNRSfw</id>
+                        <name>Requirement</name>
+                        <text>I want to complete the mission within the given timeline in order to stay within the given contraints.</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_bJTBoHgCEe6kc8YwwNRSfw</id>
+                        <name>Estimate required time</name>
+                        <profiles>
+                          <profile>
+                            <id>_bJU20HgCEe6kc8YwwNRSfw</id>
+                            <name>Requirement</name>
+                            <text>I want to estimate the time needed for development in order to predict if the mission is able stay within the given timeline.</text>
+                          </profile>
+                        </profiles>
+                        <subelements>
+                          <element>
+                            <id>_zqaN0HjwEe6kc8YwwNRSfw</id>
+                            <name>Quantify system requirements</name>
+                            <profiles>
+                              <profile>
+                                <id>_zqbb8HjwEe6kc8YwwNRSfw</id>
+                                <name>Requirement</name>
+                                <text>I want to quantify the system requirements, in order to be able to estimate the time needed for their implementation.</text>
+                              </profile>
+                            </profiles>
+                            <subelements/>
+                          </element>
+                        </subelements>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_KmM48HiVEe6kc8YwwNRSfw</id>
+                    <name>Complete mission within benefit</name>
+                    <profiles>
+                      <profile>
+                        <id>_KmOuIHiVEe6kc8YwwNRSfw</id>
+                        <name>Requirement</name>
+                        <text>I want to complete the mission within the benefit ranges in order to stay within the given contraints.</text>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_K41hEHiVEe6kc8YwwNRSfw</id>
+                    <name>Complete mission within risk</name>
+                    <profiles>
+                      <profile>
+                        <id>_K43WQHiVEe6kc8YwwNRSfw</id>
+                        <name>Requirement</name>
+                        <text>I want to complete the mission within the acceptable risks in order to stay within the given contraints.</text>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                </subelements>
+              </element>
+              <element>
+                <id>_74fwsH5uEe65tLp0Dv84gQ</id>
+                <name>Reviewed</name>
+                <profiles>
+                  <profile>
+                    <id>_74iM8H5uEe65tLp0Dv84gQ</id>
+                    <name>Requirement</name>
+                    <text>A stakeholder need shall be reviewed by the stakeholder and the supplier in order to receive feedback or acceptance.</text>
+                  </profile>
+                </profiles>
+                <subelements/>
+              </element>
+              <element>
+                <id>_vn9qMH7REe65tLp0Dv84gQ</id>
+                <name>Agreed</name>
+                <profiles>
+                  <profile>
+                    <id>_vn-RQH7REe65tLp0Dv84gQ</id>
+                    <name>Requirement</name>
+                    <text>A stakeholder need shall be reviewed by the stakeholder and the supplier in order to receive feedback or acceptance.</text>
+                  </profile>
+                </profiles>
+                <subelements/>
+              </element>
+              <element>
+                <id>_KXlhIH8XEe65tLp0Dv84gQ</id>
+                <name>Solution neutral</name>
+                <profiles>
+                  <profile>
+                    <id>_KXn9YH8XEe65tLp0Dv84gQ</id>
+                    <name>Requirement</name>
+                    <text>A stakeholder need should not make </text>
+                  </profile>
+                </profiles>
+                <subelements/>
+              </element>
+            </subelements>
+          </element>
+          <element>
+            <id>_ZshdMHsZEe69aLSa4ipdUg</id>
+            <name>Automotive Spice</name>
+            <profiles>
+              <profile>
+                <id>_ZsirUHsZEe69aLSa4ipdUg</id>
+                <name>Stakeholder</name>
+              </profile>
+            </profiles>
+            <subelements>
+              <element>
+                <id>_43L60HwIEe69aLSa4ipdUg</id>
+                <name>SUP.8 Configuration Management</name>
+                <profiles>
+                  <profile>
+                    <id>_43NwAHwIEe69aLSa4ipdUg</id>
+                    <name>Requirement</name>
+                    <text/>
+                  </profile>
+                  <profile>
+                    <id>_9NsR0IAKEe6kpOUlFIEmGQ</id>
+                    <name>Stakeholder Input</name>
+                  </profile>
+                </profiles>
+                <subelements>
+                  <element>
+                    <id>_LO4ZoHryEe69aLSa4ipdUg</id>
+                    <name>Process purpose</name>
+                    <profiles>
+                      <profile>
+                        <id>_LQx3EHryEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Process purpose&gt;</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_YpjH0HsaEe69aLSa4ipdUg</id>
+                        <name>Establish work product integrity</name>
+                        <profiles>
+                          <profile>
+                            <id>_Ypk9AHsaEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall establish the integrity of all work products of a process or project.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_e40tgHsaEe69aLSa4ipdUg</id>
+                        <name>Maintain work product integrity</name>
+                        <profiles>
+                          <profile>
+                            <id>_e41UkHsaEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall maintain the integrity of all work products of a process or project.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_e7u3kHsaEe69aLSa4ipdUg</id>
+                        <name>Make work products available</name>
+                        <profiles>
+                          <profile>
+                            <id>_e7u3kXsaEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall make all work products of a process or project available to affected parties.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_ke1JAHr0Ee69aLSa4ipdUg</id>
+                    <name>Outcome 1</name>
+                    <profiles>
+                      <profile>
+                        <id>_ke3lQHr0Ee69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Process outcome 1&gt;</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_jzOSIHryEe69aLSa4ipdUg</id>
+                        <name>Develop configuration management strategy</name>
+                        <profiles>
+                          <profile>
+                            <id>_jzRVcHryEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall develop a strategy for configuration management.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_uXosEHryEe69aLSa4ipdUg</id>
+                    <name>Outcome 2</name>
+                    <profiles>
+                      <profile>
+                        <id>_uXrvYHryEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Process outcome 2&gt;</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_qj5fQHrzEe69aLSa4ipdUg</id>
+                        <name>Identify configuration items</name>
+                        <profiles>
+                          <profile>
+                            <id>_qj7UcHrzEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall identify all configuration items generated by a process or project according to the configuration management strategy.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_s29uEHrzEe69aLSa4ipdUg</id>
+                        <name>Define configuration items</name>
+                        <profiles>
+                          <profile>
+                            <id>_s3AKUHrzEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall define all configuration items generated by a process or project according to the configuration management strategy.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_tmH6IHrzEe69aLSa4ipdUg</id>
+                        <name>Baseline configuration items</name>
+                        <profiles>
+                          <profile>
+                            <id>_tmKWYHrzEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall baseline all configuration items generated by a process or project according to the configuration management strategy.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_9qvCsHryEe69aLSa4ipdUg</id>
+                    <name>Outcome 3</name>
+                    <profiles>
+                      <profile>
+                        <id>_9qxe8HryEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Process outcome 3&gt;</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_843O8Hr0Ee69aLSa4ipdUg</id>
+                        <name>Control modifications</name>
+                        <profiles>
+                          <profile>
+                            <id>_844dEHr0Ee69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall control modifications of the configuration items.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_9g9wwHr0Ee69aLSa4ipdUg</id>
+                        <name>Control releases</name>
+                        <profiles>
+                          <profile>
+                            <id>_9g_l8Hr0Ee69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall control releases of the configuration items.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_-U72QHryEe69aLSa4ipdUg</id>
+                    <name>Outcome 4</name>
+                    <profiles>
+                      <profile>
+                        <id>_-U-SgHryEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Process outcome 4&gt;</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_PsXxQHr1Ee69aLSa4ipdUg</id>
+                        <name>Make modifications available</name>
+                        <profiles>
+                          <profile>
+                            <id>_PsZmcHr1Ee69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall make modifications available to affected parties.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_QNN0gHr1Ee69aLSa4ipdUg</id>
+                        <name>Make releases available</name>
+                        <profiles>
+                          <profile>
+                            <id>_QNPpsHr1Ee69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall make releases available to affected parties.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_eoBRMHr1Ee69aLSa4ipdUg</id>
+                    <name>Outcome 5</name>
+                    <profiles>
+                      <profile>
+                        <id>_eoDGYHr1Ee69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Process outcome 5&gt;</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_rAW1IHscEe69aLSa4ipdUg</id>
+                        <name>Record configuration item status</name>
+                        <profiles>
+                          <profile>
+                            <id>_rAW1IXscEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall record the status of configuration items.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_4e4PwHscEe69aLSa4ipdUg</id>
+                        <name>Record modification status</name>
+                        <profiles>
+                          <profile>
+                            <id>_4e4PwXscEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall record the status of modification.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_0_0u8HscEe69aLSa4ipdUg</id>
+                        <name>Report configuration item status</name>
+                        <profiles>
+                          <profile>
+                            <id>_0_1WAHscEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall report the status of configuration items.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_6tYusHscEe69aLSa4ipdUg</id>
+                        <name>Report modification status</name>
+                        <profiles>
+                          <profile>
+                            <id>_6tYusXscEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall report the status of modification.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_rJitsHsZEe69aLSa4ipdUg</id>
+                    <name>Outcome 6</name>
+                    <profiles>
+                      <profile>
+                        <id>_rJjUwHsZEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Process outcome 6&gt;</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_OyCIwHsdEe69aLSa4ipdUg</id>
+                        <name>Ensure baseline completeness</name>
+                        <profiles>
+                          <profile>
+                            <id>_OyCv0HsdEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall ensure the completeness of the baselines.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_O3pokHsdEe69aLSa4ipdUg</id>
+                        <name>Ensure baseline consistency</name>
+                        <profiles>
+                          <profile>
+                            <id>_O3pokXsdEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall ensure the consistency of the baselines.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_rNNswHsZEe69aLSa4ipdUg</id>
+                    <name>Outcome 7</name>
+                    <profiles>
+                      <profile>
+                        <id>_rNNswXsZEe69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Process outcome 7&gt;</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_2XFnYHsdEe69aLSa4ipdUg</id>
+                        <name>Control storage</name>
+                        <profiles>
+                          <profile>
+                            <id>_2XGOcHsdEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall control the storage of the configuration items.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_jJph8Hr4Ee69aLSa4ipdUg</id>
+                    <name>Base practice 1</name>
+                    <profiles>
+                      <profile>
+                        <id>_jJqJAHr4Ee69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Base practice 1&gt;</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_tw4KEHseEe69aLSa4ipdUg</id>
+                        <name>Develop configuration management strategy</name>
+                        <profiles>
+                          <profile>
+                            <id>_tw4xIHseEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall develop a configuration management strategy.</text>
+                          </profile>
+                        </profiles>
+                        <subelements>
+                          <element>
+                            <id>_xJXv4HseEe69aLSa4ipdUg</id>
+                            <name>Strategy includes responsibilities</name>
+                            <profiles>
+                              <profile>
+                                <id>_xJYW8HseEe69aLSa4ipdUg</id>
+                                <name>Requirement</name>
+                                <text>The configuration management strategy shall include responsibilities.</text>
+                              </profile>
+                            </profiles>
+                            <subelements/>
+                          </element>
+                          <element>
+                            <id>_AgkjYHsfEe69aLSa4ipdUg</id>
+                            <name>Strategy includes tools</name>
+                            <profiles>
+                              <profile>
+                                <id>_AglKcHsfEe69aLSa4ipdUg</id>
+                                <name>Requirement</name>
+                                <text>The configuration management strategy shall include tools.</text>
+                              </profile>
+                            </profiles>
+                            <subelements/>
+                          </element>
+                          <element>
+                            <id>_LiagMHsfEe69aLSa4ipdUg</id>
+                            <name>Strategy includes repositories</name>
+                            <profiles>
+                              <profile>
+                                <id>_LiagMXsfEe69aLSa4ipdUg</id>
+                                <name>Requirement</name>
+                                <text>The configuration management strategy shall include repositories.</text>
+                              </profile>
+                            </profiles>
+                            <subelements/>
+                          </element>
+                          <element>
+                            <id>_AkCuIHsfEe69aLSa4ipdUg</id>
+                            <name>Strategy includes criteria</name>
+                            <profiles>
+                              <profile>
+                                <id>_AkCuIXsfEe69aLSa4ipdUg</id>
+                                <name>Requirement</name>
+                                <text>The configuration management strategy shall include criteria for configuration items.</text>
+                              </profile>
+                            </profiles>
+                            <subelements/>
+                          </element>
+                          <element>
+                            <id>_AmqkUHsfEe69aLSa4ipdUg</id>
+                            <name>Strategy includes naming conventions</name>
+                            <profiles>
+                              <profile>
+                                <id>_AmrLYHsfEe69aLSa4ipdUg</id>
+                                <name>Requirement</name>
+                                <text>The configuration management strategy shall include naming conventions.</text>
+                              </profile>
+                            </profiles>
+                            <subelements/>
+                          </element>
+                          <element>
+                            <id>_Aoo6QHsfEe69aLSa4ipdUg</id>
+                            <name>Strategy includes access rights</name>
+                            <profiles>
+                              <profile>
+                                <id>_Aoo6QXsfEe69aLSa4ipdUg</id>
+                                <name>Requirement</name>
+                                <text>The configuration management strategy shall include access rights.</text>
+                              </profile>
+                            </profiles>
+                            <subelements/>
+                          </element>
+                          <element>
+                            <id>_AqvzEHsfEe69aLSa4ipdUg</id>
+                            <name>Strategy includes baseline criteria</name>
+                            <profiles>
+                              <profile>
+                                <id>_AqvzEXsfEe69aLSa4ipdUg</id>
+                                <name>Requirement</name>
+                                <text>The configuration management strategy shall include criteria for baselines;</text>
+                              </profile>
+                            </profiles>
+                            <subelements/>
+                          </element>
+                          <element>
+                            <id>_AtbToHsfEe69aLSa4ipdUg</id>
+                            <name>Include merge strategy</name>
+                            <profiles>
+                              <profile>
+                                <id>_Atb6sHsfEe69aLSa4ipdUg</id>
+                                <name>Requirement</name>
+                                <text>The configuration management strategy shall include a merge strategy.</text>
+                              </profile>
+                            </profiles>
+                            <subelements/>
+                          </element>
+                          <element>
+                            <id>_1YXDYHsfEe69aLSa4ipdUg</id>
+                            <name>Include branch strategy</name>
+                            <profiles>
+                              <profile>
+                                <id>_1YXDYXsfEe69aLSa4ipdUg</id>
+                                <name>Requirement</name>
+                                <text>The configuration management strategy shall include a branch strategy.</text>
+                              </profile>
+                            </profiles>
+                            <subelements/>
+                          </element>
+                          <element>
+                            <id>_AwOwAHsfEe69aLSa4ipdUg</id>
+                            <name>Include revision history approach</name>
+                            <profiles>
+                              <profile>
+                                <id>_AwPXEHsfEe69aLSa4ipdUg</id>
+                                <name>Requirement</name>
+                                <text>The configuration management strategy shall include the revision history approach for configuration items.</text>
+                              </profile>
+                            </profiles>
+                            <subelements/>
+                          </element>
+                        </subelements>
+                      </element>
+                      <element>
+                        <id>_xMdgIHseEe69aLSa4ipdUg</id>
+                        <name>Support variant handling</name>
+                        <profiles>
+                          <profile>
+                            <id>_xMdgIXseEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management strategy should typically supports the handling of product/software variants which may be caused by different sets of application parameters or by other causes.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_xOXkoHseEe69aLSa4ipdUg</id>
+                        <name>Specify branching cases</name>
+                        <profiles>
+                          <profile>
+                            <id>_xOXkoXseEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The branch management strategy should specify in which cases branching is permissible.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_auyuUHsgEe69aLSa4ipdUg</id>
+                        <name>Specify branching authorization</name>
+                        <profiles>
+                          <profile>
+                            <id>_auzVYHsgEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The branch management strategy should specify whether authorization is required.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_iOyVAHsgEe69aLSa4ipdUg</id>
+                        <name>Specify merging approach</name>
+                        <profiles>
+                          <profile>
+                            <id>_iOy8EHsgEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The branch management strategy should specify how branches are merged.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_kBVQsHsgEe69aLSa4ipdUg</id>
+                        <name>Specify verification activities</name>
+                        <profiles>
+                          <profile>
+                            <id>_kBVQsXsgEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The branch management strategy should specify which activities are required to verify that all changes have been consistently integrated without damage to other changes or to the original software.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_jY--cHr4Ee69aLSa4ipdUg</id>
+                    <name>Base practice 2</name>
+                    <profiles>
+                      <profile>
+                        <id>_jY--cXr4Ee69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Base practice 2&gt;</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>__2q4sHtIEe69aLSa4ipdUg</id>
+                        <name>Identify configuration items</name>
+                        <profiles>
+                          <profile>
+                            <id>__2rfwHtIEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall identify configuration items.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_Dmag4HtJEe69aLSa4ipdUg</id>
+                        <name>Identify configuration items</name>
+                        <profiles>
+                          <profile>
+                            <id>_Dmag4XtJEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall identify configuration items according to the configuration management strategy.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_Dp22cHtJEe69aLSa4ipdUg</id>
+                        <name>Document configuration items</name>
+                        <profiles>
+                          <profile>
+                            <id>_Dp22cXtJEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall document configuration items according to the configuration management strategy.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_Dv3-4HtJEe69aLSa4ipdUg</id>
+                        <name>Apply configuration control</name>
+                        <profiles>
+                          <profile>
+                            <id>_Dv3-4XtJEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process should apply configuration control for the products that are delivered to the customer, designated internal work products, acquired products, tools and other configuration items that are used in creating and describing these work products.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_jo-iQHr4Ee69aLSa4ipdUg</id>
+                    <name>Base practice 3</name>
+                    <profiles>
+                      <profile>
+                        <id>_jo_JUHr4Ee69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Base practice 3&gt;</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_T9SzQHtKEe69aLSa4ipdUg</id>
+                        <name>Establish configuration management system</name>
+                        <profiles>
+                          <profile>
+                            <id>_T9TaUHtKEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall establish a configuration management system.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_T_ZsEHtKEe69aLSa4ipdUg</id>
+                        <name>Establish configuration management system</name>
+                        <profiles>
+                          <profile>
+                            <id>_T_aTIHtKEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall establish a configuration management system according to the configuration management strategy.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_iru-QHr1Ee69aLSa4ipdUg</id>
+                    <name>Base practice 4</name>
+                    <profiles>
+                      <profile>
+                        <id>_irwzcHr1Ee69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Base practice 4&gt;</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_rH4rMHr1Ee69aLSa4ipdUg</id>
+                        <name>Establish branch management</name>
+                        <profiles>
+                          <profile>
+                            <id>_rH6gYHr1Ee69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall establish branch management according to the configuration management strategy for parallel developments that use the same base.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_d3Ht0Hr3Ee69aLSa4ipdUg</id>
+                    <name>Base practice 5</name>
+                    <profiles>
+                      <profile>
+                        <id>_d3JjAHr3Ee69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Base practice 5&gt;</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_igGrIHr3Ee69aLSa4ipdUg</id>
+                        <name>Control modifications</name>
+                        <profiles>
+                          <profile>
+                            <id>_igHSMHr3Ee69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall control modifications.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_oVme4Hr3Ee69aLSa4ipdUg</id>
+                        <name>Control releases</name>
+                        <profiles>
+                          <profile>
+                            <id>_oVnF8Hr3Ee69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall control releases.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_oZTTIHr3Ee69aLSa4ipdUg</id>
+                        <name>Establish control mechanisms</name>
+                        <profiles>
+                          <profile>
+                            <id>_oZT6MHr3Ee69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall establish mechanisms for the control of the configurations items according to the configuration management strategy.</text>
+                          </profile>
+                        </profiles>
+                        <subelements>
+                          <element>
+                            <id>_ogNMYHr3Ee69aLSa4ipdUg</id>
+                            <name>Control modifications</name>
+                            <profiles>
+                              <profile>
+                                <id>_ogNzcHr3Ee69aLSa4ipdUg</id>
+                                <name>Requirement</name>
+                                <text>I want to control modifications using these mechanisms.</text>
+                              </profile>
+                            </profiles>
+                            <subelements/>
+                          </element>
+                          <element>
+                            <id>_A2NG4Hr4Ee69aLSa4ipdUg</id>
+                            <name>Control releases</name>
+                            <profiles>
+                              <profile>
+                                <id>_A2OVAHr4Ee69aLSa4ipdUg</id>
+                                <name>Requirement</name>
+                                <text>I want to control releases using these mechanisms.</text>
+                              </profile>
+                            </profiles>
+                            <subelements/>
+                          </element>
+                        </subelements>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_AxR1gHr2Ee69aLSa4ipdUg</id>
+                    <name>Base practice 6</name>
+                    <profiles>
+                      <profile>
+                        <id>_AxTqsHr2Ee69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Base practice 6&gt;</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_Iq0koHr2Ee69aLSa4ipdUg</id>
+                        <name>Internal baselines</name>
+                        <profiles>
+                          <profile>
+                            <id>_Iq1ywHr2Ee69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall establish baselines for internal purposes according to the configuration management strategy.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_KAuAkHr2Ee69aLSa4ipdUg</id>
+                        <name>External baselines</name>
+                        <profiles>
+                          <profile>
+                            <id>_KAunoHr2Ee69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall establish baselines for external delivery according to the configuration management strategy.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_KEGrwHr2Ee69aLSa4ipdUg</id>
+                        <name>Refer baseline issues</name>
+                        <profiles>
+                          <profile>
+                            <id>_KEGrwXr2Ee69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall refer to the product release process SPL.2 for baseline issues.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_kAm_IHr4Ee69aLSa4ipdUg</id>
+                    <name>Base practice 7</name>
+                    <profiles>
+                      <profile>
+                        <id>_kAm_IXr4Ee69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Base practice 7&gt;</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_wQLjQHsMEe69aLSa4ipdUg</id>
+                        <name>Report configuration status</name>
+                        <profiles>
+                          <profile>
+                            <id>_wQLjQXsMEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall report configuration status.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_wTBb4HsMEe69aLSa4ipdUg</id>
+                        <name>Record configuration item status</name>
+                        <profiles>
+                          <profile>
+                            <id>_wTCC8HsMEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall record status of configuration items to support project management and other relevant processes.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_wU0LoHsMEe69aLSa4ipdUg</id>
+                        <name>Report configuration item status</name>
+                        <profiles>
+                          <profile>
+                            <id>_wU0ysHsMEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall report status of configuration items to support project management and other relevant processes.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_dXq8QHr4Ee69aLSa4ipdUg</id>
+                    <name>Base practice 8</name>
+                    <profiles>
+                      <profile>
+                        <id>_dXrjUHr4Ee69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Base practice 8&gt;</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_00yG8Hr4Ee69aLSa4ipdUg</id>
+                        <name>Verify information</name>
+                        <profiles>
+                          <profile>
+                            <id>_00yuAHr4Ee69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall verify the information about configured items.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_0-ZV8Hr4Ee69aLSa4ipdUg</id>
+                        <name>Verify complete configuration items' information</name>
+                        <profiles>
+                          <profile>
+                            <id>_0-Z9AHr4Ee69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall verify that the information about configured items is complete.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_2C3DoHr4Ee69aLSa4ipdUg</id>
+                        <name>Verify complete baselines' information</name>
+                        <profiles>
+                          <profile>
+                            <id>_2C3DoXr4Ee69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall verify that the information about configured items' baselines is complete.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_MFfNUHr5Ee69aLSa4ipdUg</id>
+                        <name>Ensure baseline consistency</name>
+                        <profiles>
+                          <profile>
+                            <id>_MFfNUXr5Ee69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall ensure the consistency of baselines.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_2G-uoHr4Ee69aLSa4ipdUg</id>
+                        <name>Implement baseline audits</name>
+                        <profiles>
+                          <profile>
+                            <id>_2G-uoXr4Ee69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process should implement this as baseline audits.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_kx2ZYHr5Ee69aLSa4ipdUg</id>
+                        <name>Implement configuration management audits</name>
+                        <profiles>
+                          <profile>
+                            <id>_kx2ZYXr5Ee69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process should implement this as configuration management audits.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_k07YAHr4Ee69aLSa4ipdUg</id>
+                    <name>Base practice 9</name>
+                    <profiles>
+                      <profile>
+                        <id>_k07YAXr4Ee69aLSa4ipdUg</id>
+                        <name>Requirement</name>
+                        <text>&lt;See Automotive Spice 3.1 / Process Reference Model / SUP.8 Configuration Management / Base practice 9&gt;</text>
+                      </profile>
+                    </profiles>
+                    <subelements>
+                      <element>
+                        <id>_pJkCsHsIEe69aLSa4ipdUg</id>
+                        <name>Manage configuration item storage</name>
+                        <profiles>
+                          <profile>
+                            <id>_pJkCsXsIEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall manage the storage of configuration items.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_j_1IwHsIEe69aLSa4ipdUg</id>
+                        <name>Manage baseline storage</name>
+                        <profiles>
+                          <profile>
+                            <id>_j_1v0HsIEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall manage the storage of baselines.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_kEaGwHsIEe69aLSa4ipdUg</id>
+                        <name>Ensure configuration item integrity</name>
+                        <profiles>
+                          <profile>
+                            <id>_kEaGwXsIEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall ensure the integrity of configuration items through appropriate scheduling and resourcing of storage, archiving (long term storage) and backup of the used CM systems.equirements.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_kGWAcHsIEe69aLSa4ipdUg</id>
+                        <name>Ensure baseline integrity</name>
+                        <profiles>
+                          <profile>
+                            <id>_kGWngHsIEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall ensure the integrity of baselines through appropriate scheduling and resourcing of storage, archiving (long term storage) and backup of the used CM systems.equirements.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_kICpkHsIEe69aLSa4ipdUg</id>
+                        <name>Ensure configuration item availability</name>
+                        <profiles>
+                          <profile>
+                            <id>_kICpkXsIEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall ensure the availability of configuration items through appropriate scheduling and resourcing of storage, archiving (long term storage) and backup of the used CM systems.equirements.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_kJ8HAHsIEe69aLSa4ipdUg</id>
+                        <name>Ensure baseline availability</name>
+                        <profiles>
+                          <profile>
+                            <id>_kJ8uEHsIEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall ensure the availability of baselines through appropriate scheduling and resourcing of storage, archiving (long term storage) and backup of the used CM systems.equirements.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_kLQVoHsIEe69aLSa4ipdUg</id>
+                        <name>Extend storage beyond lifetime</name>
+                        <profiles>
+                          <profile>
+                            <id>_kLQVoXsIEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall extend storage beyond guaranteed lifetime of available storage media.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_rQr_4HsLEe69aLSa4ipdUg</id>
+                        <name>Extend archiving beyond lifetime</name>
+                        <profiles>
+                          <profile>
+                            <id>_rQsm8HsLEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall extend archiving beyond guaranteed lifetime of available storage media.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_0rdtsHsKEe69aLSa4ipdUg</id>
+                        <name>Include affected configuration items</name>
+                        <profiles>
+                          <profile>
+                            <id>_0reUwHsKEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall include relevant, affected configuration items as referenced in note 2 and note 3.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_NMudAHsLEe69aLSa4ipdUg</id>
+                        <name>Ensure contractual availability</name>
+                        <profiles>
+                          <profile>
+                            <id>_NMvEEHsLEe69aLSa4ipdUg</id>
+                            <name>Requirement</name>
+                            <text>The configuration management process shall ensure availability as specified by contract requirements.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                </subelements>
+              </element>
+            </subelements>
+          </element>
+          <element>
+            <id>_Vl2nAH8wEe65tLp0Dv84gQ</id>
+            <name>Cynefin Framework</name>
+            <profiles>
+              <profile>
+                <id>_Vl64cH8wEe65tLp0Dv84gQ</id>
+                <name>Stakeholder</name>
+              </profile>
+            </profiles>
+            <subelements/>
+          </element>
+          <element>
+            <id>_ZYhAUH8wEe65tLp0Dv84gQ</id>
+            <name>PDCA</name>
+            <profiles>
+              <profile>
+                <id>_ZYkDoH8wEe65tLp0Dv84gQ</id>
+                <name>Stakeholder</name>
+              </profile>
+            </profiles>
+            <subelements/>
+          </element>
+          <element>
+            <id>_0g3RMH8xEe65tLp0Dv84gQ</id>
+            <name>OODA</name>
+            <profiles>
+              <profile>
+                <id>_0g67kH8xEe65tLp0Dv84gQ</id>
+                <name>Stakeholder</name>
+              </profile>
+            </profiles>
+            <subelements/>
+          </element>
+        </subelements>
+      </element>
+      <element>
+        <id>_0cZagHjnEe6kc8YwwNRSfw</id>
+        <name>systemdesign</name>
+        <profiles/>
+        <subelements>
+          <element>
+            <id>_BM14EHjxEe6kc8YwwNRSfw</id>
+            <name>Satisfy11</name>
+            <profiles/>
+            <subelements/>
+          </element>
+          <element>
+            <id>_BqVFUHjxEe6kc8YwwNRSfw</id>
+            <name>Satisfy12</name>
+            <profiles/>
+            <subelements/>
+          </element>
+          <element>
+            <id>_4nC1AHjyEe6kc8YwwNRSfw</id>
+            <name>Mission planning</name>
+            <profiles/>
+            <subelements>
+              <element>
+                <id>_TWKEUHjlEe6kc8YwwNRSfw</id>
+                <name>Work package</name>
+                <profiles/>
+                <subelements/>
+              </element>
+            </subelements>
+          </element>
+          <element>
+            <id>_udAC4HjyEe6kc8YwwNRSfw</id>
+            <name>Stakeholder analysis</name>
+            <profiles/>
+            <subelements>
+              <element>
+                <id>_xbPVoHjyEe6kc8YwwNRSfw</id>
+                <name>Stakeholder</name>
+                <profiles/>
+                <subelements>
+                  <element>
+                    <id>_RGKXoHjlEe6kc8YwwNRSfw</id>
+                    <name>Stakeholder Need</name>
+                    <profiles/>
+                    <subelements>
+                      <element>
+                        <id>_IV6PcHSyEe6lW_W_zHdLeg</id>
+                        <name>Rationale</name>
+                        <profiles>
+                          <profile>
+                            <id>_IV8rsHSyEe6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text/>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_KXGEEHSyEe6lW_W_zHdLeg</id>
+                        <name>Owned</name>
+                        <profiles>
+                          <profile>
+                            <id>_KXHSMHSyEe6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text/>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_MSLQsHSyEe6lW_W_zHdLeg</id>
+                        <name>Need</name>
+                        <profiles>
+                          <profile>
+                            <id>_MSNF4HSyEe6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text/>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                </subelements>
+              </element>
+            </subelements>
+          </element>
+          <element>
+            <id>_eZmQsHjyEe6kc8YwwNRSfw</id>
+            <name>System design</name>
+            <profiles/>
+            <subelements>
+              <element>
+                <id>_TWJdQHjlEe6kc8YwwNRSfw</id>
+                <name>System element</name>
+                <profiles/>
+                <subelements>
+                  <element>
+                    <id>_B3lNQHjoEe6kc8YwwNRSfw</id>
+                    <name>System requirement</name>
+                    <profiles/>
+                    <subelements>
+                      <element>
+                        <id>_v0WQgHQ1Ee6lW_W_zHdLeg</id>
+                        <name>Atomic requirement</name>
+                        <profiles>
+                          <profile>
+                            <id>_QcsIIHcJEe6bK76pEkQaYA</id>
+                            <name>Requirement</name>
+                            <text>A requirement should describe only a single property or function of a single system element.</text>
+                          </profile>
+                        </profiles>
+                        <subelements>
+                          <element>
+                            <id>_sHJ8sHSbEe6lW_W_zHdLeg</id>
+                            <name/>
+                            <profiles/>
+                            <subelements/>
+                          </element>
+                        </subelements>
+                      </element>
+                      <element>
+                        <id>_-BMXcHQ6Ee6lW_W_zHdLeg</id>
+                        <name>Independent requirement</name>
+                        <profiles>
+                          <profile>
+                            <id>_-BPawHQ6Ee6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text>The requirement should be  independent meaning it is describe without reference to other requirements, in order to prevent inconsistencies between requirements and enhance understanding of the requirement.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_B85YAHQ7Ee6lW_W_zHdLeg</id>
+                        <name>Detailed</name>
+                        <profiles>
+                          <profile>
+                            <id>_yN5NQHcTEe6bK76pEkQaYA</id>
+                            <name>Requirement</name>
+                            <text>The requirement shall be detailed enough, in order to enable effective development activities.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_yhSN4HcUEe6bK76pEkQaYA</id>
+                        <name>Consistent</name>
+                        <profiles>
+                          <profile>
+                            <id>_yhYUgHcUEe6bK76pEkQaYA</id>
+                            <name>Requirement</name>
+                            <text>The requirement shall be consistent with all other requirements, to avoid competing development activities and/or system disruption.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_3SXXQHcUEe6bK76pEkQaYA</id>
+                        <name>Specific</name>
+                        <profiles>
+                          <profile>
+                            <id>_3SZzgHcUEe6bK76pEkQaYA</id>
+                            <name>Requirement</name>
+                            <text>The requirement shall be specific to only the system, to avoid unfeasible development efforts.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_-KwGoHQ7Ee6lW_W_zHdLeg</id>
+                        <name>Feasible</name>
+                        <profiles>
+                          <profile>
+                            <id>_-Kx70HQ7Ee6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text>The requirement shall be feasible with the available resources and constraints, to ensure sustainable and effective development.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_ILaTQHQ8Ee6lW_W_zHdLeg</id>
+                        <name>Prioritized</name>
+                        <profiles>
+                          <profile>
+                            <id>_ILcIcHQ8Ee6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text>The requirement should be prioritized according to their importance, to support the expected order of releases and limit dependency risks.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_NMiDwHQ8Ee6lW_W_zHdLeg</id>
+                        <name>Unambiguous</name>
+                        <profiles>
+                          <profile>
+                            <id>_NMj48HQ8Ee6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text>The requirement shall be unambiguous, to prevent differing interpretations between stakeholder and development team.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_Q-G38HQ8Ee6lW_W_zHdLeg</id>
+                        <name>Comprehensible</name>
+                        <profiles>
+                          <profile>
+                            <id>_Q-ItIHQ8Ee6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text>The requirement should be comprehensible, to support a common understanding of the requirement between stakeholder and development team.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_Vj9BsHQ8Ee6lW_W_zHdLeg</id>
+                        <name>Testable</name>
+                        <profiles>
+                          <profile>
+                            <id>_Vj-24HQ8Ee6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text>The requirement shall be testable, to support validation and verification activities.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_ZGt90HQ8Ee6lW_W_zHdLeg</id>
+                        <name>Unique</name>
+                        <profiles>
+                          <profile>
+                            <id>_ZGvzAHQ8Ee6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text>The requirement should be unique, to avoid duplicate planning of development efforts and inconsistencies between requirements.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_czX1wHQ8Ee6lW_W_zHdLeg</id>
+                        <name>Identifiable</name>
+                        <profiles>
+                          <profile>
+                            <id>_czZq8HQ8Ee6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text>The requirement shall be identifiable, to support traceability and improve clear communication.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_0o9K0HQ8Ee6lW_W_zHdLeg</id>
+                        <name>Traceable</name>
+                        <profiles>
+                          <profile>
+                            <id>_0o_nEHQ8Ee6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text>The requirement should be traceable to its origin, to support change management and stakeholder acceptance.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_51ResHQ8Ee6lW_W_zHdLeg</id>
+                        <name>Mapped</name>
+                        <profiles>
+                          <profile>
+                            <id>_51TT4HQ8Ee6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text>The requirement should be mapped to elements in the system, to support planning of development and effective use of resources.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_c0YTAHSXEe6lW_W_zHdLeg</id>
+                        <name>Conforming</name>
+                        <profiles>
+                          <profile>
+                            <id>_c0avQHSXEe6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text>The requirement may be conforming with defined formats to support understanding between stakeholder and development team.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_dXws4HSXEe6lW_W_zHdLeg</id>
+                        <name>Derived</name>
+                        <profiles>
+                          <profile>
+                            <id>_dXyiEHSXEe6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text>The requirement shall be derived from stakeholder input, to avoid extraneous development efforts.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_d8Fh8HSXEe6lW_W_zHdLeg</id>
+                        <name>Analyzed</name>
+                        <profiles>
+                          <profile>
+                            <id>_d8H-MHSXEe6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text>The requirement should be analyzed by the development team, to understand its impact on the system and development.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_em1vIHSXEe6lW_W_zHdLeg</id>
+                        <name>Reviewed</name>
+                        <profiles>
+                          <profile>
+                            <id>_em3kUHSXEe6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text>The requirement should be reviewed by the stakeholder and the development team, to ensure informed agreement.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_3ZLAUHSXEe6lW_W_zHdLeg</id>
+                        <name>Agreed</name>
+                        <profiles>
+                          <profile>
+                            <id>_3ZM1gHSXEe6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text>The requirement shall be agreed upon by the stakeholder and the development team, to ensure accountability and support the establishment of baselines.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_5QHT0HSXEe6lW_W_zHdLeg</id>
+                        <name>Tangible</name>
+                        <profiles>
+                          <profile>
+                            <id>_5QJJAHSXEe6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text>The requirement should be tangible</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                      <element>
+                        <id>_AKROQHSzEe6lW_W_zHdLeg</id>
+                        <name>Typed</name>
+                        <profiles>
+                          <profile>
+                            <id>_AKTDcHSzEe6lW_W_zHdLeg</id>
+                            <name>Requirement</name>
+                            <text>The requirement may use its own data type.</text>
+                          </profile>
+                        </profiles>
+                        <subelements/>
+                      </element>
+                    </subelements>
+                  </element>
+                  <element>
+                    <id>_qeAsEHlmEe6kc8YwwNRSfw</id>
+                    <name>System interaction</name>
+                    <profiles/>
+                    <subelements/>
+                  </element>
+                </subelements>
+              </element>
+            </subelements>
+          </element>
+          <element>
+            <id>_kpaB4HjyEe6kc8YwwNRSfw</id>
+            <name>System implementation</name>
+            <profiles/>
+            <subelements/>
+          </element>
+          <element>
+            <id>_EgtxsHjzEe6kc8YwwNRSfw</id>
+            <name>System test</name>
+            <profiles/>
+            <subelements>
+              <element>
+                <id>_TWKrYHjlEe6kc8YwwNRSfw</id>
+                <name>Validation test</name>
+                <profiles/>
+                <subelements/>
+              </element>
+              <element>
+                <id>_TWKEUXjlEe6kc8YwwNRSfw</id>
+                <name>Verification test</name>
+                <profiles/>
+                <subelements/>
+              </element>
+              <element>
+                <id>_TWKrYXjlEe6kc8YwwNRSfw</id>
+                <name>Acceptance test</name>
+                <profiles/>
+                <subelements/>
+              </element>
+            </subelements>
+          </element>
+          <element>
+            <id>_Z-pBkH_zEe6kpOUlFIEmGQ</id>
+            <name>System element</name>
+            <profiles/>
+            <subelements>
+              <element>
+                <id>_LwGmoH_wEe6kpOUlFIEmGQ</id>
+                <name>Managed</name>
+                <profiles>
+                  <profile>
+                    <id>_LwPwkH_wEe6kpOUlFIEmGQ</id>
+                    <name>Requirement</name>
+                    <text>A system element shall have a status within the element lifecycle in order to ??? account for maturity???</text>
+                  </profile>
+                </profiles>
+                <subelements>
+                  <element>
+                    <id>_d_wGkH_zEe6kpOUlFIEmGQ</id>
+                    <name>Open</name>
+                    <profiles>
+                      <profile>
+                        <id>_d_yi0H_zEe6kpOUlFIEmGQ</id>
+                        <name>Requirement</name>
+                        <text>The element lifecycle shall contain an Open status, in order to indicate that no work has been done yet.</text>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                  <element>
+                    <id>_SDRpUH_6Ee6kpOUlFIEmGQ</id>
+                    <name>Draft</name>
+                    <profiles>
+                      <profile>
+                        <id>_SDSQYH_6Ee6kpOUlFIEmGQ</id>
+                        <name>Requirement</name>
+                        <text>The element lifecycle may contain a Draft status, in order to indicate the system element is not </text>
+                      </profile>
+                    </profiles>
+                    <subelements/>
+                  </element>
+                </subelements>
+              </element>
+            </subelements>
+          </element>
+        </subelements>
+      </element>
+      <element>
+        <id>_GI-BMH__Ee6kpOUlFIEmGQ</id>
+        <name>systemimplementation</name>
+        <profiles/>
+        <subelements/>
+      </element>
+      <element>
+        <id>_Ic_5UH__Ee6kpOUlFIEmGQ</id>
+        <name>systemtest</name>
+        <profiles/>
+        <subelements/>
+      </element>
+    </subelements>
+  </element>
+</model>
