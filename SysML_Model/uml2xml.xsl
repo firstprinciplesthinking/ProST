@@ -29,41 +29,27 @@
 		<element>
 			<id><xsl:value-of select="@xmi:id"/></id>
 			<name><xsl:value-of select="@name"/></name>
-			<profiles>
-				<xsl:for-each select="//*[@base_NamedElement=$id]|//*[@base_Classifier=$id]">
-				<xsl:if test="name(.) = 'Requirements:Requirement'">
-				<profile>
-					<id><xsl:value-of select="@xmi:id"/></id>
-					<name>Requirement</name>
-					<text><xsl:value-of select="@text"/></text>
-				</profile>
-				</xsl:if>
-				
-				<xsl:if test="name(.) = 'ModelElements:Stakeholder'">
-				<profile>
-					<id><xsl:value-of select="@xmi:id"/></id>
-					<name>Stakeholder</name>
-				</profile>
-				</xsl:if>
-				
-				<xsl:if test="name(.) = 'ProST:StakeholderInput'">
-				<profile>
-					<id><xsl:value-of select="@xmi:id"/></id>
-					<name>Stakeholder Input</name>
-				</profile>
-				</xsl:if>
-				
-				<xsl:if test="name(.) = 'ProST:StakeholderNeed'">
-				<profile>
-					<id><xsl:value-of select="@xmi:id"/></id>
-					<name>Stakeholder Need</name>
-				</profile>
-				</xsl:if>
+			<profile>
+				<id><xsl:value-of select="@xmi:id"/></id>
+				<type><xsl:value-of select="@xmi:type"/></type>
+				<name><xsl:value-of select="@name"/></name>
+			</profile>
+			<xsl:for-each select="//*[@base_NamedElement=$id]|//*[@base_Classifier=$id]">
+			<profile>
+				<id><xsl:value-of select="@xmi:id"/></id>
+				<type><xsl:value-of select="name(.)"/></type>
+				<xsl:for-each select="./@*">
+					<xsl:variable name="name" select="name(.)" />
+					<xsl:element name="{$name}"><xsl:value-of select="."/></xsl:element>
 				</xsl:for-each>
-			</profiles>
-			<subelements>
-				<xsl:apply-templates select="nestedClassifier|packagedElement|ownedComment"/>
-			</subelements>
+			</profile>
+			</xsl:for-each>
+			<link>
+				<id></id>
+				<name></name>
+				<direction></direction>
+			</link>
+			<xsl:apply-templates select="nestedClassifier|packagedElement|ownedComment"/>
 		</element>
     </xsl:template>
 </xsl:stylesheet>

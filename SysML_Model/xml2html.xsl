@@ -9,7 +9,7 @@
     <xsl:output method="html" indent="yes"/>
 
     <!-- Template for the XMI root element -->
-    <xsl:template match="/xmi:XMI">
+    <xsl:template match="/models">
         <html>
             <head>
                 <title>SysML HTML5 Viewer</title>
@@ -18,61 +18,42 @@
             <body>
                 <h1>SysML HTML5 Viewer</h1>
                 <!-- Apply templates to all contained elements -->
-                <xsl:apply-templates select="//uml:Model"/>
+                <xsl:apply-templates select="//model"/>
             </body>
         </html>
     </xsl:template>
 
     <!-- Template for UML Model -->
-    <xsl:template match="uml:Model">
+    <xsl:template match="model">
         <h2>Model: <xsl:value-of select="@name"/></h2>
 		
         <!-- Apply templates to all first children of the model element -->
 		<ul class="tree">
-			<xsl:apply-templates select="nestedClassifier|packagedElement|ownedComment"/>
+			<xsl:apply-templates select="element"/>
 		</ul>
     </xsl:template>
 
     <!-- Template for building a element including it sub elements -->
-    <xsl:template match="nestedClassifier|packagedElement|ownedComment">
-		<xsl:variable name="id" select="@xmi:id" />
+    <xsl:template match="element">
+		<xsl:variable name="id" select="id" />
 		<li class="tree">
 			<details id="{$id}">
-				<summary><xsl:value-of select="@name"/></summary>
+				<summary>
+					<xsl:value-of select="name"/>
+					<xsl:for-each select="profile">
+						[<xsl:value-of select="type"/>]
+					</xsl:for-each>
+				</summary>
 				<table>
-					<xsl:for-each select="//*[@base_NamedElement=$id]|//*[@base_Classifier=$id]">
-						<xsl:if test="name(.) = 'Requirements:Requirement'">
+					<xsl:for-each select="profile">
 						<tr>
-							<td>Requirement</td>
-							<td><xsl:value-of select="@text"/></td>
+							<td><xsl:value-of select="type"/></td>
 						</tr>
-						</xsl:if>
-						
-						<xsl:if test="name(.) = 'ModelElements:Stakeholder'">
-						<tr>
-							<td>Stakeholder</td>
-							<td></td>
-						</tr>
-						</xsl:if>
-						
-						<xsl:if test="name(.) = 'ProST:StakeholderInput'">
-						<tr>
-							<td>Stakeholder Input</td>
-							<td><xsl:value-of select="@status"/></td>
-						</tr>
-						</xsl:if>
-						
-						<xsl:if test="name(.) = 'ProST:StakeholderNeed'">
-						<tr>
-							<td>Stakeholder Need</td>
-							<td><xsl:value-of select="@status"/></td>
-						</tr>
-						</xsl:if>
 					</xsl:for-each>
 				</table>
 				<xsl:if test="*">
 					<ul class="tree">
-						<xsl:apply-templates select="nestedClassifier|packagedElement|ownedComment"/>
+						<xsl:apply-templates select="element"/>
 					</ul>
 				</xsl:if>
 			</details>
