@@ -9,7 +9,7 @@
     <xsl:output method="html" indent="yes"/>
 
     <!-- Template for the XMI root element -->
-    <xsl:template match="/models">
+    <xsl:template match="/">
         <html>
             <head>
                 <title>SysML HTML5 Viewer</title>
@@ -18,7 +18,7 @@
             <body>
                 <h1>SysML HTML5 Viewer</h1>
                 <!-- Apply templates to all contained elements -->
-                <xsl:apply-templates select="//model"/>
+                <xsl:apply-templates select="model"/>
             </body>
         </html>
     </xsl:template>
@@ -40,14 +40,24 @@
 			<details id="{$id}">
 				<summary>
 					<xsl:value-of select="name"/>
-					<xsl:for-each select="profile">
-						[<xsl:value-of select="type"/>]
+					<xsl:for-each select="stereotype">
+						<span> [<xsl:value-of select="type"/>]</span>
 					</xsl:for-each>
 				</summary>
 				<table>
-					<xsl:for-each select="profile">
+					<xsl:for-each select="stereotype">
 						<tr>
+							<td><xsl:value-of select="profile"/></td>
 							<td><xsl:value-of select="type"/></td>
+							<xsl:if test="profile = 'uml'">
+								<td><xsl:value-of select="name"/></td>
+								<xsl:if test="type = 'Comment'">
+								<td><xsl:value-of select="text"/></td>
+								</xsl:if>
+							</xsl:if>
+							<xsl:if test="type = 'Requirement'">
+								<td><xsl:value-of select="text"/></td>
+							</xsl:if>
 						</tr>
 					</xsl:for-each>
 				</table>

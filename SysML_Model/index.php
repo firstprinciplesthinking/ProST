@@ -10,7 +10,7 @@
 	$xml_doc->preserveWhiteSpace = false;
 	$xml_doc->formatOutput = true;
 	$xml = $xml_doc->saveXML($xml_doc);
-	file_put_contents('uml.xml', $xml);
+	file_put_contents('model.xml', $xml);
 	//echo $xml;
 
 

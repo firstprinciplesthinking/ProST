@@ -29,20 +29,71 @@
 		<element>
 			<id><xsl:value-of select="@xmi:id"/></id>
 			<name><xsl:value-of select="@name"/></name>
-			<profile>
-				<id><xsl:value-of select="@xmi:id"/></id>
-				<type><xsl:value-of select="@xmi:type"/></type>
-				<name><xsl:value-of select="@name"/></name>
-			</profile>
+			<xsl:if test="@xmi:type = 'uml:Package'">
+                <stereotype>
+                    <id><xsl:value-of select="@xmi:id"/></id>
+                    <type>Package</type>
+                    <profile>uml</profile>
+					<name><xsl:value-of select="@name"/></name>
+                </stereotype>
+			</xsl:if>
+			<xsl:if test="@xmi:type = 'uml:Activity'">
+                <stereotype>
+                    <id><xsl:value-of select="@xmi:id"/></id>
+                    <type>Activity</type>
+                    <profile>uml</profile>
+					<name><xsl:value-of select="@name"/></name>
+                </stereotype>
+			</xsl:if>
+			<xsl:if test="@xmi:type = 'uml:Class'">
+                <stereotype>
+                    <id><xsl:value-of select="@xmi:id"/></id>
+                    <type>Class</type>
+                    <profile>uml</profile>
+					<name><xsl:value-of select="@name"/></name>
+                </stereotype>
+			</xsl:if>
+			<xsl:if test="@xmi:type = 'uml:Comment'">
+                <stereotype>
+                    <id><xsl:value-of select="@xmi:id"/></id>
+                    <type>Comment</type>
+                    <profile>uml</profile>
+					<text><xsl:value-of select="."/></text>
+                </stereotype>
+			</xsl:if>
 			<xsl:for-each select="//*[@base_NamedElement=$id]|//*[@base_Classifier=$id]">
-			<profile>
-				<id><xsl:value-of select="@xmi:id"/></id>
-				<type><xsl:value-of select="name(.)"/></type>
-				<xsl:for-each select="./@*">
-					<xsl:variable name="name" select="name(.)" />
-					<xsl:element name="{$name}"><xsl:value-of select="."/></xsl:element>
-				</xsl:for-each>
-			</profile>
+				<xsl:if test="name(.) = 'Requirements:Requirement'">
+                <stereotype>
+                    <id><xsl:value-of select="@xmi:id"/></id>
+                    <type>Requirement</type>
+                    <profile>Requirements</profile>
+                    <text><xsl:value-of select="@text"/></text>
+                </stereotype>
+                </xsl:if>
+                
+                <xsl:if test="name(.) = 'ModelElements:Stakeholder'">
+                <stereotype>
+                    <id><xsl:value-of select="@xmi:id"/></id>
+                    <type>Stakeholder</type>
+                    <profile>ModelElements</profile>
+                </stereotype>
+                </xsl:if>
+                
+                <xsl:if test="name(.) = 'ProST:StakeholderInput'">
+                <stereotype>
+                    <id><xsl:value-of select="@xmi:id"/></id>
+                    <type>Stakeholder Input</type>
+                    <profile>ProST</profile>
+                </stereotype>
+                </xsl:if>
+                
+                <xsl:if test="name(.) = 'ProST:StakeholderNeed'">
+                <stereotype>
+                    <id><xsl:value-of select="@xmi:id"/></id>
+                    <type>Stakeholder Need</type>
+                    <profile>ProST</profile>
+                </stereotype>
+                </xsl:if>
 			</xsl:for-each>
 			<link>
 				<id></id>

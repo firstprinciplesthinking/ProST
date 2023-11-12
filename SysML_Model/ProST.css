@@ -1,3 +1,7 @@
+details table{
+	width: 512px;
+}
+
 .tree{
   --spacing : 1.5rem;
   --radius  : 10px;

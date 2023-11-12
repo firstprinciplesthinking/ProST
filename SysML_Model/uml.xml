@@ -5,11 +5,12 @@
   <element>
     <id>_0tpt4HSaEe6lW_W_zHdLeg</id>
     <name>systemsthinking</name>
-    <profile>
+    <stereotype>
       <id>_0tpt4HSaEe6lW_W_zHdLeg</id>
+      <profile>uml:Package</profile>
       <type>uml:Package</type>
       <name>systemsthinking</name>
-    </profile>
+    </stereotype>
     <link>
       <id/>
       <name/>
@@ -18,11 +19,12 @@
     <element>
       <id>_MJMrEHf4Ee6kc8YwwNRSfw</id>
       <name>stakeholderanalysis</name>
-      <profile>
+      <stereotype>
         <id>_MJMrEHf4Ee6kc8YwwNRSfw</id>
+        <profile>uml:Package</profile>
         <type>uml:Package</type>
         <name>stakeholderanalysis</name>
-      </profile>
+      </stereotype>
       <link>
         <id/>
         <name/>
@@ -31,11 +33,12 @@
       <element>
         <id>_lMf5sHvYEe69aLSa4ipdUg</id>
         <name>International Requirements Engineering Board</name>
-        <profile>
+        <stereotype>
           <id>_lMf5sHvYEe69aLSa4ipdUg</id>
+          <profile>uml:Activity</profile>
           <type>uml:Activity</type>
           <name>International Requirements Engineering Board</name>
-        </profile>
+        </stereotype>
         <profile>
           <id>_lMmAUHvYEe69aLSa4ipdUg</id>
           <type>ModelElements:Stakeholder</type>
@@ -50,11 +53,12 @@
         <element>
           <id>_cOIloHvaEe69aLSa4ipdUg</id>
           <name>3.8 Quality Criteria for Work Products and Requirements</name>
-          <profile>
+          <stereotype>
             <id>_cOIloHvaEe69aLSa4ipdUg</id>
+            <profile>uml:Class</profile>
             <type>uml:Class</type>
             <name>3.8 Quality Criteria for Work Products and Requirements</name>
-          </profile>
+          </stereotype>
           <profile>
             <id>_cOKa0HvaEe69aLSa4ipdUg</id>
             <type>Requirements:Requirement</type>
@@ -78,11 +82,12 @@
           <element>
             <id>_UYuOgH7NEe65tLp0Dv84gQ</id>
             <name/>
-            <profile>
+            <stereotype>
               <id>_UYuOgH7NEe65tLp0Dv84gQ</id>
+              <profile>uml:Comment</profile>
               <type>uml:Comment</type>
               <name/>
-            </profile>
+            </stereotype>
             <link>
               <id/>
               <name/>
@@ -92,11 +97,12 @@
           <element>
             <id>_mpmw4HvYEe69aLSa4ipdUg</id>
             <name>True</name>
-            <profile>
+            <stereotype>
               <id>_mpmw4HvYEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>True</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_mppNIHvYEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -121,11 +127,12 @@
             <element>
               <id>_dU9gcH5vEe65tLp0Dv84gQ</id>
               <name/>
-              <profile>
+              <stereotype>
                 <id>_dU9gcH5vEe65tLp0Dv84gQ</id>
+                <profile>uml:Comment</profile>
                 <type>uml:Comment</type>
                 <name/>
-              </profile>
+              </stereotype>
               <link>
                 <id/>
                 <name/>
@@ -136,11 +143,12 @@
           <element>
             <id>_NAxOIHvbEe69aLSa4ipdUg</id>
             <name>Agreed</name>
-            <profile>
+            <stereotype>
               <id>_NAxOIHvbEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Agreed</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_NAxOIXvbEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -166,11 +174,12 @@
           <element>
             <id>_LJU2QHvZEe69aLSa4ipdUg</id>
             <name>Necessary</name>
-            <profile>
+            <stereotype>
               <id>_LJU2QHvZEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Necessary</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_LJU2QXvZEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -196,11 +205,12 @@
           <element>
             <id>_LMpQAHvZEe69aLSa4ipdUg</id>
             <name>Unambiguous</name>
-            <profile>
+            <stereotype>
               <id>_LMpQAHvZEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Unambiguous</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_LMp3EHvZEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -226,11 +236,12 @@
           <element>
             <id>_LQFlkHvZEe69aLSa4ipdUg</id>
             <name>Nothing missing</name>
-            <profile>
+            <stereotype>
               <id>_LQFlkHvZEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Nothing missing</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_LQFlkXvZEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -256,11 +267,12 @@
           <element>
             <id>_LTmMkHvZEe69aLSa4ipdUg</id>
             <name>Understandable</name>
-            <profile>
+            <stereotype>
               <id>_LTmMkHvZEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Understandable</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_LTmMkXvZEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -286,11 +298,12 @@
           <element>
             <id>_LXdY4HvZEe69aLSa4ipdUg</id>
             <name>Verifiable</name>
-            <profile>
+            <stereotype>
               <id>_LXdY4HvZEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Verifiable</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_LXdY4XvZEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -316,11 +329,12 @@
           <element>
             <id>_zglN4HvZEe69aLSa4ipdUg</id>
             <name>No contradiction</name>
-            <profile>
+            <stereotype>
               <id>_zglN4HvZEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>No contradiction</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_zglN4XvZEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -346,11 +360,12 @@
           <element>
             <id>_zn7MAHvZEe69aLSa4ipdUg</id>
             <name>Documented once</name>
-            <profile>
+            <stereotype>
               <id>_zn7MAHvZEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Documented once</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_zn7MAXvZEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -376,11 +391,12 @@
           <element>
             <id>_E5NhQHwUEe69aLSa4ipdUg</id>
             <name>No overlap</name>
-            <profile>
+            <stereotype>
               <id>_E5NhQHwUEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>No overlap</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_E5NhQXwUEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -406,11 +422,12 @@
           <element>
             <id>_ztXssHvZEe69aLSa4ipdUg</id>
             <name>All known requirements</name>
-            <profile>
+            <stereotype>
               <id>_ztXssHvZEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>All known requirements</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_ztXssXvZEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -436,11 +453,12 @@
           <element>
             <id>_i28gUHwUEe69aLSa4ipdUg</id>
             <name>All related requirements</name>
-            <profile>
+            <stereotype>
               <id>_i28gUHwUEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>All related requirements</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_i28gUXwUEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -466,11 +484,12 @@
           <element>
             <id>_z_uA8HvZEe69aLSa4ipdUg</id>
             <name>Modify without degration</name>
-            <profile>
+            <stereotype>
               <id>_z_uA8HvZEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Modify without degration</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_z_uoAHvZEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -496,11 +515,12 @@
           <element>
             <id>_0IQR4HvZEe69aLSa4ipdUg</id>
             <name>Traceable to origin</name>
-            <profile>
+            <stereotype>
               <id>_0IQR4HvZEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Traceable to origin</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_0IQR4XvZEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -526,11 +546,12 @@
           <element>
             <id>_9vqPMHwUEe69aLSa4ipdUg</id>
             <name>Traceable to implementation</name>
-            <profile>
+            <stereotype>
               <id>_9vqPMHwUEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Traceable to implementation</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_9vqPMXwUEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -556,11 +577,12 @@
           <element>
             <id>_9zeYMHwUEe69aLSa4ipdUg</id>
             <name>Traceable to dependency</name>
-            <profile>
+            <stereotype>
               <id>_9zeYMHwUEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Traceable to dependency</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_9zeYMXwUEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -586,11 +608,12 @@
           <element>
             <id>_0LImwHvZEe69aLSa4ipdUg</id>
             <name>Conform</name>
-            <profile>
+            <stereotype>
               <id>_0LImwHvZEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Conform</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_0LImwXvZEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -618,11 +641,12 @@
       <element>
         <id>_IA6nIHwWEe69aLSa4ipdUg</id>
         <name>International Institute for Business Analysis</name>
-        <profile>
+        <stereotype>
           <id>_IA6nIHwWEe69aLSa4ipdUg</id>
+          <profile>uml:Activity</profile>
           <type>uml:Activity</type>
           <name>International Institute for Business Analysis</name>
-        </profile>
+        </stereotype>
         <profile>
           <id>_IA71QHwWEe69aLSa4ipdUg</id>
           <type>ModelElements:Stakeholder</type>
@@ -637,11 +661,12 @@
         <element>
           <id>_R7LQ0HwWEe69aLSa4ipdUg</id>
           <name>7.2.4.1 Characteristics of Requirements and Designs Quality</name>
-          <profile>
+          <stereotype>
             <id>_R7LQ0HwWEe69aLSa4ipdUg</id>
+            <profile>uml:Class</profile>
             <type>uml:Class</type>
             <name>7.2.4.1 Characteristics of Requirements and Designs Quality</name>
-          </profile>
+          </stereotype>
           <profile>
             <id>_R7Me8HwWEe69aLSa4ipdUg</id>
             <type>Requirements:Requirement</type>
@@ -665,11 +690,12 @@
           <element>
             <id>_leYxwHwWEe69aLSa4ipdUg</id>
             <name>Self-contained</name>
-            <profile>
+            <stereotype>
               <id>_leYxwHwWEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Self-contained</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_leam8HwWEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -687,11 +713,12 @@
           <element>
             <id>_3UmlYHwWEe69aLSa4ipdUg</id>
             <name>Understood independently</name>
-            <profile>
+            <stereotype>
               <id>_3UmlYHwWEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Understood independently</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_3UmlYXwWEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -709,11 +736,12 @@
           <element>
             <id>_l-Tn8HwWEe69aLSa4ipdUg</id>
             <name>Complete to work</name>
-            <profile>
+            <stereotype>
               <id>_l-Tn8HwWEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Complete to work</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_l-UPAHwWEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -730,11 +758,12 @@
             <element>
               <id>_TMcO8HwXEe69aLSa4ipdUg</id>
               <name>Different completeness level</name>
-              <profile>
+              <stereotype>
                 <id>_TMcO8HwXEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Different completeness level</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_TMc2AHwXEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -753,11 +782,12 @@
           <element>
             <id>_RMB2YHwXEe69aLSa4ipdUg</id>
             <name>Detailed for work</name>
-            <profile>
+            <stereotype>
               <id>_RMB2YHwXEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Detailed for work</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_RMB2YXwXEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -775,11 +805,12 @@
           <element>
             <id>_mCoHQHwWEe69aLSa4ipdUg</id>
             <name>Aligned with needs</name>
-            <profile>
+            <stereotype>
               <id>_mCoHQHwWEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Aligned with needs</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_mCoHQXwWEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -797,11 +828,12 @@
           <element>
             <id>_r6grMHwXEe69aLSa4ipdUg</id>
             <name>Not conflicting</name>
-            <profile>
+            <stereotype>
               <id>_r6grMHwXEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Not conflicting</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_r6hSQHwXEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -819,11 +851,12 @@
           <element>
             <id>_mGLKgHwWEe69aLSa4ipdUg</id>
             <name>No extraenous content</name>
-            <profile>
+            <stereotype>
               <id>_mGLKgHwWEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>No extraenous content</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_mGLKgXwWEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -841,11 +874,12 @@
           <element>
             <id>_0P2lgHwXEe69aLSa4ipdUg</id>
             <name>No unnecessary content</name>
-            <profile>
+            <stereotype>
               <id>_0P2lgHwXEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>No unnecessary content</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_0P3MkHwXEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -863,11 +897,12 @@
           <element>
             <id>_mJBDIHwWEe69aLSa4ipdUg</id>
             <name>Feasible within constraints</name>
-            <profile>
+            <stereotype>
               <id>_mJBDIHwWEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Feasible within constraints</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_mJBDIXwWEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -885,11 +920,12 @@
           <element>
             <id>_CyHVEHwYEe69aLSa4ipdUg</id>
             <name>Considered feasible for investigation</name>
-            <profile>
+            <stereotype>
               <id>_CyHVEHwYEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Considered feasible for investigation</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_CyH8IHwYEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -907,11 +943,12 @@
           <element>
             <id>_mL1toHwWEe69aLSa4ipdUg</id>
             <name>Clearly stated</name>
-            <profile>
+            <stereotype>
               <id>_mL1toHwWEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Clearly stated</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_mL1toXwWEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -929,11 +966,12 @@
           <element>
             <id>_mOZ5cHwWEe69aLSa4ipdUg</id>
             <name>Able to fulfil</name>
-            <profile>
+            <stereotype>
               <id>_mOZ5cHwWEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Able to fulfil</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_mOZ5cXwWEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -952,11 +990,12 @@
             <element>
               <id>_aKInQH1_Ee69aLSa4ipdUg</id>
               <name>Acceptable fulfilment level</name>
-              <profile>
+              <stereotype>
                 <id>_aKInQH1_Ee69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Acceptable fulfilment level</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_aKTmYH1_Ee69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -975,11 +1014,12 @@
           <element>
             <id>_mRZjEHwWEe69aLSa4ipdUg</id>
             <name>Prioritized</name>
-            <profile>
+            <stereotype>
               <id>_mRZjEHwWEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Prioritized</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_mRZjEXwWEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -997,11 +1037,12 @@
           <element>
             <id>_mUeFMHwWEe69aLSa4ipdUg</id>
             <name>Understandable</name>
-            <profile>
+            <stereotype>
               <id>_mUeFMHwWEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Understandable</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_mUesQHwWEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -1021,11 +1062,12 @@
       <element>
         <id>_smRi0HwIEe69aLSa4ipdUg</id>
         <name>Processes for Systems Thinking</name>
-        <profile>
+        <stereotype>
           <id>_smRi0HwIEe69aLSa4ipdUg</id>
+          <profile>uml:Activity</profile>
           <type>uml:Activity</type>
           <name>Processes for Systems Thinking</name>
-        </profile>
+        </stereotype>
         <profile>
           <id>_smSw8HwIEe69aLSa4ipdUg</id>
           <type>ModelElements:Stakeholder</type>
@@ -1040,11 +1082,12 @@
         <element>
           <id>_k_EQIHdCEe6bK76pEkQaYA</id>
           <name>Complete mission within constraints</name>
-          <profile>
+          <stereotype>
             <id>_k_EQIHdCEe6bK76pEkQaYA</id>
+            <profile>uml:Class</profile>
             <type>uml:Class</type>
             <name>Complete mission within constraints</name>
-          </profile>
+          </stereotype>
           <profile>
             <id>_k_GsYHdCEe6bK76pEkQaYA</id>
             <type>Requirements:Requirement</type>
@@ -1061,11 +1104,12 @@
           <element>
             <id>_JamogHiVEe6kc8YwwNRSfw</id>
             <name>Complete mission within scope</name>
-            <profile>
+            <stereotype>
               <id>_JamogHiVEe6kc8YwwNRSfw</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Complete mission within scope</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_JapEwHiVEe6kc8YwwNRSfw</id>
               <type>Requirements:Requirement</type>
@@ -1082,11 +1126,12 @@
             <element>
               <id>_EG8DsHmLEe6kc8YwwNRSfw</id>
               <name>Define mission scope</name>
-              <profile>
+              <stereotype>
                 <id>_EG8DsHmLEe6kc8YwwNRSfw</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Define mission scope</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_EG_HAHmLEe6kc8YwwNRSfw</id>
                 <type>Requirements:Requirement</type>
@@ -1105,11 +1150,12 @@
           <element>
             <id>_JthkgHiVEe6kc8YwwNRSfw</id>
             <name>Complete mission within quality</name>
-            <profile>
+            <stereotype>
               <id>_JthkgHiVEe6kc8YwwNRSfw</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Complete mission within quality</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_JtjZsHiVEe6kc8YwwNRSfw</id>
               <type>Requirements:Requirement</type>
@@ -1127,11 +1173,12 @@
           <element>
             <id>_J9lZwHiVEe6kc8YwwNRSfw</id>
             <name>Complete mission within resources</name>
-            <profile>
+            <stereotype>
               <id>_J9lZwHiVEe6kc8YwwNRSfw</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Complete mission within resources</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_J9nO8HiVEe6kc8YwwNRSfw</id>
               <type>Requirements:Requirement</type>
@@ -1148,11 +1195,12 @@
             <element>
               <id>_iCWbgHivEe6kc8YwwNRSfw</id>
               <name>Estimate required resources</name>
-              <profile>
+              <stereotype>
                 <id>_iCWbgHivEe6kc8YwwNRSfw</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Estimate required resources</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_iCY3wHivEe6kc8YwwNRSfw</id>
                 <type>Requirements:Requirement</type>
@@ -1169,11 +1217,12 @@
               <element>
                 <id>_4ouz4HjuEe6kc8YwwNRSfw</id>
                 <name>Quantify system requirements</name>
-                <profile>
+                <stereotype>
                   <id>_4ouz4HjuEe6kc8YwwNRSfw</id>
+                  <profile>uml:Class</profile>
                   <type>uml:Class</type>
                   <name>Quantify system requirements</name>
-                </profile>
+                </stereotype>
                 <profile>
                   <id>_4owpEHjuEe6kc8YwwNRSfw</id>
                   <type>Requirements:Requirement</type>
@@ -1193,11 +1242,12 @@
           <element>
             <id>_KOoGcHiVEe6kc8YwwNRSfw</id>
             <name>Complete mission within time</name>
-            <profile>
+            <stereotype>
               <id>_KOoGcHiVEe6kc8YwwNRSfw</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Complete mission within time</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_KOp7oHiVEe6kc8YwwNRSfw</id>
               <type>Requirements:Requirement</type>
@@ -1214,11 +1264,12 @@
             <element>
               <id>_bJTBoHgCEe6kc8YwwNRSfw</id>
               <name>Estimate required time</name>
-              <profile>
+              <stereotype>
                 <id>_bJTBoHgCEe6kc8YwwNRSfw</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Estimate required time</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_bJU20HgCEe6kc8YwwNRSfw</id>
                 <type>Requirements:Requirement</type>
@@ -1235,11 +1286,12 @@
               <element>
                 <id>_zqaN0HjwEe6kc8YwwNRSfw</id>
                 <name>Quantify system requirements</name>
-                <profile>
+                <stereotype>
                   <id>_zqaN0HjwEe6kc8YwwNRSfw</id>
+                  <profile>uml:Class</profile>
                   <type>uml:Class</type>
                   <name>Quantify system requirements</name>
-                </profile>
+                </stereotype>
                 <profile>
                   <id>_zqbb8HjwEe6kc8YwwNRSfw</id>
                   <type>Requirements:Requirement</type>
@@ -1259,11 +1311,12 @@
           <element>
             <id>_KmM48HiVEe6kc8YwwNRSfw</id>
             <name>Complete mission within benefit</name>
-            <profile>
+            <stereotype>
               <id>_KmM48HiVEe6kc8YwwNRSfw</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Complete mission within benefit</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_KmOuIHiVEe6kc8YwwNRSfw</id>
               <type>Requirements:Requirement</type>
@@ -1281,11 +1334,12 @@
           <element>
             <id>_K41hEHiVEe6kc8YwwNRSfw</id>
             <name>Complete mission within risk</name>
-            <profile>
+            <stereotype>
               <id>_K41hEHiVEe6kc8YwwNRSfw</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Complete mission within risk</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_K43WQHiVEe6kc8YwwNRSfw</id>
               <type>Requirements:Requirement</type>
@@ -1304,11 +1358,12 @@
         <element>
           <id>_74fwsH5uEe65tLp0Dv84gQ</id>
           <name>Reviewed</name>
-          <profile>
+          <stereotype>
             <id>_74fwsH5uEe65tLp0Dv84gQ</id>
+            <profile>uml:Class</profile>
             <type>uml:Class</type>
             <name>Reviewed</name>
-          </profile>
+          </stereotype>
           <profile>
             <id>_74iM8H5uEe65tLp0Dv84gQ</id>
             <type>Requirements:Requirement</type>
@@ -1326,11 +1381,12 @@
         <element>
           <id>_vn9qMH7REe65tLp0Dv84gQ</id>
           <name>Agreed</name>
-          <profile>
+          <stereotype>
             <id>_vn9qMH7REe65tLp0Dv84gQ</id>
+            <profile>uml:Class</profile>
             <type>uml:Class</type>
             <name>Agreed</name>
-          </profile>
+          </stereotype>
           <profile>
             <id>_vn-RQH7REe65tLp0Dv84gQ</id>
             <type>Requirements:Requirement</type>
@@ -1348,11 +1404,12 @@
         <element>
           <id>_KXlhIH8XEe65tLp0Dv84gQ</id>
           <name>Solution neutral</name>
-          <profile>
+          <stereotype>
             <id>_KXlhIH8XEe65tLp0Dv84gQ</id>
+            <profile>uml:Class</profile>
             <type>uml:Class</type>
             <name>Solution neutral</name>
-          </profile>
+          </stereotype>
           <profile>
             <id>_KXn9YH8XEe65tLp0Dv84gQ</id>
             <type>Requirements:Requirement</type>
@@ -1371,11 +1428,12 @@
       <element>
         <id>_ZshdMHsZEe69aLSa4ipdUg</id>
         <name>Automotive Spice</name>
-        <profile>
+        <stereotype>
           <id>_ZshdMHsZEe69aLSa4ipdUg</id>
+          <profile>uml:Activity</profile>
           <type>uml:Activity</type>
           <name>Automotive Spice</name>
-        </profile>
+        </stereotype>
         <profile>
           <id>_ZsirUHsZEe69aLSa4ipdUg</id>
           <type>ModelElements:Stakeholder</type>
@@ -1390,11 +1448,12 @@
         <element>
           <id>_43L60HwIEe69aLSa4ipdUg</id>
           <name>SUP.8 Configuration Management</name>
-          <profile>
+          <stereotype>
             <id>_43L60HwIEe69aLSa4ipdUg</id>
+            <profile>uml:Class</profile>
             <type>uml:Class</type>
             <name>SUP.8 Configuration Management</name>
-          </profile>
+          </stereotype>
           <profile>
             <id>_43NwAHwIEe69aLSa4ipdUg</id>
             <type>Requirements:Requirement</type>
@@ -1417,11 +1476,12 @@
           <element>
             <id>_LO4ZoHryEe69aLSa4ipdUg</id>
             <name>Process purpose</name>
-            <profile>
+            <stereotype>
               <id>_LO4ZoHryEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Process purpose</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_LQx3EHryEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -1439,11 +1499,12 @@
             <element>
               <id>_YpjH0HsaEe69aLSa4ipdUg</id>
               <name>Establish work product integrity</name>
-              <profile>
+              <stereotype>
                 <id>_YpjH0HsaEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Establish work product integrity</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_Ypk9AHsaEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -1462,11 +1523,12 @@
             <element>
               <id>_e40tgHsaEe69aLSa4ipdUg</id>
               <name>Maintain work product integrity</name>
-              <profile>
+              <stereotype>
                 <id>_e40tgHsaEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Maintain work product integrity</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_e41UkHsaEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -1485,11 +1547,12 @@
             <element>
               <id>_e7u3kHsaEe69aLSa4ipdUg</id>
               <name>Make work products available</name>
-              <profile>
+              <stereotype>
                 <id>_e7u3kHsaEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Make work products available</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_e7u3kXsaEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -1509,11 +1572,12 @@
           <element>
             <id>_ke1JAHr0Ee69aLSa4ipdUg</id>
             <name>Outcome 1</name>
-            <profile>
+            <stereotype>
               <id>_ke1JAHr0Ee69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Outcome 1</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_ke3lQHr0Ee69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -1531,11 +1595,12 @@
             <element>
               <id>_jzOSIHryEe69aLSa4ipdUg</id>
               <name>Develop configuration management strategy</name>
-              <profile>
+              <stereotype>
                 <id>_jzOSIHryEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Develop configuration management strategy</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_jzRVcHryEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -1555,11 +1620,12 @@
           <element>
             <id>_uXosEHryEe69aLSa4ipdUg</id>
             <name>Outcome 2</name>
-            <profile>
+            <stereotype>
               <id>_uXosEHryEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Outcome 2</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_uXrvYHryEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -1577,11 +1643,12 @@
             <element>
               <id>_qj5fQHrzEe69aLSa4ipdUg</id>
               <name>Identify configuration items</name>
-              <profile>
+              <stereotype>
                 <id>_qj5fQHrzEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Identify configuration items</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_qj7UcHrzEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -1600,11 +1667,12 @@
             <element>
               <id>_s29uEHrzEe69aLSa4ipdUg</id>
               <name>Define configuration items</name>
-              <profile>
+              <stereotype>
                 <id>_s29uEHrzEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Define configuration items</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_s3AKUHrzEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -1623,11 +1691,12 @@
             <element>
               <id>_tmH6IHrzEe69aLSa4ipdUg</id>
               <name>Baseline configuration items</name>
-              <profile>
+              <stereotype>
                 <id>_tmH6IHrzEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Baseline configuration items</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_tmKWYHrzEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -1647,11 +1716,12 @@
           <element>
             <id>_9qvCsHryEe69aLSa4ipdUg</id>
             <name>Outcome 3</name>
-            <profile>
+            <stereotype>
               <id>_9qvCsHryEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Outcome 3</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_9qxe8HryEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -1669,11 +1739,12 @@
             <element>
               <id>_843O8Hr0Ee69aLSa4ipdUg</id>
               <name>Control modifications</name>
-              <profile>
+              <stereotype>
                 <id>_843O8Hr0Ee69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Control modifications</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_844dEHr0Ee69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -1692,11 +1763,12 @@
             <element>
               <id>_9g9wwHr0Ee69aLSa4ipdUg</id>
               <name>Control releases</name>
-              <profile>
+              <stereotype>
                 <id>_9g9wwHr0Ee69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Control releases</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_9g_l8Hr0Ee69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -1716,11 +1788,12 @@
           <element>
             <id>_-U72QHryEe69aLSa4ipdUg</id>
             <name>Outcome 4</name>
-            <profile>
+            <stereotype>
               <id>_-U72QHryEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Outcome 4</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_-U-SgHryEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -1738,11 +1811,12 @@
             <element>
               <id>_PsXxQHr1Ee69aLSa4ipdUg</id>
               <name>Make modifications available</name>
-              <profile>
+              <stereotype>
                 <id>_PsXxQHr1Ee69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Make modifications available</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_PsZmcHr1Ee69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -1761,11 +1835,12 @@
             <element>
               <id>_QNN0gHr1Ee69aLSa4ipdUg</id>
               <name>Make releases available</name>
-              <profile>
+              <stereotype>
                 <id>_QNN0gHr1Ee69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Make releases available</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_QNPpsHr1Ee69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -1785,11 +1860,12 @@
           <element>
             <id>_eoBRMHr1Ee69aLSa4ipdUg</id>
             <name>Outcome 5</name>
-            <profile>
+            <stereotype>
               <id>_eoBRMHr1Ee69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Outcome 5</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_eoDGYHr1Ee69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -1807,11 +1883,12 @@
             <element>
               <id>_rAW1IHscEe69aLSa4ipdUg</id>
               <name>Record configuration item status</name>
-              <profile>
+              <stereotype>
                 <id>_rAW1IHscEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Record configuration item status</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_rAW1IXscEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -1830,11 +1907,12 @@
             <element>
               <id>_4e4PwHscEe69aLSa4ipdUg</id>
               <name>Record modification status</name>
-              <profile>
+              <stereotype>
                 <id>_4e4PwHscEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Record modification status</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_4e4PwXscEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -1853,11 +1931,12 @@
             <element>
               <id>_0_0u8HscEe69aLSa4ipdUg</id>
               <name>Report configuration item status</name>
-              <profile>
+              <stereotype>
                 <id>_0_0u8HscEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Report configuration item status</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_0_1WAHscEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -1876,11 +1955,12 @@
             <element>
               <id>_6tYusHscEe69aLSa4ipdUg</id>
               <name>Report modification status</name>
-              <profile>
+              <stereotype>
                 <id>_6tYusHscEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Report modification status</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_6tYusXscEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -1900,11 +1980,12 @@
           <element>
             <id>_rJitsHsZEe69aLSa4ipdUg</id>
             <name>Outcome 6</name>
-            <profile>
+            <stereotype>
               <id>_rJitsHsZEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Outcome 6</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_rJjUwHsZEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -1922,11 +2003,12 @@
             <element>
               <id>_OyCIwHsdEe69aLSa4ipdUg</id>
               <name>Ensure baseline completeness</name>
-              <profile>
+              <stereotype>
                 <id>_OyCIwHsdEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Ensure baseline completeness</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_OyCv0HsdEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -1945,11 +2027,12 @@
             <element>
               <id>_O3pokHsdEe69aLSa4ipdUg</id>
               <name>Ensure baseline consistency</name>
-              <profile>
+              <stereotype>
                 <id>_O3pokHsdEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Ensure baseline consistency</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_O3pokXsdEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -1969,11 +2052,12 @@
           <element>
             <id>_rNNswHsZEe69aLSa4ipdUg</id>
             <name>Outcome 7</name>
-            <profile>
+            <stereotype>
               <id>_rNNswHsZEe69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Outcome 7</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_rNNswXsZEe69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -1991,11 +2075,12 @@
             <element>
               <id>_2XFnYHsdEe69aLSa4ipdUg</id>
               <name>Control storage</name>
-              <profile>
+              <stereotype>
                 <id>_2XFnYHsdEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Control storage</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_2XGOcHsdEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2015,11 +2100,12 @@
           <element>
             <id>_jJph8Hr4Ee69aLSa4ipdUg</id>
             <name>Base practice 1</name>
-            <profile>
+            <stereotype>
               <id>_jJph8Hr4Ee69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Base practice 1</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_jJqJAHr4Ee69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -2037,11 +2123,12 @@
             <element>
               <id>_tw4KEHseEe69aLSa4ipdUg</id>
               <name>Develop configuration management strategy</name>
-              <profile>
+              <stereotype>
                 <id>_tw4KEHseEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Develop configuration management strategy</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_tw4xIHseEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2059,11 +2146,12 @@
               <element>
                 <id>_xJXv4HseEe69aLSa4ipdUg</id>
                 <name>Strategy includes responsibilities</name>
-                <profile>
+                <stereotype>
                   <id>_xJXv4HseEe69aLSa4ipdUg</id>
+                  <profile>uml:Class</profile>
                   <type>uml:Class</type>
                   <name>Strategy includes responsibilities</name>
-                </profile>
+                </stereotype>
                 <profile>
                   <id>_xJYW8HseEe69aLSa4ipdUg</id>
                   <type>Requirements:Requirement</type>
@@ -2082,11 +2170,12 @@
               <element>
                 <id>_AgkjYHsfEe69aLSa4ipdUg</id>
                 <name>Strategy includes tools</name>
-                <profile>
+                <stereotype>
                   <id>_AgkjYHsfEe69aLSa4ipdUg</id>
+                  <profile>uml:Class</profile>
                   <type>uml:Class</type>
                   <name>Strategy includes tools</name>
-                </profile>
+                </stereotype>
                 <profile>
                   <id>_AglKcHsfEe69aLSa4ipdUg</id>
                   <type>Requirements:Requirement</type>
@@ -2105,11 +2194,12 @@
               <element>
                 <id>_LiagMHsfEe69aLSa4ipdUg</id>
                 <name>Strategy includes repositories</name>
-                <profile>
+                <stereotype>
                   <id>_LiagMHsfEe69aLSa4ipdUg</id>
+                  <profile>uml:Class</profile>
                   <type>uml:Class</type>
                   <name>Strategy includes repositories</name>
-                </profile>
+                </stereotype>
                 <profile>
                   <id>_LiagMXsfEe69aLSa4ipdUg</id>
                   <type>Requirements:Requirement</type>
@@ -2128,11 +2218,12 @@
               <element>
                 <id>_AkCuIHsfEe69aLSa4ipdUg</id>
                 <name>Strategy includes criteria</name>
-                <profile>
+                <stereotype>
                   <id>_AkCuIHsfEe69aLSa4ipdUg</id>
+                  <profile>uml:Class</profile>
                   <type>uml:Class</type>
                   <name>Strategy includes criteria</name>
-                </profile>
+                </stereotype>
                 <profile>
                   <id>_AkCuIXsfEe69aLSa4ipdUg</id>
                   <type>Requirements:Requirement</type>
@@ -2151,11 +2242,12 @@
               <element>
                 <id>_AmqkUHsfEe69aLSa4ipdUg</id>
                 <name>Strategy includes naming conventions</name>
-                <profile>
+                <stereotype>
                   <id>_AmqkUHsfEe69aLSa4ipdUg</id>
+                  <profile>uml:Class</profile>
                   <type>uml:Class</type>
                   <name>Strategy includes naming conventions</name>
-                </profile>
+                </stereotype>
                 <profile>
                   <id>_AmrLYHsfEe69aLSa4ipdUg</id>
                   <type>Requirements:Requirement</type>
@@ -2174,11 +2266,12 @@
               <element>
                 <id>_Aoo6QHsfEe69aLSa4ipdUg</id>
                 <name>Strategy includes access rights</name>
-                <profile>
+                <stereotype>
                   <id>_Aoo6QHsfEe69aLSa4ipdUg</id>
+                  <profile>uml:Class</profile>
                   <type>uml:Class</type>
                   <name>Strategy includes access rights</name>
-                </profile>
+                </stereotype>
                 <profile>
                   <id>_Aoo6QXsfEe69aLSa4ipdUg</id>
                   <type>Requirements:Requirement</type>
@@ -2197,11 +2290,12 @@
               <element>
                 <id>_AqvzEHsfEe69aLSa4ipdUg</id>
                 <name>Strategy includes baseline criteria</name>
-                <profile>
+                <stereotype>
                   <id>_AqvzEHsfEe69aLSa4ipdUg</id>
+                  <profile>uml:Class</profile>
                   <type>uml:Class</type>
                   <name>Strategy includes baseline criteria</name>
-                </profile>
+                </stereotype>
                 <profile>
                   <id>_AqvzEXsfEe69aLSa4ipdUg</id>
                   <type>Requirements:Requirement</type>
@@ -2220,11 +2314,12 @@
               <element>
                 <id>_AtbToHsfEe69aLSa4ipdUg</id>
                 <name>Include merge strategy</name>
-                <profile>
+                <stereotype>
                   <id>_AtbToHsfEe69aLSa4ipdUg</id>
+                  <profile>uml:Class</profile>
                   <type>uml:Class</type>
                   <name>Include merge strategy</name>
-                </profile>
+                </stereotype>
                 <profile>
                   <id>_Atb6sHsfEe69aLSa4ipdUg</id>
                   <type>Requirements:Requirement</type>
@@ -2243,11 +2338,12 @@
               <element>
                 <id>_1YXDYHsfEe69aLSa4ipdUg</id>
                 <name>Include branch strategy</name>
-                <profile>
+                <stereotype>
                   <id>_1YXDYHsfEe69aLSa4ipdUg</id>
+                  <profile>uml:Class</profile>
                   <type>uml:Class</type>
                   <name>Include branch strategy</name>
-                </profile>
+                </stereotype>
                 <profile>
                   <id>_1YXDYXsfEe69aLSa4ipdUg</id>
                   <type>Requirements:Requirement</type>
@@ -2266,11 +2362,12 @@
               <element>
                 <id>_AwOwAHsfEe69aLSa4ipdUg</id>
                 <name>Include revision history approach</name>
-                <profile>
+                <stereotype>
                   <id>_AwOwAHsfEe69aLSa4ipdUg</id>
+                  <profile>uml:Class</profile>
                   <type>uml:Class</type>
                   <name>Include revision history approach</name>
-                </profile>
+                </stereotype>
                 <profile>
                   <id>_AwPXEHsfEe69aLSa4ipdUg</id>
                   <type>Requirements:Requirement</type>
@@ -2290,11 +2387,12 @@
             <element>
               <id>_xMdgIHseEe69aLSa4ipdUg</id>
               <name>Support variant handling</name>
-              <profile>
+              <stereotype>
                 <id>_xMdgIHseEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Support variant handling</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_xMdgIXseEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2313,11 +2411,12 @@
             <element>
               <id>_xOXkoHseEe69aLSa4ipdUg</id>
               <name>Specify branching cases</name>
-              <profile>
+              <stereotype>
                 <id>_xOXkoHseEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Specify branching cases</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_xOXkoXseEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2336,11 +2435,12 @@
             <element>
               <id>_auyuUHsgEe69aLSa4ipdUg</id>
               <name>Specify branching authorization</name>
-              <profile>
+              <stereotype>
                 <id>_auyuUHsgEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Specify branching authorization</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_auzVYHsgEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2359,11 +2459,12 @@
             <element>
               <id>_iOyVAHsgEe69aLSa4ipdUg</id>
               <name>Specify merging approach</name>
-              <profile>
+              <stereotype>
                 <id>_iOyVAHsgEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Specify merging approach</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_iOy8EHsgEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2382,11 +2483,12 @@
             <element>
               <id>_kBVQsHsgEe69aLSa4ipdUg</id>
               <name>Specify verification activities</name>
-              <profile>
+              <stereotype>
                 <id>_kBVQsHsgEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Specify verification activities</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_kBVQsXsgEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2406,11 +2508,12 @@
           <element>
             <id>_jY--cHr4Ee69aLSa4ipdUg</id>
             <name>Base practice 2</name>
-            <profile>
+            <stereotype>
               <id>_jY--cHr4Ee69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Base practice 2</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_jY--cXr4Ee69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -2428,11 +2531,12 @@
             <element>
               <id>__2q4sHtIEe69aLSa4ipdUg</id>
               <name>Identify configuration items</name>
-              <profile>
+              <stereotype>
                 <id>__2q4sHtIEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Identify configuration items</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>__2rfwHtIEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2451,11 +2555,12 @@
             <element>
               <id>_Dmag4HtJEe69aLSa4ipdUg</id>
               <name>Identify configuration items</name>
-              <profile>
+              <stereotype>
                 <id>_Dmag4HtJEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Identify configuration items</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_Dmag4XtJEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2474,11 +2579,12 @@
             <element>
               <id>_Dp22cHtJEe69aLSa4ipdUg</id>
               <name>Document configuration items</name>
-              <profile>
+              <stereotype>
                 <id>_Dp22cHtJEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Document configuration items</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_Dp22cXtJEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2497,11 +2603,12 @@
             <element>
               <id>_Dv3-4HtJEe69aLSa4ipdUg</id>
               <name>Apply configuration control</name>
-              <profile>
+              <stereotype>
                 <id>_Dv3-4HtJEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Apply configuration control</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_Dv3-4XtJEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2521,11 +2628,12 @@
           <element>
             <id>_jo-iQHr4Ee69aLSa4ipdUg</id>
             <name>Base practice 3</name>
-            <profile>
+            <stereotype>
               <id>_jo-iQHr4Ee69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Base practice 3</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_jo_JUHr4Ee69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -2543,11 +2651,12 @@
             <element>
               <id>_T9SzQHtKEe69aLSa4ipdUg</id>
               <name>Establish configuration management system</name>
-              <profile>
+              <stereotype>
                 <id>_T9SzQHtKEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Establish configuration management system</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_T9TaUHtKEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2566,11 +2675,12 @@
             <element>
               <id>_T_ZsEHtKEe69aLSa4ipdUg</id>
               <name>Establish configuration management system</name>
-              <profile>
+              <stereotype>
                 <id>_T_ZsEHtKEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Establish configuration management system</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_T_aTIHtKEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2590,11 +2700,12 @@
           <element>
             <id>_iru-QHr1Ee69aLSa4ipdUg</id>
             <name>Base practice 4</name>
-            <profile>
+            <stereotype>
               <id>_iru-QHr1Ee69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Base practice 4</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_irwzcHr1Ee69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -2612,11 +2723,12 @@
             <element>
               <id>_rH4rMHr1Ee69aLSa4ipdUg</id>
               <name>Establish branch management</name>
-              <profile>
+              <stereotype>
                 <id>_rH4rMHr1Ee69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Establish branch management</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_rH6gYHr1Ee69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2636,11 +2748,12 @@
           <element>
             <id>_d3Ht0Hr3Ee69aLSa4ipdUg</id>
             <name>Base practice 5</name>
-            <profile>
+            <stereotype>
               <id>_d3Ht0Hr3Ee69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Base practice 5</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_d3JjAHr3Ee69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -2658,11 +2771,12 @@
             <element>
               <id>_igGrIHr3Ee69aLSa4ipdUg</id>
               <name>Control modifications</name>
-              <profile>
+              <stereotype>
                 <id>_igGrIHr3Ee69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Control modifications</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_igHSMHr3Ee69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2681,11 +2795,12 @@
             <element>
               <id>_oVme4Hr3Ee69aLSa4ipdUg</id>
               <name>Control releases</name>
-              <profile>
+              <stereotype>
                 <id>_oVme4Hr3Ee69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Control releases</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_oVnF8Hr3Ee69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2704,11 +2819,12 @@
             <element>
               <id>_oZTTIHr3Ee69aLSa4ipdUg</id>
               <name>Establish control mechanisms</name>
-              <profile>
+              <stereotype>
                 <id>_oZTTIHr3Ee69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Establish control mechanisms</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_oZT6MHr3Ee69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2726,11 +2842,12 @@
               <element>
                 <id>_ogNMYHr3Ee69aLSa4ipdUg</id>
                 <name>Control modifications</name>
-                <profile>
+                <stereotype>
                   <id>_ogNMYHr3Ee69aLSa4ipdUg</id>
+                  <profile>uml:Class</profile>
                   <type>uml:Class</type>
                   <name>Control modifications</name>
-                </profile>
+                </stereotype>
                 <profile>
                   <id>_ogNzcHr3Ee69aLSa4ipdUg</id>
                   <type>Requirements:Requirement</type>
@@ -2749,11 +2866,12 @@
               <element>
                 <id>_A2NG4Hr4Ee69aLSa4ipdUg</id>
                 <name>Control releases</name>
-                <profile>
+                <stereotype>
                   <id>_A2NG4Hr4Ee69aLSa4ipdUg</id>
+                  <profile>uml:Class</profile>
                   <type>uml:Class</type>
                   <name>Control releases</name>
-                </profile>
+                </stereotype>
                 <profile>
                   <id>_A2OVAHr4Ee69aLSa4ipdUg</id>
                   <type>Requirements:Requirement</type>
@@ -2774,11 +2892,12 @@
           <element>
             <id>_AxR1gHr2Ee69aLSa4ipdUg</id>
             <name>Base practice 6</name>
-            <profile>
+            <stereotype>
               <id>_AxR1gHr2Ee69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Base practice 6</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_AxTqsHr2Ee69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -2796,11 +2915,12 @@
             <element>
               <id>_Iq0koHr2Ee69aLSa4ipdUg</id>
               <name>Internal baselines</name>
-              <profile>
+              <stereotype>
                 <id>_Iq0koHr2Ee69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Internal baselines</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_Iq1ywHr2Ee69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2819,11 +2939,12 @@
             <element>
               <id>_KAuAkHr2Ee69aLSa4ipdUg</id>
               <name>External baselines</name>
-              <profile>
+              <stereotype>
                 <id>_KAuAkHr2Ee69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>External baselines</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_KAunoHr2Ee69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2842,11 +2963,12 @@
             <element>
               <id>_KEGrwHr2Ee69aLSa4ipdUg</id>
               <name>Refer baseline issues</name>
-              <profile>
+              <stereotype>
                 <id>_KEGrwHr2Ee69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Refer baseline issues</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_KEGrwXr2Ee69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2866,11 +2988,12 @@
           <element>
             <id>_kAm_IHr4Ee69aLSa4ipdUg</id>
             <name>Base practice 7</name>
-            <profile>
+            <stereotype>
               <id>_kAm_IHr4Ee69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Base practice 7</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_kAm_IXr4Ee69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -2888,11 +3011,12 @@
             <element>
               <id>_wQLjQHsMEe69aLSa4ipdUg</id>
               <name>Report configuration status</name>
-              <profile>
+              <stereotype>
                 <id>_wQLjQHsMEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Report configuration status</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_wQLjQXsMEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2911,11 +3035,12 @@
             <element>
               <id>_wTBb4HsMEe69aLSa4ipdUg</id>
               <name>Record configuration item status</name>
-              <profile>
+              <stereotype>
                 <id>_wTBb4HsMEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Record configuration item status</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_wTCC8HsMEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2934,11 +3059,12 @@
             <element>
               <id>_wU0LoHsMEe69aLSa4ipdUg</id>
               <name>Report configuration item status</name>
-              <profile>
+              <stereotype>
                 <id>_wU0LoHsMEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Report configuration item status</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_wU0ysHsMEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -2958,11 +3084,12 @@
           <element>
             <id>_dXq8QHr4Ee69aLSa4ipdUg</id>
             <name>Base practice 8</name>
-            <profile>
+            <stereotype>
               <id>_dXq8QHr4Ee69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Base practice 8</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_dXrjUHr4Ee69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -2980,11 +3107,12 @@
             <element>
               <id>_00yG8Hr4Ee69aLSa4ipdUg</id>
               <name>Verify information</name>
-              <profile>
+              <stereotype>
                 <id>_00yG8Hr4Ee69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Verify information</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_00yuAHr4Ee69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -3003,11 +3131,12 @@
             <element>
               <id>_0-ZV8Hr4Ee69aLSa4ipdUg</id>
               <name>Verify complete configuration items' information</name>
-              <profile>
+              <stereotype>
                 <id>_0-ZV8Hr4Ee69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Verify complete configuration items' information</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_0-Z9AHr4Ee69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -3026,11 +3155,12 @@
             <element>
               <id>_2C3DoHr4Ee69aLSa4ipdUg</id>
               <name>Verify complete baselines' information</name>
-              <profile>
+              <stereotype>
                 <id>_2C3DoHr4Ee69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Verify complete baselines' information</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_2C3DoXr4Ee69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -3049,11 +3179,12 @@
             <element>
               <id>_MFfNUHr5Ee69aLSa4ipdUg</id>
               <name>Ensure baseline consistency</name>
-              <profile>
+              <stereotype>
                 <id>_MFfNUHr5Ee69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Ensure baseline consistency</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_MFfNUXr5Ee69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -3072,11 +3203,12 @@
             <element>
               <id>_2G-uoHr4Ee69aLSa4ipdUg</id>
               <name>Implement baseline audits</name>
-              <profile>
+              <stereotype>
                 <id>_2G-uoHr4Ee69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Implement baseline audits</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_2G-uoXr4Ee69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -3095,11 +3227,12 @@
             <element>
               <id>_kx2ZYHr5Ee69aLSa4ipdUg</id>
               <name>Implement configuration management audits</name>
-              <profile>
+              <stereotype>
                 <id>_kx2ZYHr5Ee69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Implement configuration management audits</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_kx2ZYXr5Ee69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -3119,11 +3252,12 @@
           <element>
             <id>_k07YAHr4Ee69aLSa4ipdUg</id>
             <name>Base practice 9</name>
-            <profile>
+            <stereotype>
               <id>_k07YAHr4Ee69aLSa4ipdUg</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Base practice 9</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_k07YAXr4Ee69aLSa4ipdUg</id>
               <type>Requirements:Requirement</type>
@@ -3141,11 +3275,12 @@
             <element>
               <id>_pJkCsHsIEe69aLSa4ipdUg</id>
               <name>Manage configuration item storage</name>
-              <profile>
+              <stereotype>
                 <id>_pJkCsHsIEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Manage configuration item storage</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_pJkCsXsIEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -3164,11 +3299,12 @@
             <element>
               <id>_j_1IwHsIEe69aLSa4ipdUg</id>
               <name>Manage baseline storage</name>
-              <profile>
+              <stereotype>
                 <id>_j_1IwHsIEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Manage baseline storage</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_j_1v0HsIEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -3187,11 +3323,12 @@
             <element>
               <id>_kEaGwHsIEe69aLSa4ipdUg</id>
               <name>Ensure configuration item integrity</name>
-              <profile>
+              <stereotype>
                 <id>_kEaGwHsIEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Ensure configuration item integrity</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_kEaGwXsIEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -3210,11 +3347,12 @@
             <element>
               <id>_kGWAcHsIEe69aLSa4ipdUg</id>
               <name>Ensure baseline integrity</name>
-              <profile>
+              <stereotype>
                 <id>_kGWAcHsIEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Ensure baseline integrity</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_kGWngHsIEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -3233,11 +3371,12 @@
             <element>
               <id>_kICpkHsIEe69aLSa4ipdUg</id>
               <name>Ensure configuration item availability</name>
-              <profile>
+              <stereotype>
                 <id>_kICpkHsIEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Ensure configuration item availability</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_kICpkXsIEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -3256,11 +3395,12 @@
             <element>
               <id>_kJ8HAHsIEe69aLSa4ipdUg</id>
               <name>Ensure baseline availability</name>
-              <profile>
+              <stereotype>
                 <id>_kJ8HAHsIEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Ensure baseline availability</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_kJ8uEHsIEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -3279,11 +3419,12 @@
             <element>
               <id>_kLQVoHsIEe69aLSa4ipdUg</id>
               <name>Extend storage beyond lifetime</name>
-              <profile>
+              <stereotype>
                 <id>_kLQVoHsIEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Extend storage beyond lifetime</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_kLQVoXsIEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -3302,11 +3443,12 @@
             <element>
               <id>_rQr_4HsLEe69aLSa4ipdUg</id>
               <name>Extend archiving beyond lifetime</name>
-              <profile>
+              <stereotype>
                 <id>_rQr_4HsLEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Extend archiving beyond lifetime</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_rQsm8HsLEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -3325,11 +3467,12 @@
             <element>
               <id>_0rdtsHsKEe69aLSa4ipdUg</id>
               <name>Include affected configuration items</name>
-              <profile>
+              <stereotype>
                 <id>_0rdtsHsKEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Include affected configuration items</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_0reUwHsKEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -3348,11 +3491,12 @@
             <element>
               <id>_NMudAHsLEe69aLSa4ipdUg</id>
               <name>Ensure contractual availability</name>
-              <profile>
+              <stereotype>
                 <id>_NMudAHsLEe69aLSa4ipdUg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Ensure contractual availability</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_NMvEEHsLEe69aLSa4ipdUg</id>
                 <type>Requirements:Requirement</type>
@@ -3374,11 +3518,12 @@
       <element>
         <id>_Vl2nAH8wEe65tLp0Dv84gQ</id>
         <name>Cynefin Framework</name>
-        <profile>
+        <stereotype>
           <id>_Vl2nAH8wEe65tLp0Dv84gQ</id>
+          <profile>uml:Activity</profile>
           <type>uml:Activity</type>
           <name>Cynefin Framework</name>
-        </profile>
+        </stereotype>
         <profile>
           <id>_Vl64cH8wEe65tLp0Dv84gQ</id>
           <type>ModelElements:Stakeholder</type>
@@ -3394,11 +3539,12 @@
       <element>
         <id>_ZYhAUH8wEe65tLp0Dv84gQ</id>
         <name>PDCA</name>
-        <profile>
+        <stereotype>
           <id>_ZYhAUH8wEe65tLp0Dv84gQ</id>
+          <profile>uml:Activity</profile>
           <type>uml:Activity</type>
           <name>PDCA</name>
-        </profile>
+        </stereotype>
         <profile>
           <id>_ZYkDoH8wEe65tLp0Dv84gQ</id>
           <type>ModelElements:Stakeholder</type>
@@ -3414,11 +3560,12 @@
       <element>
         <id>_0g3RMH8xEe65tLp0Dv84gQ</id>
         <name>OODA</name>
-        <profile>
+        <stereotype>
           <id>_0g3RMH8xEe65tLp0Dv84gQ</id>
+          <profile>uml:Activity</profile>
           <type>uml:Activity</type>
           <name>OODA</name>
-        </profile>
+        </stereotype>
         <profile>
           <id>_0g67kH8xEe65tLp0Dv84gQ</id>
           <type>ModelElements:Stakeholder</type>
@@ -3435,11 +3582,12 @@
     <element>
       <id>_0cZagHjnEe6kc8YwwNRSfw</id>
       <name>systemdesign</name>
-      <profile>
+      <stereotype>
         <id>_0cZagHjnEe6kc8YwwNRSfw</id>
+        <profile>uml:Package</profile>
         <type>uml:Package</type>
         <name>systemdesign</name>
-      </profile>
+      </stereotype>
       <link>
         <id/>
         <name/>
@@ -3448,11 +3596,12 @@
       <element>
         <id>_BM14EHjxEe6kc8YwwNRSfw</id>
         <name>Satisfy11</name>
-        <profile>
+        <stereotype>
           <id>_BM14EHjxEe6kc8YwwNRSfw</id>
+          <profile>uml:Abstraction</profile>
           <type>uml:Abstraction</type>
           <name>Satisfy11</name>
-        </profile>
+        </stereotype>
         <link>
           <id/>
           <name/>
@@ -3462,11 +3611,12 @@
       <element>
         <id>_BqVFUHjxEe6kc8YwwNRSfw</id>
         <name>Satisfy12</name>
-        <profile>
+        <stereotype>
           <id>_BqVFUHjxEe6kc8YwwNRSfw</id>
+          <profile>uml:Abstraction</profile>
           <type>uml:Abstraction</type>
           <name>Satisfy12</name>
-        </profile>
+        </stereotype>
         <link>
           <id/>
           <name/>
@@ -3476,11 +3626,12 @@
       <element>
         <id>_4nC1AHjyEe6kc8YwwNRSfw</id>
         <name>Mission planning</name>
-        <profile>
+        <stereotype>
           <id>_4nC1AHjyEe6kc8YwwNRSfw</id>
+          <profile>uml:Class</profile>
           <type>uml:Class</type>
           <name>Mission planning</name>
-        </profile>
+        </stereotype>
         <link>
           <id/>
           <name/>
@@ -3489,11 +3640,12 @@
         <element>
           <id>_TWKEUHjlEe6kc8YwwNRSfw</id>
           <name>Work package</name>
-          <profile>
+          <stereotype>
             <id>_TWKEUHjlEe6kc8YwwNRSfw</id>
+            <profile>uml:Class</profile>
             <type>uml:Class</type>
             <name>Work package</name>
-          </profile>
+          </stereotype>
           <link>
             <id/>
             <name/>
@@ -3504,11 +3656,12 @@
       <element>
         <id>_udAC4HjyEe6kc8YwwNRSfw</id>
         <name>Stakeholder analysis</name>
-        <profile>
+        <stereotype>
           <id>_udAC4HjyEe6kc8YwwNRSfw</id>
+          <profile>uml:Class</profile>
           <type>uml:Class</type>
           <name>Stakeholder analysis</name>
-        </profile>
+        </stereotype>
         <link>
           <id/>
           <name/>
@@ -3517,11 +3670,12 @@
         <element>
           <id>_xbPVoHjyEe6kc8YwwNRSfw</id>
           <name>Stakeholder</name>
-          <profile>
+          <stereotype>
             <id>_xbPVoHjyEe6kc8YwwNRSfw</id>
+            <profile>uml:Class</profile>
             <type>uml:Class</type>
             <name>Stakeholder</name>
-          </profile>
+          </stereotype>
           <link>
             <id/>
             <name/>
@@ -3530,11 +3684,12 @@
           <element>
             <id>_RGKXoHjlEe6kc8YwwNRSfw</id>
             <name>Stakeholder Need</name>
-            <profile>
+            <stereotype>
               <id>_RGKXoHjlEe6kc8YwwNRSfw</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Stakeholder Need</name>
-            </profile>
+            </stereotype>
             <link>
               <id/>
               <name/>
@@ -3543,11 +3698,12 @@
             <element>
               <id>_IV6PcHSyEe6lW_W_zHdLeg</id>
               <name>Rationale</name>
-              <profile>
+              <stereotype>
                 <id>_IV6PcHSyEe6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Rationale</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_IV8rsHSyEe6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -3564,11 +3720,12 @@
             <element>
               <id>_KXGEEHSyEe6lW_W_zHdLeg</id>
               <name>Owned</name>
-              <profile>
+              <stereotype>
                 <id>_KXGEEHSyEe6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Owned</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_KXHSMHSyEe6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -3585,11 +3742,12 @@
             <element>
               <id>_MSLQsHSyEe6lW_W_zHdLeg</id>
               <name>Need</name>
-              <profile>
+              <stereotype>
                 <id>_MSLQsHSyEe6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Need</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_MSNF4HSyEe6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -3609,11 +3767,12 @@
       <element>
         <id>_eZmQsHjyEe6kc8YwwNRSfw</id>
         <name>System design</name>
-        <profile>
+        <stereotype>
           <id>_eZmQsHjyEe6kc8YwwNRSfw</id>
+          <profile>uml:Class</profile>
           <type>uml:Class</type>
           <name>System design</name>
-        </profile>
+        </stereotype>
         <link>
           <id/>
           <name/>
@@ -3622,11 +3781,12 @@
         <element>
           <id>_TWJdQHjlEe6kc8YwwNRSfw</id>
           <name>System element</name>
-          <profile>
+          <stereotype>
             <id>_TWJdQHjlEe6kc8YwwNRSfw</id>
+            <profile>uml:Class</profile>
             <type>uml:Class</type>
             <name>System element</name>
-          </profile>
+          </stereotype>
           <link>
             <id/>
             <name/>
@@ -3635,11 +3795,12 @@
           <element>
             <id>_B3lNQHjoEe6kc8YwwNRSfw</id>
             <name>System requirement</name>
-            <profile>
+            <stereotype>
               <id>_B3lNQHjoEe6kc8YwwNRSfw</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>System requirement</name>
-            </profile>
+            </stereotype>
             <link>
               <id/>
               <name/>
@@ -3648,11 +3809,12 @@
             <element>
               <id>_v0WQgHQ1Ee6lW_W_zHdLeg</id>
               <name>Atomic requirement</name>
-              <profile>
+              <stereotype>
                 <id>_v0WQgHQ1Ee6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Atomic requirement</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_QcsIIHcJEe6bK76pEkQaYA</id>
                 <type>Requirements:Requirement</type>
@@ -3670,11 +3832,12 @@
               <element>
                 <id>_sHJ8sHSbEe6lW_W_zHdLeg</id>
                 <name/>
-                <profile>
+                <stereotype>
                   <id>_sHJ8sHSbEe6lW_W_zHdLeg</id>
+                  <profile>uml:Comment</profile>
                   <type>uml:Comment</type>
                   <name/>
-                </profile>
+                </stereotype>
                 <link>
                   <id/>
                   <name/>
@@ -3685,11 +3848,12 @@
             <element>
               <id>_-BMXcHQ6Ee6lW_W_zHdLeg</id>
               <name>Independent requirement</name>
-              <profile>
+              <stereotype>
                 <id>_-BMXcHQ6Ee6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Independent requirement</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_-BPawHQ6Ee6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -3708,11 +3872,12 @@
             <element>
               <id>_B85YAHQ7Ee6lW_W_zHdLeg</id>
               <name>Detailed</name>
-              <profile>
+              <stereotype>
                 <id>_B85YAHQ7Ee6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Detailed</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_yN5NQHcTEe6bK76pEkQaYA</id>
                 <type>Requirements:Requirement</type>
@@ -3731,11 +3896,12 @@
             <element>
               <id>_yhSN4HcUEe6bK76pEkQaYA</id>
               <name>Consistent</name>
-              <profile>
+              <stereotype>
                 <id>_yhSN4HcUEe6bK76pEkQaYA</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Consistent</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_yhYUgHcUEe6bK76pEkQaYA</id>
                 <type>Requirements:Requirement</type>
@@ -3754,11 +3920,12 @@
             <element>
               <id>_3SXXQHcUEe6bK76pEkQaYA</id>
               <name>Specific</name>
-              <profile>
+              <stereotype>
                 <id>_3SXXQHcUEe6bK76pEkQaYA</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Specific</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_3SZzgHcUEe6bK76pEkQaYA</id>
                 <type>Requirements:Requirement</type>
@@ -3777,11 +3944,12 @@
             <element>
               <id>_-KwGoHQ7Ee6lW_W_zHdLeg</id>
               <name>Feasible</name>
-              <profile>
+              <stereotype>
                 <id>_-KwGoHQ7Ee6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Feasible</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_-Kx70HQ7Ee6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -3800,11 +3968,12 @@
             <element>
               <id>_ILaTQHQ8Ee6lW_W_zHdLeg</id>
               <name>Prioritized</name>
-              <profile>
+              <stereotype>
                 <id>_ILaTQHQ8Ee6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Prioritized</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_ILcIcHQ8Ee6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -3823,11 +3992,12 @@
             <element>
               <id>_NMiDwHQ8Ee6lW_W_zHdLeg</id>
               <name>Unambiguous</name>
-              <profile>
+              <stereotype>
                 <id>_NMiDwHQ8Ee6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Unambiguous</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_NMj48HQ8Ee6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -3846,11 +4016,12 @@
             <element>
               <id>_Q-G38HQ8Ee6lW_W_zHdLeg</id>
               <name>Comprehensible</name>
-              <profile>
+              <stereotype>
                 <id>_Q-G38HQ8Ee6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Comprehensible</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_Q-ItIHQ8Ee6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -3869,11 +4040,12 @@
             <element>
               <id>_Vj9BsHQ8Ee6lW_W_zHdLeg</id>
               <name>Testable</name>
-              <profile>
+              <stereotype>
                 <id>_Vj9BsHQ8Ee6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Testable</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_Vj-24HQ8Ee6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -3892,11 +4064,12 @@
             <element>
               <id>_ZGt90HQ8Ee6lW_W_zHdLeg</id>
               <name>Unique</name>
-              <profile>
+              <stereotype>
                 <id>_ZGt90HQ8Ee6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Unique</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_ZGvzAHQ8Ee6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -3915,11 +4088,12 @@
             <element>
               <id>_czX1wHQ8Ee6lW_W_zHdLeg</id>
               <name>Identifiable</name>
-              <profile>
+              <stereotype>
                 <id>_czX1wHQ8Ee6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Identifiable</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_czZq8HQ8Ee6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -3938,11 +4112,12 @@
             <element>
               <id>_0o9K0HQ8Ee6lW_W_zHdLeg</id>
               <name>Traceable</name>
-              <profile>
+              <stereotype>
                 <id>_0o9K0HQ8Ee6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Traceable</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_0o_nEHQ8Ee6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -3961,11 +4136,12 @@
             <element>
               <id>_51ResHQ8Ee6lW_W_zHdLeg</id>
               <name>Mapped</name>
-              <profile>
+              <stereotype>
                 <id>_51ResHQ8Ee6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Mapped</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_51TT4HQ8Ee6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -3984,11 +4160,12 @@
             <element>
               <id>_c0YTAHSXEe6lW_W_zHdLeg</id>
               <name>Conforming</name>
-              <profile>
+              <stereotype>
                 <id>_c0YTAHSXEe6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Conforming</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_c0avQHSXEe6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -4007,11 +4184,12 @@
             <element>
               <id>_dXws4HSXEe6lW_W_zHdLeg</id>
               <name>Derived</name>
-              <profile>
+              <stereotype>
                 <id>_dXws4HSXEe6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Derived</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_dXyiEHSXEe6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -4030,11 +4208,12 @@
             <element>
               <id>_d8Fh8HSXEe6lW_W_zHdLeg</id>
               <name>Analyzed</name>
-              <profile>
+              <stereotype>
                 <id>_d8Fh8HSXEe6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Analyzed</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_d8H-MHSXEe6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -4053,11 +4232,12 @@
             <element>
               <id>_em1vIHSXEe6lW_W_zHdLeg</id>
               <name>Reviewed</name>
-              <profile>
+              <stereotype>
                 <id>_em1vIHSXEe6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Reviewed</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_em3kUHSXEe6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -4076,11 +4256,12 @@
             <element>
               <id>_3ZLAUHSXEe6lW_W_zHdLeg</id>
               <name>Agreed</name>
-              <profile>
+              <stereotype>
                 <id>_3ZLAUHSXEe6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Agreed</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_3ZM1gHSXEe6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -4099,11 +4280,12 @@
             <element>
               <id>_5QHT0HSXEe6lW_W_zHdLeg</id>
               <name>Tangible</name>
-              <profile>
+              <stereotype>
                 <id>_5QHT0HSXEe6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Tangible</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_5QJJAHSXEe6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -4122,11 +4304,12 @@
             <element>
               <id>_AKROQHSzEe6lW_W_zHdLeg</id>
               <name>Typed</name>
-              <profile>
+              <stereotype>
                 <id>_AKROQHSzEe6lW_W_zHdLeg</id>
+                <profile>uml:Class</profile>
                 <type>uml:Class</type>
                 <name>Typed</name>
-              </profile>
+              </stereotype>
               <profile>
                 <id>_AKTDcHSzEe6lW_W_zHdLeg</id>
                 <type>Requirements:Requirement</type>
@@ -4146,11 +4329,12 @@
           <element>
             <id>_qeAsEHlmEe6kc8YwwNRSfw</id>
             <name>System interaction</name>
-            <profile>
+            <stereotype>
               <id>_qeAsEHlmEe6kc8YwwNRSfw</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>System interaction</name>
-            </profile>
+            </stereotype>
             <link>
               <id/>
               <name/>
@@ -4162,11 +4346,12 @@
       <element>
         <id>_kpaB4HjyEe6kc8YwwNRSfw</id>
         <name>System implementation</name>
-        <profile>
+        <stereotype>
           <id>_kpaB4HjyEe6kc8YwwNRSfw</id>
+          <profile>uml:Class</profile>
           <type>uml:Class</type>
           <name>System implementation</name>
-        </profile>
+        </stereotype>
         <link>
           <id/>
           <name/>
@@ -4176,11 +4361,12 @@
       <element>
         <id>_EgtxsHjzEe6kc8YwwNRSfw</id>
         <name>System test</name>
-        <profile>
+        <stereotype>
           <id>_EgtxsHjzEe6kc8YwwNRSfw</id>
+          <profile>uml:Class</profile>
           <type>uml:Class</type>
           <name>System test</name>
-        </profile>
+        </stereotype>
         <link>
           <id/>
           <name/>
@@ -4189,11 +4375,12 @@
         <element>
           <id>_TWKrYHjlEe6kc8YwwNRSfw</id>
           <name>Validation test</name>
-          <profile>
+          <stereotype>
             <id>_TWKrYHjlEe6kc8YwwNRSfw</id>
+            <profile>uml:Class</profile>
             <type>uml:Class</type>
             <name>Validation test</name>
-          </profile>
+          </stereotype>
           <link>
             <id/>
             <name/>
@@ -4203,11 +4390,12 @@
         <element>
           <id>_TWKEUXjlEe6kc8YwwNRSfw</id>
           <name>Verification test</name>
-          <profile>
+          <stereotype>
             <id>_TWKEUXjlEe6kc8YwwNRSfw</id>
+            <profile>uml:Class</profile>
             <type>uml:Class</type>
             <name>Verification test</name>
-          </profile>
+          </stereotype>
           <link>
             <id/>
             <name/>
@@ -4217,11 +4405,12 @@
         <element>
           <id>_TWKrYXjlEe6kc8YwwNRSfw</id>
           <name>Acceptance test</name>
-          <profile>
+          <stereotype>
             <id>_TWKrYXjlEe6kc8YwwNRSfw</id>
+            <profile>uml:Class</profile>
             <type>uml:Class</type>
             <name>Acceptance test</name>
-          </profile>
+          </stereotype>
           <link>
             <id/>
             <name/>
@@ -4232,11 +4421,12 @@
       <element>
         <id>_Z-pBkH_zEe6kpOUlFIEmGQ</id>
         <name>System element</name>
-        <profile>
+        <stereotype>
           <id>_Z-pBkH_zEe6kpOUlFIEmGQ</id>
+          <profile>uml:Class</profile>
           <type>uml:Class</type>
           <name>System element</name>
-        </profile>
+        </stereotype>
         <link>
           <id/>
           <name/>
@@ -4245,11 +4435,12 @@
         <element>
           <id>_LwGmoH_wEe6kpOUlFIEmGQ</id>
           <name>Managed</name>
-          <profile>
+          <stereotype>
             <id>_LwGmoH_wEe6kpOUlFIEmGQ</id>
+            <profile>uml:Class</profile>
             <type>uml:Class</type>
             <name>Managed</name>
-          </profile>
+          </stereotype>
           <profile>
             <id>_LwPwkH_wEe6kpOUlFIEmGQ</id>
             <type>Requirements:Requirement</type>
@@ -4266,11 +4457,12 @@
           <element>
             <id>_d_wGkH_zEe6kpOUlFIEmGQ</id>
             <name>Open</name>
-            <profile>
+            <stereotype>
               <id>_d_wGkH_zEe6kpOUlFIEmGQ</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Open</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_d_yi0H_zEe6kpOUlFIEmGQ</id>
               <type>Requirements:Requirement</type>
@@ -4288,11 +4480,12 @@
           <element>
             <id>_SDRpUH_6Ee6kpOUlFIEmGQ</id>
             <name>Draft</name>
-            <profile>
+            <stereotype>
               <id>_SDRpUH_6Ee6kpOUlFIEmGQ</id>
+              <profile>uml:Class</profile>
               <type>uml:Class</type>
               <name>Draft</name>
-            </profile>
+            </stereotype>
             <profile>
               <id>_SDSQYH_6Ee6kpOUlFIEmGQ</id>
               <type>Requirements:Requirement</type>
@@ -4313,11 +4506,12 @@
     <element>
       <id>_GI-BMH__Ee6kpOUlFIEmGQ</id>
       <name>systemimplementation</name>
-      <profile>
+      <stereotype>
         <id>_GI-BMH__Ee6kpOUlFIEmGQ</id>
+        <profile>uml:Package</profile>
         <type>uml:Package</type>
         <name>systemimplementation</name>
-      </profile>
+      </stereotype>
       <link>
         <id/>
         <name/>
@@ -4327,11 +4521,12 @@
     <element>
       <id>_Ic_5UH__Ee6kpOUlFIEmGQ</id>
       <name>systemtest</name>
-      <profile>
+      <stereotype>
         <id>_Ic_5UH__Ee6kpOUlFIEmGQ</id>
+        <profile>uml:Package</profile>
         <type>uml:Package</type>
         <name>systemtest</name>
-      </profile>
+      </stereotype>
       <link>
         <id/>
         <name/>
