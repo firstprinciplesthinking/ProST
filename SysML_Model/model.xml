@@ -69,6 +69,11 @@
             <type>Stakeholder Input</type>
             <profile>ProST</profile>
           </stereotype>
+          <stereotype>
+            <id>_POEDQIIJEe6kpOUlFIEmGQ</id>
+            <type>Managed Element</type>
+            <profile>ProST</profile>
+          </stereotype>
           <link>
             <id/>
             <name/>
@@ -83,6 +88,23 @@
               <profile>uml</profile>
               <text>
               There is no differentiation between a stakeholder need and a system requirement. A stakeholder need describes the expectations of the stakeholder towards the system without knowing its details. A systems requirement describes expected behaviours/properties of elements within the system.
+            </text>
+            </stereotype>
+            <link>
+              <id/>
+              <name/>
+              <direction/>
+            </link>
+          </element>
+          <element>
+            <id>_fbErIIIOEe6kpOUlFIEmGQ</id>
+            <name/>
+            <stereotype>
+              <id>_fbErIIIOEe6kpOUlFIEmGQ</id>
+              <type>Comment</type>
+              <profile>uml</profile>
+              <text>
+              For most requirement quality criteria there is no documented purpose.
             </text>
             </stereotype>
             <link>
@@ -159,6 +181,23 @@
               <name/>
               <direction/>
             </link>
+            <element>
+              <id>_rHABYIH7Ee6kpOUlFIEmGQ</id>
+              <name/>
+              <stereotype>
+                <id>_rHABYIH7Ee6kpOUlFIEmGQ</id>
+                <type>Comment</type>
+                <profile>uml</profile>
+                <text>
+                There is no objective "true" evaluation for a requirement or need. A truth must be accepted by all parties. Therefore a requirement/need must be accepted by all parties in order to be "true".
+              </text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
           </element>
           <element>
             <id>_LJU2QHvZEe69aLSa4ipdUg</id>
@@ -1015,6 +1054,90 @@
                 <name/>
                 <direction/>
               </link>
+              <element>
+                <id>_74fwsH5uEe65tLp0Dv84gQ</id>
+                <name>Stakeholder Needs Reviewed </name>
+                <stereotype>
+                  <id>_74fwsH5uEe65tLp0Dv84gQ</id>
+                  <type>Class</type>
+                  <profile>uml</profile>
+                  <name>Stakeholder Needs Reviewed </name>
+                </stereotype>
+                <stereotype>
+                  <id>_74iM8H5uEe65tLp0Dv84gQ</id>
+                  <type>Requirement</type>
+                  <profile>Requirements</profile>
+                  <text>The development process shall ensure that stakeholder needs are reviewed by the stakeholder and the supplier in order to receive feedback or acceptance.</text>
+                </stereotype>
+                <link>
+                  <id/>
+                  <name/>
+                  <direction/>
+                </link>
+              </element>
+              <element>
+                <id>_vn9qMH7REe65tLp0Dv84gQ</id>
+                <name>Stakeholder Needs Accepted </name>
+                <stereotype>
+                  <id>_vn9qMH7REe65tLp0Dv84gQ</id>
+                  <type>Class</type>
+                  <profile>uml</profile>
+                  <name>Stakeholder Needs Accepted </name>
+                </stereotype>
+                <stereotype>
+                  <id>_vn-RQH7REe65tLp0Dv84gQ</id>
+                  <type>Requirement</type>
+                  <profile>Requirements</profile>
+                  <text>The development process shall ensure that stakeholder needs are accepted by the stakeholder and the supplier in order to have the same understanding of the development scope.</text>
+                </stereotype>
+                <link>
+                  <id/>
+                  <name/>
+                  <direction/>
+                </link>
+              </element>
+              <element>
+                <id>_7cRNYIIAEe6kpOUlFIEmGQ</id>
+                <name>System Requirements Reviewed</name>
+                <stereotype>
+                  <id>_7cRNYIIAEe6kpOUlFIEmGQ</id>
+                  <type>Class</type>
+                  <profile>uml</profile>
+                  <name>System Requirements Reviewed</name>
+                </stereotype>
+                <stereotype>
+                  <id>_7cR0cIIAEe6kpOUlFIEmGQ</id>
+                  <type>Requirement</type>
+                  <profile>Requirements</profile>
+                  <text>The development process shall ensure that system requirements are reviewed by the stakeholder and the supplier in order to receive feedback or acceptance.</text>
+                </stereotype>
+                <link>
+                  <id/>
+                  <name/>
+                  <direction/>
+                </link>
+              </element>
+              <element>
+                <id>__-gCcIIAEe6kpOUlFIEmGQ</id>
+                <name>System Requirements Accepted</name>
+                <stereotype>
+                  <id>__-gCcIIAEe6kpOUlFIEmGQ</id>
+                  <type>Class</type>
+                  <profile>uml</profile>
+                  <name>System Requirements Accepted</name>
+                </stereotype>
+                <stereotype>
+                  <id>__-gCcYIAEe6kpOUlFIEmGQ</id>
+                  <type>Requirement</type>
+                  <profile>Requirements</profile>
+                  <text>The development process shall ensure that system requirements are accepted by the stakeholder and the supplier in order to have the same understanding of the system design.</text>
+                </stereotype>
+                <link>
+                  <id/>
+                  <name/>
+                  <direction/>
+                </link>
+              </element>
             </element>
           </element>
           <element>
@@ -1206,48 +1329,6 @@
               <direction/>
             </link>
           </element>
-        </element>
-        <element>
-          <id>_74fwsH5uEe65tLp0Dv84gQ</id>
-          <name>Reviewed</name>
-          <stereotype>
-            <id>_74fwsH5uEe65tLp0Dv84gQ</id>
-            <type>Class</type>
-            <profile>uml</profile>
-            <name>Reviewed</name>
-          </stereotype>
-          <stereotype>
-            <id>_74iM8H5uEe65tLp0Dv84gQ</id>
-            <type>Requirement</type>
-            <profile>Requirements</profile>
-            <text>A stakeholder need shall be reviewed by the stakeholder and the supplier in order to receive feedback or acceptance.</text>
-          </stereotype>
-          <link>
-            <id/>
-            <name/>
-            <direction/>
-          </link>
-        </element>
-        <element>
-          <id>_vn9qMH7REe65tLp0Dv84gQ</id>
-          <name>Agreed</name>
-          <stereotype>
-            <id>_vn9qMH7REe65tLp0Dv84gQ</id>
-            <type>Class</type>
-            <profile>uml</profile>
-            <name>Agreed</name>
-          </stereotype>
-          <stereotype>
-            <id>_vn-RQH7REe65tLp0Dv84gQ</id>
-            <type>Requirement</type>
-            <profile>Requirements</profile>
-            <text>A stakeholder need shall be reviewed by the stakeholder and the supplier in order to receive feedback or acceptance.</text>
-          </stereotype>
-          <link>
-            <id/>
-            <name/>
-            <direction/>
-          </link>
         </element>
         <element>
           <id>_KXlhIH8XEe65tLp0Dv84gQ</id>

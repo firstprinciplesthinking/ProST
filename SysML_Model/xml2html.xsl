@@ -47,15 +47,23 @@
 					<xsl:for-each select="stereotype">
 					<table>
 						<tr>
-							<td><xsl:value-of select="profile"/></td>
 							<td><xsl:value-of select="type"/></td>
 							<xsl:if test="profile = 'uml'">
-								<td><xsl:value-of select="name"/></td>
-								<xsl:if test="type = 'Comment'">
-								<td><xsl:value-of select="text"/></td>
-								</xsl:if>
+								<xsl:choose>
+									<xsl:when test="type = 'Comment'">
+										<td><xsl:value-of select="text"/></td>
+									</xsl:when>
+									<xsl:otherwise>
+										<td><xsl:value-of select="name"/></td>
+									</xsl:otherwise>
+								</xsl:choose>
 							</xsl:if>
+							
 							<xsl:if test="type = 'Requirement'">
+								<td><xsl:value-of select="text"/></td>
+							</xsl:if>
+							
+							<xsl:if test="type = 'ManagedElement'">
 								<td><xsl:value-of select="text"/></td>
 							</xsl:if>
 						</tr>

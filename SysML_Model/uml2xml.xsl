@@ -79,6 +79,14 @@
                 </stereotype>
                 </xsl:if>
                 
+                <xsl:if test="name(.) = 'ProST:ManagedElement'">
+                <stereotype>
+                    <id><xsl:value-of select="@xmi:id"/></id>
+                    <type>Managed Element</type>
+                    <profile>ProST</profile>
+                </stereotype>
+                </xsl:if>
+				
                 <xsl:if test="name(.) = 'ProST:StakeholderInput'">
                 <stereotype>
                     <id><xsl:value-of select="@xmi:id"/></id>
