@@ -44,8 +44,8 @@
 						<span> [<xsl:value-of select="type"/>]</span>
 					</xsl:for-each>
 				</summary>
-				<table>
 					<xsl:for-each select="stereotype">
+					<table>
 						<tr>
 							<td><xsl:value-of select="profile"/></td>
 							<td><xsl:value-of select="type"/></td>
@@ -59,8 +59,8 @@
 								<td><xsl:value-of select="text"/></td>
 							</xsl:if>
 						</tr>
-					</xsl:for-each>
-				</table>
+					</table>
+				</xsl:for-each>
 				<xsl:if test="*">
 					<ul class="tree">
 						<xsl:apply-templates select="element"/>
