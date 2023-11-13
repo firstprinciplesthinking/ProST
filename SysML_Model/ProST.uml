@@ -11,7 +11,7 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_MJMrEHf4Ee6kc8YwwNRSfw" name="stakeholderanalysis">
         <packagedElement xmi:type="uml:Activity" xmi:id="_lMf5sHvYEe69aLSa4ipdUg" name="International Requirements Engineering Board">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_cOIloHvaEe69aLSa4ipdUg" name="3.8 Quality Criteria for Work Products and Requirements">
-            <ownedComment xmi:type="uml:Comment" xmi:id="_UYuOgH7NEe65tLp0Dv84gQ" annotatedElement="_mpmw4HvYEe69aLSa4ipdUg">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_UYuOgH7NEe65tLp0Dv84gQ">
               <body>There is no differentiation between a stakeholder need and a system requirement. A stakeholder need describes the expectations of the stakeholder towards the system without knowing its details. A systems requirement describes expected behaviours/properties of elements within the system.</body>
             </ownedComment>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_mpmw4HvYEe69aLSa4ipdUg" name="True">
@@ -19,7 +19,11 @@
                 <body>There is no objective &quot;true&quot; evaluation for a requirement or need. A truth must be accepted by all parties. Therefore a requirement/need must be reviewed and accepted by all parties in order to be &quot;true&quot;.</body>
               </ownedComment>
             </nestedClassifier>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_NAxOIHvbEe69aLSa4ipdUg" name="Agreed"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_NAxOIHvbEe69aLSa4ipdUg" name="Agreed">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_rHABYIH7Ee6kpOUlFIEmGQ" annotatedElement="_mpmw4HvYEe69aLSa4ipdUg _74fwsH5uEe65tLp0Dv84gQ _NAxOIHvbEe69aLSa4ipdUg">
+                <body>There is no objective &quot;true&quot; evaluation for a requirement or need. A truth must be accepted by all parties. Therefore a requirement/need must be accepted by all parties in order to be &quot;true&quot;.</body>
+              </ownedComment>
+            </nestedClassifier>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_LJU2QHvZEe69aLSa4ipdUg" name="Necessary"/>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_LMpQAHvZEe69aLSa4ipdUg" name="Unambiguous"/>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_LQFlkHvZEe69aLSa4ipdUg" name="Nothing missing"/>
@@ -63,7 +67,12 @@
           <ownedBehavior xmi:type="uml:Activity" xmi:id="_92ASQHf3Ee6kc8YwwNRSfw" name="Supplier"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_k_EQIHdCEe6bK76pEkQaYA" name="Complete mission within constraints">
             <nestedClassifier xmi:type="uml:Class" xmi:id="_JamogHiVEe6kc8YwwNRSfw" name="Complete mission within scope">
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_EG8DsHmLEe6kc8YwwNRSfw" name="Define mission scope"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_EG8DsHmLEe6kc8YwwNRSfw" name="Define mission scope">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_74fwsH5uEe65tLp0Dv84gQ" name="Stakeholder Needs Reviewed "/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_vn9qMH7REe65tLp0Dv84gQ" name="Stakeholder Needs Accepted "/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_7cRNYIIAEe6kpOUlFIEmGQ" name="System Requirements Reviewed"/>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="__-gCcIIAEe6kpOUlFIEmGQ" name="System Requirements Accepted"/>
+              </nestedClassifier>
             </nestedClassifier>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_JthkgHiVEe6kc8YwwNRSfw" name="Complete mission within quality"/>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_J9lZwHiVEe6kc8YwwNRSfw" name="Complete mission within resources">
@@ -79,8 +88,6 @@
             <nestedClassifier xmi:type="uml:Class" xmi:id="_KmM48HiVEe6kc8YwwNRSfw" name="Complete mission within benefit"/>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_K41hEHiVEe6kc8YwwNRSfw" name="Complete mission within risk"/>
           </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_74fwsH5uEe65tLp0Dv84gQ" name="Reviewed"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_vn9qMH7REe65tLp0Dv84gQ" name="Agreed"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_KXlhIH8XEe65tLp0Dv84gQ" name="Solution neutral"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Activity" xmi:id="_ZshdMHsZEe69aLSa4ipdUg" name="Automotive Spice">
@@ -507,8 +514,8 @@
   <Requirements:Requirement xmi:id="_CyH8IHwYEe69aLSa4ipdUg" base_NamedElement="_CyHVEHwYEe69aLSa4ipdUg" text="A requirement should be considered feasible enough to investigate further through experiments or prototypes." base_Class="_CyHVEHwYEe69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_aKTmYH1_Ee69aLSa4ipdUg" base_NamedElement="_aKInQH1_Ee69aLSa4ipdUg" text="Acceptable levels of verifying fulfillment depend on the level of abstraction of the requirement or design." base_Class="_aKInQH1_Ee69aLSa4ipdUg"/>
   <Requirements:Requirement xmi:id="_cOKa0HvaEe69aLSa4ipdUg" base_NamedElement="_cOIloHvaEe69aLSa4ipdUg" text="&lt;See Handbook for the CPRE Foundation Level according to the IREB Standard v.1.10 / 3.8 Quality Criteria for Work Products and Requirements>" base_Class="_cOIloHvaEe69aLSa4ipdUg"/>
-  <Requirements:Requirement xmi:id="_74iM8H5uEe65tLp0Dv84gQ" base_NamedElement="_74fwsH5uEe65tLp0Dv84gQ" text="A stakeholder need shall be reviewed by the stakeholder and the supplier in order to receive feedback or acceptance." base_Class="_74fwsH5uEe65tLp0Dv84gQ"/>
-  <Requirements:Requirement xmi:id="_vn-RQH7REe65tLp0Dv84gQ" base_NamedElement="_vn9qMH7REe65tLp0Dv84gQ" text="A stakeholder need shall be reviewed by the stakeholder and the supplier in order to receive feedback or acceptance." base_Class="_vn9qMH7REe65tLp0Dv84gQ"/>
+  <Requirements:Requirement xmi:id="_74iM8H5uEe65tLp0Dv84gQ" base_NamedElement="_74fwsH5uEe65tLp0Dv84gQ" text="The development process shall ensure that stakeholder needs are reviewed by the stakeholder and the supplier in order to receive feedback or acceptance." base_Class="_74fwsH5uEe65tLp0Dv84gQ"/>
+  <Requirements:Requirement xmi:id="_vn-RQH7REe65tLp0Dv84gQ" base_NamedElement="_vn9qMH7REe65tLp0Dv84gQ" text="The development process shall ensure that stakeholder needs are accepted by the stakeholder and the supplier in order to have the same understanding of the development scope." base_Class="_vn9qMH7REe65tLp0Dv84gQ"/>
   <Requirements:Requirement xmi:id="_KXn9YH8XEe65tLp0Dv84gQ" base_NamedElement="_KXlhIH8XEe65tLp0Dv84gQ" text="A stakeholder need should not make " base_Class="_KXlhIH8XEe65tLp0Dv84gQ"/>
   <ModelElements:Stakeholder xmi:id="_Vl64cH8wEe65tLp0Dv84gQ" base_Classifier="_Vl2nAH8wEe65tLp0Dv84gQ"/>
   <ModelElements:Stakeholder xmi:id="_ZYkDoH8wEe65tLp0Dv84gQ" base_Classifier="_ZYhAUH8wEe65tLp0Dv84gQ"/>
@@ -537,4 +544,6 @@
   <ProST:StakeholderInput xmi:id="_7lY3QIAKEe6kpOUlFIEmGQ" base_NamedElement="_R7LQ0HwWEe69aLSa4ipdUg" base_Class="_R7LQ0HwWEe69aLSa4ipdUg"/>
   <ProST:StakeholderInput xmi:id="_9NsR0IAKEe6kpOUlFIEmGQ" base_NamedElement="_43L60HwIEe69aLSa4ipdUg" base_Class="_43L60HwIEe69aLSa4ipdUg"/>
   <ProST:StakeholderInput xmi:id="_WgQiQIALEe6kpOUlFIEmGQ" base_NamedElement="_cOIloHvaEe69aLSa4ipdUg" base_Class="_cOIloHvaEe69aLSa4ipdUg"/>
+  <Requirements:Requirement xmi:id="_7cR0cIIAEe6kpOUlFIEmGQ" base_NamedElement="_7cRNYIIAEe6kpOUlFIEmGQ" text="The development process shall ensure that system requirements are reviewed by the stakeholder and the supplier in order to receive feedback or acceptance." base_Class="_7cRNYIIAEe6kpOUlFIEmGQ"/>
+  <Requirements:Requirement xmi:id="__-gCcYIAEe6kpOUlFIEmGQ" base_NamedElement="__-gCcIIAEe6kpOUlFIEmGQ" text="The development process shall ensure that system requirements are accepted by the stakeholder and the supplier in order to have the same understanding of the system design." base_Class="__-gCcIIAEe6kpOUlFIEmGQ"/>
 </xmi:XMI>
