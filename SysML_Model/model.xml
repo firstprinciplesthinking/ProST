@@ -82,7 +82,7 @@
               <type>Comment</type>
               <profile>uml</profile>
               <text>
-              There is no differentiation between a stakeholder need and a system requirement. A stakeholder need describes the expectations of the stakeholder towards the system. A systems requirement describes expected behaviours/properties of elements within the system.
+              There is no differentiation between a stakeholder need and a system requirement. A stakeholder need describes the expectations of the stakeholder towards the system without knowing its details. A systems requirement describes expected behaviours/properties of elements within the system.
             </text>
             </stereotype>
             <link>

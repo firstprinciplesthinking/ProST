@@ -13,7 +13,7 @@
         <html>
             <head>
                 <title>SysML HTML5 Viewer</title>
-				<link rel="stylesheet" type="text/css" href="ProST.css" />
+				<link rel="stylesheet" type="text/css" href="simple.css" />
             </head>
             <body>
                 <h1>SysML HTML5 Viewer</h1>

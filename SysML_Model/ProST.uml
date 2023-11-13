@@ -12,7 +12,7 @@
         <packagedElement xmi:type="uml:Activity" xmi:id="_lMf5sHvYEe69aLSa4ipdUg" name="International Requirements Engineering Board">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_cOIloHvaEe69aLSa4ipdUg" name="3.8 Quality Criteria for Work Products and Requirements">
             <ownedComment xmi:type="uml:Comment" xmi:id="_UYuOgH7NEe65tLp0Dv84gQ" annotatedElement="_mpmw4HvYEe69aLSa4ipdUg">
-              <body>There is no differentiation between a stakeholder need and a system requirement. A stakeholder need describes the expectations of the stakeholder towards the system. A systems requirement describes expected behaviours/properties of elements within the system.</body>
+              <body>There is no differentiation between a stakeholder need and a system requirement. A stakeholder need describes the expectations of the stakeholder towards the system without knowing its details. A systems requirement describes expected behaviours/properties of elements within the system.</body>
             </ownedComment>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_mpmw4HvYEe69aLSa4ipdUg" name="True">
               <ownedComment xmi:type="uml:Comment" xmi:id="_dU9gcH5vEe65tLp0Dv84gQ" annotatedElement="_mpmw4HvYEe69aLSa4ipdUg _74fwsH5uEe65tLp0Dv84gQ">
