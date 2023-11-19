@@ -4,7 +4,6 @@
   <name>ProST</name>
   <element>
     <id>_0tpt4HSaEe6lW_W_zHdLeg</id>
-    <name>systemsthinking</name>
     <stereotype>
       <id>_0tpt4HSaEe6lW_W_zHdLeg</id>
       <type>Package</type>
@@ -18,7 +17,6 @@
     </link>
     <element>
       <id>_MJMrEHf4Ee6kc8YwwNRSfw</id>
-      <name>stakeholderanalysis</name>
       <stereotype>
         <id>_MJMrEHf4Ee6kc8YwwNRSfw</id>
         <type>Package</type>
@@ -32,7 +30,6 @@
       </link>
       <element>
         <id>_lMf5sHvYEe69aLSa4ipdUg</id>
-        <name>International Requirements Engineering Board</name>
         <stereotype>
           <id>_lMf5sHvYEe69aLSa4ipdUg</id>
           <type>Activity</type>
@@ -51,7 +48,6 @@
         </link>
         <element>
           <id>_cOIloHvaEe69aLSa4ipdUg</id>
-          <name>3.8 Quality Criteria for Work Products and Requirements</name>
           <stereotype>
             <id>_cOIloHvaEe69aLSa4ipdUg</id>
             <type>Class</type>
@@ -62,16 +58,11 @@
             <id>_cOKa0HvaEe69aLSa4ipdUg</id>
             <type>Requirement</type>
             <profile>Requirements</profile>
-            <text>&lt;See Handbook for the CPRE Foundation Level according to the IREB Standard v.1.10 / 3.8 Quality Criteria for Work Products and Requirements&gt;</text>
+            <text>The development process may integrate the quality criteria for requirements as defined in Handbook for the CPRE Foundation Level according to the IREB Standard v.1.10 / 3.8 Quality Criteria for Work Products and Requirements.</text>
           </stereotype>
           <stereotype>
             <id>_WgQiQIALEe6kpOUlFIEmGQ</id>
             <type>Stakeholder Input</type>
-            <profile>ProST</profile>
-          </stereotype>
-          <stereotype>
-            <id>_POEDQIIJEe6kpOUlFIEmGQ</id>
-            <type>Managed Element</type>
             <profile>ProST</profile>
           </stereotype>
           <link>
@@ -81,13 +72,12 @@
           </link>
           <element>
             <id>_UYuOgH7NEe65tLp0Dv84gQ</id>
-            <name/>
             <stereotype>
               <id>_UYuOgH7NEe65tLp0Dv84gQ</id>
               <type>Comment</type>
               <profile>uml</profile>
               <text>
-              There is no differentiation between a stakeholder need and a system requirement. A stakeholder need describes the expectations of the stakeholder towards the system without knowing its details. A systems requirement describes expected behaviours/properties of elements within the system.
+              The quality criteria make no differentiation between a stakeholder need and a system requirement. A stakeholder need describes the expectations of the stakeholder towards the system without knowing its details. A systems requirement describes proposed behaviours/properties of elements within the system.
             </text>
             </stereotype>
             <link>
@@ -98,13 +88,44 @@
           </element>
           <element>
             <id>_fbErIIIOEe6kpOUlFIEmGQ</id>
-            <name/>
             <stereotype>
               <id>_fbErIIIOEe6kpOUlFIEmGQ</id>
               <type>Comment</type>
               <profile>uml</profile>
               <text>
-              For most requirement quality criteria there is no documented purpose.
+              For most quality criteria there is no documented purpose, making a purposeful implementation and use of the development process unlikely. A purpose creates an understanding of how the process contributes to the success of the development.
+            </text>
+            </stereotype>
+            <link>
+              <id/>
+              <name/>
+              <direction/>
+            </link>
+          </element>
+          <element>
+            <id>_EXDGgIJCEe6kpOUlFIEmGQ</id>
+            <stereotype>
+              <id>_EXDGgIJCEe6kpOUlFIEmGQ</id>
+              <type>Comment</type>
+              <profile>uml</profile>
+              <text>
+              The quality criteria are rated for their importance based on textual description. This is transfered into the standard shall, should, may classification.
+            </text>
+            </stereotype>
+            <link>
+              <id/>
+              <name/>
+              <direction/>
+            </link>
+          </element>
+          <element>
+            <id>_IwjZMIJJEe6kpOUlFIEmGQ</id>
+            <stereotype>
+              <id>_IwjZMIJJEe6kpOUlFIEmGQ</id>
+              <type>Comment</type>
+              <profile>uml</profile>
+              <text>
+              Most quality criteria have a headline, followed by a synonym and then a description of the meaning of that synonym. Since this describes up to three times the same aspect and is prone to inconsistencies and misunderstandings, where applicable only the meaning is used for the definition of the stakeholder need. Either the summary or its synonym are used to name the stakeholder need.
             </text>
             </stereotype>
             <link>
@@ -115,7 +136,6 @@
           </element>
           <element>
             <id>_mpmw4HvYEe69aLSa4ipdUg</id>
-            <name>True</name>
             <stereotype>
               <id>_mpmw4HvYEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -126,12 +146,21 @@
               <id>_mppNIHvYEe69aLSa4ipdUg</id>
               <type>Requirement</type>
               <profile>Requirements</profile>
-              <text>A requirement shall describe true stakeholder needs.</text>
+              <text>A requirement shall describe the stakeholder needs.</text>
             </stereotype>
             <stereotype>
               <id>_ZrJc0H_-Ee6kpOUlFIEmGQ</id>
               <type>Stakeholder Need</type>
               <profile>ProST</profile>
+            </stereotype>
+            <stereotype>
+              <id>_u9c9oII_Ee6kpOUlFIEmGQ</id>
+              <type>Managed Element</type>
+              <profile>ProST</profile>
+              <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_u9c9oII_Ee6kpOUlFIEmGQ</xmi:id>
+              <base_NamedElement>_mpmw4HvYEe69aLSa4ipdUg</base_NamedElement>
+              <base_Class>_mpmw4HvYEe69aLSa4ipdUg</base_Class>
+              <status>Done</status>
             </stereotype>
             <link>
               <id/>
@@ -140,13 +169,12 @@
             </link>
             <element>
               <id>_dU9gcH5vEe65tLp0Dv84gQ</id>
-              <name/>
               <stereotype>
                 <id>_dU9gcH5vEe65tLp0Dv84gQ</id>
                 <type>Comment</type>
                 <profile>uml</profile>
                 <text>
-                There is no objective "true" evaluation for a requirement or need. A truth must be accepted by all parties. Therefore a requirement/need must be reviewed and accepted by all parties in order to be "true".
+                There is no objective "true" evaluation for a requirement or need. A truth must be accepted by all parties. Therefore a requirement or needs can only be reviewed and accepted by all parties in order to be "true".
               </text>
               </stereotype>
               <link>
@@ -158,7 +186,6 @@
           </element>
           <element>
             <id>_NAxOIHvbEe69aLSa4ipdUg</id>
-            <name>Agreed</name>
             <stereotype>
               <id>_NAxOIHvbEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -176,37 +203,28 @@
               <type>Stakeholder Need</type>
               <profile>ProST</profile>
             </stereotype>
+            <stereotype>
+              <id>_wIt24II_Ee6kpOUlFIEmGQ</id>
+              <type>Managed Element</type>
+              <profile>ProST</profile>
+              <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_wIt24II_Ee6kpOUlFIEmGQ</xmi:id>
+              <base_NamedElement>_NAxOIHvbEe69aLSa4ipdUg</base_NamedElement>
+              <base_Class>_NAxOIHvbEe69aLSa4ipdUg</base_Class>
+              <status>Done</status>
+            </stereotype>
             <link>
               <id/>
               <name/>
               <direction/>
             </link>
-            <element>
-              <id>_rHABYIH7Ee6kpOUlFIEmGQ</id>
-              <name/>
-              <stereotype>
-                <id>_rHABYIH7Ee6kpOUlFIEmGQ</id>
-                <type>Comment</type>
-                <profile>uml</profile>
-                <text>
-                There is no objective "true" evaluation for a requirement or need. A truth must be accepted by all parties. Therefore a requirement/need must be accepted by all parties in order to be "true".
-              </text>
-              </stereotype>
-              <link>
-                <id/>
-                <name/>
-                <direction/>
-              </link>
-            </element>
           </element>
           <element>
             <id>_LJU2QHvZEe69aLSa4ipdUg</id>
-            <name>Necessary</name>
             <stereotype>
               <id>_LJU2QHvZEe69aLSa4ipdUg</id>
               <type>Class</type>
               <profile>uml</profile>
-              <name>Necessary</name>
+              <name>Part of Scope</name>
             </stereotype>
             <stereotype>
               <id>_LJU2QXvZEe69aLSa4ipdUg</id>
@@ -219,6 +237,15 @@
               <type>Stakeholder Need</type>
               <profile>ProST</profile>
             </stereotype>
+            <stereotype>
+              <id>_sQ9BgIJHEe6kpOUlFIEmGQ</id>
+              <type>Managed Element</type>
+              <profile>ProST</profile>
+              <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_sQ9BgIJHEe6kpOUlFIEmGQ</xmi:id>
+              <base_NamedElement>_LJU2QHvZEe69aLSa4ipdUg</base_NamedElement>
+              <base_Class>_LJU2QHvZEe69aLSa4ipdUg</base_Class>
+              <status>Done</status>
+            </stereotype>
             <link>
               <id/>
               <name/>
@@ -227,7 +254,6 @@
           </element>
           <element>
             <id>_LMpQAHvZEe69aLSa4ipdUg</id>
-            <name>Unambiguous</name>
             <stereotype>
               <id>_LMpQAHvZEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -245,6 +271,15 @@
               <type>Stakeholder Need</type>
               <profile>ProST</profile>
             </stereotype>
+            <stereotype>
+              <id>_HSnRAIJIEe6kpOUlFIEmGQ</id>
+              <type>Managed Element</type>
+              <profile>ProST</profile>
+              <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_HSnRAIJIEe6kpOUlFIEmGQ</xmi:id>
+              <base_NamedElement>_LMpQAHvZEe69aLSa4ipdUg</base_NamedElement>
+              <base_Class>_LMpQAHvZEe69aLSa4ipdUg</base_Class>
+              <status>Done</status>
+            </stereotype>
             <link>
               <id/>
               <name/>
@@ -253,12 +288,11 @@
           </element>
           <element>
             <id>_LQFlkHvZEe69aLSa4ipdUg</id>
-            <name>Nothing missing</name>
             <stereotype>
               <id>_LQFlkHvZEe69aLSa4ipdUg</id>
               <type>Class</type>
               <profile>uml</profile>
-              <name>Nothing missing</name>
+              <name>Complete</name>
             </stereotype>
             <stereotype>
               <id>_LQFlkXvZEe69aLSa4ipdUg</id>
@@ -271,6 +305,15 @@
               <type>Stakeholder Need</type>
               <profile>ProST</profile>
             </stereotype>
+            <stereotype>
+              <id>_zzAoQIJIEe6kpOUlFIEmGQ</id>
+              <type>Managed Element</type>
+              <profile>ProST</profile>
+              <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_zzAoQIJIEe6kpOUlFIEmGQ</xmi:id>
+              <base_NamedElement>_LQFlkHvZEe69aLSa4ipdUg</base_NamedElement>
+              <base_Class>_LQFlkHvZEe69aLSa4ipdUg</base_Class>
+              <status>Done</status>
+            </stereotype>
             <link>
               <id/>
               <name/>
@@ -279,7 +322,6 @@
           </element>
           <element>
             <id>_LTmMkHvZEe69aLSa4ipdUg</id>
-            <name>Understandable</name>
             <stereotype>
               <id>_LTmMkHvZEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -297,6 +339,15 @@
               <type>Stakeholder Need</type>
               <profile>ProST</profile>
             </stereotype>
+            <stereotype>
+              <id>_izycIIJKEe6kpOUlFIEmGQ</id>
+              <type>Managed Element</type>
+              <profile>ProST</profile>
+              <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_izycIIJKEe6kpOUlFIEmGQ</xmi:id>
+              <base_NamedElement>_LTmMkHvZEe69aLSa4ipdUg</base_NamedElement>
+              <base_Class>_LTmMkHvZEe69aLSa4ipdUg</base_Class>
+              <status>Done</status>
+            </stereotype>
             <link>
               <id/>
               <name/>
@@ -305,7 +356,6 @@
           </element>
           <element>
             <id>_LXdY4HvZEe69aLSa4ipdUg</id>
-            <name>Verifiable</name>
             <stereotype>
               <id>_LXdY4HvZEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -323,20 +373,44 @@
               <type>Stakeholder Need</type>
               <profile>ProST</profile>
             </stereotype>
+            <stereotype>
+              <id>_tW8xgIJNEe6kpOUlFIEmGQ</id>
+              <type>Managed Element</type>
+              <profile>ProST</profile>
+              <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_tW8xgIJNEe6kpOUlFIEmGQ</xmi:id>
+              <base_NamedElement>_LXdY4HvZEe69aLSa4ipdUg</base_NamedElement>
+              <base_Class>_LXdY4HvZEe69aLSa4ipdUg</base_Class>
+              <status>Done</status>
+            </stereotype>
             <link>
               <id/>
               <name/>
               <direction/>
             </link>
+            <element>
+              <id>_3myxAIJKEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_3myxAIJKEe6kpOUlFIEmGQ</id>
+                <type>Comment</type>
+                <profile>uml</profile>
+                <text>
+                
+              </text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
           </element>
           <element>
             <id>_zglN4HvZEe69aLSa4ipdUg</id>
-            <name>No contradiction</name>
             <stereotype>
               <id>_zglN4HvZEe69aLSa4ipdUg</id>
               <type>Class</type>
               <profile>uml</profile>
-              <name>No contradiction</name>
+              <name>Consistent</name>
             </stereotype>
             <stereotype>
               <id>_zglN4XvZEe69aLSa4ipdUg</id>
@@ -349,6 +423,15 @@
               <type>Stakeholder Need</type>
               <profile>ProST</profile>
             </stereotype>
+            <stereotype>
+              <id>_UEr3sIJ8Ee6kpOUlFIEmGQ</id>
+              <type>Managed Element</type>
+              <profile>ProST</profile>
+              <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_UEr3sIJ8Ee6kpOUlFIEmGQ</xmi:id>
+              <base_NamedElement>_zglN4HvZEe69aLSa4ipdUg</base_NamedElement>
+              <base_Class>_zglN4HvZEe69aLSa4ipdUg</base_Class>
+              <status>Done</status>
+            </stereotype>
             <link>
               <id/>
               <name/>
@@ -357,12 +440,11 @@
           </element>
           <element>
             <id>_zn7MAHvZEe69aLSa4ipdUg</id>
-            <name>Documented once</name>
             <stereotype>
               <id>_zn7MAHvZEe69aLSa4ipdUg</id>
               <type>Class</type>
               <profile>uml</profile>
-              <name>Documented once</name>
+              <name>Non-redundant</name>
             </stereotype>
             <stereotype>
               <id>_zn7MAXvZEe69aLSa4ipdUg</id>
@@ -375,6 +457,15 @@
               <type>Stakeholder Need</type>
               <profile>ProST</profile>
             </stereotype>
+            <stereotype>
+              <id>_VtPJ4IJ8Ee6kpOUlFIEmGQ</id>
+              <type>Managed Element</type>
+              <profile>ProST</profile>
+              <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_VtPJ4IJ8Ee6kpOUlFIEmGQ</xmi:id>
+              <base_NamedElement>_zn7MAHvZEe69aLSa4ipdUg</base_NamedElement>
+              <base_Class>_zn7MAHvZEe69aLSa4ipdUg</base_Class>
+              <status>Done</status>
+            </stereotype>
             <link>
               <id/>
               <name/>
@@ -383,12 +474,11 @@
           </element>
           <element>
             <id>_E5NhQHwUEe69aLSa4ipdUg</id>
-            <name>No overlap</name>
             <stereotype>
               <id>_E5NhQHwUEe69aLSa4ipdUg</id>
               <type>Class</type>
               <profile>uml</profile>
-              <name>No overlap</name>
+              <name>Without overlap</name>
             </stereotype>
             <stereotype>
               <id>_E5NhQXwUEe69aLSa4ipdUg</id>
@@ -401,6 +491,15 @@
               <type>Stakeholder Need</type>
               <profile>ProST</profile>
             </stereotype>
+            <stereotype>
+              <id>_XmNdsIJ8Ee6kpOUlFIEmGQ</id>
+              <type>Managed Element</type>
+              <profile>ProST</profile>
+              <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_XmNdsIJ8Ee6kpOUlFIEmGQ</xmi:id>
+              <base_NamedElement>_E5NhQHwUEe69aLSa4ipdUg</base_NamedElement>
+              <base_Class>_E5NhQHwUEe69aLSa4ipdUg</base_Class>
+              <status>Done</status>
+            </stereotype>
             <link>
               <id/>
               <name/>
@@ -409,23 +508,31 @@
           </element>
           <element>
             <id>_ztXssHvZEe69aLSa4ipdUg</id>
-            <name>All known requirements</name>
             <stereotype>
               <id>_ztXssHvZEe69aLSa4ipdUg</id>
               <type>Class</type>
               <profile>uml</profile>
-              <name>All known requirements</name>
+              <name>Contain known requirements</name>
             </stereotype>
             <stereotype>
               <id>_ztXssXvZEe69aLSa4ipdUg</id>
               <type>Requirement</type>
               <profile>Requirements</profile>
-              <text>A requirements specification should contain all relevant requirements (functionalrequirements, quality requirements, and constraints) that are known at this point in time.</text>
+              <text>A requirements specification should contain all relevant requirements (functional requirements, quality requirements, and constraints) that are known at this point in time.</text>
             </stereotype>
             <stereotype>
               <id>_nff9gH_-Ee6kpOUlFIEmGQ</id>
               <type>Stakeholder Need</type>
               <profile>ProST</profile>
+            </stereotype>
+            <stereotype>
+              <id>_Y0vtYIJ8Ee6kpOUlFIEmGQ</id>
+              <type>Managed Element</type>
+              <profile>ProST</profile>
+              <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_Y0vtYIJ8Ee6kpOUlFIEmGQ</xmi:id>
+              <base_NamedElement>_ztXssHvZEe69aLSa4ipdUg</base_NamedElement>
+              <base_Class>_ztXssHvZEe69aLSa4ipdUg</base_Class>
+              <status>Done</status>
             </stereotype>
             <link>
               <id/>
@@ -435,12 +542,11 @@
           </element>
           <element>
             <id>_i28gUHwUEe69aLSa4ipdUg</id>
-            <name>All related requirements</name>
             <stereotype>
               <id>_i28gUHwUEe69aLSa4ipdUg</id>
               <type>Class</type>
               <profile>uml</profile>
-              <name>All related requirements</name>
+              <name>Contain related requirements</name>
             </stereotype>
             <stereotype>
               <id>_i28gUXwUEe69aLSa4ipdUg</id>
@@ -453,6 +559,15 @@
               <type>Stakeholder Need</type>
               <profile>ProST</profile>
             </stereotype>
+            <stereotype>
+              <id>_Z81W0IJ8Ee6kpOUlFIEmGQ</id>
+              <type>Managed Element</type>
+              <profile>ProST</profile>
+              <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_Z81W0IJ8Ee6kpOUlFIEmGQ</xmi:id>
+              <base_NamedElement>_i28gUHwUEe69aLSa4ipdUg</base_NamedElement>
+              <base_Class>_i28gUHwUEe69aLSa4ipdUg</base_Class>
+              <status>Done</status>
+            </stereotype>
             <link>
               <id/>
               <name/>
@@ -461,12 +576,11 @@
           </element>
           <element>
             <id>_z_uA8HvZEe69aLSa4ipdUg</id>
-            <name>Modify without degration</name>
             <stereotype>
               <id>_z_uA8HvZEe69aLSa4ipdUg</id>
               <type>Class</type>
               <profile>uml</profile>
-              <name>Modify without degration</name>
+              <name>Modifable without degration</name>
             </stereotype>
             <stereotype>
               <id>_z_uoAHvZEe69aLSa4ipdUg</id>
@@ -479,6 +593,15 @@
               <type>Stakeholder Need</type>
               <profile>ProST</profile>
             </stereotype>
+            <stereotype>
+              <id>_bU7yMIJ8Ee6kpOUlFIEmGQ</id>
+              <type>Managed Element</type>
+              <profile>ProST</profile>
+              <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_bU7yMIJ8Ee6kpOUlFIEmGQ</xmi:id>
+              <base_NamedElement>_z_uA8HvZEe69aLSa4ipdUg</base_NamedElement>
+              <base_Class>_z_uA8HvZEe69aLSa4ipdUg</base_Class>
+              <status>Done</status>
+            </stereotype>
             <link>
               <id/>
               <name/>
@@ -487,7 +610,6 @@
           </element>
           <element>
             <id>_0IQR4HvZEe69aLSa4ipdUg</id>
-            <name>Traceable to origin</name>
             <stereotype>
               <id>_0IQR4HvZEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -498,12 +620,21 @@
               <id>_0IQR4XvZEe69aLSa4ipdUg</id>
               <type>Requirement</type>
               <profile>Requirements</profile>
-              <text>A requirement should be traceable back to their origins.</text>
+              <text>A requirement should be traceable back to its origins.</text>
             </stereotype>
             <stereotype>
               <id>_p1j18H_-Ee6kpOUlFIEmGQ</id>
               <type>Stakeholder Need</type>
               <profile>ProST</profile>
+            </stereotype>
+            <stereotype>
+              <id>_cxKfoIJ8Ee6kpOUlFIEmGQ</id>
+              <type>Managed Element</type>
+              <profile>ProST</profile>
+              <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_cxKfoIJ8Ee6kpOUlFIEmGQ</xmi:id>
+              <base_NamedElement>_0IQR4HvZEe69aLSa4ipdUg</base_NamedElement>
+              <base_Class>_0IQR4HvZEe69aLSa4ipdUg</base_Class>
+              <status>Done</status>
             </stereotype>
             <link>
               <id/>
@@ -513,7 +644,6 @@
           </element>
           <element>
             <id>_9vqPMHwUEe69aLSa4ipdUg</id>
-            <name>Traceable to implementation</name>
             <stereotype>
               <id>_9vqPMHwUEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -531,6 +661,15 @@
               <type>Stakeholder Need</type>
               <profile>ProST</profile>
             </stereotype>
+            <stereotype>
+              <id>_dyjrMIJ8Ee6kpOUlFIEmGQ</id>
+              <type>Managed Element</type>
+              <profile>ProST</profile>
+              <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_dyjrMIJ8Ee6kpOUlFIEmGQ</xmi:id>
+              <base_NamedElement>_9vqPMHwUEe69aLSa4ipdUg</base_NamedElement>
+              <base_Class>_9vqPMHwUEe69aLSa4ipdUg</base_Class>
+              <status>Done</status>
+            </stereotype>
             <link>
               <id/>
               <name/>
@@ -539,7 +678,6 @@
           </element>
           <element>
             <id>_9zeYMHwUEe69aLSa4ipdUg</id>
-            <name>Traceable to dependency</name>
             <stereotype>
               <id>_9zeYMHwUEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -557,6 +695,15 @@
               <type>Stakeholder Need</type>
               <profile>ProST</profile>
             </stereotype>
+            <stereotype>
+              <id>_fA8w8IJ8Ee6kpOUlFIEmGQ</id>
+              <type>Managed Element</type>
+              <profile>ProST</profile>
+              <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_fA8w8IJ8Ee6kpOUlFIEmGQ</xmi:id>
+              <base_NamedElement>_9zeYMHwUEe69aLSa4ipdUg</base_NamedElement>
+              <base_Class>_9zeYMHwUEe69aLSa4ipdUg</base_Class>
+              <status>Done</status>
+            </stereotype>
             <link>
               <id/>
               <name/>
@@ -565,23 +712,31 @@
           </element>
           <element>
             <id>_0LImwHvZEe69aLSa4ipdUg</id>
-            <name>Conform</name>
             <stereotype>
               <id>_0LImwHvZEe69aLSa4ipdUg</id>
               <type>Class</type>
               <profile>uml</profile>
-              <name>Conform</name>
+              <name>Conform to format</name>
             </stereotype>
             <stereotype>
               <id>_0LImwXvZEe69aLSa4ipdUg</id>
               <type>Requirement</type>
               <profile>Requirements</profile>
-              <text>If there are mandatory structuring or formatting instructions, a requirement should conform to them.</text>
+              <text>A requirement should conform to mandatory structuring or formatting instructions, if defined.</text>
             </stereotype>
             <stereotype>
               <id>_sNjoEH_-Ee6kpOUlFIEmGQ</id>
               <type>Stakeholder Need</type>
               <profile>ProST</profile>
+            </stereotype>
+            <stereotype>
+              <id>_gBKQwIJ8Ee6kpOUlFIEmGQ</id>
+              <type>Managed Element</type>
+              <profile>ProST</profile>
+              <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_gBKQwIJ8Ee6kpOUlFIEmGQ</xmi:id>
+              <base_NamedElement>_0LImwHvZEe69aLSa4ipdUg</base_NamedElement>
+              <base_Class>_0LImwHvZEe69aLSa4ipdUg</base_Class>
+              <status>Done</status>
             </stereotype>
             <link>
               <id/>
@@ -593,7 +748,6 @@
       </element>
       <element>
         <id>_IA6nIHwWEe69aLSa4ipdUg</id>
-        <name>International Institute for Business Analysis</name>
         <stereotype>
           <id>_IA6nIHwWEe69aLSa4ipdUg</id>
           <type>Activity</type>
@@ -612,7 +766,6 @@
         </link>
         <element>
           <id>_R7LQ0HwWEe69aLSa4ipdUg</id>
-          <name>7.2.4.1 Characteristics of Requirements and Designs Quality</name>
           <stereotype>
             <id>_R7LQ0HwWEe69aLSa4ipdUg</id>
             <type>Class</type>
@@ -637,7 +790,6 @@
           </link>
           <element>
             <id>_leYxwHwWEe69aLSa4ipdUg</id>
-            <name>Self-contained</name>
             <stereotype>
               <id>_leYxwHwWEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -658,7 +810,6 @@
           </element>
           <element>
             <id>_3UmlYHwWEe69aLSa4ipdUg</id>
-            <name>Understood independently</name>
             <stereotype>
               <id>_3UmlYHwWEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -679,7 +830,6 @@
           </element>
           <element>
             <id>_l-Tn8HwWEe69aLSa4ipdUg</id>
-            <name>Complete to work</name>
             <stereotype>
               <id>_l-Tn8HwWEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -699,7 +849,6 @@
             </link>
             <element>
               <id>_TMcO8HwXEe69aLSa4ipdUg</id>
-              <name>Different completeness level</name>
               <stereotype>
                 <id>_TMcO8HwXEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -721,7 +870,6 @@
           </element>
           <element>
             <id>_RMB2YHwXEe69aLSa4ipdUg</id>
-            <name>Detailed for work</name>
             <stereotype>
               <id>_RMB2YHwXEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -742,7 +890,6 @@
           </element>
           <element>
             <id>_mCoHQHwWEe69aLSa4ipdUg</id>
-            <name>Aligned with needs</name>
             <stereotype>
               <id>_mCoHQHwWEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -763,7 +910,6 @@
           </element>
           <element>
             <id>_r6grMHwXEe69aLSa4ipdUg</id>
-            <name>Not conflicting</name>
             <stereotype>
               <id>_r6grMHwXEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -784,7 +930,6 @@
           </element>
           <element>
             <id>_mGLKgHwWEe69aLSa4ipdUg</id>
-            <name>No extraenous content</name>
             <stereotype>
               <id>_mGLKgHwWEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -805,7 +950,6 @@
           </element>
           <element>
             <id>_0P2lgHwXEe69aLSa4ipdUg</id>
-            <name>No unnecessary content</name>
             <stereotype>
               <id>_0P2lgHwXEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -826,7 +970,6 @@
           </element>
           <element>
             <id>_mJBDIHwWEe69aLSa4ipdUg</id>
-            <name>Feasible within constraints</name>
             <stereotype>
               <id>_mJBDIHwWEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -847,7 +990,6 @@
           </element>
           <element>
             <id>_CyHVEHwYEe69aLSa4ipdUg</id>
-            <name>Considered feasible for investigation</name>
             <stereotype>
               <id>_CyHVEHwYEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -868,7 +1010,6 @@
           </element>
           <element>
             <id>_mL1toHwWEe69aLSa4ipdUg</id>
-            <name>Clearly stated</name>
             <stereotype>
               <id>_mL1toHwWEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -889,7 +1030,6 @@
           </element>
           <element>
             <id>_mOZ5cHwWEe69aLSa4ipdUg</id>
-            <name>Able to fulfil</name>
             <stereotype>
               <id>_mOZ5cHwWEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -911,7 +1051,6 @@
             </link>
             <element>
               <id>_aKInQH1_Ee69aLSa4ipdUg</id>
-              <name>Acceptable fulfilment level</name>
               <stereotype>
                 <id>_aKInQH1_Ee69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -933,7 +1072,6 @@
           </element>
           <element>
             <id>_mRZjEHwWEe69aLSa4ipdUg</id>
-            <name>Prioritized</name>
             <stereotype>
               <id>_mRZjEHwWEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -954,7 +1092,6 @@
           </element>
           <element>
             <id>_mUeFMHwWEe69aLSa4ipdUg</id>
-            <name>Understandable</name>
             <stereotype>
               <id>_mUeFMHwWEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -977,7 +1114,6 @@
       </element>
       <element>
         <id>_smRi0HwIEe69aLSa4ipdUg</id>
-        <name>Processes for Systems Thinking</name>
         <stereotype>
           <id>_smRi0HwIEe69aLSa4ipdUg</id>
           <type>Activity</type>
@@ -996,7 +1132,6 @@
         </link>
         <element>
           <id>_k_EQIHdCEe6bK76pEkQaYA</id>
-          <name>Complete mission within constraints</name>
           <stereotype>
             <id>_k_EQIHdCEe6bK76pEkQaYA</id>
             <type>Class</type>
@@ -1016,7 +1151,6 @@
           </link>
           <element>
             <id>_JamogHiVEe6kc8YwwNRSfw</id>
-            <name>Complete mission within scope</name>
             <stereotype>
               <id>_JamogHiVEe6kc8YwwNRSfw</id>
               <type>Class</type>
@@ -1036,7 +1170,6 @@
             </link>
             <element>
               <id>_EG8DsHmLEe6kc8YwwNRSfw</id>
-              <name>Define mission scope</name>
               <stereotype>
                 <id>_EG8DsHmLEe6kc8YwwNRSfw</id>
                 <type>Class</type>
@@ -1056,7 +1189,6 @@
               </link>
               <element>
                 <id>_74fwsH5uEe65tLp0Dv84gQ</id>
-                <name>Stakeholder Needs Reviewed </name>
                 <stereotype>
                   <id>_74fwsH5uEe65tLp0Dv84gQ</id>
                   <type>Class</type>
@@ -1077,7 +1209,6 @@
               </element>
               <element>
                 <id>_vn9qMH7REe65tLp0Dv84gQ</id>
-                <name>Stakeholder Needs Accepted </name>
                 <stereotype>
                   <id>_vn9qMH7REe65tLp0Dv84gQ</id>
                   <type>Class</type>
@@ -1098,7 +1229,6 @@
               </element>
               <element>
                 <id>_7cRNYIIAEe6kpOUlFIEmGQ</id>
-                <name>System Requirements Reviewed</name>
                 <stereotype>
                   <id>_7cRNYIIAEe6kpOUlFIEmGQ</id>
                   <type>Class</type>
@@ -1119,7 +1249,6 @@
               </element>
               <element>
                 <id>__-gCcIIAEe6kpOUlFIEmGQ</id>
-                <name>System Requirements Accepted</name>
                 <stereotype>
                   <id>__-gCcIIAEe6kpOUlFIEmGQ</id>
                   <type>Class</type>
@@ -1138,11 +1267,70 @@
                   <direction/>
                 </link>
               </element>
+              <element>
+                <id>_dZ_y4ILMEe6kpOUlFIEmGQ</id>
+                <stereotype>
+                  <id>_dZ_y4ILMEe6kpOUlFIEmGQ</id>
+                  <type>Class</type>
+                  <profile>uml</profile>
+                  <name>Stakeholder Needs are Measured</name>
+                </stereotype>
+                <stereotype>
+                  <id>_daCPIILMEe6kpOUlFIEmGQ</id>
+                  <type>Requirement</type>
+                  <profile>Requirements</profile>
+                  <text>Considered the minimum accepted</text>
+                </stereotype>
+                <link>
+                  <id/>
+                  <name/>
+                  <direction/>
+                </link>
+              </element>
+              <element>
+                <id>_O-9QMILNEe6kpOUlFIEmGQ</id>
+                <stereotype>
+                  <id>_O-9QMILNEe6kpOUlFIEmGQ</id>
+                  <type>Class</type>
+                  <profile>uml</profile>
+                  <name>System requirement Active</name>
+                </stereotype>
+                <stereotype>
+                  <id>_O-_FYILNEe6kpOUlFIEmGQ</id>
+                  <type>Requirement</type>
+                  <profile>Requirements</profile>
+                  <text>active voice</text>
+                </stereotype>
+                <link>
+                  <id/>
+                  <name/>
+                  <direction/>
+                </link>
+              </element>
+              <element>
+                <id>_4Y06kIL9Ee6kpOUlFIEmGQ</id>
+                <stereotype>
+                  <id>_4Y06kIL9Ee6kpOUlFIEmGQ</id>
+                  <type>Class</type>
+                  <profile>uml</profile>
+                  <name>Small changes</name>
+                </stereotype>
+                <stereotype>
+                  <id>_4ZK40IL9Ee6kpOUlFIEmGQ</id>
+                  <type>Requirement</type>
+                  <profile>Requirements</profile>
+                  <text>Changes may be split into individual requirement changes to ensure revertability - ThePrimeTime</text>
+                </stereotype>
+                <link>
+                  <id/>
+                  <name/>
+                  <direction/>
+                </link>
+              </element>
             </element>
           </element>
           <element>
             <id>_JthkgHiVEe6kc8YwwNRSfw</id>
-            <name>Complete mission within quality</name>
             <stereotype>
               <id>_JthkgHiVEe6kc8YwwNRSfw</id>
               <type>Class</type>
@@ -1163,7 +1351,6 @@
           </element>
           <element>
             <id>_J9lZwHiVEe6kc8YwwNRSfw</id>
-            <name>Complete mission within resources</name>
             <stereotype>
               <id>_J9lZwHiVEe6kc8YwwNRSfw</id>
               <type>Class</type>
@@ -1183,7 +1370,6 @@
             </link>
             <element>
               <id>_iCWbgHivEe6kc8YwwNRSfw</id>
-              <name>Estimate required resources</name>
               <stereotype>
                 <id>_iCWbgHivEe6kc8YwwNRSfw</id>
                 <type>Class</type>
@@ -1203,7 +1389,6 @@
               </link>
               <element>
                 <id>_4ouz4HjuEe6kc8YwwNRSfw</id>
-                <name>Quantify system requirements</name>
                 <stereotype>
                   <id>_4ouz4HjuEe6kc8YwwNRSfw</id>
                   <type>Class</type>
@@ -1226,7 +1411,6 @@
           </element>
           <element>
             <id>_KOoGcHiVEe6kc8YwwNRSfw</id>
-            <name>Complete mission within time</name>
             <stereotype>
               <id>_KOoGcHiVEe6kc8YwwNRSfw</id>
               <type>Class</type>
@@ -1246,7 +1430,6 @@
             </link>
             <element>
               <id>_bJTBoHgCEe6kc8YwwNRSfw</id>
-              <name>Estimate required time</name>
               <stereotype>
                 <id>_bJTBoHgCEe6kc8YwwNRSfw</id>
                 <type>Class</type>
@@ -1266,7 +1449,6 @@
               </link>
               <element>
                 <id>_zqaN0HjwEe6kc8YwwNRSfw</id>
-                <name>Quantify system requirements</name>
                 <stereotype>
                   <id>_zqaN0HjwEe6kc8YwwNRSfw</id>
                   <type>Class</type>
@@ -1289,7 +1471,6 @@
           </element>
           <element>
             <id>_KmM48HiVEe6kc8YwwNRSfw</id>
-            <name>Complete mission within benefit</name>
             <stereotype>
               <id>_KmM48HiVEe6kc8YwwNRSfw</id>
               <type>Class</type>
@@ -1310,7 +1491,6 @@
           </element>
           <element>
             <id>_K41hEHiVEe6kc8YwwNRSfw</id>
-            <name>Complete mission within risk</name>
             <stereotype>
               <id>_K41hEHiVEe6kc8YwwNRSfw</id>
               <type>Class</type>
@@ -1332,7 +1512,6 @@
         </element>
         <element>
           <id>_KXlhIH8XEe65tLp0Dv84gQ</id>
-          <name>Solution neutral</name>
           <stereotype>
             <id>_KXlhIH8XEe65tLp0Dv84gQ</id>
             <type>Class</type>
@@ -1354,7 +1533,6 @@
       </element>
       <element>
         <id>_ZshdMHsZEe69aLSa4ipdUg</id>
-        <name>Automotive Spice</name>
         <stereotype>
           <id>_ZshdMHsZEe69aLSa4ipdUg</id>
           <type>Activity</type>
@@ -1373,18 +1551,11 @@
         </link>
         <element>
           <id>_43L60HwIEe69aLSa4ipdUg</id>
-          <name>SUP.8 Configuration Management</name>
           <stereotype>
             <id>_43L60HwIEe69aLSa4ipdUg</id>
             <type>Class</type>
             <profile>uml</profile>
             <name>SUP.8 Configuration Management</name>
-          </stereotype>
-          <stereotype>
-            <id>_43NwAHwIEe69aLSa4ipdUg</id>
-            <type>Requirement</type>
-            <profile>Requirements</profile>
-            <text/>
           </stereotype>
           <stereotype>
             <id>_9NsR0IAKEe6kpOUlFIEmGQ</id>
@@ -1398,7 +1569,6 @@
           </link>
           <element>
             <id>_LO4ZoHryEe69aLSa4ipdUg</id>
-            <name>Process purpose</name>
             <stereotype>
               <id>_LO4ZoHryEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -1418,7 +1588,6 @@
             </link>
             <element>
               <id>_YpjH0HsaEe69aLSa4ipdUg</id>
-              <name>Establish work product integrity</name>
               <stereotype>
                 <id>_YpjH0HsaEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -1439,7 +1608,6 @@
             </element>
             <element>
               <id>_e40tgHsaEe69aLSa4ipdUg</id>
-              <name>Maintain work product integrity</name>
               <stereotype>
                 <id>_e40tgHsaEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -1460,7 +1628,6 @@
             </element>
             <element>
               <id>_e7u3kHsaEe69aLSa4ipdUg</id>
-              <name>Make work products available</name>
               <stereotype>
                 <id>_e7u3kHsaEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -1482,7 +1649,6 @@
           </element>
           <element>
             <id>_ke1JAHr0Ee69aLSa4ipdUg</id>
-            <name>Outcome 1</name>
             <stereotype>
               <id>_ke1JAHr0Ee69aLSa4ipdUg</id>
               <type>Class</type>
@@ -1502,7 +1668,6 @@
             </link>
             <element>
               <id>_jzOSIHryEe69aLSa4ipdUg</id>
-              <name>Develop configuration management strategy</name>
               <stereotype>
                 <id>_jzOSIHryEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -1524,7 +1689,6 @@
           </element>
           <element>
             <id>_uXosEHryEe69aLSa4ipdUg</id>
-            <name>Outcome 2</name>
             <stereotype>
               <id>_uXosEHryEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -1544,7 +1708,6 @@
             </link>
             <element>
               <id>_qj5fQHrzEe69aLSa4ipdUg</id>
-              <name>Identify configuration items</name>
               <stereotype>
                 <id>_qj5fQHrzEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -1565,7 +1728,6 @@
             </element>
             <element>
               <id>_s29uEHrzEe69aLSa4ipdUg</id>
-              <name>Define configuration items</name>
               <stereotype>
                 <id>_s29uEHrzEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -1586,7 +1748,6 @@
             </element>
             <element>
               <id>_tmH6IHrzEe69aLSa4ipdUg</id>
-              <name>Baseline configuration items</name>
               <stereotype>
                 <id>_tmH6IHrzEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -1608,7 +1769,6 @@
           </element>
           <element>
             <id>_9qvCsHryEe69aLSa4ipdUg</id>
-            <name>Outcome 3</name>
             <stereotype>
               <id>_9qvCsHryEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -1628,7 +1788,6 @@
             </link>
             <element>
               <id>_843O8Hr0Ee69aLSa4ipdUg</id>
-              <name>Control modifications</name>
               <stereotype>
                 <id>_843O8Hr0Ee69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -1649,7 +1808,6 @@
             </element>
             <element>
               <id>_9g9wwHr0Ee69aLSa4ipdUg</id>
-              <name>Control releases</name>
               <stereotype>
                 <id>_9g9wwHr0Ee69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -1671,7 +1829,6 @@
           </element>
           <element>
             <id>_-U72QHryEe69aLSa4ipdUg</id>
-            <name>Outcome 4</name>
             <stereotype>
               <id>_-U72QHryEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -1691,7 +1848,6 @@
             </link>
             <element>
               <id>_PsXxQHr1Ee69aLSa4ipdUg</id>
-              <name>Make modifications available</name>
               <stereotype>
                 <id>_PsXxQHr1Ee69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -1712,7 +1868,6 @@
             </element>
             <element>
               <id>_QNN0gHr1Ee69aLSa4ipdUg</id>
-              <name>Make releases available</name>
               <stereotype>
                 <id>_QNN0gHr1Ee69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -1734,7 +1889,6 @@
           </element>
           <element>
             <id>_eoBRMHr1Ee69aLSa4ipdUg</id>
-            <name>Outcome 5</name>
             <stereotype>
               <id>_eoBRMHr1Ee69aLSa4ipdUg</id>
               <type>Class</type>
@@ -1754,7 +1908,6 @@
             </link>
             <element>
               <id>_rAW1IHscEe69aLSa4ipdUg</id>
-              <name>Record configuration item status</name>
               <stereotype>
                 <id>_rAW1IHscEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -1775,7 +1928,6 @@
             </element>
             <element>
               <id>_4e4PwHscEe69aLSa4ipdUg</id>
-              <name>Record modification status</name>
               <stereotype>
                 <id>_4e4PwHscEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -1796,7 +1948,6 @@
             </element>
             <element>
               <id>_0_0u8HscEe69aLSa4ipdUg</id>
-              <name>Report configuration item status</name>
               <stereotype>
                 <id>_0_0u8HscEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -1817,7 +1968,6 @@
             </element>
             <element>
               <id>_6tYusHscEe69aLSa4ipdUg</id>
-              <name>Report modification status</name>
               <stereotype>
                 <id>_6tYusHscEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -1839,7 +1989,6 @@
           </element>
           <element>
             <id>_rJitsHsZEe69aLSa4ipdUg</id>
-            <name>Outcome 6</name>
             <stereotype>
               <id>_rJitsHsZEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -1859,7 +2008,6 @@
             </link>
             <element>
               <id>_OyCIwHsdEe69aLSa4ipdUg</id>
-              <name>Ensure baseline completeness</name>
               <stereotype>
                 <id>_OyCIwHsdEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -1880,7 +2028,6 @@
             </element>
             <element>
               <id>_O3pokHsdEe69aLSa4ipdUg</id>
-              <name>Ensure baseline consistency</name>
               <stereotype>
                 <id>_O3pokHsdEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -1902,7 +2049,6 @@
           </element>
           <element>
             <id>_rNNswHsZEe69aLSa4ipdUg</id>
-            <name>Outcome 7</name>
             <stereotype>
               <id>_rNNswHsZEe69aLSa4ipdUg</id>
               <type>Class</type>
@@ -1922,7 +2068,6 @@
             </link>
             <element>
               <id>_2XFnYHsdEe69aLSa4ipdUg</id>
-              <name>Control storage</name>
               <stereotype>
                 <id>_2XFnYHsdEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -1944,7 +2089,6 @@
           </element>
           <element>
             <id>_jJph8Hr4Ee69aLSa4ipdUg</id>
-            <name>Base practice 1</name>
             <stereotype>
               <id>_jJph8Hr4Ee69aLSa4ipdUg</id>
               <type>Class</type>
@@ -1964,7 +2108,6 @@
             </link>
             <element>
               <id>_tw4KEHseEe69aLSa4ipdUg</id>
-              <name>Develop configuration management strategy</name>
               <stereotype>
                 <id>_tw4KEHseEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -1984,7 +2127,6 @@
               </link>
               <element>
                 <id>_xJXv4HseEe69aLSa4ipdUg</id>
-                <name>Strategy includes responsibilities</name>
                 <stereotype>
                   <id>_xJXv4HseEe69aLSa4ipdUg</id>
                   <type>Class</type>
@@ -2005,7 +2147,6 @@
               </element>
               <element>
                 <id>_AgkjYHsfEe69aLSa4ipdUg</id>
-                <name>Strategy includes tools</name>
                 <stereotype>
                   <id>_AgkjYHsfEe69aLSa4ipdUg</id>
                   <type>Class</type>
@@ -2026,7 +2167,6 @@
               </element>
               <element>
                 <id>_LiagMHsfEe69aLSa4ipdUg</id>
-                <name>Strategy includes repositories</name>
                 <stereotype>
                   <id>_LiagMHsfEe69aLSa4ipdUg</id>
                   <type>Class</type>
@@ -2047,7 +2187,6 @@
               </element>
               <element>
                 <id>_AkCuIHsfEe69aLSa4ipdUg</id>
-                <name>Strategy includes criteria</name>
                 <stereotype>
                   <id>_AkCuIHsfEe69aLSa4ipdUg</id>
                   <type>Class</type>
@@ -2068,7 +2207,6 @@
               </element>
               <element>
                 <id>_AmqkUHsfEe69aLSa4ipdUg</id>
-                <name>Strategy includes naming conventions</name>
                 <stereotype>
                   <id>_AmqkUHsfEe69aLSa4ipdUg</id>
                   <type>Class</type>
@@ -2089,7 +2227,6 @@
               </element>
               <element>
                 <id>_Aoo6QHsfEe69aLSa4ipdUg</id>
-                <name>Strategy includes access rights</name>
                 <stereotype>
                   <id>_Aoo6QHsfEe69aLSa4ipdUg</id>
                   <type>Class</type>
@@ -2110,7 +2247,6 @@
               </element>
               <element>
                 <id>_AqvzEHsfEe69aLSa4ipdUg</id>
-                <name>Strategy includes baseline criteria</name>
                 <stereotype>
                   <id>_AqvzEHsfEe69aLSa4ipdUg</id>
                   <type>Class</type>
@@ -2131,7 +2267,6 @@
               </element>
               <element>
                 <id>_AtbToHsfEe69aLSa4ipdUg</id>
-                <name>Include merge strategy</name>
                 <stereotype>
                   <id>_AtbToHsfEe69aLSa4ipdUg</id>
                   <type>Class</type>
@@ -2152,7 +2287,6 @@
               </element>
               <element>
                 <id>_1YXDYHsfEe69aLSa4ipdUg</id>
-                <name>Include branch strategy</name>
                 <stereotype>
                   <id>_1YXDYHsfEe69aLSa4ipdUg</id>
                   <type>Class</type>
@@ -2173,7 +2307,6 @@
               </element>
               <element>
                 <id>_AwOwAHsfEe69aLSa4ipdUg</id>
-                <name>Include revision history approach</name>
                 <stereotype>
                   <id>_AwOwAHsfEe69aLSa4ipdUg</id>
                   <type>Class</type>
@@ -2195,7 +2328,6 @@
             </element>
             <element>
               <id>_xMdgIHseEe69aLSa4ipdUg</id>
-              <name>Support variant handling</name>
               <stereotype>
                 <id>_xMdgIHseEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2216,7 +2348,6 @@
             </element>
             <element>
               <id>_xOXkoHseEe69aLSa4ipdUg</id>
-              <name>Specify branching cases</name>
               <stereotype>
                 <id>_xOXkoHseEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2237,7 +2368,6 @@
             </element>
             <element>
               <id>_auyuUHsgEe69aLSa4ipdUg</id>
-              <name>Specify branching authorization</name>
               <stereotype>
                 <id>_auyuUHsgEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2258,7 +2388,6 @@
             </element>
             <element>
               <id>_iOyVAHsgEe69aLSa4ipdUg</id>
-              <name>Specify merging approach</name>
               <stereotype>
                 <id>_iOyVAHsgEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2279,7 +2408,6 @@
             </element>
             <element>
               <id>_kBVQsHsgEe69aLSa4ipdUg</id>
-              <name>Specify verification activities</name>
               <stereotype>
                 <id>_kBVQsHsgEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2301,7 +2429,6 @@
           </element>
           <element>
             <id>_jY--cHr4Ee69aLSa4ipdUg</id>
-            <name>Base practice 2</name>
             <stereotype>
               <id>_jY--cHr4Ee69aLSa4ipdUg</id>
               <type>Class</type>
@@ -2321,7 +2448,6 @@
             </link>
             <element>
               <id>__2q4sHtIEe69aLSa4ipdUg</id>
-              <name>Identify configuration items</name>
               <stereotype>
                 <id>__2q4sHtIEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2342,7 +2468,6 @@
             </element>
             <element>
               <id>_Dmag4HtJEe69aLSa4ipdUg</id>
-              <name>Identify configuration items</name>
               <stereotype>
                 <id>_Dmag4HtJEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2363,7 +2488,6 @@
             </element>
             <element>
               <id>_Dp22cHtJEe69aLSa4ipdUg</id>
-              <name>Document configuration items</name>
               <stereotype>
                 <id>_Dp22cHtJEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2384,7 +2508,6 @@
             </element>
             <element>
               <id>_Dv3-4HtJEe69aLSa4ipdUg</id>
-              <name>Apply configuration control</name>
               <stereotype>
                 <id>_Dv3-4HtJEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2406,7 +2529,6 @@
           </element>
           <element>
             <id>_jo-iQHr4Ee69aLSa4ipdUg</id>
-            <name>Base practice 3</name>
             <stereotype>
               <id>_jo-iQHr4Ee69aLSa4ipdUg</id>
               <type>Class</type>
@@ -2426,7 +2548,6 @@
             </link>
             <element>
               <id>_T9SzQHtKEe69aLSa4ipdUg</id>
-              <name>Establish configuration management system</name>
               <stereotype>
                 <id>_T9SzQHtKEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2447,7 +2568,6 @@
             </element>
             <element>
               <id>_T_ZsEHtKEe69aLSa4ipdUg</id>
-              <name>Establish configuration management system</name>
               <stereotype>
                 <id>_T_ZsEHtKEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2469,7 +2589,6 @@
           </element>
           <element>
             <id>_iru-QHr1Ee69aLSa4ipdUg</id>
-            <name>Base practice 4</name>
             <stereotype>
               <id>_iru-QHr1Ee69aLSa4ipdUg</id>
               <type>Class</type>
@@ -2489,7 +2608,6 @@
             </link>
             <element>
               <id>_rH4rMHr1Ee69aLSa4ipdUg</id>
-              <name>Establish branch management</name>
               <stereotype>
                 <id>_rH4rMHr1Ee69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2511,7 +2629,6 @@
           </element>
           <element>
             <id>_d3Ht0Hr3Ee69aLSa4ipdUg</id>
-            <name>Base practice 5</name>
             <stereotype>
               <id>_d3Ht0Hr3Ee69aLSa4ipdUg</id>
               <type>Class</type>
@@ -2531,7 +2648,6 @@
             </link>
             <element>
               <id>_igGrIHr3Ee69aLSa4ipdUg</id>
-              <name>Control modifications</name>
               <stereotype>
                 <id>_igGrIHr3Ee69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2552,7 +2668,6 @@
             </element>
             <element>
               <id>_oVme4Hr3Ee69aLSa4ipdUg</id>
-              <name>Control releases</name>
               <stereotype>
                 <id>_oVme4Hr3Ee69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2573,7 +2688,6 @@
             </element>
             <element>
               <id>_oZTTIHr3Ee69aLSa4ipdUg</id>
-              <name>Establish control mechanisms</name>
               <stereotype>
                 <id>_oZTTIHr3Ee69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2593,7 +2707,6 @@
               </link>
               <element>
                 <id>_ogNMYHr3Ee69aLSa4ipdUg</id>
-                <name>Control modifications</name>
                 <stereotype>
                   <id>_ogNMYHr3Ee69aLSa4ipdUg</id>
                   <type>Class</type>
@@ -2614,7 +2727,6 @@
               </element>
               <element>
                 <id>_A2NG4Hr4Ee69aLSa4ipdUg</id>
-                <name>Control releases</name>
                 <stereotype>
                   <id>_A2NG4Hr4Ee69aLSa4ipdUg</id>
                   <type>Class</type>
@@ -2637,7 +2749,6 @@
           </element>
           <element>
             <id>_AxR1gHr2Ee69aLSa4ipdUg</id>
-            <name>Base practice 6</name>
             <stereotype>
               <id>_AxR1gHr2Ee69aLSa4ipdUg</id>
               <type>Class</type>
@@ -2657,7 +2768,6 @@
             </link>
             <element>
               <id>_Iq0koHr2Ee69aLSa4ipdUg</id>
-              <name>Internal baselines</name>
               <stereotype>
                 <id>_Iq0koHr2Ee69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2678,7 +2788,6 @@
             </element>
             <element>
               <id>_KAuAkHr2Ee69aLSa4ipdUg</id>
-              <name>External baselines</name>
               <stereotype>
                 <id>_KAuAkHr2Ee69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2699,7 +2808,6 @@
             </element>
             <element>
               <id>_KEGrwHr2Ee69aLSa4ipdUg</id>
-              <name>Refer baseline issues</name>
               <stereotype>
                 <id>_KEGrwHr2Ee69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2721,7 +2829,6 @@
           </element>
           <element>
             <id>_kAm_IHr4Ee69aLSa4ipdUg</id>
-            <name>Base practice 7</name>
             <stereotype>
               <id>_kAm_IHr4Ee69aLSa4ipdUg</id>
               <type>Class</type>
@@ -2741,7 +2848,6 @@
             </link>
             <element>
               <id>_wQLjQHsMEe69aLSa4ipdUg</id>
-              <name>Report configuration status</name>
               <stereotype>
                 <id>_wQLjQHsMEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2762,7 +2868,6 @@
             </element>
             <element>
               <id>_wTBb4HsMEe69aLSa4ipdUg</id>
-              <name>Record configuration item status</name>
               <stereotype>
                 <id>_wTBb4HsMEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2783,7 +2888,6 @@
             </element>
             <element>
               <id>_wU0LoHsMEe69aLSa4ipdUg</id>
-              <name>Report configuration item status</name>
               <stereotype>
                 <id>_wU0LoHsMEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2805,7 +2909,6 @@
           </element>
           <element>
             <id>_dXq8QHr4Ee69aLSa4ipdUg</id>
-            <name>Base practice 8</name>
             <stereotype>
               <id>_dXq8QHr4Ee69aLSa4ipdUg</id>
               <type>Class</type>
@@ -2825,7 +2928,6 @@
             </link>
             <element>
               <id>_00yG8Hr4Ee69aLSa4ipdUg</id>
-              <name>Verify information</name>
               <stereotype>
                 <id>_00yG8Hr4Ee69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2846,7 +2948,6 @@
             </element>
             <element>
               <id>_0-ZV8Hr4Ee69aLSa4ipdUg</id>
-              <name>Verify complete configuration items' information</name>
               <stereotype>
                 <id>_0-ZV8Hr4Ee69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2867,7 +2968,6 @@
             </element>
             <element>
               <id>_2C3DoHr4Ee69aLSa4ipdUg</id>
-              <name>Verify complete baselines' information</name>
               <stereotype>
                 <id>_2C3DoHr4Ee69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2888,7 +2988,6 @@
             </element>
             <element>
               <id>_MFfNUHr5Ee69aLSa4ipdUg</id>
-              <name>Ensure baseline consistency</name>
               <stereotype>
                 <id>_MFfNUHr5Ee69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2909,7 +3008,6 @@
             </element>
             <element>
               <id>_2G-uoHr4Ee69aLSa4ipdUg</id>
-              <name>Implement baseline audits</name>
               <stereotype>
                 <id>_2G-uoHr4Ee69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2930,7 +3028,6 @@
             </element>
             <element>
               <id>_kx2ZYHr5Ee69aLSa4ipdUg</id>
-              <name>Implement configuration management audits</name>
               <stereotype>
                 <id>_kx2ZYHr5Ee69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2952,7 +3049,6 @@
           </element>
           <element>
             <id>_k07YAHr4Ee69aLSa4ipdUg</id>
-            <name>Base practice 9</name>
             <stereotype>
               <id>_k07YAHr4Ee69aLSa4ipdUg</id>
               <type>Class</type>
@@ -2972,7 +3068,6 @@
             </link>
             <element>
               <id>_pJkCsHsIEe69aLSa4ipdUg</id>
-              <name>Manage configuration item storage</name>
               <stereotype>
                 <id>_pJkCsHsIEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -2993,7 +3088,6 @@
             </element>
             <element>
               <id>_j_1IwHsIEe69aLSa4ipdUg</id>
-              <name>Manage baseline storage</name>
               <stereotype>
                 <id>_j_1IwHsIEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -3014,7 +3108,6 @@
             </element>
             <element>
               <id>_kEaGwHsIEe69aLSa4ipdUg</id>
-              <name>Ensure configuration item integrity</name>
               <stereotype>
                 <id>_kEaGwHsIEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -3035,7 +3128,6 @@
             </element>
             <element>
               <id>_kGWAcHsIEe69aLSa4ipdUg</id>
-              <name>Ensure baseline integrity</name>
               <stereotype>
                 <id>_kGWAcHsIEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -3056,7 +3148,6 @@
             </element>
             <element>
               <id>_kICpkHsIEe69aLSa4ipdUg</id>
-              <name>Ensure configuration item availability</name>
               <stereotype>
                 <id>_kICpkHsIEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -3077,7 +3168,6 @@
             </element>
             <element>
               <id>_kJ8HAHsIEe69aLSa4ipdUg</id>
-              <name>Ensure baseline availability</name>
               <stereotype>
                 <id>_kJ8HAHsIEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -3098,7 +3188,6 @@
             </element>
             <element>
               <id>_kLQVoHsIEe69aLSa4ipdUg</id>
-              <name>Extend storage beyond lifetime</name>
               <stereotype>
                 <id>_kLQVoHsIEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -3119,7 +3208,6 @@
             </element>
             <element>
               <id>_rQr_4HsLEe69aLSa4ipdUg</id>
-              <name>Extend archiving beyond lifetime</name>
               <stereotype>
                 <id>_rQr_4HsLEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -3140,7 +3228,6 @@
             </element>
             <element>
               <id>_0rdtsHsKEe69aLSa4ipdUg</id>
-              <name>Include affected configuration items</name>
               <stereotype>
                 <id>_0rdtsHsKEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -3161,7 +3248,6 @@
             </element>
             <element>
               <id>_NMudAHsLEe69aLSa4ipdUg</id>
-              <name>Ensure contractual availability</name>
               <stereotype>
                 <id>_NMudAHsLEe69aLSa4ipdUg</id>
                 <type>Class</type>
@@ -3182,10 +3268,1620 @@
             </element>
           </element>
         </element>
+        <element>
+          <id>_flR_0IOqEe6kpOUlFIEmGQ</id>
+          <stereotype>
+            <id>_flR_0IOqEe6kpOUlFIEmGQ</id>
+            <type>Class</type>
+            <profile>uml</profile>
+            <name>SWE.3 Software Detailed Design and Unit Construction</name>
+          </stereotype>
+          <stereotype>
+            <id>_qyZ_kIOqEe6kpOUlFIEmGQ</id>
+            <type>Stakeholder Input</type>
+            <profile>ProST</profile>
+          </stereotype>
+          <link>
+            <id/>
+            <name/>
+            <direction/>
+          </link>
+          <element>
+            <id>_Wz_LUIOUEe6kpOUlFIEmGQ</id>
+            <stereotype>
+              <id>_Wz_LUIOUEe6kpOUlFIEmGQ</id>
+              <type>Comment</type>
+              <profile>uml</profile>
+              <text>
+              Should use "the developement process"
+            </text>
+            </stereotype>
+            <link>
+              <id/>
+              <name/>
+              <direction/>
+            </link>
+          </element>
+          <element>
+            <id>_0MTuMIOqEe6kpOUlFIEmGQ</id>
+            <stereotype>
+              <id>_0MTuMIOqEe6kpOUlFIEmGQ</id>
+              <type>Class</type>
+              <profile>uml</profile>
+              <name>Process purpose</name>
+            </stereotype>
+            <stereotype>
+              <id>_eplXIIOrEe6kpOUlFIEmGQ</id>
+              <type>Stakeholder Input</type>
+              <profile>ProST</profile>
+            </stereotype>
+            <link>
+              <id/>
+              <name/>
+              <direction/>
+            </link>
+            <element>
+              <id>_Uwi-0IOSEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_Uwi-0IOSEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Evaluate software detailed design</name>
+              </stereotype>
+              <stereotype>
+                <id>_Uwk0AIOSEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall provide an evaluated detailed design for the software components.</text>
+              </stereotype>
+              <stereotype>
+                <id>_h5QYIIOrEe6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_9peE0IOtEe6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_9peE0IOtEe6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_Uwi-0IOSEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_Uwi-0IOSEe6kpOUlFIEmGQ</base_Class>
+                <status>Done</status>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_VM_qQIOSEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_VM_qQIOSEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Specify software units</name>
+              </stereotype>
+              <stereotype>
+                <id>_VNARUIOSEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall specify the software units.</text>
+              </stereotype>
+              <stereotype>
+                <id>_kKDWEIOrEe6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_A6JycIOuEe6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_A6JycIOuEe6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_VM_qQIOSEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_VM_qQIOSEe6kpOUlFIEmGQ</base_Class>
+                <status>Done</status>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_VQXuYIOSEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_VQXuYIOSEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Produce software units</name>
+              </stereotype>
+              <stereotype>
+                <id>_VQYVcIOSEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall produce the software units.</text>
+              </stereotype>
+              <stereotype>
+                <id>_mlLUsIOrEe6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_Lb89QIOuEe6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_Lb89QIOuEe6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_VQXuYIOSEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_VQXuYIOSEe6kpOUlFIEmGQ</base_Class>
+                <status>Done</status>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+          </element>
+          <element>
+            <id>_EShQsIOTEe6kpOUlFIEmGQ</id>
+            <stereotype>
+              <id>_EShQsIOTEe6kpOUlFIEmGQ</id>
+              <type>Class</type>
+              <profile>uml</profile>
+              <name>Outcome 1</name>
+            </stereotype>
+            <stereotype>
+              <id>_afOIIIOuEe6kpOUlFIEmGQ</id>
+              <type>Stakeholder Input</type>
+              <profile>ProST</profile>
+            </stereotype>
+            <link>
+              <id/>
+              <name/>
+              <direction/>
+            </link>
+            <element>
+              <id>_Q_y0kIOTEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_Q_y0kIOTEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Develop detailed design </name>
+              </stereotype>
+              <stereotype>
+                <id>_Q_0pwIOTEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall develop a detailed design that describes software units.</text>
+              </stereotype>
+              <stereotype>
+                <id>_Xxf9oIOuEe6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_XxRUIIOuEe6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_XxRUIIOuEe6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_Q_y0kIOTEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_Q_y0kIOTEe6kpOUlFIEmGQ</base_Class>
+                <status>Done</status>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+          </element>
+          <element>
+            <id>_GxQkAIOTEe6kpOUlFIEmGQ</id>
+            <stereotype>
+              <id>_GxQkAIOTEe6kpOUlFIEmGQ</id>
+              <type>Class</type>
+              <profile>uml</profile>
+              <name>Outcome 2</name>
+            </stereotype>
+            <stereotype>
+              <id>_lmQuAIOuEe6kpOUlFIEmGQ</id>
+              <type>Stakeholder Input</type>
+              <profile>ProST</profile>
+            </stereotype>
+            <link>
+              <id/>
+              <name/>
+              <direction/>
+            </link>
+            <element>
+              <id>_W5l5gIOTEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_W5l5gIOTEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Define interfaces</name>
+              </stereotype>
+              <stereotype>
+                <id>_W5nusIOTEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall define interfaces of each software unit.</text>
+              </stereotype>
+              <stereotype>
+                <id>_nBbEcIOuEe6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_nBof0IOuEe6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_nBof0IOuEe6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_W5l5gIOTEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_W5l5gIOTEe6kpOUlFIEmGQ</base_Class>
+                <status>Done</status>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+          </element>
+          <element>
+            <id>_G7kWkIOTEe6kpOUlFIEmGQ</id>
+            <stereotype>
+              <id>_G7kWkIOTEe6kpOUlFIEmGQ</id>
+              <type>Class</type>
+              <profile>uml</profile>
+              <name>Outcome 3</name>
+            </stereotype>
+            <stereotype>
+              <id>_WEnnQIO9Ee6kpOUlFIEmGQ</id>
+              <type>Stakeholder Input</type>
+              <profile>ProST</profile>
+            </stereotype>
+            <link>
+              <id/>
+              <name/>
+              <direction/>
+            </link>
+            <element>
+              <id>_c5bVAIOTEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_c5bVAIOTEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Define dynamic behaviour</name>
+              </stereotype>
+              <stereotype>
+                <id>_c5cjIIOTEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall define the dynamic behavior of the software units. </text>
+              </stereotype>
+              <stereotype>
+                <id>_txrZ0IO6Ee6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_txa7IIO6Ee6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_txa7IIO6Ee6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_c5bVAIOTEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_c5bVAIOTEe6kpOUlFIEmGQ</base_Class>
+                <status>Done</status>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+          </element>
+          <element>
+            <id>_G_bi4IOTEe6kpOUlFIEmGQ</id>
+            <stereotype>
+              <id>_G_bi4IOTEe6kpOUlFIEmGQ</id>
+              <type>Class</type>
+              <profile>uml</profile>
+              <name>Outcome 4</name>
+            </stereotype>
+            <stereotype>
+              <id>___e38IPDEe6kpOUlFIEmGQ</id>
+              <type>Stakeholder Input</type>
+              <profile>ProST</profile>
+            </stereotype>
+            <link>
+              <id/>
+              <name/>
+              <direction/>
+            </link>
+            <element>
+              <id>_hpd8kIOTEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_hpd8kIOTEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Establish software requirements and software units consistency</name>
+              </stereotype>
+              <stereotype>
+                <id>_hpfxwIOTEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall establish consistency between software requirements and software units.</text>
+              </stereotype>
+              <stereotype>
+                <id>_CY5_sIO_Ee6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_m_94oIO-Ee6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_m_94oIO-Ee6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_hpd8kIOTEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_hpd8kIOTEe6kpOUlFIEmGQ</base_Class>
+                <status>Done</status>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_rpWtIIOTEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_rpWtIIOTEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Establish software requirements and software units traceability</name>
+              </stereotype>
+              <stereotype>
+                <id>_rpZJYIOTEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall establish bidirectional traceability between software requirements and software units.</text>
+              </stereotype>
+              <stereotype>
+                <id>_zL9UYIO-Ee6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_zMNMAIO-Ee6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_zMNMAIO-Ee6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_rpWtIIOTEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_rpWtIIOTEe6kpOUlFIEmGQ</base_Class>
+                <status>Done</status>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_sHxHcIOTEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_sHxHcIOTEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Establish software architecture and software detailed design consistency</name>
+              </stereotype>
+              <stereotype>
+                <id>_sHxugIOTEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall establish consistency between software architectural design and software detailed design.</text>
+              </stereotype>
+              <stereotype>
+                <id>_HoLusIPEEe6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_HoaYMIPEEe6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_HoaYMIPEEe6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_sHxHcIOTEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_sHxHcIOTEe6kpOUlFIEmGQ</base_Class>
+                <status>Done</status>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_sOA5YIOTEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_sOA5YIOTEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Establish software architecture and software detailed design traceability</name>
+              </stereotype>
+              <stereotype>
+                <id>_sOA5YYOTEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall establish bidirectional traceability between software architectural design and software detailed design.</text>
+              </stereotype>
+              <stereotype>
+                <id>_JNopkIPEEe6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_JN6WYIPEEe6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_JN6WYIPEEe6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_sOA5YIOTEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_sOA5YIOTEe6kpOUlFIEmGQ</base_Class>
+                <status>Done</status>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_sVNtkIOTEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_sVNtkIOTEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Establish software detailed design and software units consistency</name>
+              </stereotype>
+              <stereotype>
+                <id>_sVNtkYOTEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall establish consistency between software detailed design and software units.</text>
+              </stereotype>
+              <stereotype>
+                <id>_NUBQIIPEEe6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_KTk98IPEEe6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_KTk98IPEEe6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_sVNtkIOTEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_sVNtkIOTEe6kpOUlFIEmGQ</base_Class>
+                <status>Done</status>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_sYV6EIOTEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_sYV6EIOTEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Establish software detailed design and software units traceability</name>
+              </stereotype>
+              <stereotype>
+                <id>_sYWhIIOTEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall establish bidirectional traceability between software detailed design and software units.</text>
+              </stereotype>
+              <stereotype>
+                <id>_MH-TwIPEEe6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_MINkUIPEEe6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_MINkUIPEEe6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_sYV6EIOTEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_sYV6EIOTEe6kpOUlFIEmGQ</base_Class>
+                <status>Done</status>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+          </element>
+          <element>
+            <id>_HCZ-YIOTEe6kpOUlFIEmGQ</id>
+            <stereotype>
+              <id>_HCZ-YIOTEe6kpOUlFIEmGQ</id>
+              <type>Class</type>
+              <profile>uml</profile>
+              <name>Outcome 5</name>
+            </stereotype>
+            <stereotype>
+              <id>_swiyUIPNEe6kpOUlFIEmGQ</id>
+              <type>Stakeholder Input</type>
+              <profile>ProST</profile>
+            </stereotype>
+            <link>
+              <id/>
+              <name/>
+              <direction/>
+            </link>
+            <element>
+              <id>_ALulAIOUEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_ALulAIOUEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Ensure agreement on software detailed design and software  architecture</name>
+              </stereotype>
+              <stereotype>
+                <id>_ALwaMIOUEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall ensure agreement on software detailed design and the relationship to the software architectural design.</text>
+              </stereotype>
+              <stereotype>
+                <id>_5C2AgIPEEe6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_5DFREIPEEe6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_5DFREIPEEe6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_ALulAIOUEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_ALulAIOUEe6kpOUlFIEmGQ</base_Class>
+                <status>Done</status>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_FQ2rwIOUEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_FQ2rwIOUEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Communicate agreement on software detailed design and software architecture</name>
+              </stereotype>
+              <stereotype>
+                <id>_FQ4g8IOUEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall communicate software detailed design and the relationship to the software architectural design to all affected parties.</text>
+              </stereotype>
+              <stereotype>
+                <id>_7E-3YIPEEe6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_7FOvAIPEEe6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_7FOvAIPEEe6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_FQ2rwIOUEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_FQ2rwIOUEe6kpOUlFIEmGQ</base_Class>
+                <status>Done</status>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+          </element>
+          <element>
+            <id>_HKwpIIOTEe6kpOUlFIEmGQ</id>
+            <stereotype>
+              <id>_HKwpIIOTEe6kpOUlFIEmGQ</id>
+              <type>Class</type>
+              <profile>uml</profile>
+              <name>Outcome 6</name>
+            </stereotype>
+            <link>
+              <id/>
+              <name/>
+              <direction/>
+            </link>
+            <element>
+              <id>_JJJzAIOUEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_JJJzAIOUEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Produce software units</name>
+              </stereotype>
+              <stereotype>
+                <id>_JJLBIIOUEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall produce software units as defined by the software detailed design.</text>
+              </stereotype>
+              <stereotype>
+                <id>_8i0uYIPEEe6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_8jEmAIPEEe6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_8jEmAIPEEe6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_JJJzAIOUEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_JJJzAIOUEe6kpOUlFIEmGQ</base_Class>
+                <status>Done</status>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+          </element>
+          <element>
+            <id>_RTohIIOUEe6kpOUlFIEmGQ</id>
+            <stereotype>
+              <id>_RTohIIOUEe6kpOUlFIEmGQ</id>
+              <type>Class</type>
+              <profile>uml</profile>
+              <name>Base practice 1</name>
+            </stereotype>
+            <stereotype>
+              <id>_rzwZ8IPNEe6kpOUlFIEmGQ</id>
+              <type>Stakeholder Input</type>
+              <profile>ProST</profile>
+            </stereotype>
+            <link>
+              <id/>
+              <name/>
+              <direction/>
+            </link>
+            <element>
+              <id>_olmLwIOUEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_olmLwIOUEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Develop software detailed design</name>
+              </stereotype>
+              <stereotype>
+                <id>_oloA8IOUEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall develop software detailed design.</text>
+              </stereotype>
+              <stereotype>
+                <id>_D4kTQIPNEe6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_Av1nwIPNEe6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_Av1nwIPNEe6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_olmLwIOUEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_olmLwIOUEe6kpOUlFIEmGQ</base_Class>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_pdzmIIOUEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_pdzmIIOUEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Develop detailed design for each component</name>
+              </stereotype>
+              <stereotype>
+                <id>_pdzmIYOUEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall develop a detailed design for each software component defined in the software architectural design.</text>
+              </stereotype>
+              <stereotype>
+                <id>_Fn_pgIPNEe6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_FoQIMIPNEe6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_FoQIMIPNEe6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_pdzmIIOUEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_pdzmIIOUEe6kpOUlFIEmGQ</base_Class>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_pgTggIOUEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_pgTggIOUEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Develop detailed design specifying units</name>
+              </stereotype>
+              <stereotype>
+                <id>_pgUHkIOUEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall develop a detailed design that specifies all software units with respect to functional and non-functional software requirements.</text>
+              </stereotype>
+              <stereotype>
+                <id>_NB-HwIPNEe6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_NCN_YIPNEe6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_NCN_YIPNEe6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_pgTggIOUEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_pgTggIOUEe6kpOUlFIEmGQ</base_Class>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+          </element>
+          <element>
+            <id>_SQ6BsIOUEe6kpOUlFIEmGQ</id>
+            <stereotype>
+              <id>_SQ6BsIOUEe6kpOUlFIEmGQ</id>
+              <type>Class</type>
+              <profile>uml</profile>
+              <name>Base practice 2</name>
+            </stereotype>
+            <stereotype>
+              <id>_q4N-wIPNEe6kpOUlFIEmGQ</id>
+              <type>Stakeholder Input</type>
+              <profile>ProST</profile>
+            </stereotype>
+            <link>
+              <id/>
+              <name/>
+              <direction/>
+            </link>
+            <element>
+              <id>_GaY0wIOWEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_GaY0wIOWEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Define software unit interfaces</name>
+              </stereotype>
+              <stereotype>
+                <id>_GabRAIOWEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall define interfaces of software units.</text>
+              </stereotype>
+              <stereotype>
+                <id>_PQLEsIPNEe6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_PQaVQIPNEe6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_PQaVQIPNEe6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_GaY0wIOWEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_GaY0wIOWEe6kpOUlFIEmGQ</base_Class>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_GxrTYIOWEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_GxrTYIOWEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Identify software unit interfaces</name>
+              </stereotype>
+              <stereotype>
+                <id>_Gxr6cIOWEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall identify the interfaces of each software unit.</text>
+              </stereotype>
+              <stereotype>
+                <id>_l0g0UIPNEe6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_l0wE4IPNEe6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_l0wE4IPNEe6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_GxrTYIOWEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_GxrTYIOWEe6kpOUlFIEmGQ</base_Class>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_G0cTgIOWEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_G0cTgIOWEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Specify software unit interfaces</name>
+              </stereotype>
+              <stereotype>
+                <id>_G0cTgYOWEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall specify the interfaces of each software unit.</text>
+              </stereotype>
+              <stereotype>
+                <id>_m3AzIIPNEe6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_m3QDsIPNEe6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_m3QDsIPNEe6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_G0cTgIOWEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_G0cTgIOWEe6kpOUlFIEmGQ</base_Class>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_G9EEAIOWEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_G9EEAIOWEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Document software unit interfaces</name>
+              </stereotype>
+              <stereotype>
+                <id>_G9EEAYOWEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall document the interfaces of each software unit.</text>
+              </stereotype>
+              <stereotype>
+                <id>_nvxAEIPNEe6kpOUlFIEmGQ</id>
+                <type>Stakeholder Need</type>
+                <profile>ProST</profile>
+              </stereotype>
+              <stereotype>
+                <id>_nwCs4IPNEe6kpOUlFIEmGQ</id>
+                <type>Managed Element</type>
+                <profile>ProST</profile>
+                <xmi:id xmlns:xmi="http://www.omg.org/spec/XMI/20131001">_nwCs4IPNEe6kpOUlFIEmGQ</xmi:id>
+                <base_NamedElement>_G9EEAIOWEe6kpOUlFIEmGQ</base_NamedElement>
+                <base_Class>_G9EEAIOWEe6kpOUlFIEmGQ</base_Class>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+          </element>
+          <element>
+            <id>_SUEqcIOUEe6kpOUlFIEmGQ</id>
+            <stereotype>
+              <id>_SUEqcIOUEe6kpOUlFIEmGQ</id>
+              <type>Class</type>
+              <profile>uml</profile>
+              <name>Base practice 3</name>
+            </stereotype>
+            <stereotype>
+              <id>_xubooIPNEe6kpOUlFIEmGQ</id>
+              <type>Stakeholder Input</type>
+              <profile>ProST</profile>
+            </stereotype>
+            <link>
+              <id/>
+              <name/>
+              <direction/>
+            </link>
+            <element>
+              <id>_Y8XiMIOWEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_Y8XiMIOWEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Describe dynamic behavior</name>
+              </stereotype>
+              <stereotype>
+                <id>_Y8ZXYIOWEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process should describe dynamic behavior.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_1duk4IPNEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_1duk4IPNEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Evaluate dynamic behavior of software units</name>
+              </stereotype>
+              <stereotype>
+                <id>_1duk4YPNEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process should evaluate the dynamic behavior of relevant software units.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_ZT_YAIOWEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_ZT_YAIOWEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Evaluate interactions of software units</name>
+              </stereotype>
+              <stereotype>
+                <id>_ZT_YAYOWEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process should evaluate the interaction between relevant software units.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_ZVd-sIOWEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_ZVd-sIOWEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Document dynamic behavior of software units</name>
+              </stereotype>
+              <stereotype>
+                <id>_ZVelwIOWEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process should document the dynamic behavior of relevant software units.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_DEpGgIPOEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_DEpGgIPOEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Document interactions of software units</name>
+              </stereotype>
+              <stereotype>
+                <id>_DEptkIPOEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process should document the interaction between relevant software units.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+          </element>
+          <element>
+            <id>_SXBQwIOUEe6kpOUlFIEmGQ</id>
+            <stereotype>
+              <id>_SXBQwIOUEe6kpOUlFIEmGQ</id>
+              <type>Class</type>
+              <profile>uml</profile>
+              <name>Base practice 4</name>
+            </stereotype>
+            <link>
+              <id/>
+              <name/>
+              <direction/>
+            </link>
+            <element>
+              <id>_oG6ZwIOWEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_oG6ZwIOWEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Evaluate detailed design</name>
+              </stereotype>
+              <stereotype>
+                <id>_oG8O8IOWEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall evaluate software detailed design.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_ox0X8IOWEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_ox0X8IOWEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Evaluate detaled design's interoperability</name>
+              </stereotype>
+              <stereotype>
+                <id>_ox0_AIOWEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall evaluate the software detailed design in terms of interoperability.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_o0_AsIOWEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_o0_AsIOWEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Evaluate detaled design's interactions</name>
+              </stereotype>
+              <stereotype>
+                <id>_o0_AsYOWEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall evaluate the software detailed design in terms of interaction.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_o3uysIOWEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_o3uysIOWEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Evaluate detaled design's criticality</name>
+              </stereotype>
+              <stereotype>
+                <id>_o3uysYOWEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall evaluate the software detailed design in terms of criticality.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_o5588IOWEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_o5588IOWEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Evaluate detaled design's technical complexity</name>
+              </stereotype>
+              <stereotype>
+                <id>_o5588YOWEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall evaluate the software detailed design in terms of technical complexity.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_o87bwIOWEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_o87bwIOWEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Evaluate detaled design's risks</name>
+              </stereotype>
+              <stereotype>
+                <id>_o87bwYOWEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall evaluate the software detailed design in terms of risks.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_pBZFAIOWEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_pBZFAIOWEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Evaluate detaled design's testability</name>
+              </stereotype>
+              <stereotype>
+                <id>_pBZFAYOWEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall evaluate the software detailed design in terms of testability.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_vPCTAIOWEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_vPCTAIOWEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Detailed design used as verification input</name>
+              </stereotype>
+              <stereotype>
+                <id>_vPCTAYOWEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>Software unit verification may use the results of the evaluation of the detailed design as input.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+          </element>
+          <element>
+            <id>_SZiZQIOUEe6kpOUlFIEmGQ</id>
+            <stereotype>
+              <id>_SZiZQIOUEe6kpOUlFIEmGQ</id>
+              <type>Class</type>
+              <profile>uml</profile>
+              <name>Base practice 5</name>
+            </stereotype>
+            <link>
+              <id/>
+              <name/>
+              <direction/>
+            </link>
+            <element>
+              <id>_VBmD0IOYEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_VBmD0IOYEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Establish traceability</name>
+              </stereotype>
+              <stereotype>
+                <id>_VBn5AIOYEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall establish bidirectional traceability.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_WnK6gIOYEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_WnK6gIOYEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Establish traceability between requirements and units</name>
+              </stereotype>
+              <stereotype>
+                <id>_WnK6gYOYEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall establish bidirectional traceability between software requirements and software units.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_WqIu8IOYEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_WqIu8IOYEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Establish traceability between architecture and detailed design</name>
+              </stereotype>
+              <stereotype>
+                <id>_WqIu8YOYEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall establish bidirectional traceability between the software architectural design and the software detailed design.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_Ws354IOYEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_Ws354IOYEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Establish traceability between detailed design and units</name>
+              </stereotype>
+              <stereotype>
+                <id>_Ws354YOYEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall establish bidirectional traceability between the software detailed design and software units.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_WvtLcIOYEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_WvtLcIOYEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>CopyOf_Requirement1_4</name>
+              </stereotype>
+              <stereotype>
+                <id>_WvtygIOYEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall establish a combination of traceability approaches that cover the project and the organizational needs by that in order to avoid redundancy.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_W0gy8IOYEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_W0gy8IOYEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>CopyOf_Requirement1_5</name>
+              </stereotype>
+              <stereotype>
+                <id>_W0gy8YOYEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall Bidirectional traceability supports coverage, consistency and impact analysis.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+          </element>
+          <element>
+            <id>_ScJBUIOUEe6kpOUlFIEmGQ</id>
+            <stereotype>
+              <id>_ScJBUIOUEe6kpOUlFIEmGQ</id>
+              <type>Class</type>
+              <profile>uml</profile>
+              <name>Base practice 6</name>
+            </stereotype>
+            <link>
+              <id/>
+              <name/>
+              <direction/>
+            </link>
+            <element>
+              <id>_b5x8QIObEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_b5x8QIObEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Ensure consistency</name>
+              </stereotype>
+              <stereotype>
+                <id>_b5zxcIObEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall ensure consistency.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_c4gOUIObEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_c4gOUIObEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Ensure consistency between requirements and units</name>
+              </stereotype>
+              <stereotype>
+                <id>_c4g1YIObEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall ensure consistency between software requirements and software units.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_c_8TEIObEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_c_8TEIObEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Ensure consistency between architecture, detailed design and units</name>
+              </stereotype>
+              <stereotype>
+                <id>_c_8TEYObEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall ensure consistency between the software architectural design, the software detailed design and software units.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_dC1PAIObEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_dC1PAIObEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>CopyOf_Requirement1_3</name>
+              </stereotype>
+              <stereotype>
+                <id>_dC1PAYObEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall Consistency is supported by bidirectional traceability and can be demonstrated by review records.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+          </element>
+          <element>
+            <id>_SfAvIIOUEe6kpOUlFIEmGQ</id>
+            <stereotype>
+              <id>_SfAvIIOUEe6kpOUlFIEmGQ</id>
+              <type>Class</type>
+              <profile>uml</profile>
+              <name>Base practice 7</name>
+            </stereotype>
+            <link>
+              <id/>
+              <name/>
+              <direction/>
+            </link>
+            <element>
+              <id>_vIbbEIOeEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_vIbbEIOeEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Communicate agreed detailed design</name>
+              </stereotype>
+              <stereotype>
+                <id>_vIdQQIOeEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall communicate agreed software detailed design. </text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_wDGTkIOeEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_wDGTkIOeEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Communicate agreed detailed design</name>
+              </stereotype>
+              <stereotype>
+                <id>_wDG6oIOeEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall communicate the agreed software detailed design to all relevant parties.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_wGipIIOeEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_wGipIIOeEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Communicate updates to detailed design</name>
+              </stereotype>
+              <stereotype>
+                <id>_wGjQMIOeEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall communicate updates to the software detailed design to all relevant parties.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+          </element>
+          <element>
+            <id>_SjPu4IOUEe6kpOUlFIEmGQ</id>
+            <stereotype>
+              <id>_SjPu4IOUEe6kpOUlFIEmGQ</id>
+              <type>Class</type>
+              <profile>uml</profile>
+              <name>Base practice 8</name>
+            </stereotype>
+            <link>
+              <id/>
+              <name/>
+              <direction/>
+            </link>
+            <element>
+              <id>_CrDtMIOfEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_CrDtMIOfEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Develop software units</name>
+              </stereotype>
+              <stereotype>
+                <id>_CrFiYIOfEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall develop software units.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_EfjwsIOfEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_EfjwsIOfEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Develop executables</name>
+              </stereotype>
+              <stereotype>
+                <id>_EfmM8IOfEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall develop the executable representations of each software unit according to the software detailed design.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+            <element>
+              <id>_FkNEkIOfEe6kpOUlFIEmGQ</id>
+              <stereotype>
+                <id>_FkNEkIOfEe6kpOUlFIEmGQ</id>
+                <type>Class</type>
+                <profile>uml</profile>
+                <name>Document executables</name>
+              </stereotype>
+              <stereotype>
+                <id>_FkO5wIOfEe6kpOUlFIEmGQ</id>
+                <type>Requirement</type>
+                <profile>Requirements</profile>
+                <text>The Software Detailed Design and Unit Construction process shall document the executable representations of each software unit according to the software detailed design.</text>
+              </stereotype>
+              <link>
+                <id/>
+                <name/>
+                <direction/>
+              </link>
+            </element>
+          </element>
+        </element>
       </element>
       <element>
         <id>_Vl2nAH8wEe65tLp0Dv84gQ</id>
-        <name>Cynefin Framework</name>
         <stereotype>
           <id>_Vl2nAH8wEe65tLp0Dv84gQ</id>
           <type>Activity</type>
@@ -3205,7 +4901,6 @@
       </element>
       <element>
         <id>_ZYhAUH8wEe65tLp0Dv84gQ</id>
-        <name>PDCA</name>
         <stereotype>
           <id>_ZYhAUH8wEe65tLp0Dv84gQ</id>
           <type>Activity</type>
@@ -3225,7 +4920,6 @@
       </element>
       <element>
         <id>_0g3RMH8xEe65tLp0Dv84gQ</id>
-        <name>OODA</name>
         <stereotype>
           <id>_0g3RMH8xEe65tLp0Dv84gQ</id>
           <type>Activity</type>
@@ -3246,7 +4940,6 @@
     </element>
     <element>
       <id>_0cZagHjnEe6kc8YwwNRSfw</id>
-      <name>systemdesign</name>
       <stereotype>
         <id>_0cZagHjnEe6kc8YwwNRSfw</id>
         <type>Package</type>
@@ -3259,26 +4952,7 @@
         <direction/>
       </link>
       <element>
-        <id>_BM14EHjxEe6kc8YwwNRSfw</id>
-        <name>Satisfy11</name>
-        <link>
-          <id/>
-          <name/>
-          <direction/>
-        </link>
-      </element>
-      <element>
-        <id>_BqVFUHjxEe6kc8YwwNRSfw</id>
-        <name>Satisfy12</name>
-        <link>
-          <id/>
-          <name/>
-          <direction/>
-        </link>
-      </element>
-      <element>
         <id>_4nC1AHjyEe6kc8YwwNRSfw</id>
-        <name>Mission planning</name>
         <stereotype>
           <id>_4nC1AHjyEe6kc8YwwNRSfw</id>
           <type>Class</type>
@@ -3292,7 +4966,6 @@
         </link>
         <element>
           <id>_TWKEUHjlEe6kc8YwwNRSfw</id>
-          <name>Work package</name>
           <stereotype>
             <id>_TWKEUHjlEe6kc8YwwNRSfw</id>
             <type>Class</type>
@@ -3308,7 +4981,6 @@
       </element>
       <element>
         <id>_udAC4HjyEe6kc8YwwNRSfw</id>
-        <name>Stakeholder analysis</name>
         <stereotype>
           <id>_udAC4HjyEe6kc8YwwNRSfw</id>
           <type>Class</type>
@@ -3322,7 +4994,6 @@
         </link>
         <element>
           <id>_xbPVoHjyEe6kc8YwwNRSfw</id>
-          <name>Stakeholder</name>
           <stereotype>
             <id>_xbPVoHjyEe6kc8YwwNRSfw</id>
             <type>Class</type>
@@ -3336,7 +5007,6 @@
           </link>
           <element>
             <id>_RGKXoHjlEe6kc8YwwNRSfw</id>
-            <name>Stakeholder Need</name>
             <stereotype>
               <id>_RGKXoHjlEe6kc8YwwNRSfw</id>
               <type>Class</type>
@@ -3350,7 +5020,6 @@
             </link>
             <element>
               <id>_IV6PcHSyEe6lW_W_zHdLeg</id>
-              <name>Rationale</name>
               <stereotype>
                 <id>_IV6PcHSyEe6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3371,7 +5040,6 @@
             </element>
             <element>
               <id>_KXGEEHSyEe6lW_W_zHdLeg</id>
-              <name>Owned</name>
               <stereotype>
                 <id>_KXGEEHSyEe6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3392,7 +5060,6 @@
             </element>
             <element>
               <id>_MSLQsHSyEe6lW_W_zHdLeg</id>
-              <name>Need</name>
               <stereotype>
                 <id>_MSLQsHSyEe6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3416,7 +5083,6 @@
       </element>
       <element>
         <id>_eZmQsHjyEe6kc8YwwNRSfw</id>
-        <name>System design</name>
         <stereotype>
           <id>_eZmQsHjyEe6kc8YwwNRSfw</id>
           <type>Class</type>
@@ -3430,7 +5096,6 @@
         </link>
         <element>
           <id>_TWJdQHjlEe6kc8YwwNRSfw</id>
-          <name>System element</name>
           <stereotype>
             <id>_TWJdQHjlEe6kc8YwwNRSfw</id>
             <type>Class</type>
@@ -3444,7 +5109,6 @@
           </link>
           <element>
             <id>_B3lNQHjoEe6kc8YwwNRSfw</id>
-            <name>System requirement</name>
             <stereotype>
               <id>_B3lNQHjoEe6kc8YwwNRSfw</id>
               <type>Class</type>
@@ -3458,7 +5122,6 @@
             </link>
             <element>
               <id>_v0WQgHQ1Ee6lW_W_zHdLeg</id>
-              <name>Atomic requirement</name>
               <stereotype>
                 <id>_v0WQgHQ1Ee6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3478,7 +5141,6 @@
               </link>
               <element>
                 <id>_sHJ8sHSbEe6lW_W_zHdLeg</id>
-                <name/>
                 <stereotype>
                   <id>_sHJ8sHSbEe6lW_W_zHdLeg</id>
                   <type>Comment</type>
@@ -3500,7 +5162,6 @@
             </element>
             <element>
               <id>_-BMXcHQ6Ee6lW_W_zHdLeg</id>
-              <name>Independent requirement</name>
               <stereotype>
                 <id>_-BMXcHQ6Ee6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3521,7 +5182,6 @@
             </element>
             <element>
               <id>_B85YAHQ7Ee6lW_W_zHdLeg</id>
-              <name>Detailed</name>
               <stereotype>
                 <id>_B85YAHQ7Ee6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3542,7 +5202,6 @@
             </element>
             <element>
               <id>_yhSN4HcUEe6bK76pEkQaYA</id>
-              <name>Consistent</name>
               <stereotype>
                 <id>_yhSN4HcUEe6bK76pEkQaYA</id>
                 <type>Class</type>
@@ -3563,7 +5222,6 @@
             </element>
             <element>
               <id>_3SXXQHcUEe6bK76pEkQaYA</id>
-              <name>Specific</name>
               <stereotype>
                 <id>_3SXXQHcUEe6bK76pEkQaYA</id>
                 <type>Class</type>
@@ -3584,7 +5242,6 @@
             </element>
             <element>
               <id>_-KwGoHQ7Ee6lW_W_zHdLeg</id>
-              <name>Feasible</name>
               <stereotype>
                 <id>_-KwGoHQ7Ee6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3605,7 +5262,6 @@
             </element>
             <element>
               <id>_ILaTQHQ8Ee6lW_W_zHdLeg</id>
-              <name>Prioritized</name>
               <stereotype>
                 <id>_ILaTQHQ8Ee6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3626,7 +5282,6 @@
             </element>
             <element>
               <id>_NMiDwHQ8Ee6lW_W_zHdLeg</id>
-              <name>Unambiguous</name>
               <stereotype>
                 <id>_NMiDwHQ8Ee6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3647,7 +5302,6 @@
             </element>
             <element>
               <id>_Q-G38HQ8Ee6lW_W_zHdLeg</id>
-              <name>Comprehensible</name>
               <stereotype>
                 <id>_Q-G38HQ8Ee6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3668,7 +5322,6 @@
             </element>
             <element>
               <id>_Vj9BsHQ8Ee6lW_W_zHdLeg</id>
-              <name>Testable</name>
               <stereotype>
                 <id>_Vj9BsHQ8Ee6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3689,7 +5342,6 @@
             </element>
             <element>
               <id>_ZGt90HQ8Ee6lW_W_zHdLeg</id>
-              <name>Unique</name>
               <stereotype>
                 <id>_ZGt90HQ8Ee6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3710,7 +5362,6 @@
             </element>
             <element>
               <id>_czX1wHQ8Ee6lW_W_zHdLeg</id>
-              <name>Identifiable</name>
               <stereotype>
                 <id>_czX1wHQ8Ee6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3731,7 +5382,6 @@
             </element>
             <element>
               <id>_0o9K0HQ8Ee6lW_W_zHdLeg</id>
-              <name>Traceable</name>
               <stereotype>
                 <id>_0o9K0HQ8Ee6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3752,7 +5402,6 @@
             </element>
             <element>
               <id>_51ResHQ8Ee6lW_W_zHdLeg</id>
-              <name>Mapped</name>
               <stereotype>
                 <id>_51ResHQ8Ee6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3773,7 +5422,6 @@
             </element>
             <element>
               <id>_c0YTAHSXEe6lW_W_zHdLeg</id>
-              <name>Conforming</name>
               <stereotype>
                 <id>_c0YTAHSXEe6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3794,7 +5442,6 @@
             </element>
             <element>
               <id>_dXws4HSXEe6lW_W_zHdLeg</id>
-              <name>Derived</name>
               <stereotype>
                 <id>_dXws4HSXEe6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3815,7 +5462,6 @@
             </element>
             <element>
               <id>_d8Fh8HSXEe6lW_W_zHdLeg</id>
-              <name>Analyzed</name>
               <stereotype>
                 <id>_d8Fh8HSXEe6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3836,7 +5482,6 @@
             </element>
             <element>
               <id>_em1vIHSXEe6lW_W_zHdLeg</id>
-              <name>Reviewed</name>
               <stereotype>
                 <id>_em1vIHSXEe6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3857,7 +5502,6 @@
             </element>
             <element>
               <id>_3ZLAUHSXEe6lW_W_zHdLeg</id>
-              <name>Agreed</name>
               <stereotype>
                 <id>_3ZLAUHSXEe6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3878,7 +5522,6 @@
             </element>
             <element>
               <id>_5QHT0HSXEe6lW_W_zHdLeg</id>
-              <name>Tangible</name>
               <stereotype>
                 <id>_5QHT0HSXEe6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3899,7 +5542,6 @@
             </element>
             <element>
               <id>_AKROQHSzEe6lW_W_zHdLeg</id>
-              <name>Typed</name>
               <stereotype>
                 <id>_AKROQHSzEe6lW_W_zHdLeg</id>
                 <type>Class</type>
@@ -3921,7 +5563,6 @@
           </element>
           <element>
             <id>_qeAsEHlmEe6kc8YwwNRSfw</id>
-            <name>System interaction</name>
             <stereotype>
               <id>_qeAsEHlmEe6kc8YwwNRSfw</id>
               <type>Class</type>
@@ -3938,7 +5579,6 @@
       </element>
       <element>
         <id>_kpaB4HjyEe6kc8YwwNRSfw</id>
-        <name>System implementation</name>
         <stereotype>
           <id>_kpaB4HjyEe6kc8YwwNRSfw</id>
           <type>Class</type>
@@ -3953,7 +5593,6 @@
       </element>
       <element>
         <id>_EgtxsHjzEe6kc8YwwNRSfw</id>
-        <name>System test</name>
         <stereotype>
           <id>_EgtxsHjzEe6kc8YwwNRSfw</id>
           <type>Class</type>
@@ -3967,7 +5606,6 @@
         </link>
         <element>
           <id>_TWKrYHjlEe6kc8YwwNRSfw</id>
-          <name>Validation test</name>
           <stereotype>
             <id>_TWKrYHjlEe6kc8YwwNRSfw</id>
             <type>Class</type>
@@ -3982,7 +5620,6 @@
         </element>
         <element>
           <id>_TWKEUXjlEe6kc8YwwNRSfw</id>
-          <name>Verification test</name>
           <stereotype>
             <id>_TWKEUXjlEe6kc8YwwNRSfw</id>
             <type>Class</type>
@@ -3997,7 +5634,6 @@
         </element>
         <element>
           <id>_TWKrYXjlEe6kc8YwwNRSfw</id>
-          <name>Acceptance test</name>
           <stereotype>
             <id>_TWKrYXjlEe6kc8YwwNRSfw</id>
             <type>Class</type>
@@ -4013,7 +5649,6 @@
       </element>
       <element>
         <id>_Z-pBkH_zEe6kpOUlFIEmGQ</id>
-        <name>System element</name>
         <stereotype>
           <id>_Z-pBkH_zEe6kpOUlFIEmGQ</id>
           <type>Class</type>
@@ -4027,7 +5662,6 @@
         </link>
         <element>
           <id>_LwGmoH_wEe6kpOUlFIEmGQ</id>
-          <name>Managed</name>
           <stereotype>
             <id>_LwGmoH_wEe6kpOUlFIEmGQ</id>
             <type>Class</type>
@@ -4047,7 +5681,6 @@
           </link>
           <element>
             <id>_d_wGkH_zEe6kpOUlFIEmGQ</id>
-            <name>Open</name>
             <stereotype>
               <id>_d_wGkH_zEe6kpOUlFIEmGQ</id>
               <type>Class</type>
@@ -4068,7 +5701,6 @@
           </element>
           <element>
             <id>_SDRpUH_6Ee6kpOUlFIEmGQ</id>
-            <name>Draft</name>
             <stereotype>
               <id>_SDRpUH_6Ee6kpOUlFIEmGQ</id>
               <type>Class</type>
@@ -4092,7 +5724,6 @@
     </element>
     <element>
       <id>_GI-BMH__Ee6kpOUlFIEmGQ</id>
-      <name>systemimplementation</name>
       <stereotype>
         <id>_GI-BMH__Ee6kpOUlFIEmGQ</id>
         <type>Package</type>
@@ -4107,7 +5738,6 @@
     </element>
     <element>
       <id>_Ic_5UH__Ee6kpOUlFIEmGQ</id>
-      <name>systemtest</name>
       <stereotype>
         <id>_Ic_5UH__Ee6kpOUlFIEmGQ</id>
         <type>Package</type>

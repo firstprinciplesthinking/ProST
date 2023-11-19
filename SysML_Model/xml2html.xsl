@@ -36,38 +36,59 @@
     <!-- Template for building a element including it sub elements -->
     <xsl:template match="element">
 		<xsl:variable name="id" select="id" />
+		<xsl:variable name="status" select="stereotype[type = 'Managed Element']/status" />
+		<xsl:variable name="name" select="stereotype[profile = 'uml']/name" />
 		<li class="tree">
 			<details id="{$id}">
 				<summary>
-					<xsl:value-of select="name"/>
+					<xsl:if test="$status"><span>[<xsl:value-of select="$status"/>] </span></xsl:if>
+					<xsl:choose>
+						<xsl:when test="$name"><span><xsl:value-of select="$name"/> </span></xsl:when>
+						<xsl:otherwise><span><xsl:value-of select="stereotype[profile = 'uml']/text"/> </span></xsl:otherwise>
+					</xsl:choose>
 					<xsl:for-each select="stereotype">
 						<span> [<xsl:value-of select="type"/>]</span>
 					</xsl:for-each>
 				</summary>
 					<xsl:for-each select="stereotype">
-					<table>
-						<tr>
-							<td><xsl:value-of select="type"/></td>
-							<xsl:if test="profile = 'uml'">
+						<xsl:if test="profile = 'uml'">
 								<xsl:choose>
 									<xsl:when test="type = 'Comment'">
-										<td><xsl:value-of select="text"/></td>
+										<table>
+											<tr>
+												<td><xsl:value-of select="type"/></td>
+												<td><xsl:value-of select="text"/></td>
+											</tr>
+										</table>
 									</xsl:when>
 									<xsl:otherwise>
-										<td><xsl:value-of select="name"/></td>
+										<table>
+											<tr>
+												<td><xsl:value-of select="type"/></td>
+												<td><xsl:value-of select="name"/></td>
+											</tr>
+										</table>
 									</xsl:otherwise>
 								</xsl:choose>
 							</xsl:if>
 							
 							<xsl:if test="type = 'Requirement'">
-								<td><xsl:value-of select="text"/></td>
+								<table>
+									<tr>
+										<td><xsl:value-of select="type"/></td>
+										<td><xsl:value-of select="text"/></td>
+									</tr>
+								</table>
 							</xsl:if>
 							
-							<xsl:if test="type = 'ManagedElement'">
-								<td><xsl:value-of select="text"/></td>
+							<xsl:if test="type = 'Managed Element'">
+								<table>
+									<tr>
+										<td><xsl:value-of select="type"/></td>
+										<td><xsl:value-of select="status"/></td>
+									</tr>
+								</table>
 							</xsl:if>
-						</tr>
-					</table>
 				</xsl:for-each>
 				<xsl:if test="*">
 					<ul class="tree">

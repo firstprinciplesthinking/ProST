@@ -28,7 +28,6 @@
 		<xsl:variable name="id" select="@xmi:id" />
 		<element>
 			<id><xsl:value-of select="@xmi:id"/></id>
-			<name><xsl:value-of select="@name"/></name>
 			<xsl:if test="@xmi:type = 'uml:Package'">
                 <stereotype>
                     <id><xsl:value-of select="@xmi:id"/></id>
@@ -84,6 +83,12 @@
                     <id><xsl:value-of select="@xmi:id"/></id>
                     <type>Managed Element</type>
                     <profile>ProST</profile>
+					<xsl:for-each select="@*">
+						<xsl:variable name="tagname" select="name(.)" />
+						<xsl:element name="{$tagname}">
+							<xsl:value-of select="."/>
+						</xsl:element>
+					</xsl:for-each>
                 </stereotype>
                 </xsl:if>
 				
